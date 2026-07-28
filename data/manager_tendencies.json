@@ -515,7 +515,7 @@
       }
     },
     "eric_m": {
-      "age_at_draft": 24.3,
+      "age_at_draft": 24.4,
       "rookie_share": 0.3,
       "yr2_share": 0.13,
       "reach": {
@@ -650,7 +650,7 @@
       }
     },
     "trevor_bergerboy": {
-      "age_at_draft": 24.4,
+      "age_at_draft": 24.5,
       "rookie_share": 0.14,
       "yr2_share": 0.24,
       "reach": {
@@ -677,7 +677,7 @@
       }
     },
     "tim_breswick": {
-      "age_at_draft": 24.7,
+      "age_at_draft": 24.8,
       "rookie_share": 0.2,
       "yr2_share": 0.13,
       "reach": {
@@ -846,7 +846,7 @@
       "qb2_iqr": 5,
       "qb2_stable": false,
       "rook_share_mean": 0.17,
-      "age_mean": 23.7,
+      "age_mean": 23.8,
       "by_year": {
         "2015": {
           "qb1": 3,
@@ -888,7 +888,7 @@
           "qb1": 3,
           "qb2": 7,
           "rook_share": 0.21,
-          "age": 25.5
+          "age": 25.6
         },
         "2022": {
           "qb1": 7,
@@ -906,7 +906,7 @@
           "qb1": 1,
           "qb2": 3,
           "rook_share": 0.13,
-          "age": 24.5
+          "age": 24.6
         }
       }
     },
@@ -970,7 +970,7 @@
           "qb1": 11,
           "qb2": 12,
           "rook_share": 0.14,
-          "age": 24.8
+          "age": 24.9
         },
         "2024": {
           "qb1": 10,
@@ -982,7 +982,7 @@
           "qb1": 11,
           "qb2": 14,
           "rook_share": 0.14,
-          "age": 27.1
+          "age": 27.2
         }
       }
     },
@@ -1190,7 +1190,7 @@
           "qb1": 4,
           "qb2": 6,
           "rook_share": 0.18,
-          "age": 22.6
+          "age": 22.7
         },
         "2019": {
           "qb1": 5,
@@ -1226,13 +1226,13 @@
           "qb1": 6,
           "qb2": 9,
           "rook_share": 0.36,
-          "age": 24.7
+          "age": 24.8
         },
         "2025": {
           "qb1": 4,
           "qb2": 7,
           "rook_share": 0.25,
-          "age": 24.4
+          "age": 24.5
         }
       }
     },
@@ -1318,7 +1318,7 @@
       "qb2_iqr": 6,
       "qb2_stable": false,
       "rook_share_mean": 0.14,
-      "age_mean": 23.3,
+      "age_mean": 23.4,
       "by_year": {
         "2015": {
           "qb1": 9,
@@ -1366,13 +1366,13 @@
           "qb1": 5,
           "qb2": 13,
           "rook_share": 0.29,
-          "age": 22.8
+          "age": 22.9
         },
         "2023": {
           "qb1": 3,
           "qb2": 11,
           "rook_share": 0.18,
-          "age": 23.9
+          "age": 24.0
         },
         "2024": {
           "qb1": 3,
@@ -1384,7 +1384,7 @@
           "qb1": 1,
           "qb2": 5,
           "rook_share": 0.0,
-          "age": 26.3
+          "age": 26.4
         }
       }
     },
@@ -1594,7 +1594,7 @@
           "qb1": 1,
           "qb2": 2,
           "rook_share": 0.29,
-          "age": 25.1
+          "age": 25.2
         },
         "2025": {
           "qb1": 1,
@@ -1712,7 +1712,7 @@
           "qb1": 7,
           "qb2": 12,
           "rook_share": 0.21,
-          "age": 24.0
+          "age": 24.1
         },
         "2024": {
           "qb1": 2,
@@ -1724,7 +1724,7 @@
           "qb1": 2,
           "qb2": 7,
           "rook_share": 0.14,
-          "age": 25.3
+          "age": 25.4
         }
       }
     },
