@@ -392,11 +392,11 @@
         "fp_round": 12,
         "gap": 35,
         "read": "our board R9 \u00b7 their paper R12",
-        "reach": 0.605,
+        "reach": 0.6,
         "reach_pct": 60,
         "reach_pick": 139,
         "reach_round": 12,
-        "edge_score": 21.2
+        "edge_score": 21.0
       },
       {
         "name": "Brenton Strange",
@@ -424,11 +424,11 @@
         "fp_round": 11,
         "gap": 24,
         "read": "our board R9 \u00b7 their paper R11",
-        "reach": 0.654,
+        "reach": 0.648,
         "reach_pct": 65,
         "reach_pick": 126,
         "reach_round": 11,
-        "edge_score": 15.7
+        "edge_score": 15.6
       },
       {
         "name": "Mark Andrews",
@@ -440,11 +440,11 @@
         "fp_round": 12,
         "gap": 18,
         "read": "our board R10 \u00b7 their paper R12",
-        "reach": 0.68,
-        "reach_pct": 68,
+        "reach": 0.667,
+        "reach_pct": 67,
         "reach_pick": 139,
         "reach_round": 12,
-        "edge_score": 12.2
+        "edge_score": 12.0
       },
       {
         "name": "Omarion Hampton",

@@ -4,22 +4,8 @@
   "max_flips": 10,
   "baseline_mean": 2041.8,
   "identity_check_max_diff": 0.0,
-  "runtime_seconds": 212.6,
+  "runtime_seconds": 248.2,
   "flips": [
-    {
-      "rival": "coop",
-      "roster_id": 12,
-      "kind": "swap",
-      "keep_in_name": "Quentin Johnston",
-      "keep_in_pos": "WR",
-      "keep_out": "Sam Darnold",
-      "seat_round": 14,
-      "delta_net_vbd": 40.5,
-      "brian_swing": -6.4,
-      "noise_se": 4.37,
-      "significant": true,
-      "why": "pulls WR Quentin Johnston off the open board (~R11 paper); returns QB Sam Darnold to the pool (~R7 paper)"
-    },
     {
       "rival": "josh_wildboy",
       "roster_id": 10,
@@ -29,10 +15,24 @@
       "keep_out": "Travis Etienne",
       "seat_round": 14,
       "delta_net_vbd": 31.5,
-      "brian_swing": 5.83,
-      "noise_se": 4.93,
+      "brian_swing": 6.57,
+      "noise_se": 4.89,
       "significant": true,
       "why": "pulls QB Daniel Jones off the open board (~R8 paper); returns RB Travis Etienne to the pool (~R5 paper)"
+    },
+    {
+      "rival": "coop",
+      "roster_id": 12,
+      "kind": "swap",
+      "keep_in_name": "Quentin Johnston",
+      "keep_in_pos": "WR",
+      "keep_out": "Sam Darnold",
+      "seat_round": 14,
+      "delta_net_vbd": 40.5,
+      "brian_swing": -6.39,
+      "noise_se": 4.37,
+      "significant": true,
+      "why": "pulls WR Quentin Johnston off the open board (~R11 paper); returns QB Sam Darnold to the pool (~R7 paper)"
     },
     {
       "rival": "kyle_figgy",
@@ -43,7 +43,7 @@
       "keep_out": null,
       "seat_round": 11,
       "delta_net_vbd": 42.6,
-      "brian_swing": 4.87,
+      "brian_swing": 4.83,
       "noise_se": 4.75,
       "significant": true,
       "why": "pulls TE Cade Otton off the open board (~R15 paper) and burns one of their late picks \u2014 one fewer target in your R15 window"
@@ -57,7 +57,7 @@
       "keep_out": "Ricky Pearsall",
       "seat_round": 11,
       "delta_net_vbd": 28.3,
-      "brian_swing": 4.09,
+      "brian_swing": 4.1,
       "noise_se": 4.39,
       "significant": false,
       "why": "pulls RB Kyle Monangai off the open board (~R9 paper); returns WR Ricky Pearsall to the pool (~R10 paper)"
@@ -71,8 +71,8 @@
       "keep_out": "Nico Collins",
       "seat_round": 15,
       "delta_net_vbd": 26.5,
-      "brian_swing": 3.6,
-      "noise_se": 5.1,
+      "brian_swing": 3.74,
+      "noise_se": 5.08,
       "significant": false,
       "why": "pulls TE Dalton Schultz off the open board (~R10 paper); returns WR Nico Collins to the pool (~R3 paper)"
     },
@@ -85,9 +85,9 @@
       "keep_out": "Tucker Kraft",
       "seat_round": 11,
       "delta_net_vbd": 30.2,
-      "brian_swing": 3.36,
+      "brian_swing": 3.52,
       "noise_se": 3.36,
-      "significant": false,
+      "significant": true,
       "why": "pulls TE Cade Otton off the open board (~R15 paper); returns TE Tucker Kraft to the pool (~R8 paper)"
     },
     {
@@ -99,8 +99,8 @@
       "keep_out": null,
       "seat_round": 14,
       "delta_net_vbd": 49.1,
-      "brian_swing": 2.66,
-      "noise_se": 4.29,
+      "brian_swing": 2.76,
+      "noise_se": 4.3,
       "significant": false,
       "why": "pulls QB Daniel Jones off the open board (~R8 paper) and burns one of their late picks \u2014 one fewer target in your R8 window"
     },
@@ -127,7 +127,7 @@
       "keep_out": "Travis Etienne",
       "seat_round": 14,
       "delta_net_vbd": -13.6,
-      "brian_swing": -1.19,
+      "brian_swing": -1.18,
       "noise_se": 4.12,
       "significant": false,
       "why": "pulls WR Kayshon Boutte off the open board (~R16 paper); returns RB Travis Etienne to the pool (~R5 paper)"
@@ -141,8 +141,8 @@
       "keep_out": "Sam Darnold",
       "seat_round": 14,
       "delta_net_vbd": 52.8,
-      "brian_swing": 0.31,
-      "noise_se": 4.74,
+      "brian_swing": 0.5,
+      "noise_se": 4.72,
       "significant": false,
       "why": "pulls RB Chris Rodriguez off the open board (~R17 paper); returns QB Sam Darnold to the pool (~R7 paper)"
     }

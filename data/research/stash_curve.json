@@ -320,7 +320,7 @@
           "name": "Travis Hunter",
           "pos": "WR",
           "stash": 1.0,
-          "survival": 0.52,
+          "survival": 0.5,
           "adp": 176.1,
           "keeper_cost": "R10"
         },
@@ -382,7 +382,7 @@
           "name": "Jaylin Noel",
           "pos": "WR",
           "stash": 1.0,
-          "survival": 0.7,
+          "survival": 0.64,
           "adp": 191.7,
           "keeper_cost": "R12"
         },
@@ -390,7 +390,7 @@
           "name": "Troy Franklin",
           "pos": "WR",
           "stash": 1.0,
-          "survival": 0.66,
+          "survival": 0.65,
           "adp": 191.8,
           "keeper_cost": "R12"
         },
@@ -492,7 +492,7 @@
           "pos": "WR",
           "stash": 1.0,
           "survival": 0.6,
-          "adp": 216.7,
+          "adp": 216.5,
           "keeper_cost": "R15"
         }
       ]
