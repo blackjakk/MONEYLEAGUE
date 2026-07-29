@@ -106,11 +106,11 @@
       "sleeper_adp": 156.2,
       "sleeper_round": 13,
       "sleeper_slot": "R13.12",
-      "fp_pick": 121.3,
+      "fp_pick": 121.2,
       "fp_rank": 121,
       "fp_round": 11,
       "fp_slot": "R11.01",
-      "gap": 34.9,
+      "gap": 35.0,
       "gap_rounds": 2.9,
       "read": "experts see R11 \u00b7 the room pays R13"
     },
@@ -424,11 +424,11 @@
         "fp_round": 11,
         "gap": 24,
         "read": "our board R9 \u00b7 their paper R11",
-        "reach": 0.657,
-        "reach_pct": 66,
+        "reach": 0.654,
+        "reach_pct": 65,
         "reach_pick": 126,
         "reach_round": 11,
-        "edge_score": 15.8
+        "edge_score": 15.7
       },
       {
         "name": "Mark Andrews",
@@ -440,11 +440,11 @@
         "fp_round": 12,
         "gap": 18,
         "read": "our board R10 \u00b7 their paper R12",
-        "reach": 0.667,
-        "reach_pct": 67,
+        "reach": 0.68,
+        "reach_pct": 68,
         "reach_pick": 139,
         "reach_round": 12,
-        "edge_score": 12.0
+        "edge_score": 12.2
       },
       {
         "name": "Omarion Hampton",
