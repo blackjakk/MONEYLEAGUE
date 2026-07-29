@@ -156,6 +156,36 @@
         "spots": 1
       }
     ],
+    "cross": [
+      {
+        "need_round": 15,
+        "seller": "donnie",
+        "their_live": 173,
+        "offer_round": 14,
+        "offer_pick": 163
+      },
+      {
+        "need_round": 15,
+        "seller": "eric_m",
+        "their_live": 175,
+        "offer_round": 14,
+        "offer_pick": 163
+      },
+      {
+        "need_round": 15,
+        "seller": "ankur_patel",
+        "their_live": 178,
+        "offer_round": 14,
+        "offer_pick": 163
+      },
+      {
+        "need_round": 15,
+        "seller": "trevor_bergerboy",
+        "their_live": 180,
+        "offer_round": 14,
+        "offer_pick": 163
+      }
+    ],
     "package_partner": "lem",
     "partner_legs": 4
   },

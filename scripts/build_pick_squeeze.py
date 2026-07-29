@@ -215,6 +215,38 @@ def compute() -> dict:
                                      "their_pick": dp, "my_pick": mine_live,
                                      "spots": mine_live - dp})
     buy_legs.sort(key=lambda b: -b["spots"])
+    # cross-round: my DEAD picks offered for LIVE picks in rounds where
+    # I need a second seat (dead currency buys a real keeper seat)
+    cross_legs = []
+    my_needs = [c["round"] for c in seat_market if c["buyer"] == ti2name[bt]]
+    my_dead = [(r, dead_pick(bt, r)) for r in range(1, 18)
+               if dead_pick(bt, r) is not None]
+    for rn in my_needs:
+        for ti in owned:
+            if ti == bt:
+                continue
+            lp = live_pick(ti, rn)
+            # seller must not need that round for their own keeper seat
+            their_need = any(c["round"] == rn and c["buyer"] == ti2name[ti]
+                             for c in seat_market)
+            if lp is None or their_need:
+                continue
+            for dr, dp in my_dead:
+                if dr == rn:
+                    continue    # same-round swap adds no second seat
+                cross_legs.append({"need_round": rn, "seller": ti2name[ti],
+                                   "their_live": lp, "offer_round": dr,
+                                   "offer_pick": dp})
+    # keep the closest-value offer per seller/need
+    best_cross = {}
+    for c in cross_legs:
+        key = (c["need_round"], c["seller"])
+        if key not in best_cross or abs(c["offer_round"] - c["need_round"]) < \
+                abs(best_cross[key]["offer_round"] - c["need_round"]):
+            best_cross[key] = c
+    cross_legs = sorted(best_cross.values(),
+                        key=lambda c: (c["need_round"],
+                                       abs(c["offer_round"] - c["need_round"])))
     legs_by_rival: dict[str, int] = defaultdict(int)
     for s in sell_legs:
         for b in s["buyers"]:
@@ -226,7 +258,7 @@ def compute() -> dict:
 
     return {
         "position_market": {
-            "sell": sell_legs, "buy": buy_legs,
+            "sell": sell_legs, "buy": buy_legs, "cross": cross_legs,
             "package_partner": package_partner,
             "partner_legs": legs_by_rival.get(package_partner, 0),
         },
@@ -382,6 +414,21 @@ def position_block(res: dict) -> str:
         f'#{b["their_pick"]} vs my #{b["my_pick"]}</span></td>'
         f'<td class="ml-num">+{b["spots"]} spots</td></tr>'
         for b in buy[:8])
+    cross = pm.get("cross") or []
+    cross_rows = "".join(
+        f'<tr><td class="ml-num">R{c["need_round"]}</td>'
+        f'<td>{e(c["seller"])} <span class="ml-note">their live '
+        f'#{c["their_live"]}</span></td>'
+        f'<td class="ml-num">my dead R{c["offer_round"]} '
+        f'#{c["offer_pick"]}</td></tr>'
+        for c in cross[:8])
+    cross_block = (f"""
+<div class="ml-h-label">Cross-round — my dead picks offered for LIVE
+seats I need (dead currency buys a real keeper seat)</div>
+<table class="ml-table ml-table--compact">
+<thead><tr><th class="ml-num">Seat I need</th><th>Seller (their live
+pick)</th><th class="ml-num">My offer</th></tr></thead>
+<tbody>{cross_rows}</tbody></table>""" if cross else "")
     partner = pm.get("package_partner")
     partner_line = (
         f'<p><b>Natural package partner: {e(partner)}</b> '
@@ -406,6 +453,7 @@ rounds — buy the upgrade for scraps</div>
 <th class="ml-num">My upgrade</th></tr></thead>
 <tbody>{buy_rows or
 '<tr><td colspan="3" class="ml-empty">no early dead positions available</td></tr>'}</tbody></table>
+{cross_block}
 {partner_line}
 <p class="ml-fineprint">Why this is free money: the bump rule prices
 keeper costs in ROUNDS, never pick numbers — so within a
