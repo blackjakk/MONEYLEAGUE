@@ -207,7 +207,22 @@ goal docs: GOAL_RESEARCH.md, GOAL_OPTIONS.md). Caches: `data/scouting/`
   user-prompted): natural pairs by spare+barter fit — a full pick set ≠
   monopoly; Donnie (spare R3, missing R13/R14 = Tim's doubles) undercuts
   Brian on BOTH of Tim's seats (Brian ranks #5/#4). Check "my rank"
-  before opening any seat negotiation.
+  before opening any seat negotiation. + POSITION MARKET (Jul 23,
+  user-insight, in IV): keeper seats are ROUND-granular ⇒ within a
+  keeper-consumed round, pick POSITION is worth 0 to the owner and
+  ~8-15 VBD/half-round to a drafter (more at stash targets — R13).
+  Snake makes it two-sided (odd rounds favor early slots, even rounds
+  reverse). Brian sells dead R8#91/R9#102/R14#163/R15#174 positions;
+  best buys: trevor's dead R6#61 + R12#133 (+6 spots each), lem's dead
+  R5#49/R11#121/R13#145. NATURAL PACKAGE PARTNER = LEM (4
+  complementary same-round legs — every leg trades dead position for
+  live, near-Pareto). Auto-computed in pick_squeeze.json
+  position_market; regrades at lock. Also draft-order rule
+  RULE-VERIFIED (Jul 23, user-provided): consolation-bracket placements
+  → slots 1-6 (2024 actual matched 2023 consolation 6-for-6), playoff
+  finish reversed → 7-12 (champ 12; one 7/8 wobble in 2024); config's
+  predicted order = rule-derived, Brian slot 6 = lost the 2025 toilet
+  bowl.
 - Desk hygiene (Jul 15 cleanup): assembler strips each fragment's own
   <h2> (numbered desk titles canonical; fragments keep h2 standalone);
   market screen leads with MODEL vs PAPER (edge before context);

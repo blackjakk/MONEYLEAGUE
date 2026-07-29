@@ -1,6 +1,166 @@
 {
+  "position_market": {
+    "sell": [
+      {
+        "round": 8,
+        "my_pick": 91,
+        "buyers": [
+          {
+            "manager": "lem",
+            "their_pick": 96,
+            "spots": 5
+          },
+          {
+            "manager": "coop",
+            "their_pick": 95,
+            "spots": 4
+          },
+          {
+            "manager": "troy_mullings",
+            "their_pick": 93,
+            "spots": 2
+          },
+          {
+            "manager": "donnie",
+            "their_pick": 92,
+            "spots": 1
+          }
+        ]
+      },
+      {
+        "round": 9,
+        "my_pick": 102,
+        "buyers": [
+          {
+            "manager": "trevor_bergerboy",
+            "their_pick": 108,
+            "spots": 6
+          },
+          {
+            "manager": "ankur_patel",
+            "their_pick": 106,
+            "spots": 4
+          },
+          {
+            "manager": "brower_barry",
+            "their_pick": 105,
+            "spots": 3
+          },
+          {
+            "manager": "eric_m",
+            "their_pick": 103,
+            "spots": 1
+          }
+        ]
+      },
+      {
+        "round": 14,
+        "my_pick": 163,
+        "buyers": [
+          {
+            "manager": "coop",
+            "their_pick": 167,
+            "spots": 4
+          },
+          {
+            "manager": "troy_mullings",
+            "their_pick": 165,
+            "spots": 2
+          }
+        ]
+      },
+      {
+        "round": 15,
+        "my_pick": 174,
+        "buyers": [
+          {
+            "manager": "trevor_bergerboy",
+            "their_pick": 180,
+            "spots": 6
+          },
+          {
+            "manager": "ankur_patel",
+            "their_pick": 178,
+            "spots": 4
+          },
+          {
+            "manager": "eric_m",
+            "their_pick": 175,
+            "spots": 1
+          }
+        ]
+      }
+    ],
+    "buy": [
+      {
+        "round": 6,
+        "seller": "trevor_bergerboy",
+        "their_pick": 61,
+        "my_pick": 67,
+        "spots": 6
+      },
+      {
+        "round": 12,
+        "seller": "trevor_bergerboy",
+        "their_pick": 133,
+        "my_pick": 139,
+        "spots": 6
+      },
+      {
+        "round": 5,
+        "seller": "lem",
+        "their_pick": 49,
+        "my_pick": 54,
+        "spots": 5
+      },
+      {
+        "round": 6,
+        "seller": "josh_wildboy",
+        "their_pick": 62,
+        "my_pick": 67,
+        "spots": 5
+      },
+      {
+        "round": 11,
+        "seller": "lem",
+        "their_pick": 121,
+        "my_pick": 126,
+        "spots": 5
+      },
+      {
+        "round": 13,
+        "seller": "lem",
+        "their_pick": 145,
+        "my_pick": 150,
+        "spots": 5
+      },
+      {
+        "round": 7,
+        "seller": "coop",
+        "their_pick": 74,
+        "my_pick": 78,
+        "spots": 4
+      },
+      {
+        "round": 11,
+        "seller": "coop",
+        "their_pick": 122,
+        "my_pick": 126,
+        "spots": 4
+      },
+      {
+        "round": 10,
+        "seller": "eric_m",
+        "their_pick": 114,
+        "my_pick": 115,
+        "spots": 1
+      }
+    ],
+    "package_partner": "lem",
+    "partner_legs": 4
+  },
   "meta": {
-    "generated": "2026-07-28",
+    "generated": "2026-07-29",
     "basis": "predicted keepers (keepers_2026.json) + schedule with trades applied (helper data.json)",
     "hard_squeezes": 0,
     "blocked_alternates": 12

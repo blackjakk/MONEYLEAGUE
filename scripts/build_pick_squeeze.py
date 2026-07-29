@@ -167,7 +167,69 @@ def compute() -> dict:
             })
     seat_market.sort(key=lambda c: (not c["hard"], c["round"]))
 
+    # ---- THE POSITION MARKET (user insight, Jul 2026): keeper seats are
+    # ROUND-granular (the bump rule prices rounds, never pick numbers),
+    # so within a keeper-consumed round the pick's POSITION is worthless
+    # to its owner and genuinely valuable to anyone drafting there.
+    # Sell your dead position; buy rivals' dead early positions in your
+    # live rounds. The snake makes it two-sided (odd rounds favor early
+    # slots, even rounds reverse).
+    picks_of: dict[tuple[int, int], list[int]] = defaultdict(list)
+    for p in data["schedule"]:
+        picks_of[(p["team_idx"], p["round"])].append(p["overall"])
+    def dead_pick(ti: int, r: int):
+        """Earliest keeper-consumed pick overall# for (ti, r), if any."""
+        n_keep = len(carry[ti].get(r, []))
+        pk = sorted(picks_of.get((ti, r), []))
+        return pk[0] if n_keep >= 1 and pk else None
+    def live_pick(ti: int, r: int):
+        n_keep = len(carry[ti].get(r, []))
+        pk = sorted(picks_of.get((ti, r), []))
+        live = pk[n_keep:]
+        return live[0] if live else None
+    sell_legs, buy_legs = [], []
+    for r in range(1, 18):
+        mine_dead = dead_pick(bt, r)
+        mine_live = live_pick(bt, r)
+        if mine_dead is not None:
+            buyers = []
+            for ti in owned:
+                if ti == bt:
+                    continue
+                lp = live_pick(ti, r)
+                if lp is not None and lp > mine_dead:
+                    buyers.append({"manager": ti2name[ti],
+                                   "their_pick": lp,
+                                   "spots": lp - mine_dead})
+            buyers.sort(key=lambda b: -b["spots"])
+            if buyers:
+                sell_legs.append({"round": r, "my_pick": mine_dead,
+                                  "buyers": buyers[:4]})
+        if mine_live is not None:
+            for ti in owned:
+                if ti == bt:
+                    continue
+                dp = dead_pick(ti, r)
+                if dp is not None and dp < mine_live:
+                    buy_legs.append({"round": r, "seller": ti2name[ti],
+                                     "their_pick": dp, "my_pick": mine_live,
+                                     "spots": mine_live - dp})
+    buy_legs.sort(key=lambda b: -b["spots"])
+    legs_by_rival: dict[str, int] = defaultdict(int)
+    for s in sell_legs:
+        for b in s["buyers"]:
+            legs_by_rival[b["manager"]] += 1
+    for b in buy_legs:
+        legs_by_rival[b["seller"]] += 1
+    package_partner = (max(legs_by_rival, key=legs_by_rival.get)
+                       if legs_by_rival else None)
+
     return {
+        "position_market": {
+            "sell": sell_legs, "buy": buy_legs,
+            "package_partner": package_partner,
+            "partner_legs": legs_by_rival.get(package_partner, 0),
+        },
         "meta": {
             "generated": date.today().isoformat(),
             "basis": "predicted keepers (keepers_2026.json) + schedule with "
@@ -292,8 +354,67 @@ pick trades move almost no expected value — the pick market that
 matters is R1-R8. League convention: pick trades run EQUAL COUNT both ways (e.g. R1+R17
 for R3+R5) — structure any seat sale as a same-count package where the
 round-quality difference carries the price.</p>
+{position_block(res)}
 </section>
 """
+
+
+def position_block(res: dict) -> str:
+    """THE POSITION MARKET — within-round pick-position arbitrage
+    (user insight, Jul 2026): keeper seats are ROUND-granular, so a
+    keeper-consumed pick's position inside its round is worthless to
+    its owner and worth real board access to anyone drafting there."""
+    e = _html.escape
+    pm = res.get("position_market") or {}
+    sell, buy = pm.get("sell") or [], pm.get("buy") or []
+    if not (sell or buy):
+        return ""
+    sell_rows = "".join(
+        f'<tr><td class="ml-num">R{s["round"]} &middot; #{s["my_pick"]}</td>'
+        + "<td>" + ", ".join(
+            f'{e(b["manager"])} <span class="ml-note">#{b["their_pick"]} '
+            f'(+{b["spots"]} spots to them)</span>'
+            for b in s["buyers"]) + "</td></tr>"
+        for s in sell)
+    buy_rows = "".join(
+        f'<tr><td class="ml-num">R{b["round"]}</td>'
+        f'<td>{e(b["seller"])} <span class="ml-note">their dead '
+        f'#{b["their_pick"]} vs my #{b["my_pick"]}</span></td>'
+        f'<td class="ml-num">+{b["spots"]} spots</td></tr>'
+        for b in buy[:8])
+    partner = pm.get("package_partner")
+    partner_line = (
+        f'<p><b>Natural package partner: {e(partner)}</b> '
+        f'({pm.get("partner_legs")} complementary legs) — bundle the '
+        "same-round swaps into one obviously-fair deal: every leg moves "
+        "position from a keeper-dead pick to a live one, both sides "
+        "upgrade, nobody gives up anything they can use.</p>"
+        if partner else "")
+    return f"""
+<div class="ml-h-label">The position market — within-round arbitrage
+(keeper seats are round-granular)</div>
+<div class="ml-h-label">My keeper-dead positions — sell to whoever
+drafts later in the round</div>
+<table class="ml-table ml-table--compact">
+<thead><tr><th class="ml-num">My dead pick</th><th>Buyers (their live
+pick)</th></tr></thead><tbody>{sell_rows or
+'<tr><td colspan="2" class="ml-empty">no dead positions with buyers</td></tr>'}</tbody></table>
+<div class="ml-h-label">Rivals' keeper-dead EARLY positions in my live
+rounds — buy the upgrade for scraps</div>
+<table class="ml-table ml-table--compact">
+<thead><tr><th class="ml-num">Round</th><th>Seller (their dead pick)</th>
+<th class="ml-num">My upgrade</th></tr></thead>
+<tbody>{buy_rows or
+'<tr><td colspan="3" class="ml-empty">no early dead positions available</td></tr>'}</tbody></table>
+{partner_line}
+<p class="ml-fineprint">Why this is free money: the bump rule prices
+keeper costs in ROUNDS, never pick numbers — so within a
+keeper-consumed round, pick position is worth zero to the owner and
+real board access to a drafter (~8-15 VBD per half-round in live mid
+rounds; more when a specific stash target is the prize — R13 is the
+ring-fuel round). The snake makes it two-sided: odd rounds favor early
+slots, even rounds reverse. Same-round swaps read as obviously fair at
+the table. Regrades at keeper lock.</p>"""
 
 
 def main() -> None:
