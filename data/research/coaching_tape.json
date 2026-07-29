@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-28",
+  "generated": "2026-07-29",
   "backtest": {
     "classes": {
       "CONTINUITY": {
@@ -86,7 +86,7 @@
         {
           "name": "Jacoby Brissett",
           "pos": "QB",
-          "adp_round": 7.3
+          "adp_round": 7.2
         },
         {
           "name": "Marvin Harrison",
@@ -188,7 +188,7 @@
         {
           "name": "Zach Charbonnet",
           "pos": "RB",
-          "adp_round": 12.3
+          "adp_round": 12.2
         }
       ]
     },
@@ -206,7 +206,7 @@
         {
           "name": "Derrick Henry",
           "pos": "RB",
-          "adp_round": 3.2
+          "adp_round": 3.3
         },
         {
           "name": "Zay Flowers",
@@ -295,7 +295,7 @@
         {
           "name": "Jameson Williams",
           "pos": "WR",
-          "adp_round": 6.1
+          "adp_round": 6.2
         }
       ]
     },
@@ -346,7 +346,7 @@
         {
           "name": "Fernando Mendoza",
           "pos": "QB",
-          "adp_round": 9.8
+          "adp_round": 9.9
         }
       ]
     },
@@ -364,7 +364,7 @@
         {
           "name": "Malik Nabers",
           "pos": "WR",
-          "adp_round": 5.1
+          "adp_round": 5.0
         },
         {
           "name": "Cam Skattebo",
