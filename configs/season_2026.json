@@ -5,15 +5,28 @@
     "instead of hardcoding slot maps. When Sleeper posts the REAL 2026",
     "draft order, update slot_to_roster_id and set order_is_confirmed=true.",
     "When keepers lock, write data/keepers_2026_actual.json (same format as",
-    "keepers_2026.json) - the pipeline will prefer it over the prediction."
+    "keepers_2026.json) - the pipeline will prefer it over the prediction.",
+    "Jul 29: league_dir + my_sleeper league_id switched to the LIVE 2026 league (1364055104709230592) \u2014 its traded_picks is a verified superset of the 2025 league's season-2026 entries; first in-league trade (troy<->trevor R6/7/9/10 position swap) only exists there."
   ],
   "order_is_confirmed": false,
   "slot_to_roster_id": {
-    "1": 6, "2": 12, "3": 5, "4": 4, "5": 2, "6": 9,
-    "7": 7, "8": 1, "9": 8, "10": 3, "11": 10, "12": 11
+    "1": 6,
+    "2": 12,
+    "3": 5,
+    "4": 4,
+    "5": 2,
+    "6": 9,
+    "7": 7,
+    "8": 1,
+    "9": 8,
+    "10": 3,
+    "11": 10,
+    "12": 11
   },
   "my_roster_id": 9,
   "draft_rounds": 17,
-  "league_dir": "data/sleeper/league_1245039290518360064",
-  "roster_handoffs": {"2025:10": "josh_wildboy"}
+  "league_dir": "data/sleeper/league_1364055104709230592",
+  "roster_handoffs": {
+    "2025:10": "josh_wildboy"
+  }
 }

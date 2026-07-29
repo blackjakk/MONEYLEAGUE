@@ -462,6 +462,8 @@ def young_player_book() -> dict:
     owners = defaultdict(lambda: {"excess": [], "hits": 0, "rounds": []})
     for d in sorted(glob.glob(str(ROOT / "data/sleeper/league_*"))):
         season = int(json.loads(open(d + "/league.json").read())["season"])
+        if season not in (2023, 2024, 2025):
+            continue        # the LIVE league dir matches this glob too
         picks = json.loads(open(glob.glob(d + "/draft_*_picks.json")[0]).read())
         # Keeper exclusion must include the IMPLICIT ADP-gap rule — 2023/24
         # keepers were entered as ordinary picks (truth #2); counting them

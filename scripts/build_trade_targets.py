@@ -184,6 +184,8 @@ def elite_buy_payoff() -> dict:
     for d in glob.glob(str(ROOT / "data/sleeper/league_*")):
         lg = json.loads(open(d + "/league.json").read())
         season = int(lg["season"])
+        if season > LAST_COMPLETED:
+            continue        # the LIVE league dir matches this glob too
         wb = json.loads(open(d + "/winners_bracket.json").read())
         final = max(wb, key=lambda g: g.get("r", 0))
         champ[season] = rid_map[season].get(final.get("w"))

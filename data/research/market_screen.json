@@ -392,8 +392,8 @@
         "fp_round": 12,
         "gap": 35,
         "read": "our board R9 \u00b7 their paper R12",
-        "reach": 0.607,
-        "reach_pct": 61,
+        "reach": 0.605,
+        "reach_pct": 60,
         "reach_pick": 139,
         "reach_round": 12,
         "edge_score": 21.2
@@ -408,11 +408,11 @@
         "fp_round": 13,
         "gap": 29,
         "read": "our board R11 \u00b7 their paper R13",
-        "reach": 0.64,
-        "reach_pct": 64,
+        "reach": 0.6,
+        "reach_pct": 60,
         "reach_pick": 150,
         "reach_round": 13,
-        "edge_score": 18.6
+        "edge_score": 17.4
       },
       {
         "name": "Dalton Kincaid",
@@ -424,11 +424,11 @@
         "fp_round": 11,
         "gap": 24,
         "read": "our board R9 \u00b7 their paper R11",
-        "reach": 0.568,
-        "reach_pct": 57,
+        "reach": 0.657,
+        "reach_pct": 66,
         "reach_pick": 126,
         "reach_round": 11,
-        "edge_score": 13.6
+        "edge_score": 15.8
       },
       {
         "name": "Mark Andrews",
@@ -440,11 +440,11 @@
         "fp_round": 12,
         "gap": 18,
         "read": "our board R10 \u00b7 their paper R12",
-        "reach": 0.705,
-        "reach_pct": 70,
+        "reach": 0.667,
+        "reach_pct": 67,
         "reach_pick": 139,
         "reach_round": 12,
-        "edge_score": 12.7
+        "edge_score": 12.0
       },
       {
         "name": "Omarion Hampton",
@@ -527,20 +527,20 @@
         "edge_score": 3.5
       },
       {
-        "name": "KC Concepcion",
-        "position": "WR",
-        "team": "CLE",
-        "model_rank": 113,
-        "model_round": 10,
-        "fp_rank": 146,
-        "fp_round": 13,
-        "gap": 33,
-        "read": "our board R10 \u00b7 their paper R13",
-        "reach": 0.097,
-        "reach_pct": 10,
-        "reach_pick": 150,
-        "reach_round": 13,
-        "edge_score": 3.2
+        "name": "Jonathan Taylor",
+        "position": "RB",
+        "team": "IND",
+        "model_rank": 7,
+        "model_round": 1,
+        "fp_rank": 18,
+        "fp_round": 2,
+        "gap": 11,
+        "read": "our board R1 \u00b7 their paper R2",
+        "reach": 0.233,
+        "reach_pct": 23,
+        "reach_pick": 19,
+        "reach_round": 2,
+        "edge_score": 2.6
       }
     ],
     "sheets_love": [

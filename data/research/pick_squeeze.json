@@ -32,7 +32,7 @@
         "my_pick": 102,
         "buyers": [
           {
-            "manager": "trevor_bergerboy",
+            "manager": "troy_mullings",
             "their_pick": 108,
             "spots": 6
           },
@@ -93,10 +93,10 @@
     ],
     "buy": [
       {
-        "round": 6,
-        "seller": "trevor_bergerboy",
-        "their_pick": 61,
-        "my_pick": 67,
+        "round": 10,
+        "seller": "troy_mullings",
+        "their_pick": 109,
+        "my_pick": 115,
         "spots": 6
       },
       {
