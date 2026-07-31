@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-07-29",
+    "generated": "2026-07-31",
     "season": 2026,
     "basis": "model-predicted keepers (actuals auto-load at lock)",
     "criteria": "rank-1 surplus >= 120 blind-curve pts with >= 50% of keepers proven (kept-again or positive realized VBD the season before)",
