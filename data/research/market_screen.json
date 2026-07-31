@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-07-29",
+    "generated": "2026-07-31",
     "sleeper_source": "adp_2qb (superflex), data/sleeper_projections_2026.json",
     "fp_source": "FantasyPros OP half-PPR consensus, 72 experts, updated 7/29",
     "players_screened": 138,
@@ -374,7 +374,7 @@
   ],
   "model_vs_paper": {
     "meta": {
-      "generated": "2026-07-29",
+      "generated": "2026-07-31",
       "model_source": "helper data.json superflex VBD board (K/DEF excluded)",
       "paper_source": "FP OP consensus (72 experts) \u2014 the room brings superflex paper",
       "players_compared": 108,

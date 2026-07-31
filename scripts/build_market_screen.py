@@ -564,6 +564,75 @@ def build_vegas_block() -> str:
     ]) + "\n"
 
 
+def build_tiers_block() -> str:
+    """THE CROWD'S TIER CLIFFS — clustered-consensus tier boundaries
+    (fantasyfootballtiers.com, user-requested). Rivals running tier
+    sheets panic when a tier is about to empty: the boundaries are a
+    RUN-TRIGGER map for the live draft. Each boundary is annotated with
+    our market round; misfits (players the crowd tiers >=1.5 rounds away
+    from where our board prices them) are called out."""
+    tiers_f = ROOT / "data" / "rankings_tiers.json"
+    if not tiers_f.exists():
+        return ""
+    tiers = json.loads(tiers_f.read_text()).get("tiers", {})
+    helper_f = ROOT / "docs" / "draft_helper" / "data.json"
+    if not (tiers and helper_f.exists()):
+        return ""
+    helper = json.loads(helper_f.read_text())
+    adp_of = {_norm(p["name"]): p.get("adp")
+              for p in helper.get("players", [])}
+    kept = {_norm(n) for n in _kept_names()}
+
+    def rd(name: str):
+        a = adp_of.get(_norm(name))
+        return None if a is None or a >= 900 else max(1, round(a / 12))
+
+    boundary_rows, misfits = [], []
+    for pos in ("QB", "RB", "WR", "TE"):
+        ts = tiers.get(pos) or []
+        bits = []
+        for t in ts[:-1]:
+            last = t["players"][-1]
+            r = rd(last)
+            k = "*" if _norm(last) in kept else ""
+            bits.append(f'T{t["tier"]}&rarr; after {html.escape(last)}{k}'
+                        + (f' <span class="ml-note">~R{r}</span>' if r else ""))
+        if bits:
+            boundary_rows.append(
+                f'<tr><td>{_badge(pos)}</td><td>{" &middot; ".join(bits)}</td></tr>')
+        for t in ts:
+            rds = [x for x in (rd(p) for p in t["players"]) if x]
+            if len(rds) < 3:
+                continue
+            med = sorted(rds)[len(rds) // 2]
+            for p in t["players"]:
+                r = rd(p)
+                if r and abs(r - med) >= 2:
+                    misfits.append(
+                        f'{html.escape(p)} <span class="ml-note">{pos} crowd '
+                        f'T{t["tier"]} (tier ~R{med}) vs market R{r}</span>')
+    if not boundary_rows:
+        return ""
+    misfit_line = ("<p><b>Tier misfits</b> (the crowd groups them "
+                   f"rounds away from their market price): "
+                   f"{'; '.join(misfits[:8])}</p>" if misfits else "")
+    return "\n".join([
+        '<div class="ml-h-label">The crowd’s tier cliffs — '
+        "run-trigger map (clustered consensus tiers)</div>",
+        '<table class="ml-table ml-table--compact"><tbody>',
+        *boundary_rows,
+        "</tbody></table>", misfit_line,
+        '<p class="ml-fineprint">Source: fantasyfootballtiers.com '
+        "(Boris-Chen-style clustering of expert consensus, half-PPR; the "
+        "QB list is 1QB-ordered — tier GROUPS usable, superflex pricing "
+        "not). How to use at the table: when a tier’s last man "
+        "(listed above) is about to go, rivals on tier sheets start the "
+        "run — act one pick before the cliff, not one after. * = "
+        "predicted keeper (that cliff arrives a body sooner than the "
+        "sheet suggests). Refreshes weekly, cache-first.</p>",
+    ]) + "\n"
+
+
 def build_fragment(result: dict) -> str:
     meta = result["meta"]
     late, early = result["room_late"], result["room_early"]
@@ -586,6 +655,7 @@ def build_fragment(result: dict) -> str:
         build_model_block(result.get("model_vs_paper")),
         build_vegas_block(),
         build_sharp_block(),
+        build_tiers_block(),
         '<div class="ml-h-label">Market context — underpriced vs the '
         "experts (the room is late)</div>",
         _table(late, "ml-sv-hi"),
