@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-07-31",
+    "generated": "2026-08-04",
     "axis": "at-trade stronger side wins mixed trades +44 PAR/deal (n=342 sides 2011-25); equal-strength trades wash to 0",
     "score": "fish(min(-careerPAR/deal,60)) + bleed(15 if live form <= -20) - shark(45 if live form >= +25) + starConcession%*40 + min(deals/yr,3)*8 + 22*expiringKeepers + warChestPoverty*4 + seatLanes + pairHistory(+-25)"
   },
