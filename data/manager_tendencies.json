@@ -623,7 +623,7 @@
       }
     },
     "dave_aka_wang": {
-      "age_at_draft": 24.3,
+      "age_at_draft": 24.4,
       "rookie_share": 0.18,
       "yr2_share": 0.24,
       "reach": {
@@ -906,7 +906,7 @@
           "qb1": 1,
           "qb2": 3,
           "rook_share": 0.13,
-          "age": 24.6
+          "age": 24.7
         }
       }
     },
@@ -1132,7 +1132,7 @@
           "qb1": 1,
           "qb2": 2,
           "rook_share": 0.0,
-          "age": 25.3
+          "age": 25.4
         },
         "2022": {
           "qb1": 9,
@@ -1448,7 +1448,7 @@
           "qb1": 1,
           "qb2": 2,
           "rook_share": 0.07,
-          "age": 25.1
+          "age": 25.2
         },
         "2024": {
           "qb1": 3,
@@ -1506,7 +1506,7 @@
           "qb1": 3,
           "qb2": 4,
           "rook_share": 0.13,
-          "age": 24.5
+          "age": 24.6
         },
         "2021": {
           "qb1": 2,
@@ -1518,7 +1518,7 @@
           "qb1": 2,
           "qb2": 3,
           "rook_share": 0.0,
-          "age": 27.5
+          "age": 27.6
         },
         "2023": {
           "qb1": 3,
@@ -1546,7 +1546,7 @@
       "qb2_iqr": 3,
       "qb2_stable": true,
       "rook_share_mean": 0.19,
-      "age_mean": 24.2,
+      "age_mean": 24.3,
       "by_year": {
         "2017": {
           "qb1": 2,
@@ -1576,7 +1576,7 @@
           "qb1": 4,
           "qb2": 6,
           "rook_share": 0.27,
-          "age": 23.8
+          "age": 23.9
         },
         "2022": {
           "qb1": 2,
@@ -1662,13 +1662,13 @@
       "qb2_iqr": null,
       "qb2_stable": false,
       "rook_share_mean": 0.25,
-      "age_mean": 23.1,
+      "age_mean": 23.2,
       "by_year": {
         "2019": {
           "qb1": 3,
           "qb2": 4,
           "rook_share": 0.25,
-          "age": 23.1
+          "age": 23.2
         }
       }
     },
@@ -1734,13 +1734,13 @@
       "qb2_iqr": null,
       "qb2_stable": false,
       "rook_share_mean": 0.07,
-      "age_mean": 26.8,
+      "age_mean": 26.9,
       "by_year": {
         "2025": {
           "qb1": 5,
           "qb2": 6,
           "rook_share": 0.07,
-          "age": 26.8
+          "age": 26.9
         }
       }
     }
