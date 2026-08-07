@@ -44,7 +44,7 @@
       "fp_std": 2.4,
       "age": 24,
       "years_exp": 3,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.222,
       "adp_delta": 0.0,
       "svq": [
@@ -566,7 +566,7 @@
       "fp_std": 6.5,
       "age": 25,
       "years_exp": 4,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.195,
       "adp_delta": 0.0,
       "svq": [
@@ -1117,7 +1117,7 @@
       "fp_std": 5.4,
       "age": 33,
       "years_exp": 10,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.162,
       "adp_delta": 0.0,
       "svq": [
@@ -1639,7 +1639,7 @@
       "fp_std": 6.3,
       "age": 27,
       "years_exp": 5,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.189,
       "adp_delta": 0.0,
       "svq": [
@@ -2045,7 +2045,7 @@
       "fp_std": 10.5,
       "age": 25,
       "years_exp": 3,
-      "injury": "Questionable",
+      "injury": "PUP",
       "stash": 0.315,
       "adp_delta": 0.0,
       "svq": [
@@ -2103,7 +2103,7 @@
       "fp_std": 11.2,
       "age": 32,
       "years_exp": 12,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.336,
       "adp_delta": 0.0,
       "svq": [
@@ -2707,7 +2707,7 @@
       "fp_std": 9.2,
       "age": 28,
       "years_exp": 5,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.276,
       "adp_delta": 0.0,
       "svq": [
@@ -3187,10 +3187,10 @@
       "fp_rank": null,
       "fp_pos_rank": null,
       "fp_std": null,
-      "age": 25,
+      "age": 24,
       "years_exp": 1,
       "injury": "",
-      "stash": 0.25,
+      "stash": 0.4,
       "svq": [
         173,
         175,
@@ -3275,7 +3275,7 @@
       "fp_std": null,
       "age": 25,
       "years_exp": 2,
-      "injury": "IR",
+      "injury": "Questionable",
       "stash": 0.25,
       "adp_delta": 0.0,
       "svq": [
@@ -3561,7 +3561,7 @@
       "fp_std": 21.9,
       "age": 22,
       "years_exp": 0,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 1.0,
       "adp_delta": 0.0,
       "svq": [
@@ -3847,7 +3847,7 @@
       "fp_std": null,
       "age": 29,
       "years_exp": 6,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.0,
       "svq": [
         173,
@@ -4476,7 +4476,7 @@
       "fp_std": 10.8,
       "age": 23,
       "years_exp": 2,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.724,
       "adp_delta": 0.0,
       "svq": [
@@ -4731,7 +4731,7 @@
       "fp_rank": 141,
       "fp_pos_rank": "WR54",
       "fp_std": 17.4,
-      "age": 23,
+      "age": 22,
       "years_exp": 1,
       "injury": "",
       "stash": 0.922,
@@ -4875,7 +4875,7 @@
       "fp_std": 26.2,
       "age": 21,
       "years_exp": 0,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 1.0,
       "adp_delta": 0.0,
       "svq": [
@@ -5575,7 +5575,7 @@
       "fp_std": 39.8,
       "age": 23,
       "years_exp": 0,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 1.0,
       "adp_delta": 0.0,
       "svq": [
@@ -5883,7 +5883,7 @@
       "fp_std": 30.3,
       "age": 21,
       "years_exp": 0,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 1.0,
       "adp_delta": 0.0,
       "svq": [
@@ -6071,7 +6071,7 @@
       "fp_std": 31.1,
       "age": 26,
       "years_exp": 4,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.6,
       "svq": [
         149,
@@ -6129,7 +6129,7 @@
       "fp_std": 38.3,
       "age": 27,
       "years_exp": 5,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.6
     },
     {
@@ -6421,7 +6421,7 @@
       "fp_std": 14.5,
       "age": 27,
       "years_exp": 6,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.435,
       "adp_delta": 0.0,
       "svq": [
@@ -6626,7 +6626,7 @@
       "fp_std": 25.0,
       "age": 23,
       "years_exp": 1,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 1.0,
       "adp_delta": 0.0,
       "svq": [
@@ -6713,7 +6713,7 @@
       "fp_std": null,
       "age": 25,
       "years_exp": 4,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.0
     },
     {
@@ -7137,7 +7137,7 @@
       "fp_std": 27.6,
       "age": 23,
       "years_exp": 0,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 1.0,
       "adp_delta": 0.0,
       "svq": [
@@ -7500,7 +7500,7 @@
       "fp_std": 24.8,
       "age": 25,
       "years_exp": 2,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.85
     },
     {
@@ -7604,7 +7604,7 @@
       "fp_std": 75.0,
       "age": 23,
       "years_exp": 0,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 1.0
     },
     {
@@ -7741,7 +7741,7 @@
       "fp_rank": 206,
       "fp_pos_rank": "TE30",
       "fp_std": 34.2,
-      "age": 23,
+      "age": 22,
       "years_exp": 0,
       "injury": "",
       "stash": 1.0,
@@ -7771,7 +7771,7 @@
       "fp_std": 29.9,
       "age": 23,
       "years_exp": 1,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 1.0
     },
     {
@@ -7786,7 +7786,7 @@
       "fp_std": 28.3,
       "age": 29,
       "years_exp": 7,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.6
     },
     {
@@ -7862,7 +7862,7 @@
       "fp_std": 26.2,
       "age": 29,
       "years_exp": 7,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.6
     },
     {
@@ -7893,7 +7893,7 @@
       "fp_std": null,
       "age": 22,
       "years_exp": 0,
-      "injury": "IR",
+      "injury": "Questionable",
       "stash": 0.4,
       "adp_delta": 0.0
     },
@@ -7965,10 +7965,10 @@
       "fp_rank": null,
       "fp_pos_rank": null,
       "fp_std": null,
-      "age": 25,
+      "age": 24,
       "years_exp": 1,
       "injury": "",
-      "stash": 0.25
+      "stash": 0.4
     },
     {
       "name": "Cole Kmet",
@@ -8013,7 +8013,7 @@
       "fp_std": 30.5,
       "age": 25,
       "years_exp": 3,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.6
     },
     {
@@ -8985,7 +8985,7 @@
       "fp_rank": 455,
       "fp_pos_rank": "TE82",
       "fp_std": 49.4,
-      "age": 31,
+      "age": 30,
       "years_exp": 8,
       "injury": "PUP",
       "stash": 0.6
@@ -9426,7 +9426,7 @@
       "fp_rank": 317,
       "fp_pos_rank": "WR127",
       "fp_std": 31.5,
-      "age": 31,
+      "age": 30,
       "years_exp": 9,
       "injury": "",
       "stash": 0.6
@@ -9621,7 +9621,7 @@
       "fp_rank": 333,
       "fp_pos_rank": "WR135",
       "fp_std": 77.0,
-      "age": 30,
+      "age": 29,
       "years_exp": 4,
       "injury": "",
       "stash": 0.6
@@ -9833,7 +9833,7 @@
       "fp_std": 59.2,
       "age": 23,
       "years_exp": 0,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 1.0
     },
     {
@@ -9951,7 +9951,7 @@
       "fp_rank": 388,
       "fp_pos_rank": "WR148",
       "fp_std": 103.2,
-      "age": 28,
+      "age": 27,
       "years_exp": 3,
       "injury": "Questionable",
       "stash": 0.6
@@ -10043,7 +10043,7 @@
       "fp_std": 28.6,
       "age": 28,
       "years_exp": 6,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.6,
       "adp_delta": 0.0,
       "svq": [
@@ -10252,7 +10252,7 @@
       "fp_std": 39.6,
       "age": 28,
       "years_exp": 5,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.6
     },
     {
@@ -10297,7 +10297,7 @@
       "fp_std": 36.7,
       "age": 24,
       "years_exp": 2,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 1.0,
       "adp_delta": 0.0
     },
@@ -10377,7 +10377,7 @@
       "fp_std": 39.3,
       "age": 24,
       "years_exp": 0,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 1.0
     },
     {
@@ -10468,7 +10468,7 @@
       "fp_std": 71.5,
       "age": 25,
       "years_exp": 3,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.6
     },
     {
@@ -11040,7 +11040,7 @@
       "fp_std": 64.5,
       "age": 31,
       "years_exp": 9,
-      "injury": "NA",
+      "injury": "",
       "stash": 0.6
     },
     {
@@ -11507,7 +11507,7 @@
       "fp_std": 136.5,
       "age": 25,
       "years_exp": 2,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.85
     },
     {
@@ -11864,10 +11864,10 @@
       "fp_rank": 361,
       "fp_pos_rank": "RB117",
       "fp_std": 64.7,
-      "age": 25,
+      "age": 24,
       "years_exp": 2,
-      "injury": "Questionable",
-      "stash": 0.85
+      "injury": "",
+      "stash": 1.0
     },
     {
       "name": "Cash Jones",
@@ -12015,7 +12015,7 @@
       "fp_std": 66.2,
       "age": 27,
       "years_exp": 5,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.6,
       "adp_delta": 0.0
     },
@@ -12217,7 +12217,7 @@
       "fp_rank": 551,
       "fp_pos_rank": "QB52",
       "fp_std": 142.0,
-      "age": 37,
+      "age": 36,
       "years_exp": 15,
       "injury": "",
       "stash": 0.6
@@ -12249,7 +12249,7 @@
       "fp_std": 131.0,
       "age": 31,
       "years_exp": 9,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.6
     },
     {

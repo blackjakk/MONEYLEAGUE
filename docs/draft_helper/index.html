@@ -99,6 +99,7 @@
     <span id="session-chip" class="session-chip"></span>
   </div>
   <div id="clock" class="ml-clock">loading…</div>
+  <div id="demand-strip" class="ml-fineprint"></div>
   <span id="ceiling-desc" class="ml-visually-hidden">Weights recommendations toward boom-or-bust upside (expert disagreement plus youth) instead of median value.</span>
   <span id="practice-desc" class="ml-visually-hidden">Runs a practice draft against the tendency-modeled league bots; bots pick for every other team.</span>
   <div id="sr-clock" class="ml-visually-hidden" role="status"></div>
@@ -1384,7 +1385,42 @@ function renderClock() {
   } else {
     document.getElementById("next-pick").textContent = "No remaining picks.";
   }
+  renderDemandStrip(next, myNext);
   maybeAlert(next, myNext);
+}
+
+// DEMAND BEFORE YOUR TURN (subvertadown-inspired, Jul 2026): the bots
+// already model positional need internally — this SHOWS it. Aggregate
+// each intervening drafter's outstanding starter demand (BOT_DEMAND −
+// current counts); paired with the tier-cliff map, this is how a run
+// is seen one pick early instead of one late.
+function renderDemandStrip(next, myNext) {
+  const el = document.getElementById("demand-strip");
+  if (!el) return;
+  if (!next || !myNext) { el.textContent = ""; return; }
+  const between = DATA.schedule.slice(cursor)
+    .filter(p => p.overall < myNext.overall && p.team_idx !== DATA.my_team_idx
+                 && !p.player);
+  const agg = {};
+  const seen = new Set();
+  for (const p of between) {
+    if (seen.has(p.team_idx)) continue;   // count each drafter once
+    seen.add(p.team_idx);
+    const counts = {};
+    for (const pk of DATA.schedule) {
+      if (pk.team_idx === p.team_idx && pk.player)
+        counts[pk.player.pos] = (counts[pk.player.pos] || 0) + 1;
+    }
+    for (const pos of ["QB", "RB", "WR", "TE"]) {
+      const need = Math.max(0, (BOT_DEMAND[pos] || 0) - (counts[pos] || 0));
+      if (need >= 0.5) agg[pos] = (agg[pos] || 0) + 1;
+    }
+  }
+  const bits = Object.entries(agg).sort((a, b) => b[1] - a[1])
+    .map(([pos, n]) => `${pos}×${n}`);
+  el.textContent = bits.length && between.length
+    ? `demand before your turn (${between.length} picks): ${bits.join(" · ")} still needed by drafters between you`
+    : "";
 }
 
 function renderPlayerList() {
