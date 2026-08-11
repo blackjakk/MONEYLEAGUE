@@ -623,7 +623,7 @@
       }
     },
     "dave_aka_wang": {
-      "age_at_draft": 24.4,
+      "age_at_draft": 24.5,
       "rookie_share": 0.18,
       "yr2_share": 0.24,
       "reach": {
@@ -900,7 +900,7 @@
           "qb1": 8,
           "qb2": 9,
           "rook_share": 0.18,
-          "age": 24.1
+          "age": 24.2
         },
         "2024": {
           "qb1": 1,

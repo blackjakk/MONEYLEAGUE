@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-07",
+ "generated": "2026-08-11",
  "method": {
   "world": "real 2025 draft, period-honest: ADP-only board (synthesized projections), keeper seats pre-filled (explicit flag + implicit ADP-gap rule), xlsx pick attribution for Brian",
   "machinery": "build_mock_draft_sim bot, 100 sims, temperature 0.25, top-15 softmax, tendency model OFF (it is fit on 2023-25 \u2014 using it here would leak the answer)",
