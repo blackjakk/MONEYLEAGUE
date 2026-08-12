@@ -869,10 +869,10 @@
       "fp_rank_overall": 62,
       "fp_rank_pos": "WR29",
       "fp_tier": 5,
-      "fp_adp_avg": "59.80",
+      "fp_adp_avg": "59.69",
       "fp_rank_min": "44",
-      "fp_rank_max": "89",
-      "fp_rank_std": "9.10",
+      "fp_rank_max": "80",
+      "fp_rank_std": "8.80",
       "fp_expert_count": 85
     },
     {
@@ -1037,10 +1037,10 @@
       "fp_rank_overall": 74,
       "fp_rank_pos": "WR33",
       "fp_tier": 5,
-      "fp_adp_avg": "77.87",
+      "fp_adp_avg": "77.84",
       "fp_rank_min": "44",
       "fp_rank_max": "108",
-      "fp_rank_std": "11.45",
+      "fp_rank_std": "11.42",
       "fp_expert_count": 85
     },
     {
@@ -1177,10 +1177,10 @@
       "fp_rank_overall": 84,
       "fp_rank_pos": "WR35",
       "fp_tier": 6,
-      "fp_adp_avg": "85.28",
+      "fp_adp_avg": "85.30",
       "fp_rank_min": "48",
       "fp_rank_max": "134",
-      "fp_rank_std": "14.92",
+      "fp_rank_std": "14.93",
       "fp_expert_count": 85
     },
     {
@@ -1303,10 +1303,10 @@
       "fp_rank_overall": 93,
       "fp_rank_pos": "WR41",
       "fp_tier": 6,
-      "fp_adp_avg": "96.34",
+      "fp_adp_avg": "96.30",
       "fp_rank_min": "50",
       "fp_rank_max": "131",
-      "fp_rank_std": "14.86",
+      "fp_rank_std": "14.91",
       "fp_expert_count": 85
     },
     {
@@ -1373,10 +1373,10 @@
       "fp_rank_overall": 98,
       "fp_rank_pos": "WR43",
       "fp_tier": 6,
-      "fp_adp_avg": "101.84",
+      "fp_adp_avg": "101.96",
       "fp_rank_min": "75",
       "fp_rank_max": "162",
-      "fp_rank_std": "17.56",
+      "fp_rank_std": "17.43",
       "fp_expert_count": 85
     },
     {
@@ -1401,10 +1401,10 @@
       "fp_rank_overall": 100,
       "fp_rank_pos": "WR44",
       "fp_tier": 6,
-      "fp_adp_avg": "102.11",
+      "fp_adp_avg": "102.12",
       "fp_rank_min": "68",
       "fp_rank_max": "138",
-      "fp_rank_std": "15.62",
+      "fp_rank_std": "15.60",
       "fp_expert_count": 85
     },
     {
@@ -1457,10 +1457,10 @@
       "fp_rank_overall": 104,
       "fp_rank_pos": "TE9",
       "fp_tier": 6,
-      "fp_adp_avg": "104.58",
+      "fp_adp_avg": "104.60",
       "fp_rank_min": "76",
       "fp_rank_max": "155",
-      "fp_rank_std": "14.55",
+      "fp_rank_std": "14.53",
       "fp_expert_count": 85
     },
     {
@@ -1499,10 +1499,10 @@
       "fp_rank_overall": 107,
       "fp_rank_pos": "TE10",
       "fp_tier": 6,
-      "fp_adp_avg": "106.02",
+      "fp_adp_avg": "106.00",
       "fp_rank_min": "75",
       "fp_rank_max": "181",
-      "fp_rank_std": "19.32",
+      "fp_rank_std": "19.34",
       "fp_expert_count": 85
     },
     {
@@ -1716,31 +1716,31 @@
       "fp_expert_count": 85
     },
     {
-      "name": "Xavier Worthy",
-      "position": "WR",
-      "team": "KC",
-      "bye": "5",
-      "fp_rank_overall": 123,
-      "fp_rank_pos": "WR48",
-      "fp_tier": 7,
-      "fp_adp_avg": "125.46",
-      "fp_rank_min": "92",
-      "fp_rank_max": "193",
-      "fp_rank_std": "16.59",
-      "fp_expert_count": 85
-    },
-    {
       "name": "Jayden Higgins",
       "position": "WR",
       "team": "HOU",
       "bye": "8",
-      "fp_rank_overall": 124,
-      "fp_rank_pos": "WR49",
+      "fp_rank_overall": 123,
+      "fp_rank_pos": "WR48",
       "fp_tier": 7,
       "fp_adp_avg": "125.60",
       "fp_rank_min": "98",
       "fp_rank_max": "179",
       "fp_rank_std": "14.43",
+      "fp_expert_count": 85
+    },
+    {
+      "name": "Xavier Worthy",
+      "position": "WR",
+      "team": "KC",
+      "bye": "5",
+      "fp_rank_overall": 124,
+      "fp_rank_pos": "WR49",
+      "fp_tier": 7,
+      "fp_adp_avg": "125.65",
+      "fp_rank_min": "92",
+      "fp_rank_max": "193",
+      "fp_rank_std": "16.99",
       "fp_expert_count": 85
     },
     {
@@ -1765,10 +1765,10 @@
       "fp_rank_overall": 126,
       "fp_rank_pos": "RB42",
       "fp_tier": 7,
-      "fp_adp_avg": "128.60",
+      "fp_adp_avg": "128.63",
       "fp_rank_min": "113",
       "fp_rank_max": "158",
-      "fp_rank_std": "9.25",
+      "fp_rank_std": "9.28",
       "fp_expert_count": 85
     },
     {
@@ -1856,31 +1856,31 @@
       "fp_expert_count": 85
     },
     {
+      "name": "Woody Marks",
+      "position": "RB",
+      "team": "HOU",
+      "bye": "8",
+      "fp_rank_overall": 133,
+      "fp_rank_pos": "RB44",
+      "fp_tier": 7,
+      "fp_adp_avg": "134.25",
+      "fp_rank_min": "99",
+      "fp_rank_max": "163",
+      "fp_rank_std": "13.34",
+      "fp_expert_count": 85
+    },
+    {
       "name": "KC Concepcion",
       "position": "WR",
       "team": "CLE",
       "bye": "11",
-      "fp_rank_overall": 133,
+      "fp_rank_overall": 134,
       "fp_rank_pos": "WR54",
       "fp_tier": 7,
       "fp_adp_avg": "134.29",
       "fp_rank_min": "89",
       "fp_rank_max": "257",
       "fp_rank_std": "27.52",
-      "fp_expert_count": 85
-    },
-    {
-      "name": "Woody Marks",
-      "position": "RB",
-      "team": "HOU",
-      "bye": "8",
-      "fp_rank_overall": 134,
-      "fp_rank_pos": "RB44",
-      "fp_tier": 7,
-      "fp_adp_avg": "134.31",
-      "fp_rank_min": "99",
-      "fp_rank_max": "167",
-      "fp_rank_std": "13.47",
       "fp_expert_count": 85
     },
     {
@@ -1891,10 +1891,10 @@
       "fp_rank_overall": 135,
       "fp_rank_pos": "RB45",
       "fp_tier": 7,
-      "fp_adp_avg": "134.45",
+      "fp_adp_avg": "134.46",
       "fp_rank_min": "92",
       "fp_rank_max": "165",
-      "fp_rank_std": "13.69",
+      "fp_rank_std": "13.70",
       "fp_expert_count": 85
     },
     {
@@ -1905,10 +1905,10 @@
       "fp_rank_overall": 136,
       "fp_rank_pos": "WR55",
       "fp_tier": 7,
-      "fp_adp_avg": "137.43",
+      "fp_adp_avg": "137.25",
       "fp_rank_min": "93",
       "fp_rank_max": "246",
-      "fp_rank_std": "24.35",
+      "fp_rank_std": "24.21",
       "fp_expert_count": 85
     },
     {
@@ -1933,10 +1933,10 @@
       "fp_rank_overall": 138,
       "fp_rank_pos": "WR56",
       "fp_tier": 7,
-      "fp_adp_avg": "146.48",
+      "fp_adp_avg": "146.46",
       "fp_rank_min": "115",
-      "fp_rank_max": "181",
-      "fp_rank_std": "15.14",
+      "fp_rank_max": "179",
+      "fp_rank_std": "15.08",
       "fp_expert_count": 85
     },
     {
@@ -2003,10 +2003,10 @@
       "fp_rank_overall": 143,
       "fp_rank_pos": "QB23",
       "fp_tier": 7,
-      "fp_adp_avg": "149.19",
+      "fp_adp_avg": "149.18",
       "fp_rank_min": "107",
       "fp_rank_max": "241",
-      "fp_rank_std": "21.38",
+      "fp_rank_std": "21.36",
       "fp_expert_count": 85
     },
     {
@@ -2017,10 +2017,10 @@
       "fp_rank_overall": 144,
       "fp_rank_pos": "RB49",
       "fp_tier": 7,
-      "fp_adp_avg": "140.57",
+      "fp_adp_avg": "140.60",
       "fp_rank_min": "97",
       "fp_rank_max": "227",
-      "fp_rank_std": "23.41",
+      "fp_rank_std": "23.42",
       "fp_expert_count": 85
     },
     {
@@ -2045,10 +2045,10 @@
       "fp_rank_overall": 146,
       "fp_rank_pos": "TE18",
       "fp_tier": 7,
-      "fp_adp_avg": "155.11",
+      "fp_adp_avg": "155.10",
       "fp_rank_min": "109",
       "fp_rank_max": "226",
-      "fp_rank_std": "24.51",
+      "fp_rank_std": "24.50",
       "fp_expert_count": 85
     },
     {
@@ -2059,10 +2059,10 @@
       "fp_rank_overall": 147,
       "fp_rank_pos": "WR57",
       "fp_tier": 7,
-      "fp_adp_avg": "137.93",
+      "fp_adp_avg": "137.94",
       "fp_rank_min": "82",
       "fp_rank_max": "245",
-      "fp_rank_std": "34.55",
+      "fp_rank_std": "34.54",
       "fp_expert_count": 85
     },
     {
@@ -2073,10 +2073,10 @@
       "fp_rank_overall": 148,
       "fp_rank_pos": "RB50",
       "fp_tier": 7,
-      "fp_adp_avg": "155.93",
+      "fp_adp_avg": "155.96",
       "fp_rank_min": "124",
       "fp_rank_max": "216",
-      "fp_rank_std": "18.32",
+      "fp_rank_std": "18.27",
       "fp_expert_count": 85
     },
     {
@@ -2129,10 +2129,10 @@
       "fp_rank_overall": 152,
       "fp_rank_pos": "RB53",
       "fp_tier": 7,
-      "fp_adp_avg": "158.60",
+      "fp_adp_avg": "158.63",
       "fp_rank_min": "131",
       "fp_rank_max": "196",
-      "fp_rank_std": "12.75",
+      "fp_rank_std": "12.72",
       "fp_expert_count": 85
     },
     {
@@ -2199,7 +2199,7 @@
       "fp_rank_overall": 157,
       "fp_rank_pos": "RB54",
       "fp_tier": 8,
-      "fp_adp_avg": "163.75",
+      "fp_adp_avg": "163.73",
       "fp_rank_min": "121",
       "fp_rank_max": "355",
       "fp_rank_std": "38.46",
@@ -2227,24 +2227,10 @@
       "fp_rank_overall": 159,
       "fp_rank_pos": "QB26",
       "fp_tier": 8,
-      "fp_adp_avg": "182.63",
+      "fp_adp_avg": "182.49",
       "fp_rank_min": "138",
       "fp_rank_max": "300",
-      "fp_rank_std": "30.58",
-      "fp_expert_count": 85
-    },
-    {
-      "name": "Dalton Schultz",
-      "position": "TE",
-      "team": "HOU",
-      "bye": "8",
-      "fp_rank_overall": 160,
-      "fp_rank_pos": "TE21",
-      "fp_tier": 8,
-      "fp_adp_avg": "183.00",
-      "fp_rank_min": "111",
-      "fp_rank_max": "239",
-      "fp_rank_std": "27.75",
+      "fp_rank_std": "30.48",
       "fp_expert_count": 85
     },
     {
@@ -2252,13 +2238,27 @@
       "position": "WR",
       "team": "NYJ",
       "bye": "13",
-      "fp_rank_overall": 161,
+      "fp_rank_overall": 160,
       "fp_rank_pos": "WR60",
       "fp_tier": 8,
-      "fp_adp_avg": "174.87",
+      "fp_adp_avg": "174.60",
       "fp_rank_min": "131",
       "fp_rank_max": "302",
-      "fp_rank_std": "25.88",
+      "fp_rank_std": "25.55",
+      "fp_expert_count": 85
+    },
+    {
+      "name": "Dalton Schultz",
+      "position": "TE",
+      "team": "HOU",
+      "bye": "8",
+      "fp_rank_overall": 161,
+      "fp_rank_pos": "TE21",
+      "fp_tier": 8,
+      "fp_adp_avg": "183.00",
+      "fp_rank_min": "111",
+      "fp_rank_max": "239",
+      "fp_rank_std": "27.75",
       "fp_expert_count": 85
     },
     {
@@ -2269,10 +2269,10 @@
       "fp_rank_overall": 162,
       "fp_rank_pos": "WR61",
       "fp_tier": 8,
-      "fp_adp_avg": "167.19",
+      "fp_adp_avg": "167.21",
       "fp_rank_min": "124",
       "fp_rank_max": "229",
-      "fp_rank_std": "19.79",
+      "fp_rank_std": "19.80",
       "fp_expert_count": 85
     },
     {
@@ -2283,10 +2283,10 @@
       "fp_rank_overall": 163,
       "fp_rank_pos": "WR62",
       "fp_tier": 8,
-      "fp_adp_avg": "170.37",
+      "fp_adp_avg": "170.28",
       "fp_rank_min": "125",
       "fp_rank_max": "295",
-      "fp_rank_std": "27.69",
+      "fp_rank_std": "27.60",
       "fp_expert_count": 85
     },
     {
@@ -2297,10 +2297,10 @@
       "fp_rank_overall": 164,
       "fp_rank_pos": "WR63",
       "fp_tier": 8,
-      "fp_adp_avg": "162.14",
+      "fp_adp_avg": "162.19",
       "fp_rank_min": "95",
       "fp_rank_max": "272",
-      "fp_rank_std": "27.78",
+      "fp_rank_std": "27.79",
       "fp_expert_count": 85
     },
     {
@@ -2318,31 +2318,31 @@
       "fp_expert_count": 85
     },
     {
-      "name": "Omar Cooper Jr.",
-      "position": "WR",
-      "team": "NYJ",
-      "bye": "13",
-      "fp_rank_overall": 166,
-      "fp_rank_pos": "WR65",
-      "fp_tier": 8,
-      "fp_adp_avg": "170.08",
-      "fp_rank_min": "134",
-      "fp_rank_max": "307",
-      "fp_rank_std": "29.49",
-      "fp_expert_count": 85
-    },
-    {
       "name": "T.J. Hockenson",
       "position": "TE",
       "team": "MIN",
       "bye": "6",
-      "fp_rank_overall": 167,
+      "fp_rank_overall": 166,
       "fp_rank_pos": "TE22",
       "fp_tier": 8,
-      "fp_adp_avg": "195.27",
+      "fp_adp_avg": "195.23",
       "fp_rank_min": "130",
       "fp_rank_max": "245",
-      "fp_rank_std": "22.71",
+      "fp_rank_std": "22.72",
+      "fp_expert_count": 85
+    },
+    {
+      "name": "Omar Cooper Jr.",
+      "position": "WR",
+      "team": "NYJ",
+      "bye": "13",
+      "fp_rank_overall": 167,
+      "fp_rank_pos": "WR65",
+      "fp_tier": 8,
+      "fp_adp_avg": "170.14",
+      "fp_rank_min": "134",
+      "fp_rank_max": "307",
+      "fp_rank_std": "29.48",
       "fp_expert_count": 85
     },
     {
@@ -2353,10 +2353,10 @@
       "fp_rank_overall": 168,
       "fp_rank_pos": "TE23",
       "fp_tier": 8,
-      "fp_adp_avg": "196.90",
+      "fp_adp_avg": "196.84",
       "fp_rank_min": "136",
       "fp_rank_max": "244",
-      "fp_rank_std": "24.24",
+      "fp_rank_std": "24.22",
       "fp_expert_count": 85
     },
     {
@@ -2367,10 +2367,10 @@
       "fp_rank_overall": 169,
       "fp_rank_pos": "RB55",
       "fp_tier": 8,
-      "fp_adp_avg": "173.71",
+      "fp_adp_avg": "173.94",
       "fp_rank_min": "120",
       "fp_rank_max": "283",
-      "fp_rank_std": "30.40",
+      "fp_rank_std": "30.56",
       "fp_expert_count": 85
     },
     {
@@ -2395,10 +2395,10 @@
       "fp_rank_overall": 171,
       "fp_rank_pos": "WR66",
       "fp_tier": 8,
-      "fp_adp_avg": "186.37",
+      "fp_adp_avg": "186.42",
       "fp_rank_min": "142",
       "fp_rank_max": "301",
-      "fp_rank_std": "31.44",
+      "fp_rank_std": "31.38",
       "fp_expert_count": 85
     },
     {
@@ -2507,10 +2507,10 @@
       "fp_rank_overall": 179,
       "fp_rank_pos": "WR69",
       "fp_tier": 8,
-      "fp_adp_avg": "193.48",
+      "fp_adp_avg": "193.41",
       "fp_rank_min": "125",
       "fp_rank_max": "303",
-      "fp_rank_std": "41.57",
+      "fp_rank_std": "41.61",
       "fp_expert_count": 85
     },
     {
@@ -2521,10 +2521,10 @@
       "fp_rank_overall": 180,
       "fp_rank_pos": "RB59",
       "fp_tier": 8,
-      "fp_adp_avg": "186.35",
+      "fp_adp_avg": "186.33",
       "fp_rank_min": "142",
       "fp_rank_max": "300",
-      "fp_rank_std": "34.64",
+      "fp_rank_std": "34.66",
       "fp_expert_count": 85
     },
     {
@@ -2535,10 +2535,10 @@
       "fp_rank_overall": 181,
       "fp_rank_pos": "WR70",
       "fp_tier": 8,
-      "fp_adp_avg": "203.79",
+      "fp_adp_avg": "203.62",
       "fp_rank_min": "133",
       "fp_rank_max": "266",
-      "fp_rank_std": "29.62",
+      "fp_rank_std": "29.82",
       "fp_expert_count": 85
     },
     {
@@ -2549,10 +2549,10 @@
       "fp_rank_overall": 182,
       "fp_rank_pos": "WR71",
       "fp_tier": 8,
-      "fp_adp_avg": "192.66",
+      "fp_adp_avg": "192.78",
       "fp_rank_min": "146",
       "fp_rank_max": "261",
-      "fp_rank_std": "23.66",
+      "fp_rank_std": "23.75",
       "fp_expert_count": 85
     },
     {
@@ -2577,10 +2577,10 @@
       "fp_rank_overall": 184,
       "fp_rank_pos": "RB61",
       "fp_tier": 8,
-      "fp_adp_avg": "207.33",
+      "fp_adp_avg": "207.14",
       "fp_rank_min": "127",
       "fp_rank_max": "309",
-      "fp_rank_std": "48.31",
+      "fp_rank_std": "48.58",
       "fp_expert_count": 85
     },
     {
@@ -2675,10 +2675,10 @@
       "fp_rank_overall": 191,
       "fp_rank_pos": "RB62",
       "fp_tier": 8,
-      "fp_adp_avg": "189.52",
+      "fp_adp_avg": "189.60",
       "fp_rank_min": "99",
       "fp_rank_max": "312",
-      "fp_rank_std": "40.56",
+      "fp_rank_std": "40.52",
       "fp_expert_count": 85
     },
     {
@@ -2703,10 +2703,10 @@
       "fp_rank_overall": 193,
       "fp_rank_pos": "RB63",
       "fp_tier": 8,
-      "fp_adp_avg": "214.77",
+      "fp_adp_avg": "214.67",
       "fp_rank_min": "128",
       "fp_rank_max": "312",
-      "fp_rank_std": "45.59",
+      "fp_rank_std": "45.69",
       "fp_expert_count": 85
     },
     {
@@ -2759,10 +2759,10 @@
       "fp_rank_overall": 197,
       "fp_rank_pos": "DST6",
       "fp_tier": 8,
-      "fp_adp_avg": "193.54",
+      "fp_adp_avg": "193.49",
       "fp_rank_min": "166",
       "fp_rank_max": "343",
-      "fp_rank_std": "31.13",
+      "fp_rank_std": "31.15",
       "fp_expert_count": 85
     },
     {
@@ -2815,10 +2815,10 @@
       "fp_rank_overall": 201,
       "fp_rank_pos": "DST7",
       "fp_tier": 9,
-      "fp_adp_avg": "190.03",
+      "fp_adp_avg": "189.80",
       "fp_rank_min": "165",
       "fp_rank_max": "368",
-      "fp_rank_std": "31.09",
+      "fp_rank_std": "31.07",
       "fp_expert_count": 85
     },
     {
@@ -2829,10 +2829,10 @@
       "fp_rank_overall": 202,
       "fp_rank_pos": "DST8",
       "fp_tier": 9,
-      "fp_adp_avg": "191.99",
+      "fp_adp_avg": "191.85",
       "fp_rank_min": "160",
       "fp_rank_max": "337",
-      "fp_rank_std": "28.54",
+      "fp_rank_std": "28.58",
       "fp_expert_count": 85
     },
     {
@@ -2871,10 +2871,10 @@
       "fp_rank_overall": 205,
       "fp_rank_pos": "DST9",
       "fp_tier": 9,
-      "fp_adp_avg": "194.43",
+      "fp_adp_avg": "194.44",
       "fp_rank_min": "163",
       "fp_rank_max": "329",
-      "fp_rank_std": "25.77",
+      "fp_rank_std": "25.82",
       "fp_expert_count": 85
     },
     {
@@ -2885,10 +2885,10 @@
       "fp_rank_overall": 206,
       "fp_rank_pos": "WR76",
       "fp_tier": 9,
-      "fp_adp_avg": "214.43",
+      "fp_adp_avg": "214.23",
       "fp_rank_min": "164",
       "fp_rank_max": "295",
-      "fp_rank_std": "24.68",
+      "fp_rank_std": "24.69",
       "fp_expert_count": 85
     },
     {
@@ -2913,10 +2913,10 @@
       "fp_rank_overall": 208,
       "fp_rank_pos": "DST11",
       "fp_tier": 9,
-      "fp_adp_avg": "201.59",
+      "fp_adp_avg": "201.55",
       "fp_rank_min": "170",
       "fp_rank_max": "331",
-      "fp_rank_std": "26.36",
+      "fp_rank_std": "26.37",
       "fp_expert_count": 85
     },
     {
@@ -2934,31 +2934,31 @@
       "fp_expert_count": 85
     },
     {
-      "name": "Brandon Aubrey",
-      "position": "K",
-      "team": "DAL",
-      "bye": "14",
-      "fp_rank_overall": 210,
-      "fp_rank_pos": "K1",
-      "fp_tier": 9,
-      "fp_adp_avg": "187.68",
-      "fp_rank_min": "158",
-      "fp_rank_max": "321",
-      "fp_rank_std": "22.61",
-      "fp_expert_count": 85
-    },
-    {
       "name": "Darnell Mooney",
       "position": "WR",
       "team": "NYG",
       "bye": "8",
-      "fp_rank_overall": 211,
+      "fp_rank_overall": 210,
       "fp_rank_pos": "WR78",
       "fp_tier": 9,
-      "fp_adp_avg": "205.77",
+      "fp_adp_avg": "205.68",
       "fp_rank_min": "148",
       "fp_rank_max": "274",
-      "fp_rank_std": "20.75",
+      "fp_rank_std": "20.80",
+      "fp_expert_count": 85
+    },
+    {
+      "name": "Brandon Aubrey",
+      "position": "K",
+      "team": "DAL",
+      "bye": "14",
+      "fp_rank_overall": 211,
+      "fp_rank_pos": "K1",
+      "fp_tier": 9,
+      "fp_adp_avg": "187.66",
+      "fp_rank_min": "158",
+      "fp_rank_max": "321",
+      "fp_rank_std": "22.62",
       "fp_expert_count": 85
     },
     {
@@ -2969,10 +2969,10 @@
       "fp_rank_overall": 212,
       "fp_rank_pos": "RB66",
       "fp_tier": 9,
-      "fp_adp_avg": "210.13",
+      "fp_adp_avg": "210.44",
       "fp_rank_min": "147",
       "fp_rank_max": "325",
-      "fp_rank_std": "36.62",
+      "fp_rank_std": "36.45",
       "fp_expert_count": 85
     },
     {
@@ -2997,10 +2997,10 @@
       "fp_rank_overall": 214,
       "fp_rank_pos": "WR79",
       "fp_tier": 9,
-      "fp_adp_avg": "207.69",
+      "fp_adp_avg": "207.72",
       "fp_rank_min": "148",
       "fp_rank_max": "280",
-      "fp_rank_std": "29.68",
+      "fp_rank_std": "29.65",
       "fp_expert_count": 85
     },
     {
@@ -3011,24 +3011,10 @@
       "fp_rank_overall": 215,
       "fp_rank_pos": "DST13",
       "fp_tier": 9,
-      "fp_adp_avg": "217.57",
+      "fp_adp_avg": "217.85",
       "fp_rank_min": "181",
       "fp_rank_max": "349",
-      "fp_rank_std": "30.75",
-      "fp_expert_count": 85
-    },
-    {
-      "name": "Jaylen Wright",
-      "position": "RB",
-      "team": "MIA",
-      "bye": "6",
-      "fp_rank_overall": 216,
-      "fp_rank_pos": "RB67",
-      "fp_tier": 9,
-      "fp_adp_avg": "218.19",
-      "fp_rank_min": "156",
-      "fp_rank_max": "301",
-      "fp_rank_std": "27.48",
+      "fp_rank_std": "30.54",
       "fp_expert_count": 85
     },
     {
@@ -3036,13 +3022,27 @@
       "position": "WR",
       "team": "SEA",
       "bye": "11",
-      "fp_rank_overall": 217,
+      "fp_rank_overall": 216,
       "fp_rank_pos": "WR80",
       "fp_tier": 9,
-      "fp_adp_avg": "226.86",
+      "fp_adp_avg": "227.00",
       "fp_rank_min": "164",
       "fp_rank_max": "302",
-      "fp_rank_std": "30.59",
+      "fp_rank_std": "30.52",
+      "fp_expert_count": 85
+    },
+    {
+      "name": "Jaylen Wright",
+      "position": "RB",
+      "team": "MIA",
+      "bye": "6",
+      "fp_rank_overall": 217,
+      "fp_rank_pos": "RB67",
+      "fp_tier": 9,
+      "fp_adp_avg": "218.76",
+      "fp_rank_min": "156",
+      "fp_rank_max": "301",
+      "fp_rank_std": "26.65",
       "fp_expert_count": 85
     },
     {
@@ -3067,10 +3067,10 @@
       "fp_rank_overall": 219,
       "fp_rank_pos": "K2",
       "fp_tier": 9,
-      "fp_adp_avg": "194.01",
+      "fp_adp_avg": "193.97",
       "fp_rank_min": "174",
       "fp_rank_max": "322",
-      "fp_rank_std": "21.79",
+      "fp_rank_std": "21.80",
       "fp_expert_count": 85
     },
     {
@@ -3081,10 +3081,10 @@
       "fp_rank_overall": 220,
       "fp_rank_pos": "K3",
       "fp_tier": 9,
-      "fp_adp_avg": "196.78",
+      "fp_adp_avg": "196.67",
       "fp_rank_min": "173",
       "fp_rank_max": "323",
-      "fp_rank_std": "22.36",
+      "fp_rank_std": "22.39",
       "fp_expert_count": 85
     },
     {
@@ -3095,10 +3095,10 @@
       "fp_rank_overall": 221,
       "fp_rank_pos": "QB30",
       "fp_tier": 9,
-      "fp_adp_avg": "258.72",
+      "fp_adp_avg": "258.65",
       "fp_rank_min": "173",
       "fp_rank_max": "334",
-      "fp_rank_std": "37.65",
+      "fp_rank_std": "37.50",
       "fp_expert_count": 85
     },
     {
@@ -3109,10 +3109,10 @@
       "fp_rank_overall": 222,
       "fp_rank_pos": "K4",
       "fp_tier": 9,
-      "fp_adp_avg": "201.13",
+      "fp_adp_avg": "201.17",
       "fp_rank_min": "174",
       "fp_rank_max": "325",
-      "fp_rank_std": "23.63",
+      "fp_rank_std": "23.62",
       "fp_expert_count": 85
     },
     {
@@ -3151,10 +3151,10 @@
       "fp_rank_overall": 225,
       "fp_rank_pos": "K5",
       "fp_tier": 9,
-      "fp_adp_avg": "202.96",
+      "fp_adp_avg": "202.75",
       "fp_rank_min": "176",
       "fp_rank_max": "324",
-      "fp_rank_std": "22.13",
+      "fp_rank_std": "22.16",
       "fp_expert_count": 85
     },
     {
@@ -3179,10 +3179,10 @@
       "fp_rank_overall": 227,
       "fp_rank_pos": "DST14",
       "fp_tier": 9,
-      "fp_adp_avg": "221.51",
+      "fp_adp_avg": "222.39",
       "fp_rank_min": "177",
       "fp_rank_max": "340",
-      "fp_rank_std": "30.44",
+      "fp_rank_std": "30.17",
       "fp_expert_count": 85
     },
     {
@@ -3193,10 +3193,10 @@
       "fp_rank_overall": 228,
       "fp_rank_pos": "TE30",
       "fp_tier": 9,
-      "fp_adp_avg": "239.80",
+      "fp_adp_avg": "239.92",
       "fp_rank_min": "179",
       "fp_rank_max": "293",
-      "fp_rank_std": "23.01",
+      "fp_rank_std": "22.83",
       "fp_expert_count": 85
     },
     {
@@ -3249,10 +3249,10 @@
       "fp_rank_overall": 232,
       "fp_rank_pos": "K6",
       "fp_tier": 9,
-      "fp_adp_avg": "212.15",
+      "fp_adp_avg": "211.96",
       "fp_rank_min": "183",
       "fp_rank_max": "328",
-      "fp_rank_std": "21.03",
+      "fp_rank_std": "21.11",
       "fp_expert_count": 85
     },
     {
@@ -3263,10 +3263,10 @@
       "fp_rank_overall": 233,
       "fp_rank_pos": "K7",
       "fp_tier": 9,
-      "fp_adp_avg": "212.56",
+      "fp_adp_avg": "212.79",
       "fp_rank_min": "190",
       "fp_rank_max": "330",
-      "fp_rank_std": "22.76",
+      "fp_rank_std": "22.68",
       "fp_expert_count": 85
     },
     {
@@ -3277,24 +3277,10 @@
       "fp_rank_overall": 234,
       "fp_rank_pos": "K8",
       "fp_tier": 9,
-      "fp_adp_avg": "229.51",
+      "fp_adp_avg": "229.64",
       "fp_rank_min": "185",
       "fp_rank_max": "336",
-      "fp_rank_std": "22.51",
-      "fp_expert_count": 85
-    },
-    {
-      "name": "Buffalo Bills",
-      "position": "DST",
-      "team": "BUF",
-      "bye": "7",
-      "fp_rank_overall": 235,
-      "fp_rank_pos": "DST15",
-      "fp_tier": 9,
-      "fp_adp_avg": "231.21",
-      "fp_rank_min": "187",
-      "fp_rank_max": "354",
-      "fp_rank_std": "29.68",
+      "fp_rank_std": "22.58",
       "fp_expert_count": 85
     },
     {
@@ -3302,13 +3288,27 @@
       "position": "WR",
       "team": "ATL",
       "bye": "11",
-      "fp_rank_overall": 236,
+      "fp_rank_overall": 235,
       "fp_rank_pos": "WR82",
       "fp_tier": 9,
       "fp_adp_avg": "231.81",
       "fp_rank_min": "160",
       "fp_rank_max": "291",
       "fp_rank_std": "32.71",
+      "fp_expert_count": 85
+    },
+    {
+      "name": "Buffalo Bills",
+      "position": "DST",
+      "team": "BUF",
+      "bye": "7",
+      "fp_rank_overall": 236,
+      "fp_rank_pos": "DST15",
+      "fp_tier": 9,
+      "fp_adp_avg": "231.99",
+      "fp_rank_min": "187",
+      "fp_rank_max": "354",
+      "fp_rank_std": "31.54",
       "fp_expert_count": 85
     },
     {
@@ -3319,10 +3319,10 @@
       "fp_rank_overall": 237,
       "fp_rank_pos": "WR83",
       "fp_tier": 9,
-      "fp_adp_avg": "215.25",
+      "fp_adp_avg": "215.21",
       "fp_rank_min": "139",
       "fp_rank_max": "333",
-      "fp_rank_std": "41.05",
+      "fp_rank_std": "41.08",
       "fp_expert_count": 85
     },
     {
@@ -3333,10 +3333,10 @@
       "fp_rank_overall": 238,
       "fp_rank_pos": "RB70",
       "fp_tier": 9,
-      "fp_adp_avg": "252.59",
+      "fp_adp_avg": "252.67",
       "fp_rank_min": "164",
       "fp_rank_max": "364",
-      "fp_rank_std": "40.71",
+      "fp_rank_std": "40.60",
       "fp_expert_count": 85
     },
     {
@@ -3375,10 +3375,10 @@
       "fp_rank_overall": 241,
       "fp_rank_pos": "K9",
       "fp_tier": 9,
-      "fp_adp_avg": "221.14",
+      "fp_adp_avg": "221.27",
       "fp_rank_min": "193",
       "fp_rank_max": "331",
-      "fp_rank_std": "22.10",
+      "fp_rank_std": "22.12",
       "fp_expert_count": 85
     },
     {
@@ -3389,7 +3389,7 @@
       "fp_rank_overall": 242,
       "fp_rank_pos": "K10",
       "fp_tier": 9,
-      "fp_adp_avg": "235.25",
+      "fp_adp_avg": "235.33",
       "fp_rank_min": "186",
       "fp_rank_max": "330",
       "fp_rank_std": "24.92",
@@ -3431,10 +3431,10 @@
       "fp_rank_overall": 245,
       "fp_rank_pos": "K11",
       "fp_tier": 9,
-      "fp_adp_avg": "230.03",
+      "fp_adp_avg": "230.14",
       "fp_rank_min": "190",
       "fp_rank_max": "334",
-      "fp_rank_std": "24.73",
+      "fp_rank_std": "24.67",
       "fp_expert_count": 85
     },
     {
@@ -3459,10 +3459,10 @@
       "fp_rank_overall": 247,
       "fp_rank_pos": "K12",
       "fp_tier": 9,
-      "fp_adp_avg": "224.57",
+      "fp_adp_avg": "224.60",
       "fp_rank_min": "182",
       "fp_rank_max": "332",
-      "fp_rank_std": "23.79",
+      "fp_rank_std": "23.77",
       "fp_expert_count": 85
     },
     {
@@ -3473,10 +3473,10 @@
       "fp_rank_overall": 248,
       "fp_rank_pos": "K13",
       "fp_tier": 9,
-      "fp_adp_avg": "217.93",
+      "fp_adp_avg": "217.83",
       "fp_rank_min": "181",
       "fp_rank_max": "329",
-      "fp_rank_std": "23.89",
+      "fp_rank_std": "23.97",
       "fp_expert_count": 85
     },
     {
@@ -3501,10 +3501,10 @@
       "fp_rank_overall": 250,
       "fp_rank_pos": "DST16",
       "fp_tier": 9,
-      "fp_adp_avg": "215.96",
+      "fp_adp_avg": "215.99",
       "fp_rank_min": "170",
       "fp_rank_max": "337",
-      "fp_rank_std": "35.90",
+      "fp_rank_std": "35.89",
       "fp_expert_count": 85
     },
     {
@@ -3781,38 +3781,10 @@
       "fp_rank_overall": 270,
       "fp_rank_pos": "WR94",
       "fp_tier": 10,
-      "fp_adp_avg": "265.68",
+      "fp_adp_avg": "265.70",
       "fp_rank_min": "177",
       "fp_rank_max": "373",
-      "fp_rank_std": "32.74",
-      "fp_expert_count": 85
-    },
-    {
-      "name": "Chris Bell",
-      "position": "WR",
-      "team": "MIA",
-      "bye": "6",
-      "fp_rank_overall": 271,
-      "fp_rank_pos": "WR95",
-      "fp_tier": 10,
-      "fp_adp_avg": "253.73",
-      "fp_rank_min": "162",
-      "fp_rank_max": "366",
-      "fp_rank_std": "37.78",
-      "fp_expert_count": 85
-    },
-    {
-      "name": "Devaughn Vele",
-      "position": "WR",
-      "team": "NO",
-      "bye": "8",
-      "fp_rank_overall": 272,
-      "fp_rank_pos": "WR96",
-      "fp_tier": 10,
-      "fp_adp_avg": "273.01",
-      "fp_rank_min": "208",
-      "fp_rank_max": "341",
-      "fp_rank_std": "26.53",
+      "fp_rank_std": "32.72",
       "fp_expert_count": 85
     },
     {
@@ -3820,13 +3792,41 @@
       "position": "QB",
       "team": "ATL",
       "bye": "11",
-      "fp_rank_overall": 273,
+      "fp_rank_overall": 271,
       "fp_rank_pos": "QB33",
       "fp_tier": 10,
-      "fp_adp_avg": "290.58",
+      "fp_adp_avg": "291.22",
       "fp_rank_min": "233",
-      "fp_rank_max": "334",
-      "fp_rank_std": "23.66",
+      "fp_rank_max": "337",
+      "fp_rank_std": "24.11",
+      "fp_expert_count": 85
+    },
+    {
+      "name": "Chris Bell",
+      "position": "WR",
+      "team": "MIA",
+      "bye": "6",
+      "fp_rank_overall": 272,
+      "fp_rank_pos": "WR95",
+      "fp_tier": 10,
+      "fp_adp_avg": "253.81",
+      "fp_rank_min": "162",
+      "fp_rank_max": "366",
+      "fp_rank_std": "37.70",
+      "fp_expert_count": 85
+    },
+    {
+      "name": "Devaughn Vele",
+      "position": "WR",
+      "team": "NO",
+      "bye": "8",
+      "fp_rank_overall": 273,
+      "fp_rank_pos": "WR96",
+      "fp_tier": 10,
+      "fp_adp_avg": "273.01",
+      "fp_rank_min": "208",
+      "fp_rank_max": "341",
+      "fp_rank_std": "26.53",
       "fp_expert_count": 85
     },
     {
@@ -4320,17 +4320,31 @@
       "fp_expert_count": 85
     },
     {
+      "name": "Indianapolis Colts",
+      "position": "DST",
+      "team": "IND",
+      "bye": "13",
+      "fp_rank_overall": 309,
+      "fp_rank_pos": "DST19",
+      "fp_tier": 10,
+      "fp_adp_avg": "277.76",
+      "fp_rank_min": "204",
+      "fp_rank_max": "357",
+      "fp_rank_std": "33.50",
+      "fp_expert_count": 85
+    },
+    {
       "name": "Charlie Smyth",
       "position": "K",
       "team": "NO",
       "bye": "8",
-      "fp_rank_overall": 309,
+      "fp_rank_overall": 310,
       "fp_rank_pos": "K18",
       "fp_tier": 10,
-      "fp_adp_avg": "280.63",
-      "fp_rank_min": "214",
+      "fp_adp_avg": "279.92",
+      "fp_rank_min": "211",
       "fp_rank_max": "344",
-      "fp_rank_std": "34.04",
+      "fp_rank_std": "35.11",
       "fp_expert_count": 85
     },
     {
@@ -4338,7 +4352,7 @@
       "position": "WR",
       "team": "FA",
       "bye": null,
-      "fp_rank_overall": 310,
+      "fp_rank_overall": 311,
       "fp_rank_pos": "WR107",
       "fp_tier": 10,
       "fp_adp_avg": "252.54",
@@ -4352,27 +4366,13 @@
       "position": "DST",
       "team": "NO",
       "bye": "8",
-      "fp_rank_overall": 311,
-      "fp_rank_pos": "DST19",
+      "fp_rank_overall": 312,
+      "fp_rank_pos": "DST20",
       "fp_tier": 10,
       "fp_adp_avg": "266.38",
       "fp_rank_min": "190",
       "fp_rank_max": "355",
       "fp_rank_std": "37.14",
-      "fp_expert_count": 85
-    },
-    {
-      "name": "Indianapolis Colts",
-      "position": "DST",
-      "team": "IND",
-      "bye": "13",
-      "fp_rank_overall": 312,
-      "fp_rank_pos": "DST20",
-      "fp_tier": 10,
-      "fp_adp_avg": "279.29",
-      "fp_rank_min": "210",
-      "fp_rank_max": "357",
-      "fp_rank_std": "32.09",
       "fp_expert_count": 85
     },
     {
@@ -4649,10 +4649,10 @@
       "fp_rank_overall": 332,
       "fp_rank_pos": "QB37",
       "fp_tier": 11,
-      "fp_adp_avg": "326.39",
+      "fp_adp_avg": "326.29",
       "fp_rank_min": "271",
       "fp_rank_max": "381",
-      "fp_rank_std": "29.72",
+      "fp_rank_std": "29.70",
       "fp_expert_count": 85
     },
     {
@@ -4810,31 +4810,31 @@
       "fp_expert_count": 85
     },
     {
-      "name": "Carolina Panthers",
-      "position": "DST",
-      "team": "CAR",
-      "bye": "5",
-      "fp_rank_overall": 344,
-      "fp_rank_pos": "DST22",
-      "fp_tier": 11,
-      "fp_adp_avg": "303.63",
-      "fp_rank_min": "219",
-      "fp_rank_max": "385",
-      "fp_rank_std": "42.35",
-      "fp_expert_count": 85
-    },
-    {
       "name": "Olamide Zaccheaus",
       "position": "WR",
       "team": "ATL",
       "bye": "11",
-      "fp_rank_overall": 345,
+      "fp_rank_overall": 344,
       "fp_rank_pos": "WR122",
       "fp_tier": 11,
       "fp_adp_avg": "303.88",
       "fp_rank_min": "238",
       "fp_rank_max": "364",
       "fp_rank_std": "36.96",
+      "fp_expert_count": 85
+    },
+    {
+      "name": "Carolina Panthers",
+      "position": "DST",
+      "team": "CAR",
+      "bye": "5",
+      "fp_rank_overall": 345,
+      "fp_rank_pos": "DST22",
+      "fp_tier": 11,
+      "fp_adp_avg": "304.88",
+      "fp_rank_min": "219",
+      "fp_rank_max": "385",
+      "fp_rank_std": "41.02",
       "fp_expert_count": 85
     },
     {
@@ -4915,10 +4915,10 @@
       "fp_rank_overall": 351,
       "fp_rank_pos": "DST23",
       "fp_tier": 11,
-      "fp_adp_avg": "267.40",
+      "fp_adp_avg": "267.30",
       "fp_rank_min": "136",
       "fp_rank_max": "379",
-      "fp_rank_std": "67.71",
+      "fp_rank_std": "67.84",
       "fp_expert_count": 85
     },
     {
@@ -4950,31 +4950,31 @@
       "fp_expert_count": 85
     },
     {
-      "name": "Ty Simpson",
-      "position": "QB",
-      "team": "LAR",
-      "bye": "11",
-      "fp_rank_overall": 354,
-      "fp_rank_pos": "QB39",
-      "fp_tier": 11,
-      "fp_adp_avg": "336.32",
-      "fp_rank_min": "300",
-      "fp_rank_max": "386",
-      "fp_rank_std": "26.25",
-      "fp_expert_count": 85
-    },
-    {
       "name": "Justin Fields",
       "position": "QB",
       "team": "KC",
       "bye": "5",
+      "fp_rank_overall": 354,
+      "fp_rank_pos": "QB39",
+      "fp_tier": 11,
+      "fp_adp_avg": "342.00",
+      "fp_rank_min": "297",
+      "fp_rank_max": "386",
+      "fp_rank_std": "24.62",
+      "fp_expert_count": 85
+    },
+    {
+      "name": "Ty Simpson",
+      "position": "QB",
+      "team": "LAR",
+      "bye": "11",
       "fp_rank_overall": 355,
       "fp_rank_pos": "QB40",
       "fp_tier": 11,
-      "fp_adp_avg": "341.64",
-      "fp_rank_min": "297",
+      "fp_adp_avg": "336.29",
+      "fp_rank_min": "300",
       "fp_rank_max": "386",
-      "fp_rank_std": "24.79",
+      "fp_rank_std": "26.87",
       "fp_expert_count": 85
     },
     {
@@ -5335,10 +5335,10 @@
       "fp_rank_overall": 381,
       "fp_rank_pos": "QB42",
       "fp_tier": 12,
-      "fp_adp_avg": "342.54",
+      "fp_adp_avg": "342.62",
       "fp_rank_min": "305",
       "fp_rank_max": "388",
-      "fp_rank_std": "25.60",
+      "fp_rank_std": "25.57",
       "fp_expert_count": 85
     },
     {
@@ -6028,11 +6028,25 @@
       "fp_expert_count": 85
     },
     {
+      "name": "Washington Commanders",
+      "position": "DST",
+      "team": "WAS",
+      "bye": "7",
+      "fp_rank_overall": 431,
+      "fp_rank_pos": "DST30",
+      "fp_tier": 12,
+      "fp_adp_avg": "325.80",
+      "fp_rank_min": "190",
+      "fp_rank_max": "382",
+      "fp_rank_std": "69.95",
+      "fp_expert_count": 85
+    },
+    {
       "name": "John Bates",
       "position": "TE",
       "team": "WAS",
       "bye": "7",
-      "fp_rank_overall": 431,
+      "fp_rank_overall": 432,
       "fp_rank_pos": "TE64",
       "fp_tier": 12,
       "fp_adp_avg": "331.40",
@@ -6046,27 +6060,13 @@
       "position": "TE",
       "team": "FA",
       "bye": null,
-      "fp_rank_overall": 432,
+      "fp_rank_overall": 433,
       "fp_rank_pos": "TE65",
       "fp_tier": 12,
       "fp_adp_avg": "348.20",
       "fp_rank_min": "252",
       "fp_rank_max": "452",
       "fp_rank_std": "81.08",
-      "fp_expert_count": 85
-    },
-    {
-      "name": "Washington Commanders",
-      "position": "DST",
-      "team": "WAS",
-      "bye": "7",
-      "fp_rank_overall": 433,
-      "fp_rank_pos": "DST30",
-      "fp_tier": 12,
-      "fp_adp_avg": "354.40",
-      "fp_rank_min": "330",
-      "fp_rank_max": "382",
-      "fp_rank_std": "19.93",
       "fp_expert_count": 85
     },
     {

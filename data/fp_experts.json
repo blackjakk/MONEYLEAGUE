@@ -2,6 +2,12 @@
  "fetched": true,
  "experts": [
   {
+   "id": 1204,
+   "name": "Derek Brown",
+   "site": "FantasyPros",
+   "draft_rank": "164"
+  },
+  {
    "id": 4176,
    "name": "Alfredo Brown",
    "site": "The Pretend GM",
@@ -72,12 +78,6 @@
    "name": "Lou Brunson",
    "site": "Optimus Fantasy Football",
    "draft_rank": "194"
-  },
-  {
-   "id": 1204,
-   "name": "Derek Brown",
-   "site": "FantasyPros",
-   "draft_rank": "164"
   },
   {
    "id": 4616,
