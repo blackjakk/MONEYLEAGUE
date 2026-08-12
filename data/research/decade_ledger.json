@@ -385,5 +385,184 @@
       "star_concede": false,
       "qb_in": false
     }
-  ]
+  ],
+  "season_headliners": {
+    "2011": {
+      "season": 2011,
+      "week": 4,
+      "winner": "kyle_figgy",
+      "loser": "coop",
+      "par": 227.0,
+      "got_winner": [
+        "Cam Newton",
+        "Steve Smith"
+      ],
+      "got_loser": [
+        "Andy Dalton",
+        "Chris Johnson"
+      ]
+    },
+    "2012": {
+      "season": 2012,
+      "week": 3,
+      "winner": "nark",
+      "loser": "jp_former",
+      "par": 125.0,
+      "got_winner": [
+        "BenJarvus Green-Ellis"
+      ],
+      "got_loser": [
+        "Kevin Smith"
+      ]
+    },
+    "2013": {
+      "season": 2013,
+      "week": 4,
+      "winner": "nick_lewis_left",
+      "loser": "brian_bigguap",
+      "par": 225.6,
+      "got_winner": [
+        "C.J. Spiller",
+        "Matthew Stafford"
+      ],
+      "got_loser": [
+        "Trent Richardson",
+        "Michael Vick"
+      ]
+    },
+    "2014": {
+      "season": 2014,
+      "week": 3,
+      "winner": "trevor_bergerboy",
+      "loser": "brian_bigguap",
+      "par": 188.9,
+      "got_winner": [
+        "Ryan Tannehill",
+        "Ben Tate"
+      ],
+      "got_loser": [
+        "Bernard Pierce",
+        "Carson Palmer"
+      ]
+    },
+    "2015": {
+      "season": 2015,
+      "week": 6,
+      "winner": "trevor_bergerboy",
+      "loser": "kyle_figgy",
+      "par": 162.1,
+      "got_winner": [
+        "Antonio Gates"
+      ],
+      "got_loser": [
+        "Colin Kaepernick"
+      ]
+    },
+    "2016": {
+      "season": 2016,
+      "week": 10,
+      "winner": "coop",
+      "loser": "brian_bigguap",
+      "par": 157.5,
+      "got_winner": [
+        "LeSean McCoy",
+        "Allen Robinson"
+      ],
+      "got_loser": [
+        "Stefon Diggs",
+        "A.J. Green"
+      ]
+    },
+    "2017": {
+      "season": 2017,
+      "week": 5,
+      "winner": "coop",
+      "loser": "tim_breswick",
+      "par": 324.5,
+      "got_winner": [
+        "Le'Veon Bell",
+        "Drew Brees"
+      ],
+      "got_loser": [
+        "LeGarrette Blount",
+        "Carson Palmer"
+      ]
+    },
+    "2018": {
+      "season": 2018,
+      "week": 2,
+      "winner": "dave_aka_wang",
+      "loser": "lem",
+      "par": 142.1,
+      "got_winner": [
+        "Travis Kelce"
+      ],
+      "got_loser": [
+        "T.J. Yeldon",
+        "Trey Burton"
+      ]
+    },
+    "2019": {
+      "season": 2019,
+      "week": 10,
+      "winner": "brian_bigguap",
+      "loser": "tim_breswick",
+      "par": 219.7,
+      "got_winner": [
+        "Julio Jones",
+        "Ronald Jones",
+        "Carson Wentz"
+      ],
+      "got_loser": [
+        "James Conner",
+        "A.J. Green",
+        "Case Keenum"
+      ]
+    },
+    "2020": {
+      "season": 2020,
+      "week": 8,
+      "winner": "coop",
+      "loser": "donnie",
+      "par": 186.2,
+      "got_winner": [
+        "Davante Adams"
+      ],
+      "got_loser": [
+        "Justin Jefferson"
+      ]
+    },
+    "2021": {
+      "season": 2021,
+      "week": 10,
+      "winner": "troy_mullings",
+      "loser": "eric_m",
+      "par": 221.6,
+      "got_winner": [
+        "Cooper Kupp",
+        "Austin Ekeler",
+        "Diontae Johnson"
+      ],
+      "got_loser": [
+        "Brandin Cooks",
+        "Tyler Conklin",
+        "David Johnson"
+      ]
+    },
+    "2022": {
+      "season": 2022,
+      "week": 7,
+      "winner": "ankur_patel",
+      "loser": "donnie",
+      "par": 128.1,
+      "got_winner": [
+        "Derrick Henry",
+        "Stefon Diggs"
+      ],
+      "got_loser": [
+        "Tony Pollard",
+        "DJ Moore"
+      ]
+    }
+  }
 }

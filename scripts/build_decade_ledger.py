@@ -155,6 +155,7 @@ def main() -> None:
         (ROOT / "data/league_history/yahoo_era.json").read_text()).items()}
 
     all_sides = []
+    headliner_pool: list[dict] = []
     unresolved: dict[str, int] = defaultdict(int)
     for season in SEASONS:
         weeks = load_week_stats(season)
@@ -190,12 +191,25 @@ def main() -> None:
                         unresolved[p["name"]] += 1
                         continue
                     p_par = ros_par(pid, p["pos"], t["week"])
-                    legs[who].append({"pos": p["pos"], "par": p_par})
+                    legs[who].append({"name": canon, "pos": p["pos"],
+                                      "par": p_par})
                     par += p_par
                 sides[who] = par
             best = max((leg["par"] for who in legs for leg in legs[who]),
                        default=0.0)
             a, b = t["a"], t["b"]
+            # season-headliner candidate: the trade itself, names kept,
+            # from the winning side's perspective (the Almanac reads this)
+            win, lose = (a, b) if sides[a] >= sides[b] else (b, a)
+            headliner_pool.append({
+                "season": t["season"], "week": t["week"],
+                "winner": win, "loser": lose,
+                "par": round(sides[win] - sides[lose], 1),
+                "got_winner": [leg["name"] for leg in sorted(
+                    legs[win], key=lambda x: -x["par"])],
+                "got_loser": [leg["name"] for leg in sorted(
+                    legs[lose], key=lambda x: -x["par"])],
+            })
             for who, other in ((a, b), (b, a)):
                 all_sides.append({
                     "season": t["season"], "week": t["week"],
@@ -262,6 +276,13 @@ def main() -> None:
                                      key=lambda kv: -pair_deals[kv[0]])
                   if pair_deals[k] >= 3},
         "biggest": sorted(all_sides, key=lambda s: -s["par"])[:10],
+        # per-season swing trade WITH player names — the Almanac's
+        # "season story" strip reads these for 2011-2022
+        "season_headliners": {
+            str(s): max((h for h in headliner_pool if h["season"] == s),
+                        key=lambda h: h["par"])
+            for s in sorted({h["season"] for h in headliner_pool})
+        },
     }
     OUT.write_text(json.dumps(result, indent=2))
     print(f"[decade_ledger] {len(all_sides)} sides graded; "

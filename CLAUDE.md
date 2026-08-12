@@ -520,7 +520,19 @@ goal docs: GOAL_RESEARCH.md, GOAL_OPTIONS.md). Caches: `data/scouting/`
   position-colored players, TRUE owner tag per pick from the xlsx
   cell-color record, champion's picks bold). Seasons AUTO-DISCOVERED
   (xlsx boards + yahoo_era + Sleeper brackets) — 2026 folds in once
-  its board and bracket exist, zero edits. Keeper lock
+  its board and bracket exist, zero edits. v2 (same day,
+  user-prompted): cover gains READING THE BOARDS legend + ALL-TIME
+  RECORD BOOK (best record TREV 13-1 '14, top week TROY 224.2 W5'23,
+  cruelest beat FIG by 0.02 over COOP W15'12, biggest heist COOP +324);
+  every season page gains a SEASON STORY strip — the final's score,
+  shootout, top week, swing trade WITH players, champion's engine
+  (Sleeper era = points started in champ's lineup; Yahoo era =
+  draft-class season totals, no lineup data survives). Board cells are
+  two-line (owner tag never lost to ellipsis; names >13 chars
+  first-initialed). Feeder: decade_ledger.json now exports
+  season_headliners (per-season biggest trade w/ player names) —
+  build_decade_ledger.py is NOT in the weekly pipeline; rerun by hand
+  if the ledger method ever changes. Keeper lock
   = 5-min runbook: docs/KEEPER_LOCK.md + lock_keepers.py validator
   (template data/keepers_2026_actual.TEMPLATE.json; enforces cap/floor/
   bump/ownership; then refresh derive sim reports verify).
