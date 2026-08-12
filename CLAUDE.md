@@ -76,10 +76,24 @@ fetch|derive|sim|reports|helper|verify). **Read docs/PIPELINE.md first.**
    Achane+Puka simultaneously, coop loses McBride+Jamo — half the
    league holds ≥1 expiring asset; Brian holds ZERO (all fresh) and a
    full 2027 pick set (the currency forced sellers want).
-10. LOW-SCORE TAX (user, Jul 2026; RULE STARTED 2022): each week the
-    LOW scorer pays the TOP scorer $15, escalating +$5 per additional
-    low week by the same owner that season (4th low week = $30).
-    Regular-season weeks only (USER-CONFIRMED, pre-playoffs).
+10. LOW-SCORE TAX (user Jul 2026; HISTORY CORRECTED from the xlsx
+    note rows Aug 12 — user sent me to the excel): the tax is OLDER
+    than first reported. 2017-18: $10 flat low→top, born as an
+    ANTI-TANK measure ("as a way to prevent tanking. Fuck the
+    Process" — FF2017 sheet); 2019-21: new teams $10 flat, old teams
+    10+5 per CONSECUTIVE low week (FF2019); 2022+: $15 +$5 per
+    additional low week that season (4th low = $30), the current form
+    (the user's "started 2022" = this form). Regular-season only
+    (USER-CONFIRMED, pre-playoffs). MONEY STRUCTURE (xlsx + user):
+    winner takes the pot, regular-season best gets buy-in back (voted
+    on FF2016 sheet, effective 2016 — playoffs went 4→6 same year);
+    dues $75 2015, $100 2016-21 (2016-17 assumed), $150 since 2022.
+    Brian's dues cells show 'x' (commish books) — assumed he pays like
+    all. ALL-TIME PURSE (2016-25, in the Almanac cover + per-season
+    THE PURSE lines): TREV +$1,715 / COOP +$1,420 / DAVE +$1,315
+    (also TAX KING +$265) at the top; DON dead last −$1,390 (tax
+    −$190) just under BRI −$1,255 (tax −$155, worst tax bleed);
+    TROY won a ring AND is down money (−$120; tax donkey −$120).
     Rule-era ledger 2022-25 (scratch, on record): BRIAN
     IS DEAD LAST (7 low wks, paid $150, collected $15 once, net
     −$135; $90 in 2025 alone). Trevor +$125 / Dave +$120 / brower
@@ -546,7 +560,13 @@ goal docs: GOAL_RESEARCH.md, GOAL_OPTIONS.md). Caches: `data/scouting/`
   ≥100 — and his tanks rarely convert: 12→12, 12→10). THE GREAT TANK:
   FIG 2015 (666 PAR/7 deals → 2016 CHAMPION). Tank ROI: 2/18 tank
   yrs → next-yr title (fig'15, dave'20), avg climb ~3.5 ranks. Brian
-  tanked 2023 (180 PAR, 11th→5th). Keeper lock
+  tanked 2023 (180 PAR, 11th→5th). MONEY LAYER (Aug 12, truth #10
+  corrected): tax_ledger() applies the per-era fine rules from the
+  xlsx notes to every reg-season week 2017-25; purse tracks the
+  winner-takes-all pot + reg-season refund from 2016; cover carries
+  THE PURSE all-time money table + THE MONEY RULES; season pages get
+  a THE PURSE story row (champ collects / who plays free / tax
+  extremes). 2026 folds in when its bracket decides. Keeper lock
   = 5-min runbook: docs/KEEPER_LOCK.md + lock_keepers.py validator
   (template data/keepers_2026_actual.TEMPLATE.json; enforces cap/floor/
   bump/ownership; then refresh derive sim reports verify).

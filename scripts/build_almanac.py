@@ -426,6 +426,66 @@ def tank_ledger() -> dict[int, dict[str, dict]]:
 
 TANK_BAR = 150      # PAR sold for capital in one season = a tank year
 
+# ---- the money rules, straight from the xlsx note rows ----
+# 2015: "75 dollar buyin" (payout split undocumented — purse starts 2016)
+# 2016: "Rules Changes: Regular Season Champs, Money Back. League Champ
+#        wins rest of money" (playoff 4->6 change alongside it took
+#        effect in 2016 — playoffs started W14 that year — so this did too)
+# dues documented $100 for 2018-2021, $150 from 2022; 2016-17 assumed $100
+DUES = {2015: 75} | {s: 100 for s in range(2016, 2022)} \
+    | {s: 150 for s in range(2022, 2040)}
+PURSE_START = 2016
+# the low-score tax (xlsx note rows, per season sheet):
+# 2017-18: "$10 will be paid by lowest scoring team to highest scoring
+#           team each week as a way to prevent tanking" (flat $10)
+# 2019-21: "new teams pay 10 flat . old teams 10+5 per consecutive week"
+# 2022+  : "Update: Low score pays 15 with +5 each low week" (cumulative)
+TAX_START = 2017
+
+
+def week_fine(season: int, prior_lows: int, streak: int,
+              rookie_mgr: bool) -> int:
+    if season < TAX_START:
+        return 0
+    if season <= 2018:
+        return 10
+    if season <= 2021:
+        return 10 if rookie_mgr else 10 + 5 * max(0, streak - 1)
+    return 15 + 5 * prior_lows
+
+
+def tax_ledger(all_games: dict[int, list[dict]],
+               debuts: dict[str, int]) -> dict[int, dict[str, dict]]:
+    """season -> manager -> {paid, got, lows, tops} under that
+    season's fine rule (regular-season weeks only)."""
+    out: dict[int, dict[str, dict]] = {}
+    for season, games in sorted(all_games.items()):
+        if season < TAX_START:
+            continue
+        rows: dict[str, dict] = defaultdict(
+            lambda: {"paid": 0, "got": 0, "lows": 0, "tops": 0})
+        streaks: dict[str, int] = defaultdict(int)
+        weeks = sorted({g["week"] for g in games if not g["playoffs"]})
+        for wk in weeks:
+            scores = [(m, p) for g in games
+                      if g["week"] == wk and not g["playoffs"]
+                      for m, p in g["sides"] if m]
+            if len(scores) < 4:
+                continue
+            low_m, _ = min(scores, key=lambda s: s[1])
+            top_m, _ = max(scores, key=lambda s: s[1])
+            fine = week_fine(season, rows[low_m]["lows"],
+                             streaks[low_m] + 1,
+                             debuts.get(low_m) == season)
+            rows[low_m]["paid"] += fine
+            rows[low_m]["lows"] += 1
+            rows[top_m]["got"] += fine
+            rows[top_m]["tops"] += 1
+            for m in {m for m, _ in scores}:
+                streaks[m] = (streaks[m] + 1) if m == low_m else 0
+        out[season] = dict(rows)
+    return out
+
 
 def build_html() -> str:
     era = {int(k): v for k, v in json.loads(
@@ -448,6 +508,42 @@ def build_html() -> str:
     trades = swing_trades()
     tanks = tank_ledger()
     from fantasy_draft.name_aliases import resolve_xlsx_name
+
+    # ---------------- the money: tax ledger + purse ----------------
+    all_gm = {**yg, **sg}
+    debuts: dict[str, int] = {}
+    for s in sorted(set(era) | set(sl_stand)):
+        for r in (era[s]["teams"] if s in era else sl_stand[s]):
+            debuts.setdefault(r["manager"], s)
+    taxes = tax_ledger(all_gm, debuts)
+
+    def reg_winner(season: int) -> str | None:
+        if season in era:
+            return next((t["manager"] for t in era[season]["teams"]
+                         if str(t.get("playoff_seed")) == "1"), None)
+        rows = sl_stand.get(season) or []
+        return rows[0]["manager"] if rows else None
+
+    purse: dict[str, dict] = defaultdict(
+        lambda: {"net": 0, "titles": 0, "reg": 0, "tax": 0, "seasons": 0})
+    for s in sorted(set(era) | set(sl_stand)):
+        if s < PURSE_START or not champs.get(s):
+            continue
+        entrants = [r["manager"] for r in
+                    (era[s]["teams"] if s in era else sl_stand[s])]
+        dues = DUES.get(s, 150)
+        for m in entrants:
+            purse[m]["net"] -= dues
+            purse[m]["seasons"] += 1
+        rw = reg_winner(s)
+        if rw:
+            purse[rw]["net"] += dues
+            purse[rw]["reg"] += 1
+        purse[champs[s]]["net"] += dues * (len(entrants) - 1)
+        purse[champs[s]]["titles"] += 1
+        for m, r in taxes.get(s, {}).items():
+            purse[m]["net"] += r["got"] - r["paid"]
+            purse[m]["tax"] += r["got"] - r["paid"]
 
     def label(mid) -> str:
         return SHORT.get(mid, (mid or "?")[:4].upper())
@@ -544,6 +640,22 @@ def build_html() -> str:
                 items.append((f"CHAMP'S ENGINE",
                               " · ".join(bits) + f' <span class="own">'
                               f"{tag}</span>"))
+        if champ and season >= PURSE_START:
+            dues = DUES.get(season, 150)
+            n = len(standings_rows(season)) or 12
+            bits = [f'<b>{esc(label(champ))}</b> collects '
+                    f'${dues * (n - 1):,}']
+            rw = reg_winner(season)
+            if rw:
+                bits.append(f'{esc(label(rw))} plays free (reg-season best)')
+            tx = taxes.get(season) or {}
+            if tx:
+                pm, pr = max(tx.items(), key=lambda kv: kv[1]["paid"])
+                gm, gr = max(tx.items(), key=lambda kv: kv[1]["got"])
+                bits.append(f'tax: {esc(label(pm))} paid ${pr["paid"]} '
+                            f'({pr["lows"]} lows), {esc(label(gm))} '
+                            f'collected ${gr["got"]}')
+            items.append(("THE PURSE", " · ".join(bits)))
         return items
 
     def story_table(season: int) -> str:
@@ -695,6 +807,21 @@ def build_html() -> str:
                        for lbl, txt in rec_rows))
     legend = " ".join(f'<span class="{cls}"><b>{pos}</b></span>'
                       for pos, cls in POS_CLASS.items())
+    purse_rows = "".join(
+        f'<tr><td class="ml-num">{i}</td><td>{esc(label(m))}</td>'
+        f'<td class="ml-num"><b>{v["net"]:+,}</b></td>'
+        f'<td class="ml-num">{v["titles"] or ""}</td>'
+        f'<td class="ml-num">{v["reg"] or ""}</td>'
+        f'<td class="ml-num">{v["tax"]:+}</td>'
+        f'<td class="ml-num">{v["seasons"]}</td></tr>'
+        for i, (m, v) in enumerate(
+            sorted(purse.items(), key=lambda kv: -kv[1]["net"]), 1))
+    purse_table = (
+        '<table class="ml-table ml-table--compact roll purse">'
+        '<thead><tr><th></th><th>Manager</th><th class="ml-num">Net $</th>'
+        '<th class="ml-num">🏆</th><th class="ml-num">Reg</th>'
+        '<th class="ml-num">Tax $</th><th class="ml-num">Yrs</th>'
+        '</tr></thead>' f'<tbody>{purse_rows}</tbody></table>')
 
     h = ['<html data-theme="light"><head><meta charset="utf-8"><style>'
          + report_base_css() + bpr.banknote_css() + """
@@ -734,7 +861,8 @@ def build_html() -> str:
     .own { color: var(--ml-muted); font-size: 4.8pt; letter-spacing: .3px; }
     .champ { font-weight: 700; }
     .banner { margin: 2px 0 8px; }
-    .roll td, .roll th { padding: 2px 8px; }
+    .roll td, .roll th { padding: 1.5px 7px; }
+    .purse td, .purse th { padding: 1px 6px; font-size: 7pt; }
     .fourup { display: grid; grid-template-columns: repeat(4, 1fr);
               gap: 10px; align-items: start; }
     .bn-foot { margin-top: 8px; font-size: 6.2pt; }
@@ -749,7 +877,11 @@ def build_html() -> str:
              '<table class="ml-table ml-table--compact roll">'
              '<thead><tr><th>Year</th><th>Champion</th><th>Runner-up</th>'
              '<th class="ml-num">Teams</th></tr></thead>'
-             f'<tbody>{roll}</tbody></table></div><div>'
+             f'<tbody>{roll}</tbody></table>'
+             '<div class="ml-h-label" style="margin-top:8px">THE PURSE — '
+             'ALL-TIME MONEY (2016–)</div>'
+             f'{purse_table}'
+             '</div><div>'
              '<div class="ml-h-label">TITLES</div>'
              f'<p>{titles}</p>'
              '<div class="ml-h-label" style="margin-top:8px">THE RECORD</div>'
@@ -775,6 +907,16 @@ def build_html() -> str:
              '<div class="ml-h-label" style="margin-top:8px">ALL-TIME '
              'RECORD BOOK</div>'
              f'<table class="story rec">{records}</table>'
+             '<div class="ml-h-label" style="margin-top:8px">THE MONEY '
+             'RULES</div>'
+             '<p>Winner takes the pot; the regular-season best plays free '
+             '(voted 2016). The low-score tax flows weekly to the top '
+             'scorer — $10 flat 2017-18 (born "to prevent tanking"), '
+             '10+5 per consecutive low 2019-21 (newcomers flat $10), '
+             '15+5 per low week since 2022 — regular season only. Dues '
+             '$75 (2015), $100 (2016-21; 2016-17 assumed), $150 since '
+             '2022. Purse table: Net $ = winnings + refunds + tax net − '
+             'dues, from 2016; Tax $ = career tax net since 2017.</p>'
              '</div></div>')
 
     # pre-board years, four-up
