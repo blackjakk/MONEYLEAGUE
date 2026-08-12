@@ -2,6 +2,12 @@
  "fetched": true,
  "experts": [
   {
+   "id": 4176,
+   "name": "Alfredo Brown",
+   "site": "The Pretend GM",
+   "draft_rank": "55"
+  },
+  {
    "id": 285,
    "name": "Dalton Del Don",
    "site": "The Deep Shot",
@@ -246,12 +252,6 @@
    "name": "Kevin Roberts",
    "site": "The DFS Build",
    "draft_rank": "68"
-  },
-  {
-   "id": 4176,
-   "name": "Alfredo Brown",
-   "site": "The Pretend GM",
-   "draft_rank": "55"
   },
   {
    "id": 7616,

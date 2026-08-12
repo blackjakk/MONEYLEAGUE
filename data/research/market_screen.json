@@ -140,7 +140,7 @@
       "fp_rank": 47,
       "fp_round": 4,
       "fp_slot": "R4.12",
-      "gap": 30.1,
+      "gap": 30.2,
       "gap_rounds": 2.5,
       "read": "experts see R4 \u00b7 the room pays R7"
     },
@@ -273,11 +273,11 @@
       "sleeper_adp": 170.6,
       "sleeper_round": 15,
       "sleeper_slot": "R15.02",
-      "fp_pick": 244.9,
+      "fp_pick": 245.0,
       "fp_rank": 250,
       "fp_round": 21,
-      "fp_slot": "R21.04",
-      "gap": -74.3,
+      "fp_slot": "R21.05",
+      "gap": -74.4,
       "gap_rounds": -6.2,
       "read": "the room pays R15 \u00b7 experts see R21"
     },
@@ -303,11 +303,11 @@
       "sleeper_adp": 128.2,
       "sleeper_round": 11,
       "sleeper_slot": "R11.08",
-      "fp_pick": 197.6,
+      "fp_pick": 197.7,
       "fp_rank": 175,
       "fp_round": 17,
       "fp_slot": "R17.05",
-      "gap": -69.4,
+      "gap": -69.5,
       "gap_rounds": -5.8,
       "read": "the room pays R11 \u00b7 experts see R17"
     },
@@ -348,11 +348,11 @@
       "sleeper_adp": 118.6,
       "sleeper_round": 10,
       "sleeper_slot": "R10.10",
-      "fp_pick": 180.5,
+      "fp_pick": 180.6,
       "fp_rank": 162,
       "fp_round": 15,
       "fp_slot": "R15.12",
-      "gap": -61.9,
+      "gap": -62.0,
       "gap_rounds": -5.2,
       "read": "the room pays R10 \u00b7 experts see R15"
     },
@@ -408,11 +408,11 @@
         "fp_round": 11,
         "gap": 16,
         "read": "our board R10 \u00b7 their paper R11",
-        "reach": 0.667,
-        "reach_pct": 67,
+        "reach": 0.661,
+        "reach_pct": 66,
         "reach_pick": 126,
         "reach_round": 11,
-        "edge_score": 10.7
+        "edge_score": 10.6
       },
       {
         "name": "Brock Bowers",
@@ -561,9 +561,9 @@
         "team": "CAR",
         "model_rank": 157,
         "model_round": 14,
-        "fp_rank": 91,
+        "fp_rank": 92,
         "fp_round": 8,
-        "gap": -66,
+        "gap": -65,
         "read": "our board R14 \u00b7 their paper R8"
       },
       {
