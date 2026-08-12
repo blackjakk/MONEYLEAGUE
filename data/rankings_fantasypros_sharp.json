@@ -179,19 +179,19 @@
       "name": "Chris Olave",
       "position": "WR",
       "sharp_rank": 21,
-      "sharp_std": "3.13"
-    },
-    {
-      "name": "Nico Collins",
-      "position": "WR",
-      "sharp_rank": 22,
-      "sharp_std": "5.18"
+      "sharp_std": "3.00"
     },
     {
       "name": "George Pickens",
       "position": "WR",
+      "sharp_rank": 22,
+      "sharp_std": "3.86"
+    },
+    {
+      "name": "Nico Collins",
+      "position": "WR",
       "sharp_rank": 23,
-      "sharp_std": "3.72"
+      "sharp_std": "5.18"
     },
     {
       "name": "Derrick Henry",
@@ -209,7 +209,7 @@
       "name": "Rashee Rice",
       "position": "WR",
       "sharp_rank": 26,
-      "sharp_std": "6.04"
+      "sharp_std": "5.96"
     },
     {
       "name": "Drake Maye",
@@ -224,28 +224,28 @@
       "sharp_std": "5.00"
     },
     {
+      "name": "Malik Nabers",
+      "position": "WR",
+      "sharp_rank": 29,
+      "sharp_std": "10.11"
+    },
+    {
       "name": "Kenneth Walker III",
       "position": "RB",
-      "sharp_rank": 29,
+      "sharp_rank": 30,
       "sharp_std": "12.47"
     },
     {
       "name": "DeVonta Smith",
       "position": "WR",
-      "sharp_rank": 30,
-      "sharp_std": "8.50"
+      "sharp_rank": 31,
+      "sharp_std": "8.31"
     },
     {
       "name": "Zay Flowers",
       "position": "WR",
-      "sharp_rank": 31,
-      "sharp_std": "8.13"
-    },
-    {
-      "name": "Malik Nabers",
-      "position": "WR",
       "sharp_rank": 32,
-      "sharp_std": "15.18"
+      "sharp_std": "8.13"
     },
     {
       "name": "Josh Jacobs",
@@ -257,37 +257,37 @@
       "name": "Tetairoa McMillan",
       "position": "WR",
       "sharp_rank": 34,
-      "sharp_std": "4.58"
+      "sharp_std": "4.82"
     },
     {
       "name": "Ladd McConkey",
       "position": "WR",
       "sharp_rank": 35,
-      "sharp_std": "8.59"
+      "sharp_std": "8.60"
     },
     {
       "name": "Tee Higgins",
       "position": "WR",
       "sharp_rank": 36,
-      "sharp_std": "4.92"
-    },
-    {
-      "name": "Garrett Wilson",
-      "position": "WR",
-      "sharp_rank": 37,
-      "sharp_std": "4.99"
+      "sharp_std": "5.02"
     },
     {
       "name": "Breece Hall",
       "position": "RB",
-      "sharp_rank": 38,
+      "sharp_rank": 37,
       "sharp_std": "1.41"
     },
     {
       "name": "Jaylen Waddle",
       "position": "WR",
-      "sharp_rank": 39,
+      "sharp_rank": 38,
       "sharp_std": "4.43"
+    },
+    {
+      "name": "Garrett Wilson",
+      "position": "WR",
+      "sharp_rank": 39,
+      "sharp_std": "4.07"
     },
     {
       "name": "Kyren Williams",
@@ -320,16 +320,16 @@
       "sharp_std": "9.94"
     },
     {
-      "name": "Terry McLaurin",
-      "position": "WR",
-      "sharp_rank": 45,
-      "sharp_std": "2.41"
-    },
-    {
       "name": "Joe Burrow",
       "position": "QB",
-      "sharp_rank": 46,
+      "sharp_rank": 45,
       "sharp_std": "7.60"
+    },
+    {
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "sharp_rank": 46,
+      "sharp_std": "3.69"
     },
     {
       "name": "Jameson Williams",
@@ -347,19 +347,19 @@
       "name": "Emeka Egbuka",
       "position": "WR",
       "sharp_rank": 49,
-      "sharp_std": "11.31"
+      "sharp_std": "11.08"
     },
     {
       "name": "Davante Adams",
       "position": "WR",
       "sharp_rank": 50,
-      "sharp_std": "7.89"
+      "sharp_std": "7.80"
     },
     {
       "name": "Luther Burden III",
       "position": "WR",
       "sharp_rank": 51,
-      "sharp_std": "6.24"
+      "sharp_std": "8.04"
     },
     {
       "name": "Travis Etienne Jr.",
@@ -374,22 +374,22 @@
       "sharp_std": "11.13"
     },
     {
-      "name": "Christian Watson",
-      "position": "WR",
-      "sharp_rank": 54,
-      "sharp_std": "7.70"
-    },
-    {
       "name": "Mike Evans",
       "position": "WR",
-      "sharp_rank": 55,
-      "sharp_std": "6.20"
+      "sharp_rank": 54,
+      "sharp_std": "6.57"
     },
     {
       "name": "Cam Skattebo",
       "position": "RB",
-      "sharp_rank": 56,
+      "sharp_rank": 55,
       "sharp_std": "3.44"
+    },
+    {
+      "name": "Christian Watson",
+      "position": "WR",
+      "sharp_rank": 56,
+      "sharp_std": "7.06"
     },
     {
       "name": "D'Andre Swift",
@@ -464,16 +464,16 @@
       "sharp_std": "13.57"
     },
     {
-      "name": "DJ Moore",
-      "position": "WR",
-      "sharp_rank": 69,
-      "sharp_std": "20.58"
-    },
-    {
       "name": "Courtland Sutton",
       "position": "WR",
+      "sharp_rank": 69,
+      "sharp_std": "11.87"
+    },
+    {
+      "name": "DJ Moore",
+      "position": "WR",
       "sharp_rank": 70,
-      "sharp_std": "11.76"
+      "sharp_std": "18.40"
     },
     {
       "name": "Jadarian Price",
@@ -518,40 +518,40 @@
       "sharp_std": "5.00"
     },
     {
-      "name": "Chris Godwin Jr.",
-      "position": "WR",
-      "sharp_rank": 78,
-      "sharp_std": "8.52"
-    },
-    {
       "name": "Kyle Monangai",
       "position": "RB",
-      "sharp_rank": 79,
+      "sharp_rank": 78,
       "sharp_std": "8.48"
     },
     {
       "name": "Dak Prescott",
       "position": "QB",
-      "sharp_rank": 80,
+      "sharp_rank": 79,
       "sharp_std": "8.26"
+    },
+    {
+      "name": "Chris Godwin Jr.",
+      "position": "WR",
+      "sharp_rank": 80,
+      "sharp_std": "8.95"
+    },
+    {
+      "name": "Marvin Harrison Jr.",
+      "position": "WR",
+      "sharp_rank": 81,
+      "sharp_std": "6.58"
     },
     {
       "name": "Sam LaPorta",
       "position": "TE",
-      "sharp_rank": 81,
+      "sharp_rank": 82,
       "sharp_std": "3.65"
     },
     {
       "name": "Rico Dowdle",
       "position": "RB",
-      "sharp_rank": 82,
-      "sharp_std": "14.96"
-    },
-    {
-      "name": "Marvin Harrison Jr.",
-      "position": "WR",
       "sharp_rank": 83,
-      "sharp_std": "6.99"
+      "sharp_std": "14.96"
     },
     {
       "name": "Alec Pierce",
@@ -599,7 +599,7 @@
       "name": "Parker Washington",
       "position": "WR",
       "sharp_rank": 91,
-      "sharp_std": "29.46"
+      "sharp_std": "29.35"
     },
     {
       "name": "George Kittle",
@@ -608,22 +608,22 @@
       "sharp_std": "28.94"
     },
     {
-      "name": "Quentin Johnston",
-      "position": "WR",
-      "sharp_rank": 93,
-      "sharp_std": "8.77"
-    },
-    {
       "name": "Michael Wilson",
       "position": "WR",
-      "sharp_rank": 94,
+      "sharp_rank": 93,
       "sharp_std": "6.07"
     },
     {
       "name": "Brock Purdy",
       "position": "QB",
-      "sharp_rank": 95,
+      "sharp_rank": 94,
       "sharp_std": "3.02"
+    },
+    {
+      "name": "Quentin Johnston",
+      "position": "WR",
+      "sharp_rank": 95,
+      "sharp_std": "10.35"
     },
     {
       "name": "Chuba Hubbard",
@@ -635,7 +635,7 @@
       "name": "Jakobi Meyers",
       "position": "WR",
       "sharp_rank": 97,
-      "sharp_std": "20.56"
+      "sharp_std": "20.73"
     },
     {
       "name": "J.K. Dobbins",
@@ -647,7 +647,7 @@
       "name": "Jordan Addison",
       "position": "WR",
       "sharp_rank": 99,
-      "sharp_std": "10.17"
+      "sharp_std": "10.04"
     },
     {
       "name": "Dalton Kincaid",
@@ -659,7 +659,7 @@
       "name": "Josh Downs",
       "position": "WR",
       "sharp_rank": 101,
-      "sharp_std": "19.59"
+      "sharp_std": "20.21"
     },
     {
       "name": "Bo Nix",
@@ -692,16 +692,16 @@
       "sharp_std": "11.80"
     },
     {
-      "name": "Jayden Reed",
-      "position": "WR",
-      "sharp_rank": 107,
-      "sharp_std": "10.33"
-    },
-    {
       "name": "Matthew Stafford",
       "position": "QB",
-      "sharp_rank": 108,
+      "sharp_rank": 107,
       "sharp_std": "5.53"
+    },
+    {
+      "name": "Jayden Reed",
+      "position": "WR",
+      "sharp_rank": 108,
+      "sharp_std": "9.07"
     },
     {
       "name": "Jonathon Brooks",
@@ -752,10 +752,10 @@
       "sharp_std": "18.42"
     },
     {
-      "name": "Makai Lemon",
+      "name": "Stefon Diggs",
       "position": "WR",
       "sharp_rank": 117,
-      "sharp_std": "38.80"
+      "sharp_std": "26.01"
     },
     {
       "name": "Jayden Higgins",
@@ -764,10 +764,10 @@
       "sharp_std": "11.62"
     },
     {
-      "name": "Stefon Diggs",
+      "name": "Makai Lemon",
       "position": "WR",
       "sharp_rank": 119,
-      "sharp_std": "25.03"
+      "sharp_std": "37.88"
     },
     {
       "name": "Zach Charbonnet",
