@@ -14,7 +14,7 @@
       "fc_overall_rank": 1,
       "fc_position_rank": 1,
       "fc_tier": 1,
-      "fc_trend_30day": 202,
+      "fc_trend_30day": 205,
       "fc_adp": null
     },
     {
@@ -27,7 +27,7 @@
       "fc_overall_rank": 2,
       "fc_position_rank": 1,
       "fc_tier": 2,
-      "fc_trend_30day": 111,
+      "fc_trend_30day": 109,
       "fc_adp": null
     },
     {
@@ -40,7 +40,7 @@
       "fc_overall_rank": 3,
       "fc_position_rank": 2,
       "fc_tier": 3,
-      "fc_trend_30day": 44,
+      "fc_trend_30day": 45,
       "fc_adp": null
     },
     {
@@ -53,7 +53,7 @@
       "fc_overall_rank": 4,
       "fc_position_rank": 1,
       "fc_tier": 3,
-      "fc_trend_30day": 23,
+      "fc_trend_30day": 22,
       "fc_adp": null
     },
     {
@@ -65,8 +65,8 @@
       "fc_value": 9583,
       "fc_overall_rank": 5,
       "fc_position_rank": 2,
-      "fc_tier": 4,
-      "fc_trend_30day": 297,
+      "fc_tier": 3,
+      "fc_trend_30day": 303,
       "fc_adp": null
     },
     {
@@ -78,8 +78,8 @@
       "fc_value": 9052,
       "fc_overall_rank": 6,
       "fc_position_rank": 3,
-      "fc_tier": 5,
-      "fc_trend_30day": 223,
+      "fc_tier": 4,
+      "fc_trend_30day": 225,
       "fc_adp": null
     },
     {
@@ -91,8 +91,8 @@
       "fc_value": 9002,
       "fc_overall_rank": 7,
       "fc_position_rank": 4,
-      "fc_tier": 5,
-      "fc_trend_30day": -25,
+      "fc_tier": 4,
+      "fc_trend_30day": -26,
       "fc_adp": null
     },
     {
@@ -104,8 +104,8 @@
       "fc_value": 8098,
       "fc_overall_rank": 8,
       "fc_position_rank": 5,
-      "fc_tier": 6,
-      "fc_trend_30day": -401,
+      "fc_tier": 5,
+      "fc_trend_30day": -403,
       "fc_adp": null
     },
     {
@@ -117,8 +117,8 @@
       "fc_value": 7900,
       "fc_overall_rank": 9,
       "fc_position_rank": 6,
-      "fc_tier": 7,
-      "fc_trend_30day": -334,
+      "fc_tier": 6,
+      "fc_trend_30day": -338,
       "fc_adp": null
     },
     {
@@ -131,7 +131,7 @@
       "fc_overall_rank": 10,
       "fc_position_rank": 2,
       "fc_tier": 7,
-      "fc_trend_30day": -120,
+      "fc_trend_30day": -122,
       "fc_adp": null
     },
     {
@@ -144,7 +144,7 @@
       "fc_overall_rank": 11,
       "fc_position_rank": 3,
       "fc_tier": 7,
-      "fc_trend_30day": 161,
+      "fc_trend_30day": 159,
       "fc_adp": null
     },
     {
@@ -157,7 +157,7 @@
       "fc_overall_rank": 12,
       "fc_position_rank": 4,
       "fc_tier": 7,
-      "fc_trend_30day": -86,
+      "fc_trend_30day": -88,
       "fc_adp": null
     },
     {
@@ -170,7 +170,7 @@
       "fc_overall_rank": 13,
       "fc_position_rank": 7,
       "fc_tier": 8,
-      "fc_trend_30day": -532,
+      "fc_trend_30day": -534,
       "fc_adp": null
     },
     {
@@ -183,7 +183,7 @@
       "fc_overall_rank": 14,
       "fc_position_rank": 8,
       "fc_tier": 8,
-      "fc_trend_30day": -17,
+      "fc_trend_30day": -15,
       "fc_adp": null
     },
     {
@@ -195,8 +195,8 @@
       "fc_value": 7096,
       "fc_overall_rank": 15,
       "fc_position_rank": 5,
-      "fc_tier": 8,
-      "fc_trend_30day": -453,
+      "fc_tier": 9,
+      "fc_trend_30day": -449,
       "fc_adp": null
     },
     {
@@ -208,8 +208,8 @@
       "fc_value": 6765,
       "fc_overall_rank": 16,
       "fc_position_rank": 9,
-      "fc_tier": 9,
-      "fc_trend_30day": 21,
+      "fc_tier": 10,
+      "fc_trend_30day": 20,
       "fc_adp": null
     },
     {
@@ -221,8 +221,8 @@
       "fc_value": 6715,
       "fc_overall_rank": 17,
       "fc_position_rank": 6,
-      "fc_tier": 9,
-      "fc_trend_30day": 18,
+      "fc_tier": 10,
+      "fc_trend_30day": 17,
       "fc_adp": null
     },
     {
@@ -234,8 +234,8 @@
       "fc_value": 6672,
       "fc_overall_rank": 18,
       "fc_position_rank": 3,
-      "fc_tier": 9,
-      "fc_trend_30day": 328,
+      "fc_tier": 10,
+      "fc_trend_30day": 323,
       "fc_adp": null
     },
     {
@@ -247,7 +247,7 @@
       "fc_value": 6600,
       "fc_overall_rank": 19,
       "fc_position_rank": 4,
-      "fc_tier": 9,
+      "fc_tier": 10,
       "fc_trend_30day": -80,
       "fc_adp": null
     },
@@ -274,7 +274,7 @@
       "fc_overall_rank": 21,
       "fc_position_rank": 5,
       "fc_tier": 11,
-      "fc_trend_30day": -178,
+      "fc_trend_30day": -179,
       "fc_adp": null
     },
     {
@@ -286,8 +286,8 @@
       "fc_value": 6127,
       "fc_overall_rank": 22,
       "fc_position_rank": 6,
-      "fc_tier": 11,
-      "fc_trend_30day": 35,
+      "fc_tier": 12,
+      "fc_trend_30day": 36,
       "fc_adp": null
     },
     {
@@ -300,7 +300,7 @@
       "fc_overall_rank": 23,
       "fc_position_rank": 10,
       "fc_tier": 12,
-      "fc_trend_30day": -86,
+      "fc_trend_30day": -84,
       "fc_adp": null
     },
     {
@@ -312,8 +312,8 @@
       "fc_value": 5981,
       "fc_overall_rank": 24,
       "fc_position_rank": 2,
-      "fc_tier": 12,
-      "fc_trend_30day": -227,
+      "fc_tier": 13,
+      "fc_trend_30day": -230,
       "fc_adp": null
     },
     {
@@ -325,8 +325,8 @@
       "fc_value": 5961,
       "fc_overall_rank": 25,
       "fc_position_rank": 11,
-      "fc_tier": 12,
-      "fc_trend_30day": -299,
+      "fc_tier": 13,
+      "fc_trend_30day": -307,
       "fc_adp": null
     },
     {
@@ -338,7 +338,7 @@
       "fc_value": 5958,
       "fc_overall_rank": 26,
       "fc_position_rank": 7,
-      "fc_tier": 12,
+      "fc_tier": 13,
       "fc_trend_30day": 7,
       "fc_adp": null
     },
@@ -351,8 +351,8 @@
       "fc_value": 5419,
       "fc_overall_rank": 27,
       "fc_position_rank": 8,
-      "fc_tier": 13,
-      "fc_trend_30day": 285,
+      "fc_tier": 14,
+      "fc_trend_30day": 279,
       "fc_adp": null
     },
     {
@@ -364,8 +364,8 @@
       "fc_value": 5374,
       "fc_overall_rank": 28,
       "fc_position_rank": 12,
-      "fc_tier": 13,
-      "fc_trend_30day": -397,
+      "fc_tier": 14,
+      "fc_trend_30day": -403,
       "fc_adp": null
     },
     {
@@ -377,8 +377,8 @@
       "fc_value": 5232,
       "fc_overall_rank": 29,
       "fc_position_rank": 7,
-      "fc_tier": 14,
-      "fc_trend_30day": 30,
+      "fc_tier": 15,
+      "fc_trend_30day": 28,
       "fc_adp": null
     },
     {
@@ -390,8 +390,8 @@
       "fc_value": 5181,
       "fc_overall_rank": 30,
       "fc_position_rank": 9,
-      "fc_tier": 14,
-      "fc_trend_30day": -258,
+      "fc_tier": 15,
+      "fc_trend_30day": -254,
       "fc_adp": null
     },
     {
@@ -404,7 +404,7 @@
       "fc_overall_rank": 31,
       "fc_position_rank": 13,
       "fc_tier": 15,
-      "fc_trend_30day": 116,
+      "fc_trend_30day": 118,
       "fc_adp": null
     },
     {
@@ -416,8 +416,8 @@
       "fc_value": 5018,
       "fc_overall_rank": 32,
       "fc_position_rank": 14,
-      "fc_tier": 15,
-      "fc_trend_30day": -119,
+      "fc_tier": 16,
+      "fc_trend_30day": -121,
       "fc_adp": null
     },
     {
@@ -429,8 +429,8 @@
       "fc_value": 4995,
       "fc_overall_rank": 33,
       "fc_position_rank": 10,
-      "fc_tier": 15,
-      "fc_trend_30day": -25,
+      "fc_tier": 16,
+      "fc_trend_30day": -24,
       "fc_adp": null
     },
     {
@@ -442,8 +442,8 @@
       "fc_value": 4882,
       "fc_overall_rank": 34,
       "fc_position_rank": 15,
-      "fc_tier": 16,
-      "fc_trend_30day": 267,
+      "fc_tier": 17,
+      "fc_trend_30day": 265,
       "fc_adp": null
     },
     {
@@ -455,8 +455,8 @@
       "fc_value": 4862,
       "fc_overall_rank": 35,
       "fc_position_rank": 16,
-      "fc_tier": 16,
-      "fc_trend_30day": 310,
+      "fc_tier": 17,
+      "fc_trend_30day": 306,
       "fc_adp": null
     },
     {
@@ -469,7 +469,7 @@
       "fc_overall_rank": 36,
       "fc_position_rank": 8,
       "fc_tier": 17,
-      "fc_trend_30day": 8,
+      "fc_trend_30day": 7,
       "fc_adp": null
     },
     {
@@ -495,7 +495,7 @@
       "fc_overall_rank": 38,
       "fc_position_rank": 12,
       "fc_tier": 18,
-      "fc_trend_30day": 495,
+      "fc_trend_30day": 494,
       "fc_adp": null
     },
     {
@@ -507,8 +507,8 @@
       "fc_value": 4519,
       "fc_overall_rank": 39,
       "fc_position_rank": 17,
-      "fc_tier": 18,
-      "fc_trend_30day": 578,
+      "fc_tier": 19,
+      "fc_trend_30day": 574,
       "fc_adp": null
     },
     {
@@ -520,7 +520,7 @@
       "fc_value": 4395,
       "fc_overall_rank": 40,
       "fc_position_rank": 13,
-      "fc_tier": 19,
+      "fc_tier": 20,
       "fc_trend_30day": 340,
       "fc_adp": null
     },
@@ -533,8 +533,8 @@
       "fc_value": 4263,
       "fc_overall_rank": 41,
       "fc_position_rank": 18,
-      "fc_tier": 19,
-      "fc_trend_30day": -371,
+      "fc_tier": 21,
+      "fc_trend_30day": -373,
       "fc_adp": null
     },
     {
@@ -546,8 +546,8 @@
       "fc_value": 4082,
       "fc_overall_rank": 42,
       "fc_position_rank": 9,
-      "fc_tier": 20,
-      "fc_trend_30day": 525,
+      "fc_tier": 22,
+      "fc_trend_30day": 522,
       "fc_adp": null
     },
     {
@@ -559,8 +559,8 @@
       "fc_value": 4048,
       "fc_overall_rank": 43,
       "fc_position_rank": 10,
-      "fc_tier": 20,
-      "fc_trend_30day": 67,
+      "fc_tier": 22,
+      "fc_trend_30day": 69,
       "fc_adp": null
     },
     {
@@ -572,8 +572,8 @@
       "fc_value": 3896,
       "fc_overall_rank": 44,
       "fc_position_rank": 11,
-      "fc_tier": 20,
-      "fc_trend_30day": -116,
+      "fc_tier": 23,
+      "fc_trend_30day": -113,
       "fc_adp": null
     },
     {
@@ -585,8 +585,8 @@
       "fc_value": 3420,
       "fc_overall_rank": 45,
       "fc_position_rank": 3,
-      "fc_tier": 21,
-      "fc_trend_30day": 319,
+      "fc_tier": 24,
+      "fc_trend_30day": 317,
       "fc_adp": null
     },
     {
@@ -598,8 +598,8 @@
       "fc_value": 3419,
       "fc_overall_rank": 46,
       "fc_position_rank": 19,
-      "fc_tier": 21,
-      "fc_trend_30day": 207,
+      "fc_tier": 24,
+      "fc_trend_30day": 205,
       "fc_adp": null
     },
     {
@@ -611,8 +611,8 @@
       "fc_value": 3411,
       "fc_overall_rank": 47,
       "fc_position_rank": 20,
-      "fc_tier": 21,
-      "fc_trend_30day": 79,
+      "fc_tier": 24,
+      "fc_trend_30day": 78,
       "fc_adp": null
     },
     {
@@ -624,7 +624,7 @@
       "fc_value": 3403,
       "fc_overall_rank": 48,
       "fc_position_rank": 12,
-      "fc_tier": 21,
+      "fc_tier": 24,
       "fc_trend_30day": 636,
       "fc_adp": null
     },
@@ -637,8 +637,8 @@
       "fc_value": 3311,
       "fc_overall_rank": 49,
       "fc_position_rank": 13,
-      "fc_tier": 21,
-      "fc_trend_30day": 626,
+      "fc_tier": 24,
+      "fc_trend_30day": 623,
       "fc_adp": null
     },
     {
@@ -650,7 +650,7 @@
       "fc_value": 3239,
       "fc_overall_rank": 50,
       "fc_position_rank": 14,
-      "fc_tier": 22,
+      "fc_tier": 25,
       "fc_trend_30day": -315,
       "fc_adp": null
     },
@@ -663,8 +663,8 @@
       "fc_value": 3193,
       "fc_overall_rank": 51,
       "fc_position_rank": 14,
-      "fc_tier": 22,
-      "fc_trend_30day": -13,
+      "fc_tier": 25,
+      "fc_trend_30day": -14,
       "fc_adp": null
     },
     {
@@ -676,8 +676,8 @@
       "fc_value": 3163,
       "fc_overall_rank": 52,
       "fc_position_rank": 21,
-      "fc_tier": 22,
-      "fc_trend_30day": -198,
+      "fc_tier": 25,
+      "fc_trend_30day": -194,
       "fc_adp": null
     },
     {
@@ -689,8 +689,8 @@
       "fc_value": 3109,
       "fc_overall_rank": 53,
       "fc_position_rank": 15,
-      "fc_tier": 22,
-      "fc_trend_30day": 45,
+      "fc_tier": 25,
+      "fc_trend_30day": 60,
       "fc_adp": null
     },
     {
@@ -702,8 +702,8 @@
       "fc_value": 2948,
       "fc_overall_rank": 54,
       "fc_position_rank": 4,
-      "fc_tier": 23,
-      "fc_trend_30day": 295,
+      "fc_tier": 26,
+      "fc_trend_30day": 296,
       "fc_adp": null
     },
     {
@@ -715,7 +715,7 @@
       "fc_value": 2915,
       "fc_overall_rank": 55,
       "fc_position_rank": 16,
-      "fc_tier": 23,
+      "fc_tier": 26,
       "fc_trend_30day": -25,
       "fc_adp": null
     },
@@ -728,8 +728,8 @@
       "fc_value": 2843,
       "fc_overall_rank": 56,
       "fc_position_rank": 15,
-      "fc_tier": 24,
-      "fc_trend_30day": -153,
+      "fc_tier": 26,
+      "fc_trend_30day": -156,
       "fc_adp": null
     },
     {
@@ -741,8 +741,8 @@
       "fc_value": 2810,
       "fc_overall_rank": 57,
       "fc_position_rank": 22,
-      "fc_tier": 24,
-      "fc_trend_30day": -276,
+      "fc_tier": 26,
+      "fc_trend_30day": -277,
       "fc_adp": null
     },
     {
@@ -754,7 +754,7 @@
       "fc_value": 2727,
       "fc_overall_rank": 58,
       "fc_position_rank": 17,
-      "fc_tier": 25,
+      "fc_tier": 27,
       "fc_trend_30day": 249,
       "fc_adp": null
     },
@@ -767,8 +767,8 @@
       "fc_value": 2710,
       "fc_overall_rank": 59,
       "fc_position_rank": 23,
-      "fc_tier": 25,
-      "fc_trend_30day": -89,
+      "fc_tier": 27,
+      "fc_trend_30day": -91,
       "fc_adp": null
     },
     {
@@ -780,8 +780,8 @@
       "fc_value": 2687,
       "fc_overall_rank": 60,
       "fc_position_rank": 16,
-      "fc_tier": 25,
-      "fc_trend_30day": 222,
+      "fc_tier": 27,
+      "fc_trend_30day": 219,
       "fc_adp": null
     },
     {
@@ -793,8 +793,8 @@
       "fc_value": 2658,
       "fc_overall_rank": 61,
       "fc_position_rank": 18,
-      "fc_tier": 26,
-      "fc_trend_30day": -10,
+      "fc_tier": 27,
+      "fc_trend_30day": -18,
       "fc_adp": null
     },
     {
@@ -806,8 +806,8 @@
       "fc_value": 2622,
       "fc_overall_rank": 62,
       "fc_position_rank": 17,
-      "fc_tier": 26,
-      "fc_trend_30day": 83,
+      "fc_tier": 27,
+      "fc_trend_30day": 81,
       "fc_adp": null
     },
     {
@@ -819,8 +819,8 @@
       "fc_value": 2613,
       "fc_overall_rank": 63,
       "fc_position_rank": 19,
-      "fc_tier": 26,
-      "fc_trend_30day": 169,
+      "fc_tier": 27,
+      "fc_trend_30day": 168,
       "fc_adp": null
     },
     {
@@ -832,8 +832,8 @@
       "fc_value": 2581,
       "fc_overall_rank": 64,
       "fc_position_rank": 24,
-      "fc_tier": 26,
-      "fc_trend_30day": -95,
+      "fc_tier": 28,
+      "fc_trend_30day": -93,
       "fc_adp": null
     },
     {
@@ -845,8 +845,8 @@
       "fc_value": 2518,
       "fc_overall_rank": 65,
       "fc_position_rank": 20,
-      "fc_tier": 27,
-      "fc_trend_30day": 186,
+      "fc_tier": 28,
+      "fc_trend_30day": 191,
       "fc_adp": null
     },
     {
@@ -858,8 +858,8 @@
       "fc_value": 2511,
       "fc_overall_rank": 66,
       "fc_position_rank": 21,
-      "fc_tier": 27,
-      "fc_trend_30day": 210,
+      "fc_tier": 28,
+      "fc_trend_30day": 214,
       "fc_adp": null
     },
     {
@@ -871,8 +871,8 @@
       "fc_value": 2472,
       "fc_overall_rank": 67,
       "fc_position_rank": 18,
-      "fc_tier": 27,
-      "fc_trend_30day": 299,
+      "fc_tier": 28,
+      "fc_trend_30day": 302,
       "fc_adp": null
     },
     {
@@ -884,8 +884,8 @@
       "fc_value": 2317,
       "fc_overall_rank": 68,
       "fc_position_rank": 19,
-      "fc_tier": 28,
-      "fc_trend_30day": -385,
+      "fc_tier": 29,
+      "fc_trend_30day": -387,
       "fc_adp": null
     },
     {
@@ -897,8 +897,8 @@
       "fc_value": 2195,
       "fc_overall_rank": 69,
       "fc_position_rank": 20,
-      "fc_tier": 28,
-      "fc_trend_30day": -229,
+      "fc_tier": 29,
+      "fc_trend_30day": -234,
       "fc_adp": null
     },
     {
@@ -910,8 +910,8 @@
       "fc_value": 2147,
       "fc_overall_rank": 70,
       "fc_position_rank": 21,
-      "fc_tier": 28,
-      "fc_trend_30day": -655,
+      "fc_tier": 29,
+      "fc_trend_30day": -660,
       "fc_adp": null
     },
     {
@@ -923,8 +923,8 @@
       "fc_value": 2051,
       "fc_overall_rank": 71,
       "fc_position_rank": 22,
-      "fc_tier": 29,
-      "fc_trend_30day": 239,
+      "fc_tier": 30,
+      "fc_trend_30day": 242,
       "fc_adp": null
     },
     {
@@ -936,8 +936,8 @@
       "fc_value": 2027,
       "fc_overall_rank": 72,
       "fc_position_rank": 22,
-      "fc_tier": 29,
-      "fc_trend_30day": -5,
+      "fc_tier": 30,
+      "fc_trend_30day": -6,
       "fc_adp": null
     },
     {
@@ -949,8 +949,8 @@
       "fc_value": 1963,
       "fc_overall_rank": 73,
       "fc_position_rank": 25,
-      "fc_tier": 29,
-      "fc_trend_30day": -241,
+      "fc_tier": 30,
+      "fc_trend_30day": -240,
       "fc_adp": null
     },
     {
@@ -962,8 +962,8 @@
       "fc_value": 1919,
       "fc_overall_rank": 74,
       "fc_position_rank": 5,
-      "fc_tier": 29,
-      "fc_trend_30day": -162,
+      "fc_tier": 30,
+      "fc_trend_30day": -161,
       "fc_adp": null
     },
     {
@@ -975,8 +975,8 @@
       "fc_value": 1790,
       "fc_overall_rank": 75,
       "fc_position_rank": 23,
-      "fc_tier": 30,
-      "fc_trend_30day": -115,
+      "fc_tier": 31,
+      "fc_trend_30day": -119,
       "fc_adp": null
     },
     {
@@ -988,8 +988,8 @@
       "fc_value": 1769,
       "fc_overall_rank": 76,
       "fc_position_rank": 23,
-      "fc_tier": 30,
-      "fc_trend_30day": -57,
+      "fc_tier": 31,
+      "fc_trend_30day": -59,
       "fc_adp": null
     },
     {
@@ -1001,7 +1001,7 @@
       "fc_value": 1735,
       "fc_overall_rank": 77,
       "fc_position_rank": 6,
-      "fc_tier": 30,
+      "fc_tier": 31,
       "fc_trend_30day": 13,
       "fc_adp": null
     },
@@ -1014,8 +1014,8 @@
       "fc_value": 1698,
       "fc_overall_rank": 78,
       "fc_position_rank": 24,
-      "fc_tier": 30,
-      "fc_trend_30day": 322,
+      "fc_tier": 32,
+      "fc_trend_30day": 320,
       "fc_adp": null
     },
     {
@@ -1027,8 +1027,8 @@
       "fc_value": 1649,
       "fc_overall_rank": 79,
       "fc_position_rank": 26,
-      "fc_tier": 31,
-      "fc_trend_30day": 8,
+      "fc_tier": 32,
+      "fc_trend_30day": 7,
       "fc_adp": null
     },
     {
@@ -1040,8 +1040,8 @@
       "fc_value": 1626,
       "fc_overall_rank": 80,
       "fc_position_rank": 24,
-      "fc_tier": 31,
-      "fc_trend_30day": 374,
+      "fc_tier": 32,
+      "fc_trend_30day": 377,
       "fc_adp": null
     },
     {
@@ -1053,8 +1053,8 @@
       "fc_value": 1609,
       "fc_overall_rank": 81,
       "fc_position_rank": 27,
-      "fc_tier": 31,
-      "fc_trend_30day": -221,
+      "fc_tier": 32,
+      "fc_trend_30day": -223,
       "fc_adp": null
     },
     {
@@ -1066,8 +1066,8 @@
       "fc_value": 1554,
       "fc_overall_rank": 82,
       "fc_position_rank": 25,
-      "fc_tier": 32,
-      "fc_trend_30day": -6,
+      "fc_tier": 33,
+      "fc_trend_30day": -7,
       "fc_adp": null
     },
     {
@@ -1079,8 +1079,8 @@
       "fc_value": 1537,
       "fc_overall_rank": 83,
       "fc_position_rank": 7,
-      "fc_tier": 32,
-      "fc_trend_30day": 50,
+      "fc_tier": 33,
+      "fc_trend_30day": 45,
       "fc_adp": null
     },
     {
@@ -1092,8 +1092,8 @@
       "fc_value": 1531,
       "fc_overall_rank": 84,
       "fc_position_rank": 26,
-      "fc_tier": 32,
-      "fc_trend_30day": -277,
+      "fc_tier": 33,
+      "fc_trend_30day": -278,
       "fc_adp": null
     },
     {
@@ -1105,8 +1105,8 @@
       "fc_value": 1517,
       "fc_overall_rank": 85,
       "fc_position_rank": 25,
-      "fc_tier": 32,
-      "fc_trend_30day": 50,
+      "fc_tier": 33,
+      "fc_trend_30day": 51,
       "fc_adp": null
     },
     {
@@ -1118,8 +1118,8 @@
       "fc_value": 1509,
       "fc_overall_rank": 86,
       "fc_position_rank": 8,
-      "fc_tier": 32,
-      "fc_trend_30day": 13,
+      "fc_tier": 33,
+      "fc_trend_30day": 12,
       "fc_adp": null
     },
     {
@@ -1131,8 +1131,8 @@
       "fc_value": 1447,
       "fc_overall_rank": 87,
       "fc_position_rank": 27,
-      "fc_tier": 32,
-      "fc_trend_30day": -183,
+      "fc_tier": 34,
+      "fc_trend_30day": -186,
       "fc_adp": null
     },
     {
@@ -1144,8 +1144,8 @@
       "fc_value": 1434,
       "fc_overall_rank": 88,
       "fc_position_rank": 28,
-      "fc_tier": 32,
-      "fc_trend_30day": 160,
+      "fc_tier": 34,
+      "fc_trend_30day": 164,
       "fc_adp": null
     },
     {
@@ -1157,8 +1157,8 @@
       "fc_value": 1398,
       "fc_overall_rank": 89,
       "fc_position_rank": 29,
-      "fc_tier": 32,
-      "fc_trend_30day": 180,
+      "fc_tier": 34,
+      "fc_trend_30day": 182,
       "fc_adp": null
     },
     {
@@ -1170,8 +1170,8 @@
       "fc_value": 1262,
       "fc_overall_rank": 90,
       "fc_position_rank": 30,
-      "fc_tier": 33,
-      "fc_trend_30day": -411,
+      "fc_tier": 35,
+      "fc_trend_30day": -414,
       "fc_adp": null
     },
     {
@@ -1183,8 +1183,8 @@
       "fc_value": 1247,
       "fc_overall_rank": 91,
       "fc_position_rank": 31,
-      "fc_tier": 33,
-      "fc_trend_30day": -65,
+      "fc_tier": 35,
+      "fc_trend_30day": -64,
       "fc_adp": null
     },
     {
@@ -1196,8 +1196,8 @@
       "fc_value": 1245,
       "fc_overall_rank": 92,
       "fc_position_rank": 9,
-      "fc_tier": 33,
-      "fc_trend_30day": -134,
+      "fc_tier": 35,
+      "fc_trend_30day": -137,
       "fc_adp": null
     },
     {
@@ -1209,8 +1209,8 @@
       "fc_value": 1222,
       "fc_overall_rank": 93,
       "fc_position_rank": 32,
-      "fc_tier": 33,
-      "fc_trend_30day": 101,
+      "fc_tier": 35,
+      "fc_trend_30day": 98,
       "fc_adp": null
     },
     {
@@ -1222,8 +1222,8 @@
       "fc_value": 1165,
       "fc_overall_rank": 94,
       "fc_position_rank": 28,
-      "fc_tier": 34,
-      "fc_trend_30day": -313,
+      "fc_tier": 36,
+      "fc_trend_30day": -314,
       "fc_adp": null
     },
     {
@@ -1235,8 +1235,8 @@
       "fc_value": 1139,
       "fc_overall_rank": 95,
       "fc_position_rank": 26,
-      "fc_tier": 34,
-      "fc_trend_30day": 317,
+      "fc_tier": 36,
+      "fc_trend_30day": 316,
       "fc_adp": null
     },
     {
@@ -1248,8 +1248,8 @@
       "fc_value": 1111,
       "fc_overall_rank": 96,
       "fc_position_rank": 27,
-      "fc_tier": 34,
-      "fc_trend_30day": 368,
+      "fc_tier": 36,
+      "fc_trend_30day": 367,
       "fc_adp": null
     },
     {
@@ -1261,8 +1261,8 @@
       "fc_value": 1035,
       "fc_overall_rank": 97,
       "fc_position_rank": 33,
-      "fc_tier": 34,
-      "fc_trend_30day": 11,
+      "fc_tier": 37,
+      "fc_trend_30day": 13,
       "fc_adp": null
     },
     {
@@ -1274,8 +1274,8 @@
       "fc_value": 974,
       "fc_overall_rank": 98,
       "fc_position_rank": 29,
-      "fc_tier": 35,
-      "fc_trend_30day": 87,
+      "fc_tier": 37,
+      "fc_trend_30day": 88,
       "fc_adp": null
     },
     {
@@ -1287,8 +1287,8 @@
       "fc_value": 918,
       "fc_overall_rank": 99,
       "fc_position_rank": 34,
-      "fc_tier": 35,
-      "fc_trend_30day": 271,
+      "fc_tier": 37,
+      "fc_trend_30day": 268,
       "fc_adp": null
     },
     {
@@ -1300,7 +1300,7 @@
       "fc_value": 892,
       "fc_overall_rank": 100,
       "fc_position_rank": 10,
-      "fc_tier": 35,
+      "fc_tier": 37,
       "fc_trend_30day": 26,
       "fc_adp": null
     },
@@ -1313,8 +1313,8 @@
       "fc_value": 871,
       "fc_overall_rank": 101,
       "fc_position_rank": 28,
-      "fc_tier": 35,
-      "fc_trend_30day": -21,
+      "fc_tier": 37,
+      "fc_trend_30day": -22,
       "fc_adp": null
     },
     {
@@ -1326,8 +1326,8 @@
       "fc_value": 855,
       "fc_overall_rank": 102,
       "fc_position_rank": 29,
-      "fc_tier": 35,
-      "fc_trend_30day": 199,
+      "fc_tier": 38,
+      "fc_trend_30day": 197,
       "fc_adp": null
     },
     {
@@ -1339,7 +1339,7 @@
       "fc_value": 834,
       "fc_overall_rank": 103,
       "fc_position_rank": 35,
-      "fc_tier": 35,
+      "fc_tier": 38,
       "fc_trend_30day": -151,
       "fc_adp": null
     },
@@ -1352,8 +1352,8 @@
       "fc_value": 784,
       "fc_overall_rank": 104,
       "fc_position_rank": 30,
-      "fc_tier": 36,
-      "fc_trend_30day": 316,
+      "fc_tier": 38,
+      "fc_trend_30day": 312,
       "fc_adp": null
     },
     {
@@ -1365,8 +1365,8 @@
       "fc_value": 780,
       "fc_overall_rank": 105,
       "fc_position_rank": 31,
-      "fc_tier": 36,
-      "fc_trend_30day": 2,
+      "fc_tier": 38,
+      "fc_trend_30day": 1,
       "fc_adp": null
     },
     {
@@ -1378,7 +1378,7 @@
       "fc_value": 762,
       "fc_overall_rank": 106,
       "fc_position_rank": 36,
-      "fc_tier": 36,
+      "fc_tier": 38,
       "fc_trend_30day": -79,
       "fc_adp": null
     },
@@ -1391,8 +1391,8 @@
       "fc_value": 758,
       "fc_overall_rank": 107,
       "fc_position_rank": 37,
-      "fc_tier": 36,
-      "fc_trend_30day": 437,
+      "fc_tier": 38,
+      "fc_trend_30day": 435,
       "fc_adp": null
     },
     {
@@ -1404,7 +1404,7 @@
       "fc_value": 755,
       "fc_overall_rank": 108,
       "fc_position_rank": 32,
-      "fc_tier": 36,
+      "fc_tier": 38,
       "fc_trend_30day": -122,
       "fc_adp": null
     },
@@ -1417,8 +1417,8 @@
       "fc_value": 755,
       "fc_overall_rank": 109,
       "fc_position_rank": 38,
-      "fc_tier": 36,
-      "fc_trend_30day": 193,
+      "fc_tier": 38,
+      "fc_trend_30day": 192,
       "fc_adp": null
     },
     {
@@ -1430,8 +1430,8 @@
       "fc_value": 749,
       "fc_overall_rank": 110,
       "fc_position_rank": 30,
-      "fc_tier": 36,
-      "fc_trend_30day": 91,
+      "fc_tier": 38,
+      "fc_trend_30day": 90,
       "fc_adp": null
     },
     {
@@ -1443,7 +1443,7 @@
       "fc_value": 711,
       "fc_overall_rank": 111,
       "fc_position_rank": 39,
-      "fc_tier": 36,
+      "fc_tier": 38,
       "fc_trend_30day": 0,
       "fc_adp": null
     },
@@ -1456,7 +1456,7 @@
       "fc_value": 682,
       "fc_overall_rank": 112,
       "fc_position_rank": 31,
-      "fc_tier": 37,
+      "fc_tier": 39,
       "fc_trend_30day": -171,
       "fc_adp": null
     },
@@ -1469,8 +1469,8 @@
       "fc_value": 643,
       "fc_overall_rank": 113,
       "fc_position_rank": 32,
-      "fc_tier": 37,
-      "fc_trend_30day": 173,
+      "fc_tier": 39,
+      "fc_trend_30day": 171,
       "fc_adp": null
     },
     {
@@ -1482,8 +1482,8 @@
       "fc_value": 640,
       "fc_overall_rank": 114,
       "fc_position_rank": 33,
-      "fc_tier": 37,
-      "fc_trend_30day": -122,
+      "fc_tier": 39,
+      "fc_trend_30day": -121,
       "fc_adp": null
     },
     {
@@ -1495,8 +1495,8 @@
       "fc_value": 632,
       "fc_overall_rank": 115,
       "fc_position_rank": 11,
-      "fc_tier": 37,
-      "fc_trend_30day": 106,
+      "fc_tier": 39,
+      "fc_trend_30day": 107,
       "fc_adp": null
     },
     {
@@ -1508,8 +1508,8 @@
       "fc_value": 629,
       "fc_overall_rank": 116,
       "fc_position_rank": 34,
-      "fc_tier": 37,
-      "fc_trend_30day": 227,
+      "fc_tier": 39,
+      "fc_trend_30day": 226,
       "fc_adp": null
     },
     {
@@ -1521,8 +1521,8 @@
       "fc_value": 627,
       "fc_overall_rank": 117,
       "fc_position_rank": 40,
-      "fc_tier": 37,
-      "fc_trend_30day": 238,
+      "fc_tier": 39,
+      "fc_trend_30day": 236,
       "fc_adp": null
     },
     {
@@ -1534,8 +1534,8 @@
       "fc_value": 617,
       "fc_overall_rank": 118,
       "fc_position_rank": 35,
-      "fc_tier": 37,
-      "fc_trend_30day": 92,
+      "fc_tier": 39,
+      "fc_trend_30day": 91,
       "fc_adp": null
     },
     {
@@ -1547,8 +1547,8 @@
       "fc_value": 607,
       "fc_overall_rank": 119,
       "fc_position_rank": 12,
-      "fc_tier": 37,
-      "fc_trend_30day": -148,
+      "fc_tier": 39,
+      "fc_trend_30day": -147,
       "fc_adp": null
     },
     {
@@ -1560,8 +1560,8 @@
       "fc_value": 600,
       "fc_overall_rank": 120,
       "fc_position_rank": 13,
-      "fc_tier": 37,
-      "fc_trend_30day": -91,
+      "fc_tier": 39,
+      "fc_trend_30day": -90,
       "fc_adp": null
     },
     {
@@ -1573,8 +1573,8 @@
       "fc_value": 591,
       "fc_overall_rank": 121,
       "fc_position_rank": 41,
-      "fc_tier": 37,
-      "fc_trend_30day": -74,
+      "fc_tier": 39,
+      "fc_trend_30day": -75,
       "fc_adp": null
     },
     {
@@ -1586,8 +1586,8 @@
       "fc_value": 582,
       "fc_overall_rank": 122,
       "fc_position_rank": 42,
-      "fc_tier": 37,
-      "fc_trend_30day": -77,
+      "fc_tier": 39,
+      "fc_trend_30day": -78,
       "fc_adp": null
     },
     {
@@ -1599,7 +1599,7 @@
       "fc_value": 542,
       "fc_overall_rank": 123,
       "fc_position_rank": 36,
-      "fc_tier": 38,
+      "fc_tier": 40,
       "fc_trend_30day": -24,
       "fc_adp": null
     },
@@ -1612,8 +1612,8 @@
       "fc_value": 518,
       "fc_overall_rank": 124,
       "fc_position_rank": 33,
-      "fc_tier": 38,
-      "fc_trend_30day": 517,
+      "fc_tier": 40,
+      "fc_trend_30day": 518,
       "fc_adp": null
     },
     {
@@ -1625,7 +1625,7 @@
       "fc_value": 507,
       "fc_overall_rank": 125,
       "fc_position_rank": 14,
-      "fc_tier": 38,
+      "fc_tier": 40,
       "fc_trend_30day": -13,
       "fc_adp": null
     },
@@ -1638,8 +1638,8 @@
       "fc_value": 506,
       "fc_overall_rank": 126,
       "fc_position_rank": 34,
-      "fc_tier": 38,
-      "fc_trend_30day": -394,
+      "fc_tier": 40,
+      "fc_trend_30day": -392,
       "fc_adp": null
     },
     {
@@ -1651,8 +1651,8 @@
       "fc_value": 493,
       "fc_overall_rank": 127,
       "fc_position_rank": 35,
-      "fc_tier": 38,
-      "fc_trend_30day": 181,
+      "fc_tier": 40,
+      "fc_trend_30day": 182,
       "fc_adp": null
     },
     {
@@ -1664,8 +1664,8 @@
       "fc_value": 477,
       "fc_overall_rank": 128,
       "fc_position_rank": 37,
-      "fc_tier": 38,
-      "fc_trend_30day": 263,
+      "fc_tier": 40,
+      "fc_trend_30day": 264,
       "fc_adp": null
     },
     {
@@ -1677,8 +1677,8 @@
       "fc_value": 469,
       "fc_overall_rank": 129,
       "fc_position_rank": 38,
-      "fc_tier": 38,
-      "fc_trend_30day": 58,
+      "fc_tier": 40,
+      "fc_trend_30day": 59,
       "fc_adp": null
     },
     {
@@ -1690,8 +1690,8 @@
       "fc_value": 449,
       "fc_overall_rank": 130,
       "fc_position_rank": 15,
-      "fc_tier": 38,
-      "fc_trend_30day": -29,
+      "fc_tier": 40,
+      "fc_trend_30day": -28,
       "fc_adp": null
     },
     {
@@ -1703,8 +1703,8 @@
       "fc_value": 427,
       "fc_overall_rank": 131,
       "fc_position_rank": 43,
-      "fc_tier": 39,
-      "fc_trend_30day": 212,
+      "fc_tier": 40,
+      "fc_trend_30day": 214,
       "fc_adp": null
     },
     {
@@ -1716,7 +1716,7 @@
       "fc_value": 378,
       "fc_overall_rank": 132,
       "fc_position_rank": 39,
-      "fc_tier": 39,
+      "fc_tier": 41,
       "fc_trend_30day": 76,
       "fc_adp": null
     },
@@ -1729,8 +1729,8 @@
       "fc_value": 368,
       "fc_overall_rank": 133,
       "fc_position_rank": 44,
-      "fc_tier": 39,
-      "fc_trend_30day": -159,
+      "fc_tier": 41,
+      "fc_trend_30day": -160,
       "fc_adp": null
     },
     {
@@ -1742,8 +1742,8 @@
       "fc_value": 359,
       "fc_overall_rank": 134,
       "fc_position_rank": 45,
-      "fc_tier": 39,
-      "fc_trend_30day": 343,
+      "fc_tier": 41,
+      "fc_trend_30day": 344,
       "fc_adp": null
     },
     {
@@ -1755,8 +1755,8 @@
       "fc_value": 355,
       "fc_overall_rank": 135,
       "fc_position_rank": 46,
-      "fc_tier": 39,
-      "fc_trend_30day": -115,
+      "fc_tier": 41,
+      "fc_trend_30day": -117,
       "fc_adp": null
     },
     {
@@ -1768,8 +1768,8 @@
       "fc_value": 351,
       "fc_overall_rank": 136,
       "fc_position_rank": 40,
-      "fc_tier": 39,
-      "fc_trend_30day": -293,
+      "fc_tier": 41,
+      "fc_trend_30day": -295,
       "fc_adp": null
     },
     {
@@ -1781,8 +1781,8 @@
       "fc_value": 350,
       "fc_overall_rank": 137,
       "fc_position_rank": 47,
-      "fc_tier": 39,
-      "fc_trend_30day": -90,
+      "fc_tier": 41,
+      "fc_trend_30day": -94,
       "fc_adp": null
     },
     {
@@ -1794,8 +1794,8 @@
       "fc_value": 336,
       "fc_overall_rank": 138,
       "fc_position_rank": 36,
-      "fc_tier": 40,
-      "fc_trend_30day": -405,
+      "fc_tier": 41,
+      "fc_trend_30day": -403,
       "fc_adp": null
     },
     {
@@ -1807,8 +1807,8 @@
       "fc_value": 331,
       "fc_overall_rank": 139,
       "fc_position_rank": 41,
-      "fc_tier": 40,
-      "fc_trend_30day": 35,
+      "fc_tier": 41,
+      "fc_trend_30day": 34,
       "fc_adp": null
     },
     {
@@ -1820,8 +1820,8 @@
       "fc_value": 324,
       "fc_overall_rank": 140,
       "fc_position_rank": 37,
-      "fc_tier": 40,
-      "fc_trend_30day": 0,
+      "fc_tier": 41,
+      "fc_trend_30day": -1,
       "fc_adp": null
     },
     {
@@ -1833,7 +1833,7 @@
       "fc_value": 324,
       "fc_overall_rank": 141,
       "fc_position_rank": 38,
-      "fc_tier": 40,
+      "fc_tier": 41,
       "fc_trend_30day": -42,
       "fc_adp": null
     },
@@ -1846,8 +1846,8 @@
       "fc_value": 323,
       "fc_overall_rank": 142,
       "fc_position_rank": 16,
-      "fc_tier": 40,
-      "fc_trend_30day": 48,
+      "fc_tier": 41,
+      "fc_trend_30day": 46,
       "fc_adp": null
     },
     {
@@ -1859,8 +1859,8 @@
       "fc_value": 317,
       "fc_overall_rank": 143,
       "fc_position_rank": 48,
-      "fc_tier": 40,
-      "fc_trend_30day": -35,
+      "fc_tier": 41,
+      "fc_trend_30day": -36,
       "fc_adp": null
     },
     {
@@ -1872,8 +1872,8 @@
       "fc_value": 317,
       "fc_overall_rank": 144,
       "fc_position_rank": 17,
-      "fc_tier": 40,
-      "fc_trend_30day": 65,
+      "fc_tier": 41,
+      "fc_trend_30day": 64,
       "fc_adp": null
     },
     {
@@ -1885,8 +1885,8 @@
       "fc_value": 311,
       "fc_overall_rank": 145,
       "fc_position_rank": 42,
-      "fc_tier": 40,
-      "fc_trend_30day": 59,
+      "fc_tier": 41,
+      "fc_trend_30day": 58,
       "fc_adp": null
     },
     {
@@ -1898,8 +1898,8 @@
       "fc_value": 298,
       "fc_overall_rank": 146,
       "fc_position_rank": 49,
-      "fc_tier": 40,
-      "fc_trend_30day": 19,
+      "fc_tier": 41,
+      "fc_trend_30day": 18,
       "fc_adp": null
     },
     {
@@ -1911,8 +1911,8 @@
       "fc_value": 289,
       "fc_overall_rank": 147,
       "fc_position_rank": 18,
-      "fc_tier": 40,
-      "fc_trend_30day": 69,
+      "fc_tier": 41,
+      "fc_trend_30day": 68,
       "fc_adp": null
     },
     {
@@ -1924,8 +1924,8 @@
       "fc_value": 273,
       "fc_overall_rank": 148,
       "fc_position_rank": 19,
-      "fc_tier": 41,
-      "fc_trend_30day": 78,
+      "fc_tier": 42,
+      "fc_trend_30day": 79,
       "fc_adp": null
     },
     {
@@ -1937,8 +1937,8 @@
       "fc_value": 256,
       "fc_overall_rank": 149,
       "fc_position_rank": 43,
-      "fc_tier": 41,
-      "fc_trend_30day": -129,
+      "fc_tier": 42,
+      "fc_trend_30day": -128,
       "fc_adp": null
     },
     {
@@ -1950,7 +1950,7 @@
       "fc_value": 254,
       "fc_overall_rank": 150,
       "fc_position_rank": 44,
-      "fc_tier": 41,
+      "fc_tier": 42,
       "fc_trend_30day": 57,
       "fc_adp": null
     },
@@ -1963,8 +1963,8 @@
       "fc_value": 249,
       "fc_overall_rank": 151,
       "fc_position_rank": 50,
-      "fc_tier": 41,
-      "fc_trend_30day": 90,
+      "fc_tier": 42,
+      "fc_trend_30day": 89,
       "fc_adp": null
     },
     {
@@ -1976,8 +1976,8 @@
       "fc_value": 248,
       "fc_overall_rank": 152,
       "fc_position_rank": 51,
-      "fc_tier": 41,
-      "fc_trend_30day": -235,
+      "fc_tier": 42,
+      "fc_trend_30day": -236,
       "fc_adp": null
     },
     {
@@ -1989,7 +1989,7 @@
       "fc_value": 246,
       "fc_overall_rank": 153,
       "fc_position_rank": 52,
-      "fc_tier": 41,
+      "fc_tier": 42,
       "fc_trend_30day": 46,
       "fc_adp": null
     },
@@ -2002,7 +2002,7 @@
       "fc_value": 240,
       "fc_overall_rank": 154,
       "fc_position_rank": 20,
-      "fc_tier": 41,
+      "fc_tier": 42,
       "fc_trend_30day": -37,
       "fc_adp": null
     },
@@ -2015,7 +2015,7 @@
       "fc_value": 230,
       "fc_overall_rank": 155,
       "fc_position_rank": 21,
-      "fc_tier": 41,
+      "fc_tier": 42,
       "fc_trend_30day": -1,
       "fc_adp": null
     },
@@ -2029,7 +2029,7 @@
       "fc_overall_rank": 156,
       "fc_position_rank": 45,
       "fc_tier": 42,
-      "fc_trend_30day": -41,
+      "fc_trend_30day": -40,
       "fc_adp": null
     },
     {
@@ -2055,7 +2055,7 @@
       "fc_overall_rank": 158,
       "fc_position_rank": 47,
       "fc_tier": 42,
-      "fc_trend_30day": -18,
+      "fc_trend_30day": -17,
       "fc_adp": null
     },
     {
@@ -2068,7 +2068,7 @@
       "fc_overall_rank": 159,
       "fc_position_rank": 48,
       "fc_tier": 42,
-      "fc_trend_30day": 75,
+      "fc_trend_30day": 77,
       "fc_adp": null
     },
     {
@@ -2080,7 +2080,7 @@
       "fc_value": 161,
       "fc_overall_rank": 160,
       "fc_position_rank": 53,
-      "fc_tier": 42,
+      "fc_tier": 43,
       "fc_trend_30day": -47,
       "fc_adp": null
     },
@@ -2093,7 +2093,7 @@
       "fc_value": 146,
       "fc_overall_rank": 161,
       "fc_position_rank": 54,
-      "fc_tier": 42,
+      "fc_tier": 43,
       "fc_trend_30day": -8,
       "fc_adp": null
     },
@@ -2106,8 +2106,8 @@
       "fc_value": 146,
       "fc_overall_rank": 162,
       "fc_position_rank": 55,
-      "fc_tier": 42,
-      "fc_trend_30day": 0,
+      "fc_tier": 43,
+      "fc_trend_30day": 1,
       "fc_adp": null
     },
     {
@@ -2119,7 +2119,7 @@
       "fc_value": 139,
       "fc_overall_rank": 163,
       "fc_position_rank": 56,
-      "fc_tier": 42,
+      "fc_tier": 43,
       "fc_trend_30day": -10,
       "fc_adp": null
     },
@@ -2132,8 +2132,8 @@
       "fc_value": 137,
       "fc_overall_rank": 164,
       "fc_position_rank": 57,
-      "fc_tier": 42,
-      "fc_trend_30day": 0,
+      "fc_tier": 43,
+      "fc_trend_30day": -1,
       "fc_adp": null
     },
     {
@@ -2145,8 +2145,8 @@
       "fc_value": 134,
       "fc_overall_rank": 165,
       "fc_position_rank": 58,
-      "fc_tier": 42,
-      "fc_trend_30day": 19,
+      "fc_tier": 43,
+      "fc_trend_30day": 20,
       "fc_adp": null
     },
     {
@@ -2158,7 +2158,7 @@
       "fc_value": 127,
       "fc_overall_rank": 166,
       "fc_position_rank": 49,
-      "fc_tier": 42,
+      "fc_tier": 43,
       "fc_trend_30day": -3,
       "fc_adp": null
     },
@@ -2171,8 +2171,8 @@
       "fc_value": 123,
       "fc_overall_rank": 167,
       "fc_position_rank": 50,
-      "fc_tier": 42,
-      "fc_trend_30day": -69,
+      "fc_tier": 43,
+      "fc_trend_30day": -70,
       "fc_adp": null
     },
     {
@@ -2185,7 +2185,7 @@
       "fc_overall_rank": 168,
       "fc_position_rank": 22,
       "fc_tier": 43,
-      "fc_trend_30day": -159,
+      "fc_trend_30day": -160,
       "fc_adp": null
     },
     {
@@ -2198,7 +2198,7 @@
       "fc_overall_rank": 169,
       "fc_position_rank": 59,
       "fc_tier": 43,
-      "fc_trend_30day": -104,
+      "fc_trend_30day": -105,
       "fc_adp": null
     },
     {
@@ -2237,7 +2237,7 @@
       "fc_overall_rank": 172,
       "fc_position_rank": 23,
       "fc_tier": 43,
-      "fc_trend_30day": -94,
+      "fc_trend_30day": -95,
       "fc_adp": null
     },
     {
@@ -2250,7 +2250,7 @@
       "fc_overall_rank": 173,
       "fc_position_rank": 51,
       "fc_tier": 43,
-      "fc_trend_30day": -30,
+      "fc_trend_30day": -31,
       "fc_adp": null
     },
     {
@@ -2263,7 +2263,7 @@
       "fc_overall_rank": 174,
       "fc_position_rank": 52,
       "fc_tier": 43,
-      "fc_trend_30day": 23,
+      "fc_trend_30day": 22,
       "fc_adp": null
     },
     {
@@ -2302,7 +2302,7 @@
       "fc_overall_rank": 177,
       "fc_position_rank": 24,
       "fc_tier": 43,
-      "fc_trend_30day": -73,
+      "fc_trend_30day": -74,
       "fc_adp": null
     },
     {
@@ -2354,7 +2354,7 @@
       "fc_overall_rank": 181,
       "fc_position_rank": 53,
       "fc_tier": 43,
-      "fc_trend_30day": 11,
+      "fc_trend_30day": 12,
       "fc_adp": null
     },
     {
@@ -2405,8 +2405,8 @@
       "fc_value": 49,
       "fc_overall_rank": 185,
       "fc_position_rank": 27,
-      "fc_tier": 43,
-      "fc_trend_30day": 10,
+      "fc_tier": 44,
+      "fc_trend_30day": 11,
       "fc_adp": null
     },
     {
@@ -2418,7 +2418,7 @@
       "fc_value": 47,
       "fc_overall_rank": 186,
       "fc_position_rank": 54,
-      "fc_tier": 43,
+      "fc_tier": 44,
       "fc_trend_30day": 2,
       "fc_adp": null
     },
@@ -2431,7 +2431,7 @@
       "fc_value": 47,
       "fc_overall_rank": 187,
       "fc_position_rank": 55,
-      "fc_tier": 43,
+      "fc_tier": 44,
       "fc_trend_30day": -12,
       "fc_adp": null
     },
@@ -2444,7 +2444,7 @@
       "fc_value": 44,
       "fc_overall_rank": 188,
       "fc_position_rank": 28,
-      "fc_tier": 43,
+      "fc_tier": 44,
       "fc_trend_30day": -68,
       "fc_adp": null
     },
@@ -2458,7 +2458,7 @@
       "fc_overall_rank": 189,
       "fc_position_rank": 67,
       "fc_tier": 44,
-      "fc_trend_30day": 17,
+      "fc_trend_30day": 18,
       "fc_adp": null
     },
     {
@@ -2471,7 +2471,7 @@
       "fc_overall_rank": 190,
       "fc_position_rank": 68,
       "fc_tier": 44,
-      "fc_trend_30day": -117,
+      "fc_trend_30day": -118,
       "fc_adp": null
     },
     {
@@ -2497,7 +2497,7 @@
       "fc_overall_rank": 192,
       "fc_position_rank": 30,
       "fc_tier": 44,
-      "fc_trend_30day": 4,
+      "fc_trend_30day": 5,
       "fc_adp": null
     },
     {
@@ -2510,7 +2510,7 @@
       "fc_overall_rank": 193,
       "fc_position_rank": 56,
       "fc_tier": 44,
-      "fc_trend_30day": 22,
+      "fc_trend_30day": 21,
       "fc_adp": null
     },
     {
@@ -2523,7 +2523,7 @@
       "fc_overall_rank": 194,
       "fc_position_rank": 69,
       "fc_tier": 44,
-      "fc_trend_30day": -23,
+      "fc_trend_30day": -24,
       "fc_adp": null
     },
     {
@@ -2536,7 +2536,7 @@
       "fc_overall_rank": 195,
       "fc_position_rank": 70,
       "fc_tier": 44,
-      "fc_trend_30day": -100,
+      "fc_trend_30day": -101,
       "fc_adp": null
     },
     {
