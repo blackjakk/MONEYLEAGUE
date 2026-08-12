@@ -532,7 +532,21 @@ goal docs: GOAL_RESEARCH.md, GOAL_OPTIONS.md). Caches: `data/scouting/`
   first-initialed). Feeder: decade_ledger.json now exports
   season_headliners (per-season biggest trade w/ player names) —
   build_decade_ledger.py is NOT in the weekly pipeline; rerun by hand
-  if the ledger method ever changes. Keeper lock
+  if the ledger method ever changes. TANK LAYER (user-prompted, Aug
+  12): pick legs recovered for 132/136 Yahoo trades by joining the
+  cookie-scraper archive (data/yahoo/league_*/trades_*.json — the API
+  feed drops pick legs; 97/136 trades moved picks, killing the old
+  "player-for-player" assumption) → decade_ledger exports ALL sides w/
+  picks_in/out; swing-trade lines show pick legs + "X was selling";
+  TANK YEAR row when a team sells ≥150 PAR in-season while UPGRADING
+  pick capital (equal-count convention ⇒ signal is pick QUALITY, wt
+  19−round). Reframes: Tim'17 "biggest heist ever" got R1+R2 back = a
+  SELL, not a fleecing; donnie'22 Henry+Diggs → ankur returned an R1.
+  MOST TANKED all-time: DONNIE (1374 PAR sold, 4 full tank yrs, 6 at
+  ≥100 — and his tanks rarely convert: 12→12, 12→10). THE GREAT TANK:
+  FIG 2015 (666 PAR/7 deals → 2016 CHAMPION). Tank ROI: 2/18 tank
+  yrs → next-yr title (fig'15, dave'20), avg climb ~3.5 ranks. Brian
+  tanked 2023 (180 PAR, 11th→5th). Keeper lock
   = 5-min runbook: docs/KEEPER_LOCK.md + lock_keepers.py validator
   (template data/keepers_2026_actual.TEMPLATE.json; enforces cap/floor/
   bump/ownership; then refresh derive sim reports verify).

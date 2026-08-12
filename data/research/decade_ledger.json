@@ -293,7 +293,15 @@
       "par": 324.5,
       "star_buy": true,
       "star_concede": false,
-      "qb_in": true
+      "qb_in": true,
+      "picks_in": [
+        18,
+        19
+      ],
+      "picks_out": [
+        1,
+        2
+      ]
     },
     {
       "season": 2011,
@@ -303,7 +311,9 @@
       "par": 227.0,
       "star_buy": true,
       "star_concede": false,
-      "qb_in": true
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
     },
     {
       "season": 2013,
@@ -313,7 +323,9 @@
       "par": 225.6,
       "star_buy": false,
       "star_concede": false,
-      "qb_in": true
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
     },
     {
       "season": 2021,
@@ -323,7 +335,17 @@
       "par": 221.6,
       "star_buy": true,
       "star_concede": false,
-      "qb_in": false
+      "qb_in": false,
+      "picks_in": [
+        8,
+        9,
+        11
+      ],
+      "picks_out": [
+        1,
+        2,
+        5
+      ]
     },
     {
       "season": 2019,
@@ -333,7 +355,9 @@
       "par": 219.7,
       "star_buy": true,
       "star_concede": false,
-      "qb_in": true
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
     },
     {
       "season": 2019,
@@ -343,7 +367,9 @@
       "par": 213.6,
       "star_buy": true,
       "star_concede": false,
-      "qb_in": true
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
     },
     {
       "season": 2017,
@@ -353,7 +379,17 @@
       "par": 207.2,
       "star_buy": true,
       "star_concede": false,
-      "qb_in": false
+      "qb_in": false,
+      "picks_in": [
+        10,
+        12,
+        19
+      ],
+      "picks_out": [
+        1,
+        8,
+        14
+      ]
     },
     {
       "season": 2013,
@@ -363,7 +399,13 @@
       "par": 190.5,
       "star_buy": true,
       "star_concede": false,
-      "qb_in": false
+      "qb_in": false,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        8
+      ]
     },
     {
       "season": 2014,
@@ -373,7 +415,13 @@
       "par": 188.9,
       "star_buy": false,
       "star_concede": false,
-      "qb_in": true
+      "qb_in": true,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        6
+      ]
     },
     {
       "season": 2020,
@@ -383,7 +431,4203 @@
       "par": 186.2,
       "star_buy": true,
       "star_concede": false,
-      "qb_in": false
+      "qb_in": false,
+      "picks_in": [
+        8
+      ],
+      "picks_out": [
+        4
+      ]
+    }
+  ],
+  "sides": [
+    {
+      "season": 2011,
+      "week": 7,
+      "manager": "brian_bigguap",
+      "counterparty": "kyle_figgy",
+      "par": -8.4,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2011,
+      "week": 7,
+      "manager": "kyle_figgy",
+      "counterparty": "brian_bigguap",
+      "par": 8.4,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2011,
+      "week": 6,
+      "manager": "jp_former",
+      "counterparty": "coop",
+      "par": -154.8,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2011,
+      "week": 6,
+      "manager": "coop",
+      "counterparty": "jp_former",
+      "par": 154.8,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2011,
+      "week": 4,
+      "manager": "kyle_figgy",
+      "counterparty": "coop",
+      "par": 227.0,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2011,
+      "week": 4,
+      "manager": "coop",
+      "counterparty": "kyle_figgy",
+      "par": -227.0,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2011,
+      "week": 4,
+      "manager": "trevor_bergerboy",
+      "counterparty": "coop",
+      "par": 78.5,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2011,
+      "week": 4,
+      "manager": "coop",
+      "counterparty": "trevor_bergerboy",
+      "par": -78.5,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2012,
+      "week": 10,
+      "manager": "kyle_figgy",
+      "counterparty": "coop",
+      "par": -21.4,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2012,
+      "week": 10,
+      "manager": "coop",
+      "counterparty": "kyle_figgy",
+      "par": 21.4,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2012,
+      "week": 6,
+      "manager": "coop",
+      "counterparty": "brian_bigguap",
+      "par": 19.3,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2012,
+      "week": 6,
+      "manager": "brian_bigguap",
+      "counterparty": "coop",
+      "par": -19.3,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2012,
+      "week": 3,
+      "manager": "nark",
+      "counterparty": "jp_former",
+      "par": 125.0,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2012,
+      "week": 3,
+      "manager": "jp_former",
+      "counterparty": "nark",
+      "par": -125.0,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2013,
+      "week": 9,
+      "manager": "kyle_figgy",
+      "counterparty": "nick_lewis_left",
+      "par": -117.3,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [
+        9
+      ],
+      "picks_out": [
+        2
+      ]
+    },
+    {
+      "season": 2013,
+      "week": 9,
+      "manager": "nick_lewis_left",
+      "counterparty": "kyle_figgy",
+      "par": 117.3,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        2
+      ],
+      "picks_out": [
+        9
+      ]
+    },
+    {
+      "season": 2013,
+      "week": 6,
+      "manager": "nark",
+      "counterparty": "coop",
+      "par": -170.4,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2013,
+      "week": 6,
+      "manager": "coop",
+      "counterparty": "nark",
+      "par": 170.4,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2013,
+      "week": 6,
+      "manager": "brian_bigguap",
+      "counterparty": "nick_lewis_left",
+      "par": 83.5,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2013,
+      "week": 6,
+      "manager": "nick_lewis_left",
+      "counterparty": "brian_bigguap",
+      "par": -83.5,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2013,
+      "week": 5,
+      "manager": "nick_lewis_left",
+      "counterparty": "troy_mullings",
+      "par": -190.5,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        8
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2013,
+      "week": 5,
+      "manager": "troy_mullings",
+      "counterparty": "nick_lewis_left",
+      "par": 190.5,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        8
+      ]
+    },
+    {
+      "season": 2013,
+      "week": 4,
+      "manager": "brian_bigguap",
+      "counterparty": "nick_lewis_left",
+      "par": -225.6,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2013,
+      "week": 4,
+      "manager": "nick_lewis_left",
+      "counterparty": "brian_bigguap",
+      "par": 225.6,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2013,
+      "week": 0,
+      "manager": "brian_bigguap",
+      "counterparty": "trevor_bergerboy",
+      "par": 21.3,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2013,
+      "week": 0,
+      "manager": "trevor_bergerboy",
+      "counterparty": "brian_bigguap",
+      "par": -21.3,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2014,
+      "week": 12,
+      "manager": "brian_bigguap",
+      "counterparty": "eric_m",
+      "par": -70.8,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        2,
+        4,
+        6
+      ],
+      "picks_out": [
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 12,
+      "manager": "eric_m",
+      "counterparty": "brian_bigguap",
+      "par": 70.8,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        3,
+        4,
+        7
+      ],
+      "picks_out": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 11,
+      "manager": "nark",
+      "counterparty": "trevor_bergerboy",
+      "par": -49.8,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        7
+      ],
+      "picks_out": [
+        9
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 11,
+      "manager": "trevor_bergerboy",
+      "counterparty": "nark",
+      "par": 49.8,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        9
+      ],
+      "picks_out": [
+        7
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 11,
+      "manager": "nark",
+      "counterparty": "brian_bigguap",
+      "par": -57.5,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        5
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 11,
+      "manager": "brian_bigguap",
+      "counterparty": "nark",
+      "par": 57.5,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        5
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 11,
+      "manager": "nark",
+      "counterparty": "trevor_bergerboy",
+      "par": -16.1,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        7
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 11,
+      "manager": "trevor_bergerboy",
+      "counterparty": "nark",
+      "par": 16.1,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        7
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 11,
+      "manager": "trevor_bergerboy",
+      "counterparty": "donnie",
+      "par": 47.6,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        8
+      ],
+      "picks_out": [
+        5
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 11,
+      "manager": "donnie",
+      "counterparty": "trevor_bergerboy",
+      "par": -47.6,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        5
+      ],
+      "picks_out": [
+        8
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 11,
+      "manager": "nark",
+      "counterparty": "coop",
+      "par": -42.6,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        7
+      ],
+      "picks_out": [
+        8
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 11,
+      "manager": "coop",
+      "counterparty": "nark",
+      "par": 42.6,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        8
+      ],
+      "picks_out": [
+        7
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 11,
+      "manager": "trevor_bergerboy",
+      "counterparty": "troy_mullings",
+      "par": 94.3,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        9
+      ],
+      "picks_out": [
+        8
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 11,
+      "manager": "troy_mullings",
+      "counterparty": "trevor_bergerboy",
+      "par": -94.3,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        8
+      ],
+      "picks_out": [
+        9
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 11,
+      "manager": "troy_mullings",
+      "counterparty": "coop",
+      "par": -19.7,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        2,
+        6
+      ],
+      "picks_out": [
+        7,
+        12
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 11,
+      "manager": "coop",
+      "counterparty": "troy_mullings",
+      "par": 19.7,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [
+        7,
+        12
+      ],
+      "picks_out": [
+        2,
+        6
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 9,
+      "manager": "dave_aka_wang",
+      "counterparty": "lem",
+      "par": -64.9,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        2
+      ],
+      "picks_out": [
+        4
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 9,
+      "manager": "lem",
+      "counterparty": "dave_aka_wang",
+      "par": 64.9,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        4
+      ],
+      "picks_out": [
+        2
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 9,
+      "manager": "trevor_bergerboy",
+      "counterparty": "kyle_figgy",
+      "par": 21.3,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        5,
+        6
+      ],
+      "picks_out": [
+        6,
+        5
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 9,
+      "manager": "kyle_figgy",
+      "counterparty": "trevor_bergerboy",
+      "par": -21.3,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        6,
+        5
+      ],
+      "picks_out": [
+        5,
+        6
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 9,
+      "manager": "dave_aka_wang",
+      "counterparty": "lem",
+      "par": -42.1,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        1
+      ],
+      "picks_out": [
+        2
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 9,
+      "manager": "lem",
+      "counterparty": "dave_aka_wang",
+      "par": 42.1,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        2
+      ],
+      "picks_out": [
+        1
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 9,
+      "manager": "dave_aka_wang",
+      "counterparty": "trevor_bergerboy",
+      "par": -93.1,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        4,
+        10,
+        16
+      ],
+      "picks_out": [
+        10,
+        16,
+        19
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 9,
+      "manager": "trevor_bergerboy",
+      "counterparty": "dave_aka_wang",
+      "par": 93.1,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        10,
+        16,
+        19
+      ],
+      "picks_out": [
+        4,
+        10,
+        16
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 9,
+      "manager": "dave_aka_wang",
+      "counterparty": "troy_mullings",
+      "par": -78.7,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        3
+      ],
+      "picks_out": [
+        12
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 9,
+      "manager": "troy_mullings",
+      "counterparty": "dave_aka_wang",
+      "par": 78.7,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        12
+      ],
+      "picks_out": [
+        3
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 8,
+      "manager": "brian_bigguap",
+      "counterparty": "donnie",
+      "par": 108.6,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2014,
+      "week": 8,
+      "manager": "donnie",
+      "counterparty": "brian_bigguap",
+      "par": -108.6,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2014,
+      "week": 7,
+      "manager": "brian_bigguap",
+      "counterparty": "donnie",
+      "par": -21.1,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        3
+      ],
+      "picks_out": [
+        1
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 7,
+      "manager": "donnie",
+      "counterparty": "brian_bigguap",
+      "par": 21.1,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        1
+      ],
+      "picks_out": [
+        3
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 7,
+      "manager": "coop",
+      "counterparty": "troy_mullings",
+      "par": -6.9,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2014,
+      "week": 7,
+      "manager": "troy_mullings",
+      "counterparty": "coop",
+      "par": 6.9,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2014,
+      "week": 3,
+      "manager": "trevor_bergerboy",
+      "counterparty": "brian_bigguap",
+      "par": 188.9,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 3,
+      "manager": "brian_bigguap",
+      "counterparty": "trevor_bergerboy",
+      "par": -188.9,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2014,
+      "week": 3,
+      "manager": "dave_aka_wang",
+      "counterparty": "eric_m",
+      "par": 60.6,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2014,
+      "week": 3,
+      "manager": "eric_m",
+      "counterparty": "dave_aka_wang",
+      "par": -60.6,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2015,
+      "week": 10,
+      "manager": "nark",
+      "counterparty": "troy_mullings",
+      "par": -120.2,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [
+        5,
+        10
+      ],
+      "picks_out": [
+        12,
+        18
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 10,
+      "manager": "troy_mullings",
+      "counterparty": "nark",
+      "par": 120.2,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        12,
+        18
+      ],
+      "picks_out": [
+        5,
+        10
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 10,
+      "manager": "donnie",
+      "counterparty": "nark",
+      "par": 102.8,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        9
+      ],
+      "picks_out": [
+        2
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 10,
+      "manager": "nark",
+      "counterparty": "donnie",
+      "par": -102.8,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        2
+      ],
+      "picks_out": [
+        9
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 10,
+      "manager": "trevor_bergerboy",
+      "counterparty": "kyle_figgy",
+      "par": 134.7,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        18
+      ],
+      "picks_out": [
+        1
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 10,
+      "manager": "kyle_figgy",
+      "counterparty": "trevor_bergerboy",
+      "par": -134.7,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        1
+      ],
+      "picks_out": [
+        18
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 9,
+      "manager": "dave_aka_wang",
+      "counterparty": "kyle_figgy",
+      "par": 46.1,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        7,
+        15,
+        8
+      ],
+      "picks_out": [
+        3,
+        7,
+        8
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 9,
+      "manager": "kyle_figgy",
+      "counterparty": "dave_aka_wang",
+      "par": -46.1,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        3,
+        7,
+        8
+      ],
+      "picks_out": [
+        7,
+        15,
+        8
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 9,
+      "manager": "lem",
+      "counterparty": "kyle_figgy",
+      "par": 109.3,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        19
+      ],
+      "picks_out": [
+        2
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 9,
+      "manager": "kyle_figgy",
+      "counterparty": "lem",
+      "par": -109.3,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        2
+      ],
+      "picks_out": [
+        19
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 9,
+      "manager": "trevor_bergerboy",
+      "counterparty": "brian_bigguap",
+      "par": 100.3,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        3
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 9,
+      "manager": "brian_bigguap",
+      "counterparty": "trevor_bergerboy",
+      "par": -100.3,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [
+        3
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 9,
+      "manager": "trevor_bergerboy",
+      "counterparty": "kyle_figgy",
+      "par": 68.8,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        12
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 9,
+      "manager": "kyle_figgy",
+      "counterparty": "trevor_bergerboy",
+      "par": -68.8,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        12
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 7,
+      "manager": "donnie",
+      "counterparty": "kyle_figgy",
+      "par": 47.9,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        10
+      ],
+      "picks_out": [
+        9
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 7,
+      "manager": "kyle_figgy",
+      "counterparty": "donnie",
+      "par": -47.9,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        9
+      ],
+      "picks_out": [
+        10
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 7,
+      "manager": "donnie",
+      "counterparty": "kyle_figgy",
+      "par": 97.0,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        5
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 7,
+      "manager": "kyle_figgy",
+      "counterparty": "donnie",
+      "par": -97.0,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        5
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 6,
+      "manager": "kyle_figgy",
+      "counterparty": "trevor_bergerboy",
+      "par": -162.1,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        13
+      ],
+      "picks_out": [
+        16
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 6,
+      "manager": "trevor_bergerboy",
+      "counterparty": "kyle_figgy",
+      "par": 162.1,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        16
+      ],
+      "picks_out": [
+        13
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 5,
+      "manager": "donnie",
+      "counterparty": "coop",
+      "par": 47.0,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        9
+      ],
+      "picks_out": [
+        3
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 5,
+      "manager": "coop",
+      "counterparty": "donnie",
+      "par": -47.0,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        3
+      ],
+      "picks_out": [
+        9
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 5,
+      "manager": "kyle_figgy",
+      "counterparty": "trevor_bergerboy",
+      "par": 51.2,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2015,
+      "week": 5,
+      "manager": "trevor_bergerboy",
+      "counterparty": "kyle_figgy",
+      "par": -51.2,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2015,
+      "week": 5,
+      "manager": "troy_mullings",
+      "counterparty": "coop",
+      "par": 148.1,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        5
+      ],
+      "picks_out": [
+        2
+      ]
+    },
+    {
+      "season": 2015,
+      "week": 5,
+      "manager": "coop",
+      "counterparty": "troy_mullings",
+      "par": -148.1,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        2
+      ],
+      "picks_out": [
+        5
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 10,
+      "manager": "coop",
+      "counterparty": "brian_bigguap",
+      "par": 157.5,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2016,
+      "week": 10,
+      "manager": "brian_bigguap",
+      "counterparty": "coop",
+      "par": -157.5,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2016,
+      "week": 10,
+      "manager": "coop",
+      "counterparty": "lem",
+      "par": -100.4,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2016,
+      "week": 10,
+      "manager": "lem",
+      "counterparty": "coop",
+      "par": 100.4,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2016,
+      "week": 8,
+      "manager": "troy_mullings",
+      "counterparty": "donnie",
+      "par": -18.4,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        8
+      ],
+      "picks_out": [
+        10
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 8,
+      "manager": "donnie",
+      "counterparty": "troy_mullings",
+      "par": 18.4,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        10
+      ],
+      "picks_out": [
+        8
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 6,
+      "manager": "dave_aka_wang",
+      "counterparty": "troy_mullings",
+      "par": -120.6,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        5
+      ],
+      "picks_out": [
+        2
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 6,
+      "manager": "troy_mullings",
+      "counterparty": "dave_aka_wang",
+      "par": 120.6,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        2
+      ],
+      "picks_out": [
+        5
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 5,
+      "manager": "coop",
+      "counterparty": "trevor_bergerboy",
+      "par": 26.2,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2016,
+      "week": 5,
+      "manager": "trevor_bergerboy",
+      "counterparty": "coop",
+      "par": -26.2,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2016,
+      "week": 5,
+      "manager": "trevor_bergerboy",
+      "counterparty": "donnie",
+      "par": 78.8,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        17
+      ],
+      "picks_out": [
+        9
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 5,
+      "manager": "donnie",
+      "counterparty": "trevor_bergerboy",
+      "par": -78.8,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        9
+      ],
+      "picks_out": [
+        17
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 5,
+      "manager": "donnie",
+      "counterparty": "brian_bigguap",
+      "par": 64.1,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        5
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 5,
+      "manager": "brian_bigguap",
+      "counterparty": "donnie",
+      "par": -64.1,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        5
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 4,
+      "manager": "kyle_figgy",
+      "counterparty": "coop",
+      "par": -45.2,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        7,
+        8
+      ],
+      "picks_out": [
+        2,
+        4
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 4,
+      "manager": "coop",
+      "counterparty": "kyle_figgy",
+      "par": 45.2,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        2,
+        4
+      ],
+      "picks_out": [
+        7,
+        8
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 4,
+      "manager": "coop",
+      "counterparty": "donnie",
+      "par": -64.2,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        18,
+        19
+      ],
+      "picks_out": [
+        1,
+        4
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 4,
+      "manager": "donnie",
+      "counterparty": "coop",
+      "par": 64.2,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        1,
+        4
+      ],
+      "picks_out": [
+        18,
+        19
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 4,
+      "manager": "nark",
+      "counterparty": "trevor_bergerboy",
+      "par": -126.6,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        7
+      ],
+      "picks_out": [
+        10
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 4,
+      "manager": "trevor_bergerboy",
+      "counterparty": "nark",
+      "par": 126.6,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        10
+      ],
+      "picks_out": [
+        7
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 4,
+      "manager": "trevor_bergerboy",
+      "counterparty": "donnie",
+      "par": 63.7,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        3
+      ],
+      "picks_out": [
+        1
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 4,
+      "manager": "donnie",
+      "counterparty": "trevor_bergerboy",
+      "par": -63.7,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        1
+      ],
+      "picks_out": [
+        3
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 4,
+      "manager": "kyle_figgy",
+      "counterparty": "troy_mullings",
+      "par": 149.7,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        8
+      ],
+      "picks_out": [
+        1
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 4,
+      "manager": "troy_mullings",
+      "counterparty": "kyle_figgy",
+      "par": -149.7,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        1
+      ],
+      "picks_out": [
+        8
+      ]
+    },
+    {
+      "season": 2016,
+      "week": 0,
+      "manager": "coop",
+      "counterparty": "nark",
+      "par": 59.4,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2016,
+      "week": 0,
+      "manager": "nark",
+      "counterparty": "coop",
+      "par": -59.4,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2017,
+      "week": 8,
+      "manager": "troy_mullings",
+      "counterparty": "lem",
+      "par": 76.9,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        4,
+        16
+      ],
+      "picks_out": [
+        1,
+        3
+      ]
+    },
+    {
+      "season": 2017,
+      "week": 8,
+      "manager": "lem",
+      "counterparty": "troy_mullings",
+      "par": -76.9,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [
+        1,
+        3
+      ],
+      "picks_out": [
+        4,
+        16
+      ]
+    },
+    {
+      "season": 2017,
+      "week": 8,
+      "manager": "trevor_bergerboy",
+      "counterparty": "dave_aka_wang",
+      "par": -170.5,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [
+        1,
+        3,
+        6
+      ],
+      "picks_out": [
+        6,
+        11,
+        13
+      ]
+    },
+    {
+      "season": 2017,
+      "week": 8,
+      "manager": "dave_aka_wang",
+      "counterparty": "trevor_bergerboy",
+      "par": 170.5,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        6,
+        11,
+        13
+      ],
+      "picks_out": [
+        1,
+        3,
+        6
+      ]
+    },
+    {
+      "season": 2017,
+      "week": 8,
+      "manager": "donnie",
+      "counterparty": "trevor_bergerboy",
+      "par": 207.2,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        10,
+        12,
+        19
+      ],
+      "picks_out": [
+        1,
+        8,
+        14
+      ]
+    },
+    {
+      "season": 2017,
+      "week": 8,
+      "manager": "trevor_bergerboy",
+      "counterparty": "donnie",
+      "par": -207.2,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [
+        1,
+        8,
+        14
+      ],
+      "picks_out": [
+        10,
+        12,
+        19
+      ]
+    },
+    {
+      "season": 2017,
+      "week": 6,
+      "manager": "donnie",
+      "counterparty": "brian_bigguap",
+      "par": 1.4,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        18
+      ],
+      "picks_out": [
+        9
+      ]
+    },
+    {
+      "season": 2017,
+      "week": 6,
+      "manager": "brian_bigguap",
+      "counterparty": "donnie",
+      "par": -1.4,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        9
+      ],
+      "picks_out": [
+        18
+      ]
+    },
+    {
+      "season": 2017,
+      "week": 6,
+      "manager": "trevor_bergerboy",
+      "counterparty": "brian_bigguap",
+      "par": 105.9,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        13,
+        19
+      ],
+      "picks_out": [
+        1,
+        9
+      ]
+    },
+    {
+      "season": 2017,
+      "week": 6,
+      "manager": "brian_bigguap",
+      "counterparty": "trevor_bergerboy",
+      "par": -105.9,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        1,
+        9
+      ],
+      "picks_out": [
+        13,
+        19
+      ]
+    },
+    {
+      "season": 2017,
+      "week": 6,
+      "manager": "donnie",
+      "counterparty": "tim_breswick",
+      "par": -4.1,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        3
+      ]
+    },
+    {
+      "season": 2017,
+      "week": 6,
+      "manager": "tim_breswick",
+      "counterparty": "donnie",
+      "par": 4.1,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        3
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2017,
+      "week": 6,
+      "manager": "trevor_bergerboy",
+      "counterparty": "brian_bigguap",
+      "par": 113.2,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2017,
+      "week": 6,
+      "manager": "brian_bigguap",
+      "counterparty": "trevor_bergerboy",
+      "par": -113.2,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2017,
+      "week": 6,
+      "manager": "coop",
+      "counterparty": "lem",
+      "par": 38.1,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        18,
+        19
+      ],
+      "picks_out": [
+        3,
+        5
+      ]
+    },
+    {
+      "season": 2017,
+      "week": 6,
+      "manager": "lem",
+      "counterparty": "coop",
+      "par": -38.1,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        3,
+        5
+      ],
+      "picks_out": [
+        18,
+        19
+      ]
+    },
+    {
+      "season": 2017,
+      "week": 5,
+      "manager": "eric_m",
+      "counterparty": "brian_bigguap",
+      "par": 68.6,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2017,
+      "week": 5,
+      "manager": "brian_bigguap",
+      "counterparty": "eric_m",
+      "par": -68.6,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2017,
+      "week": 5,
+      "manager": "coop",
+      "counterparty": "tim_breswick",
+      "par": 324.5,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        18,
+        19
+      ],
+      "picks_out": [
+        1,
+        2
+      ]
+    },
+    {
+      "season": 2017,
+      "week": 5,
+      "manager": "tim_breswick",
+      "counterparty": "coop",
+      "par": -324.5,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [
+        1,
+        2
+      ],
+      "picks_out": [
+        18,
+        19
+      ]
+    },
+    {
+      "season": 2017,
+      "week": 5,
+      "manager": "trevor_bergerboy",
+      "counterparty": "lem",
+      "par": -59.5,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        11
+      ],
+      "picks_out": [
+        8
+      ]
+    },
+    {
+      "season": 2017,
+      "week": 5,
+      "manager": "lem",
+      "counterparty": "trevor_bergerboy",
+      "par": 59.5,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [
+        8
+      ],
+      "picks_out": [
+        11
+      ]
+    },
+    {
+      "season": 2017,
+      "week": 2,
+      "manager": "trevor_bergerboy",
+      "counterparty": "brian_bigguap",
+      "par": 136.1,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2017,
+      "week": 2,
+      "manager": "brian_bigguap",
+      "counterparty": "trevor_bergerboy",
+      "par": -136.1,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2018,
+      "week": 10,
+      "manager": "coop",
+      "counterparty": "tim_breswick",
+      "par": 92.4,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        3,
+        6
+      ],
+      "picks_out": [
+        10,
+        11
+      ]
+    },
+    {
+      "season": 2018,
+      "week": 10,
+      "manager": "tim_breswick",
+      "counterparty": "coop",
+      "par": -92.4,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        10,
+        11
+      ],
+      "picks_out": [
+        3,
+        6
+      ]
+    },
+    {
+      "season": 2018,
+      "week": 9,
+      "manager": "troy_mullings",
+      "counterparty": "tim_breswick",
+      "par": 28.7,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        2,
+        4
+      ],
+      "picks_out": [
+        14,
+        18
+      ]
+    },
+    {
+      "season": 2018,
+      "week": 9,
+      "manager": "tim_breswick",
+      "counterparty": "troy_mullings",
+      "par": -28.7,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        14,
+        18
+      ],
+      "picks_out": [
+        2,
+        4
+      ]
+    },
+    {
+      "season": 2018,
+      "week": 8,
+      "manager": "dave_aka_wang",
+      "counterparty": "donnie",
+      "par": 44.3,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        5
+      ]
+    },
+    {
+      "season": 2018,
+      "week": 8,
+      "manager": "donnie",
+      "counterparty": "dave_aka_wang",
+      "par": -44.3,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        5
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2018,
+      "week": 8,
+      "manager": "dave_aka_wang",
+      "counterparty": "trevor_bergerboy",
+      "par": 135.6,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        5,
+        7,
+        8,
+        11,
+        12
+      ],
+      "picks_out": [
+        1,
+        3,
+        7,
+        11,
+        15
+      ]
+    },
+    {
+      "season": 2018,
+      "week": 8,
+      "manager": "trevor_bergerboy",
+      "counterparty": "dave_aka_wang",
+      "par": -135.6,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [
+        1,
+        3,
+        7,
+        11,
+        15
+      ],
+      "picks_out": [
+        5,
+        7,
+        8,
+        11,
+        12
+      ]
+    },
+    {
+      "season": 2018,
+      "week": 7,
+      "manager": "kyle_figgy",
+      "counterparty": "coop",
+      "par": 139.1,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        9,
+        19
+      ],
+      "picks_out": [
+        4,
+        11
+      ]
+    },
+    {
+      "season": 2018,
+      "week": 7,
+      "manager": "coop",
+      "counterparty": "kyle_figgy",
+      "par": -139.1,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        4,
+        11
+      ],
+      "picks_out": [
+        9,
+        19
+      ]
+    },
+    {
+      "season": 2018,
+      "week": 7,
+      "manager": "brian_bigguap",
+      "counterparty": "coop",
+      "par": 122.5,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        17
+      ],
+      "picks_out": [
+        2
+      ]
+    },
+    {
+      "season": 2018,
+      "week": 7,
+      "manager": "coop",
+      "counterparty": "brian_bigguap",
+      "par": -122.5,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        2
+      ],
+      "picks_out": [
+        17
+      ]
+    },
+    {
+      "season": 2018,
+      "week": 7,
+      "manager": "dave_aka_wang",
+      "counterparty": "donnie",
+      "par": -62.0,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2018,
+      "week": 7,
+      "manager": "donnie",
+      "counterparty": "dave_aka_wang",
+      "par": 62.0,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2018,
+      "week": 7,
+      "manager": "coop",
+      "counterparty": "donnie",
+      "par": 87.1,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2018,
+      "week": 7,
+      "manager": "donnie",
+      "counterparty": "coop",
+      "par": -87.1,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2018,
+      "week": 2,
+      "manager": "dave_aka_wang",
+      "counterparty": "lem",
+      "par": 142.1,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2018,
+      "week": 2,
+      "manager": "lem",
+      "counterparty": "dave_aka_wang",
+      "par": -142.1,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2019,
+      "week": 10,
+      "manager": "tim_breswick",
+      "counterparty": "brian_bigguap",
+      "par": -219.7,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2019,
+      "week": 10,
+      "manager": "brian_bigguap",
+      "counterparty": "tim_breswick",
+      "par": 219.7,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2019,
+      "week": 9,
+      "manager": "brower_barry",
+      "counterparty": "brian_bigguap",
+      "par": -79.3,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2019,
+      "week": 9,
+      "manager": "brian_bigguap",
+      "counterparty": "brower_barry",
+      "par": 79.3,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2019,
+      "week": 7,
+      "manager": "dave_aka_wang",
+      "counterparty": "notebooks_left",
+      "par": 142.6,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        4
+      ],
+      "picks_out": [
+        1
+      ]
+    },
+    {
+      "season": 2019,
+      "week": 7,
+      "manager": "notebooks_left",
+      "counterparty": "dave_aka_wang",
+      "par": -142.6,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [
+        1
+      ],
+      "picks_out": [
+        4
+      ]
+    },
+    {
+      "season": 2019,
+      "week": 7,
+      "manager": "dave_aka_wang",
+      "counterparty": "donnie",
+      "par": 40.3,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        9,
+        10
+      ],
+      "picks_out": [
+        6,
+        8
+      ]
+    },
+    {
+      "season": 2019,
+      "week": 7,
+      "manager": "donnie",
+      "counterparty": "dave_aka_wang",
+      "par": -40.3,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        6,
+        8
+      ],
+      "picks_out": [
+        9,
+        10
+      ]
+    },
+    {
+      "season": 2019,
+      "week": 6,
+      "manager": "trevor_bergerboy",
+      "counterparty": "donnie",
+      "par": 131.0,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        1
+      ]
+    },
+    {
+      "season": 2019,
+      "week": 6,
+      "manager": "donnie",
+      "counterparty": "trevor_bergerboy",
+      "par": -131.0,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [
+        1
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2019,
+      "week": 6,
+      "manager": "coop",
+      "counterparty": "kyle_figgy",
+      "par": -78.7,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        1
+      ],
+      "picks_out": [
+        17
+      ]
+    },
+    {
+      "season": 2019,
+      "week": 6,
+      "manager": "kyle_figgy",
+      "counterparty": "coop",
+      "par": 78.7,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        17
+      ],
+      "picks_out": [
+        1
+      ]
+    },
+    {
+      "season": 2019,
+      "week": 6,
+      "manager": "troy_mullings",
+      "counterparty": "coop",
+      "par": -21.6,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        7
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2019,
+      "week": 6,
+      "manager": "coop",
+      "counterparty": "troy_mullings",
+      "par": 21.6,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        7
+      ]
+    },
+    {
+      "season": 2019,
+      "week": 5,
+      "manager": "brian_bigguap",
+      "counterparty": "lem",
+      "par": -213.6,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2019,
+      "week": 5,
+      "manager": "lem",
+      "counterparty": "brian_bigguap",
+      "par": 213.6,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2019,
+      "week": 5,
+      "manager": "brian_bigguap",
+      "counterparty": "donnie",
+      "par": 158.8,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        4
+      ],
+      "picks_out": [
+        1
+      ]
+    },
+    {
+      "season": 2019,
+      "week": 5,
+      "manager": "donnie",
+      "counterparty": "brian_bigguap",
+      "par": -158.8,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        1
+      ],
+      "picks_out": [
+        4
+      ]
+    },
+    {
+      "season": 2019,
+      "week": 5,
+      "manager": "coop",
+      "counterparty": "brower_barry",
+      "par": -63.5,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2019,
+      "week": 5,
+      "manager": "brower_barry",
+      "counterparty": "coop",
+      "par": 63.5,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2019,
+      "week": 4,
+      "manager": "troy_mullings",
+      "counterparty": "lem",
+      "par": 104.1,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        7,
+        15
+      ],
+      "picks_out": [
+        1,
+        3
+      ]
+    },
+    {
+      "season": 2019,
+      "week": 4,
+      "manager": "lem",
+      "counterparty": "troy_mullings",
+      "par": -104.1,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [
+        1,
+        3
+      ],
+      "picks_out": [
+        7,
+        15
+      ]
+    },
+    {
+      "season": 2019,
+      "week": 3,
+      "manager": "brower_barry",
+      "counterparty": "coop",
+      "par": 1.9,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        3,
+        15
+      ],
+      "picks_out": [
+        7,
+        16
+      ]
+    },
+    {
+      "season": 2019,
+      "week": 3,
+      "manager": "coop",
+      "counterparty": "brower_barry",
+      "par": -1.9,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        7,
+        16
+      ],
+      "picks_out": [
+        3,
+        15
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 10,
+      "manager": "brian_bigguap",
+      "counterparty": "trevor_bergerboy",
+      "par": 24.1,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        3
+      ],
+      "picks_out": [
+        17
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 10,
+      "manager": "trevor_bergerboy",
+      "counterparty": "brian_bigguap",
+      "par": -24.1,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        17
+      ],
+      "picks_out": [
+        3
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 10,
+      "manager": "troy_mullings",
+      "counterparty": "eric_m",
+      "par": -16.1,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        2
+      ],
+      "picks_out": [
+        4
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 10,
+      "manager": "eric_m",
+      "counterparty": "troy_mullings",
+      "par": 16.1,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        4
+      ],
+      "picks_out": [
+        2
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 10,
+      "manager": "brower_barry",
+      "counterparty": "brian_bigguap",
+      "par": 73.7,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2020,
+      "week": 10,
+      "manager": "brian_bigguap",
+      "counterparty": "brower_barry",
+      "par": -73.7,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2020,
+      "week": 8,
+      "manager": "trevor_bergerboy",
+      "counterparty": "kyle_figgy",
+      "par": -28.7,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        12
+      ],
+      "picks_out": [
+        8
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 8,
+      "manager": "kyle_figgy",
+      "counterparty": "trevor_bergerboy",
+      "par": 28.7,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        8
+      ],
+      "picks_out": [
+        12
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 8,
+      "manager": "trevor_bergerboy",
+      "counterparty": "kyle_figgy",
+      "par": -122.9,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        4
+      ],
+      "picks_out": [
+        1
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 8,
+      "manager": "kyle_figgy",
+      "counterparty": "trevor_bergerboy",
+      "par": 122.9,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [
+        1
+      ],
+      "picks_out": [
+        4
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 8,
+      "manager": "trevor_bergerboy",
+      "counterparty": "lem",
+      "par": 82.4,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        4
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 8,
+      "manager": "lem",
+      "counterparty": "trevor_bergerboy",
+      "par": -82.4,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        4
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 8,
+      "manager": "brian_bigguap",
+      "counterparty": "trevor_bergerboy",
+      "par": 2.1,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2020,
+      "week": 8,
+      "manager": "trevor_bergerboy",
+      "counterparty": "brian_bigguap",
+      "par": -2.1,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2020,
+      "week": 8,
+      "manager": "coop",
+      "counterparty": "donnie",
+      "par": 186.2,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        8
+      ],
+      "picks_out": [
+        4
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 8,
+      "manager": "donnie",
+      "counterparty": "coop",
+      "par": -186.2,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        4
+      ],
+      "picks_out": [
+        8
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 8,
+      "manager": "brian_bigguap",
+      "counterparty": "lem",
+      "par": -67.0,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2020,
+      "week": 8,
+      "manager": "lem",
+      "counterparty": "brian_bigguap",
+      "par": 67.0,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2020,
+      "week": 8,
+      "manager": "brian_bigguap",
+      "counterparty": "donnie",
+      "par": 11.4,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        4
+      ],
+      "picks_out": [
+        2
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 8,
+      "manager": "donnie",
+      "counterparty": "brian_bigguap",
+      "par": -11.4,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        2
+      ],
+      "picks_out": [
+        4
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 7,
+      "manager": "brower_barry",
+      "counterparty": "tim_breswick",
+      "par": 23.0,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2020,
+      "week": 7,
+      "manager": "tim_breswick",
+      "counterparty": "brower_barry",
+      "par": -23.0,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2020,
+      "week": 6,
+      "manager": "coop",
+      "counterparty": "lem",
+      "par": 131.0,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        8
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 6,
+      "manager": "lem",
+      "counterparty": "coop",
+      "par": -131.0,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        8
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 5,
+      "manager": "tim_breswick",
+      "counterparty": "dave_aka_wang",
+      "par": 148.6,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        9,
+        11
+      ],
+      "picks_out": [
+        1,
+        3
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 5,
+      "manager": "dave_aka_wang",
+      "counterparty": "tim_breswick",
+      "par": -148.6,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        1,
+        3
+      ],
+      "picks_out": [
+        9,
+        11
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 5,
+      "manager": "dave_aka_wang",
+      "counterparty": "coop",
+      "par": -145.5,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        1,
+        3
+      ],
+      "picks_out": [
+        6,
+        17
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 5,
+      "manager": "coop",
+      "counterparty": "dave_aka_wang",
+      "par": 145.5,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        6,
+        17
+      ],
+      "picks_out": [
+        1,
+        3
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 3,
+      "manager": "brower_barry",
+      "counterparty": "troy_mullings",
+      "par": 158.6,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        6,
+        13
+      ],
+      "picks_out": [
+        1,
+        4
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 3,
+      "manager": "troy_mullings",
+      "counterparty": "brower_barry",
+      "par": -158.6,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        1,
+        4
+      ],
+      "picks_out": [
+        6,
+        13
+      ]
+    },
+    {
+      "season": 2020,
+      "week": 1,
+      "manager": "brian_bigguap",
+      "counterparty": "eric_m",
+      "par": 0.4,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2020,
+      "week": 1,
+      "manager": "eric_m",
+      "counterparty": "brian_bigguap",
+      "par": -0.4,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2020,
+      "week": 1,
+      "manager": "trevor_bergerboy",
+      "counterparty": "brian_bigguap",
+      "par": -35.2,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2020,
+      "week": 1,
+      "manager": "brian_bigguap",
+      "counterparty": "trevor_bergerboy",
+      "par": 35.2,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2021,
+      "week": 12,
+      "manager": "dave_aka_wang",
+      "counterparty": "tim_breswick",
+      "par": -18.6,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        4,
+        7,
+        11,
+        13
+      ],
+      "picks_out": [
+        3,
+        7,
+        9,
+        13
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 12,
+      "manager": "tim_breswick",
+      "counterparty": "dave_aka_wang",
+      "par": 18.6,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        3,
+        7,
+        9,
+        13
+      ],
+      "picks_out": [
+        4,
+        7,
+        11,
+        13
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 11,
+      "manager": "lem",
+      "counterparty": "trevor_bergerboy",
+      "par": 57.7,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        2
+      ],
+      "picks_out": [
+        8
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 11,
+      "manager": "trevor_bergerboy",
+      "counterparty": "lem",
+      "par": -57.7,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        8
+      ],
+      "picks_out": [
+        2
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 10,
+      "manager": "brower_barry",
+      "counterparty": "coop",
+      "par": 82.1,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        5
+      ],
+      "picks_out": [
+        1
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 10,
+      "manager": "coop",
+      "counterparty": "brower_barry",
+      "par": -82.1,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        1
+      ],
+      "picks_out": [
+        5
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 10,
+      "manager": "troy_mullings",
+      "counterparty": "eric_m",
+      "par": 221.6,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        8,
+        9,
+        11
+      ],
+      "picks_out": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 10,
+      "manager": "eric_m",
+      "counterparty": "troy_mullings",
+      "par": -221.6,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        1,
+        2,
+        5
+      ],
+      "picks_out": [
+        8,
+        9,
+        11
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 9,
+      "manager": "ankur_patel",
+      "counterparty": "brower_barry",
+      "par": 36.5,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        2
+      ],
+      "picks_out": [
+        7
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 9,
+      "manager": "brower_barry",
+      "counterparty": "ankur_patel",
+      "par": -36.5,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        7
+      ],
+      "picks_out": [
+        2
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 9,
+      "manager": "dave_aka_wang",
+      "counterparty": "donnie",
+      "par": 52.5,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        9,
+        10,
+        16
+      ],
+      "picks_out": [
+        1,
+        8,
+        12
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 9,
+      "manager": "donnie",
+      "counterparty": "dave_aka_wang",
+      "par": -52.5,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        1,
+        8,
+        12
+      ],
+      "picks_out": [
+        9,
+        10,
+        16
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 9,
+      "manager": "donnie",
+      "counterparty": "trevor_bergerboy",
+      "par": -104.6,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        1
+      ],
+      "picks_out": [
+        7
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 9,
+      "manager": "trevor_bergerboy",
+      "counterparty": "donnie",
+      "par": 104.6,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        7
+      ],
+      "picks_out": [
+        1
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 8,
+      "manager": "brian_bigguap",
+      "counterparty": "kyle_figgy",
+      "par": 23.2,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [
+        4,
+        8,
+        9
+      ],
+      "picks_out": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 8,
+      "manager": "kyle_figgy",
+      "counterparty": "brian_bigguap",
+      "par": -23.2,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        1,
+        2,
+        5
+      ],
+      "picks_out": [
+        4,
+        8,
+        9
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 6,
+      "manager": "lem",
+      "counterparty": "ankur_patel",
+      "par": -0.2,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        8
+      ],
+      "picks_out": [
+        1
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 6,
+      "manager": "ankur_patel",
+      "counterparty": "lem",
+      "par": 0.2,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        1
+      ],
+      "picks_out": [
+        8
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 5,
+      "manager": "brower_barry",
+      "counterparty": "trevor_bergerboy",
+      "par": 6.0,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        8
+      ],
+      "picks_out": [
+        10
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 5,
+      "manager": "trevor_bergerboy",
+      "counterparty": "brower_barry",
+      "par": -6.0,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        10
+      ],
+      "picks_out": [
+        8
+      ]
+    },
+    {
+      "season": 2021,
+      "week": 1,
+      "manager": "dave_aka_wang",
+      "counterparty": "coop",
+      "par": 8.3,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2021,
+      "week": 1,
+      "manager": "coop",
+      "counterparty": "dave_aka_wang",
+      "par": -8.3,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2022,
+      "week": 11,
+      "manager": "brower_barry",
+      "counterparty": "dave_aka_wang",
+      "par": 1.9,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        4
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 11,
+      "manager": "dave_aka_wang",
+      "counterparty": "brower_barry",
+      "par": -1.9,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        4
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 11,
+      "manager": "brian_bigguap",
+      "counterparty": "eric_m",
+      "par": -39.6,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        2
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 11,
+      "manager": "eric_m",
+      "counterparty": "brian_bigguap",
+      "par": 39.6,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        2
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 11,
+      "manager": "brower_barry",
+      "counterparty": "tim_breswick",
+      "par": -22.0,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        4
+      ],
+      "picks_out": [
+        9
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 11,
+      "manager": "tim_breswick",
+      "counterparty": "brower_barry",
+      "par": 22.0,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        9
+      ],
+      "picks_out": [
+        4
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 11,
+      "manager": "trevor_bergerboy",
+      "counterparty": "brian_bigguap",
+      "par": 87.9,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        6,
+        10
+      ],
+      "picks_out": [
+        5,
+        9
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 11,
+      "manager": "brian_bigguap",
+      "counterparty": "trevor_bergerboy",
+      "par": -87.9,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        5,
+        9
+      ],
+      "picks_out": [
+        6,
+        10
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 10,
+      "manager": "coop",
+      "counterparty": "ankur_patel",
+      "par": 26.2,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2022,
+      "week": 10,
+      "manager": "ankur_patel",
+      "counterparty": "coop",
+      "par": -26.2,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2022,
+      "week": 9,
+      "manager": "troy_mullings",
+      "counterparty": "coop",
+      "par": -6.0,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        1,
+        4,
+        8
+      ],
+      "picks_out": [
+        6,
+        8,
+        11
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 9,
+      "manager": "coop",
+      "counterparty": "troy_mullings",
+      "par": 6.0,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        6,
+        8,
+        11
+      ],
+      "picks_out": [
+        1,
+        4,
+        8
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 9,
+      "manager": "trevor_bergerboy",
+      "counterparty": "brian_bigguap",
+      "par": 36.6,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        13
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 9,
+      "manager": "brian_bigguap",
+      "counterparty": "trevor_bergerboy",
+      "par": -36.6,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        13
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 9,
+      "manager": "coop",
+      "counterparty": "donnie",
+      "par": 75.9,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        9
+      ],
+      "picks_out": [
+        6
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 9,
+      "manager": "donnie",
+      "counterparty": "coop",
+      "par": -75.9,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": true,
+      "picks_in": [
+        6
+      ],
+      "picks_out": [
+        9
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 9,
+      "manager": "dave_aka_wang",
+      "counterparty": "donnie",
+      "par": 6.8,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2022,
+      "week": 9,
+      "manager": "donnie",
+      "counterparty": "dave_aka_wang",
+      "par": -6.8,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2022,
+      "week": 7,
+      "manager": "dave_aka_wang",
+      "counterparty": "donnie",
+      "par": 84.2,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        6,
+        8
+      ],
+      "picks_out": [
+        3,
+        5
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 7,
+      "manager": "donnie",
+      "counterparty": "dave_aka_wang",
+      "par": -84.2,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        3,
+        5
+      ],
+      "picks_out": [
+        6,
+        8
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 7,
+      "manager": "ankur_patel",
+      "counterparty": "donnie",
+      "par": 128.1,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        10,
+        13
+      ],
+      "picks_out": [
+        1,
+        2
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 7,
+      "manager": "donnie",
+      "counterparty": "ankur_patel",
+      "par": -128.1,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        1,
+        2
+      ],
+      "picks_out": [
+        10,
+        13
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 7,
+      "manager": "trevor_bergerboy",
+      "counterparty": "lem",
+      "par": -48.6,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        11
+      ],
+      "picks_out": [
+        3
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 7,
+      "manager": "lem",
+      "counterparty": "trevor_bergerboy",
+      "par": 48.6,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        3
+      ],
+      "picks_out": [
+        11
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 7,
+      "manager": "ankur_patel",
+      "counterparty": "lem",
+      "par": 83.4,
+      "star_buy": true,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        12
+      ],
+      "picks_out": [
+        3
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 7,
+      "manager": "lem",
+      "counterparty": "ankur_patel",
+      "par": -83.4,
+      "star_buy": false,
+      "star_concede": true,
+      "qb_in": false,
+      "picks_in": [
+        3
+      ],
+      "picks_out": [
+        12
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 7,
+      "manager": "donnie",
+      "counterparty": "trevor_bergerboy",
+      "par": 55.4,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2022,
+      "week": 7,
+      "manager": "trevor_bergerboy",
+      "counterparty": "donnie",
+      "par": -55.4,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2022,
+      "week": 5,
+      "manager": "lem",
+      "counterparty": "ankur_patel",
+      "par": -53.0,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        12
+      ],
+      "picks_out": [
+        7
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 5,
+      "manager": "ankur_patel",
+      "counterparty": "lem",
+      "par": 53.0,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [
+        7
+      ],
+      "picks_out": [
+        12
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 5,
+      "manager": "brian_bigguap",
+      "counterparty": "ankur_patel",
+      "par": 3.9,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2022,
+      "week": 5,
+      "manager": "ankur_patel",
+      "counterparty": "brian_bigguap",
+      "par": -3.9,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": true,
+      "picks_in": [],
+      "picks_out": []
+    },
+    {
+      "season": 2022,
+      "week": 2,
+      "manager": "troy_mullings",
+      "counterparty": "kyle_figgy",
+      "par": 12.1,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        1,
+        4
+      ],
+      "picks_out": [
+        13,
+        16
+      ]
+    },
+    {
+      "season": 2022,
+      "week": 2,
+      "manager": "kyle_figgy",
+      "counterparty": "troy_mullings",
+      "par": -12.1,
+      "star_buy": false,
+      "star_concede": false,
+      "qb_in": false,
+      "picks_in": [
+        13,
+        16
+      ],
+      "picks_out": [
+        1,
+        4
+      ]
     }
   ],
   "season_headliners": {
@@ -438,11 +4682,13 @@
       "par": 188.9,
       "got_winner": [
         "Ryan Tannehill",
-        "Ben Tate"
+        "Ben Tate",
+        "R6 pick"
       ],
       "got_loser": [
         "Bernard Pierce",
-        "Carson Palmer"
+        "Carson Palmer",
+        "R6 pick"
       ]
     },
     "2015": {
@@ -452,10 +4698,12 @@
       "loser": "kyle_figgy",
       "par": 162.1,
       "got_winner": [
-        "Antonio Gates"
+        "Antonio Gates",
+        "R16 pick"
       ],
       "got_loser": [
-        "Colin Kaepernick"
+        "Colin Kaepernick",
+        "R13 pick"
       ]
     },
     "2016": {
@@ -481,11 +4729,15 @@
       "par": 324.5,
       "got_winner": [
         "Le'Veon Bell",
-        "Drew Brees"
+        "Drew Brees",
+        "R18 pick",
+        "R19 pick"
       ],
       "got_loser": [
         "LeGarrette Blount",
-        "Carson Palmer"
+        "Carson Palmer",
+        "R1 pick",
+        "R2 pick"
       ]
     },
     "2018": {
@@ -526,10 +4778,12 @@
       "loser": "donnie",
       "par": 186.2,
       "got_winner": [
-        "Davante Adams"
+        "Davante Adams",
+        "R8 pick"
       ],
       "got_loser": [
-        "Justin Jefferson"
+        "Justin Jefferson",
+        "R4 pick"
       ]
     },
     "2021": {
@@ -541,12 +4795,18 @@
       "got_winner": [
         "Cooper Kupp",
         "Austin Ekeler",
-        "Diontae Johnson"
+        "Diontae Johnson",
+        "R8 pick",
+        "R9 pick",
+        "R11 pick"
       ],
       "got_loser": [
         "Brandin Cooks",
         "Tyler Conklin",
-        "David Johnson"
+        "David Johnson",
+        "R1 pick",
+        "R2 pick",
+        "R5 pick"
       ]
     },
     "2022": {
@@ -557,11 +4817,15 @@
       "par": 128.1,
       "got_winner": [
         "Derrick Henry",
-        "Stefon Diggs"
+        "Stefon Diggs",
+        "R10 pick",
+        "R13 pick"
       ],
       "got_loser": [
         "Tony Pollard",
-        "DJ Moore"
+        "DJ Moore",
+        "R1 pick",
+        "R2 pick"
       ]
     }
   }

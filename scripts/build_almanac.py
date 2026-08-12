@@ -373,6 +373,60 @@ def swing_trades() -> dict[int, dict]:
     return out
 
 
+def tank_ledger() -> dict[int, dict[str, dict]]:
+    """season -> manager -> {sold, deals, picks_in, picks_out}.
+
+    A SELL-THE-YEAR side: gave up rest-of-season PAR in a trade while
+    UPGRADING pick capital (this league trades equal pick counts both
+    ways — truth #6 — so the tank signal is pick quality gained, not
+    count). Capital weight: earlier round = more capital (19 - round).
+    """
+    def cap(rounds) -> int:
+        return sum(19 - r for r in rounds if r)
+
+    out: dict[int, dict[str, dict]] = defaultdict(dict)
+
+    def add(season, mid, sold, picks_in, picks_out):
+        rec = out[season].setdefault(mid, {"sold": 0.0, "deals": 0,
+                                           "picks_in": [], "picks_out": []})
+        rec["sold"] += sold
+        rec["deals"] += 1
+        rec["picks_in"] += picks_in
+        rec["picks_out"] += picks_out
+
+    dl = ROOT / "data" / "research" / "decade_ledger.json"
+    if dl.exists():
+        for s in json.loads(dl.read_text()).get("sides", []):
+            gain = cap(s.get("picks_in", [])) - cap(s.get("picks_out", []))
+            if gain > 0 and s["par"] < 0:
+                add(s["season"], s["manager"], -s["par"],
+                    s["picks_in"], s["picks_out"])
+    tl = ROOT / "data" / "research" / "trade_ledger.json"
+    if tl.exists():
+        ident = load_identity(ROOT / "data/team_identity.json")
+        rid_mid = {rec["sleeper_roster_id"]: mid
+                   for mid, rec in ident["managers"].items()
+                   if rec.get("sleeper_roster_id")}
+        for t in json.loads(tl.read_text())["trades"]:
+            if len(t["parties"]) != 2:
+                continue
+            season = int(t["season"])
+            rmap = dict(rid_mid)
+            rmap[10] = "josh_wildboy" if season >= 2025 else "dave_aka_wang"
+            for p in t["parties"]:
+                fin = [pk["round"] for pk in p["received"].get("picks") or []
+                       if int(pk["season"]) > season]
+                fout = [pk["round"] for pk in p["sent"].get("picks") or []
+                        if int(pk["season"]) > season]
+                sw = p.get("swing_par_pts") or 0
+                if cap(fin) - cap(fout) > 0 and sw < 0:
+                    add(season, rmap.get(p["roster_id"]), -sw, fin, fout)
+    return dict(out)
+
+
+TANK_BAR = 150      # PAR sold for capital in one season = a tank year
+
+
 def build_html() -> str:
     era = {int(k): v for k, v in json.loads(
         (ROOT / "data/league_history/yahoo_era.json").read_text()).items()}
@@ -392,6 +446,7 @@ def build_html() -> str:
     sg = sleeper_games()
     engines_sl = sleeper_engines()
     trades = swing_trades()
+    tanks = tank_ledger()
     from fantasy_draft.name_aliases import resolve_xlsx_name
 
     def label(mid) -> str:
@@ -430,14 +485,42 @@ def build_html() -> str:
             items.append(("TOP WEEK", f"{esc(label(tm))} {tp:.1f} (W{tw})"))
         t = trades.get(season)
         if t and t.get("winner"):
-            got = ", ".join(map(esc, t["got_winner"][:2])) or "—"
-            gave = ", ".join(map(esc, t["got_loser"][:2])) or "—"
-            more = len(t["got_winner"]) + len(t["got_loser"]) - 4
+            import re as _re
+            pick_re = _re.compile(r"^(R\d+ pick|\d{4} R\d+)$")
+
+            def side_str(entries):
+                players = [e for e in entries if not pick_re.match(e)]
+                picks = [e.replace(" pick", "") for e in entries
+                         if pick_re.match(e)]
+                s = ", ".join(map(esc, players[:2]))
+                if len(players) > 2:
+                    s += f" +{len(players) - 2}"
+                if picks:
+                    s += (" + " if s else "") + "/".join(map(esc, picks[:4]))
+                return s or "—"
+            seller = (t["loser"] in tanks.get(season, {})
+                      and tanks[season][t["loser"]]["sold"] >= TANK_BAR)
             items.append(("SWING TRADE",
                           f'W{t["week"]} · <b>{esc(label(t["winner"]))} '
                           f'+{t["par"]:.0f}</b> over '
-                          f'{esc(label(t["loser"]))}: got {got} for {gave}'
-                          + (f" (+{more} more)" if more > 0 else "")))
+                          f'{esc(label(t["loser"]))}: got '
+                          f'{side_str(t["got_winner"])} for '
+                          f'{side_str(t["got_loser"])}'
+                          + (f' — {esc(label(t["loser"]))} was selling'
+                             if seller else "")))
+        sellers = sorted(((m, r) for m, r in tanks.get(season, {}).items()
+                          if r["sold"] >= TANK_BAR),
+                         key=lambda mr: -mr[1]["sold"])
+        if sellers:
+            bits = []
+            for m, r in sellers:
+                rin = "/".join(f"R{x}" for x in sorted(
+                    x for x in r["picks_in"] if x)[:3])
+                bits.append(f'<b>{esc(label(m))}</b> sold {r["sold"]:.0f} '
+                            f'PAR over {r["deals"]} deal'
+                            + ("s" if r["deals"] > 1 else "")
+                            + f' for draft capital ({rin} in)')
+            items.append(("TANK YEAR", " · ".join(bits)))
         if champ:
             rounds = champ_pick_rounds(season)
             if season in engines_sl:
@@ -585,8 +668,29 @@ def build_html() -> str:
         rec_rows.append(("BIGGEST HEIST",
                          f'<b>{esc(label(t["winner"]))} +{t["par"]:.0f}</b> '
                          f'over {esc(label(t["loser"]))}: got '
-                         + ", ".join(map(esc, t["got_winner"][:2]))
+                         + ", ".join(esc(e) for e in t["got_winner"]
+                                     if " pick" not in e)[:60]
                          + f' (W{t["week"]} {t["season"]})'))
+    if tanks:
+        s, m, r = max(((s2, m2, r2) for s2, d in tanks.items()
+                       for m2, r2 in d.items()),
+                      key=lambda x: x[2]["sold"])
+        nxt = (" — champion the next year"
+               if champs.get(s + 1) == m else "")
+        rec_rows.append(("THE GREAT TANK",
+                         f'<b>{esc(label(m))}</b> sold {r["sold"]:.0f} PAR '
+                         f'over {r["deals"]} deals ({s}){nxt}'))
+        career: dict[str, dict] = defaultdict(
+            lambda: {"sold": 0.0, "yrs": 0})
+        for s2, d in tanks.items():
+            for m2, r2 in d.items():
+                career[m2]["sold"] += r2["sold"]
+                career[m2]["yrs"] += int(r2["sold"] >= TANK_BAR)
+        m, c = max(career.items(), key=lambda kv: kv[1]["sold"])
+        rec_rows.append(("MOST TANKED",
+                         f'<b>{esc(label(m))}</b> — {c["sold"]:.0f} PAR '
+                         f'sold all-time, {c["yrs"]} full tank year'
+                         + ("s" if c["yrs"] != 1 else "")))
     records = ("".join(f'<tr><td class="sl">{lbl}</td><td>{txt}</td></tr>'
                        for lbl, txt in rec_rows))
     legend = " ".join(f'<span class="{cls}"><b>{pos}</b></span>'
@@ -656,7 +760,11 @@ def build_html() -> str:
              'Season stories are computed from the archives: every scoreboard '
              '2011+, trades graded rest-of-season points above replacement '
              '(PAR), the champion\'s engine from lineup data (Sleeper era) '
-             'or draft-class season totals (Yahoo era).</p>'
+             'or draft-class season totals (Yahoo era). A TANK YEAR line '
+             'marks a team that sold 150+ PAR of production in-season '
+             'while upgrading draft capital — the year traded for the '
+             'future (pick legs recovered for 132 of 136 Yahoo-era '
+             'trades).</p>'
              '<div class="ml-h-label" style="margin-top:8px">READING THE '
              f'BOARDS</div><p>{legend} — a player\'s color is his position. '
              'The small gray tag after each pick is its TRUE owner, typeset '

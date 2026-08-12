@@ -18,7 +18,13 @@ Cross-platform adaptations, stated plainly:
     rank.
   - Trade week from the Yahoo timestamp vs a Sep-5 kickoff anchor
     (accurate to +-1 week, which PAR windows tolerate).
-  - No draft-pick legs: Yahoo-era trades were player-for-player.
+  - Draft-pick legs: the Yahoo transactions API drops them, but the
+    old cookie-scraper archive (data/yahoo/league_*/trades_*.json)
+    kept them — 97 of the 136 trades moved picks. Each cookie trade
+    is joined to its API twin by the set of player names moved, and
+    per-side picks_in/picks_out ride along. A side that eats a PAR
+    loss while netting future picks isn't fleeced — it's SELLING THE
+    YEAR; the Almanac's tank labels read exactly this.
 
 Output: data/research/decade_ledger.json + printed verdicts (all-time
 standings incl. the Sleeper era, the Brian<->Trevor pair net, Ankur's
@@ -136,6 +142,57 @@ def parse_trades(season: int, name_mid: dict) -> list[dict]:
     return trades
 
 
+def _canon_set(names) -> frozenset:
+    return frozenset(norm(resolve_xlsx_name(n) or n) for n in names)
+
+
+def cookie_pick_legs(season: int) -> list[dict]:
+    """Pick legs per trade from the cookie-scraper archive, keyed for
+    joining: [{all: set, sides: [{names: set, picks: [rounds]}]}]."""
+    import glob
+    fs = glob.glob(str(YAHOO / f"league_*/trades_{season}.json"))
+    out = []
+    for f in fs:
+        for t in json.loads(Path(f).read_text()):
+            sides = []
+            for s in t.get("sides") or []:
+                sides.append({
+                    "names": _canon_set(p["name"] for p in
+                                        s.get("received_players") or []),
+                    "picks": [pk.get("round") for pk in
+                              s.get("received_picks") or []],
+                })
+            if any(s["picks"] for s in sides):
+                out.append({"all": frozenset().union(
+                    *[s["names"] for s in sides]), "sides": sides})
+    return out
+
+
+def attach_pick_legs(t: dict, cookie: list[dict]) -> dict[str, list]:
+    """got-picks per manager for one API trade, joined by player-name
+    overlap (132/136 join; misses just mean no pick annotation)."""
+    a, b = t["a"], t["b"]
+    got_names = {w: _canon_set(p["name"] for p in t["got"][w])
+                 for w in (a, b)}
+    key = got_names[a] | got_names[b]
+    best, best_ov = None, 0.0
+    for ct in cookie:
+        ov = len(ct["all"] & key) / max(1, len(ct["all"] | key))
+        if ov > best_ov:
+            best, best_ov = ct, ov
+    picks: dict[str, list] = {a: [], b: []}
+    if not best or best_ov < 0.5:
+        return picks
+    # map each cookie side to the API side whose received set fits best
+    for cs in best["sides"]:
+        who = max((a, b), key=lambda w: len(cs["names"] & got_names[w]))
+        if not cs["names"]:                      # pure-pick side: the one
+            who = min((a, b),                    # who received fewer players
+                      key=lambda w: len(got_names[w]))
+        picks[who].extend(cs["picks"])
+    return picks
+
+
 def main() -> None:
     ident = load_identity(ROOT / "data" / "team_identity.json")
     name_mid: dict[tuple[int, str], str] = {}
@@ -161,6 +218,7 @@ def main() -> None:
         weeks = load_week_stats(season)
         teams_n = era[season]["num_teams"]
         repl = replacement_levels(weeks, teams_n)
+        cookie = cookie_pick_legs(season)
 
         def ros_par(pid: str, pos: str, after_week: int) -> float:
             lvl = repl.get(pos, 0.0)
@@ -198,17 +256,20 @@ def main() -> None:
             best = max((leg["par"] for who in legs for leg in legs[who]),
                        default=0.0)
             a, b = t["a"], t["b"]
+            picks = attach_pick_legs(t, cookie)
             # season-headliner candidate: the trade itself, names kept,
             # from the winning side's perspective (the Almanac reads this)
             win, lose = (a, b) if sides[a] >= sides[b] else (b, a)
+
+            def _got(who):
+                return ([leg["name"] for leg in sorted(
+                    legs[who], key=lambda x: -x["par"])]
+                    + [f"R{r} pick" for r in picks[who] if r])
             headliner_pool.append({
                 "season": t["season"], "week": t["week"],
                 "winner": win, "loser": lose,
                 "par": round(sides[win] - sides[lose], 1),
-                "got_winner": [leg["name"] for leg in sorted(
-                    legs[win], key=lambda x: -x["par"])],
-                "got_loser": [leg["name"] for leg in sorted(
-                    legs[lose], key=lambda x: -x["par"])],
+                "got_winner": _got(win), "got_loser": _got(lose),
             })
             for who, other in ((a, b), (b, a)):
                 all_sides.append({
@@ -222,6 +283,8 @@ def main() -> None:
                     "star_concede": best > 0 and any(
                         leg["par"] == best for leg in legs[other]),
                     "qb_in": any(leg["pos"] == "QB" for leg in legs[who]),
+                    "picks_in": [r for r in picks[who] if r],
+                    "picks_out": [r for r in picks[other] if r],
                 })
 
     standings = defaultdict(lambda: {"deals": 0, "par": 0.0,
@@ -276,6 +339,9 @@ def main() -> None:
                                      key=lambda kv: -pair_deals[kv[0]])
                   if pair_deals[k] >= 3},
         "biggest": sorted(all_sides, key=lambda s: -s["par"])[:10],
+        # every graded side, pick legs attached — the tank ledger and
+        # any future per-side analysis read this instead of re-grading
+        "sides": all_sides,
         # per-season swing trade WITH player names — the Almanac's
         # "season story" strip reads these for 2011-2022
         "season_headliners": {
