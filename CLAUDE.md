@@ -511,7 +511,16 @@ goal docs: GOAL_RESEARCH.md, GOAL_OPTIONS.md). Caches: `data/scouting/`
   (ADP≤204 darts always on board — Kaytron Allen case), full QB pool
   (exempt from shrink). Two user-caught bugs fixed here: falsy-zero
   VBD sort (Jadarian Price, VBD exactly 0.0 → 'or -999' sorted him
-  last) and the rookie-map gaps. Regenerates weekly + at keeper lock. Keeper lock
+  last) and the rookie-map gaps. Regenerates weekly + at keeper lock.
+  + MONEYLEAGUE_ALMANAC.pdf (Aug 12, build_almanac.py, in release
+  uploads + verify): the MONEY_LEAGUE.xlsx use case as a living PDF —
+  honor-roll cover (champions 2011-2025, titles COOP/TREV ×3),
+  early-years standings spread, then one page per season 2015-2025:
+  champion banner, standings, full draft-board grid (round × slot,
+  position-colored players, TRUE owner tag per pick from the xlsx
+  cell-color record, champion's picks bold). Seasons AUTO-DISCOVERED
+  (xlsx boards + yahoo_era + Sleeper brackets) — 2026 folds in once
+  its board and bracket exist, zero edits. Keeper lock
   = 5-min runbook: docs/KEEPER_LOCK.md + lock_keepers.py validator
   (template data/keepers_2026_actual.TEMPLATE.json; enforces cap/floor/
   bump/ownership; then refresh derive sim reports verify).

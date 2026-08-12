@@ -135,7 +135,8 @@ def main() -> None:
     for name in ("MONEYLEAGUE_2026_MOCK.pdf", "MONEYLEAGUE_2026_PRESEASON.pdf",
                  "MONEYLEAGUE_POWER_RANKINGS.pdf",
                  "MONEYLEAGUE_RESEARCH_DESK.pdf", "MONEYLEAGUE_ROOM_CARD.pdf",
-                 "MONEYLEAGUE_DOCTRINE.pdf", "MONEYLEAGUE_DRAFT_SHEET.pdf"):
+                 "MONEYLEAGUE_DOCTRINE.pdf", "MONEYLEAGUE_DRAFT_SHEET.pdf",
+                 "MONEYLEAGUE_ALMANAC.pdf"):
         f = ROOT / "data" / name
         check(name, f.exists() and f.stat().st_size > 100_000,
               "missing or suspiciously small")

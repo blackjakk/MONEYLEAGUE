@@ -44,7 +44,7 @@
       "fp_std": 2.0,
       "age": 25,
       "years_exp": 3,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.06,
       "adp_delta": 0.0,
       "svq": [
@@ -2303,7 +2303,7 @@
       "fp_std": 11.1,
       "age": 28,
       "years_exp": 7,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.333,
       "adp_delta": 0.0,
       "svq": [
@@ -2957,7 +2957,7 @@
       "fp_rank": 104,
       "fp_pos_rank": "WR38",
       "fp_std": 19.7,
-      "age": 21,
+      "age": 22,
       "years_exp": 0,
       "injury": "",
       "stash": 0.991,
@@ -4176,10 +4176,10 @@
       "fp_rank": 112,
       "fp_pos_rank": "WR42",
       "fp_std": 13.1,
-      "age": 24,
+      "age": 25,
       "years_exp": 3,
       "injury": "Questionable",
-      "stash": 0.543,
+      "stash": 0.393,
       "adp_delta": 0.0,
       "svq": [
         53,
@@ -4654,7 +4654,7 @@
       "fp_std": 16.1,
       "age": 23,
       "years_exp": 1,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.883,
       "adp_delta": 0.0,
       "svq": [
@@ -5608,7 +5608,7 @@
       "fp_std": 13.4,
       "age": 26,
       "years_exp": 3,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.402,
       "adp_delta": 0.0,
       "svq": [
@@ -8464,7 +8464,7 @@
       "fp_rank": 431,
       "fp_pos_rank": "TE82",
       "fp_std": 71.8,
-      "age": 23,
+      "age": 24,
       "years_exp": 0,
       "injury": "",
       "stash": 1.0
@@ -8481,7 +8481,7 @@
       "fp_std": 73.5,
       "age": 26,
       "years_exp": 3,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.6
     },
     {
@@ -9601,7 +9601,7 @@
       "fp_std": 53.3,
       "age": 23,
       "years_exp": 0,
-      "injury": "IR",
+      "injury": "Questionable",
       "stash": 1.0
     },
     {
@@ -9646,7 +9646,7 @@
       "fp_std": null,
       "age": 23,
       "years_exp": 0,
-      "injury": "IR",
+      "injury": "Questionable",
       "stash": 0.4
     },
     {
@@ -10985,7 +10985,7 @@
       "fp_rank": 256,
       "fp_pos_rank": "RB85",
       "fp_std": 29.2,
-      "age": 22,
+      "age": 23,
       "years_exp": 1,
       "injury": "Questionable",
       "stash": 1.0,
@@ -11968,7 +11968,7 @@
       "fp_std": 58.0,
       "age": 30,
       "years_exp": 7,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.6
     },
     {

@@ -127,6 +127,8 @@ do_reports() {
   python3 scripts/build_doctrine_card.py
   log "Render Draft Sheet one-pager (the board — needs market screen + helper)"
   python3 scripts/build_draft_sheet.py
+  log "Render the Almanac (league record — extends itself each season)"
+  python3 scripts/build_almanac.py
 }
 
 # ---------- Draft helper ----------
