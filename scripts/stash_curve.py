@@ -427,11 +427,15 @@ def young_player_book() -> dict:
     fetch_backtest_data.main()
 
     rookie_year = {}
+    pos_of: dict[str, str] = {}
     for season in (2023, 2024, 2025):
         for r in json.loads((ROOT / f"data/backtest/proj_{season}.json").read_text()):
-            ry = ((r.get("player") or {}).get("metadata") or {}).get("rookie_year")
+            p = r.get("player") or {}
+            ry = (p.get("metadata") or {}).get("rookie_year")
             if ry:
                 rookie_year[r["player_id"]] = int(ry)
+            if p.get("position"):
+                pos_of.setdefault(r["player_id"], p["position"])
     actual: dict[int, dict[str, float]] = {}
     wk22 = json.loads((ROOT / "data/scouting/stats/stats_2022.json").read_text())
     m22: dict[str, float] = defaultdict(float)
@@ -499,6 +503,12 @@ def young_player_book() -> dict:
             ex = actual[season].get(pid, 0.0) - rmean[pk["round"]]
             cells[cls]["excess"].append(ex)
             cells[cls]["hits"] += int(ex > 0)
+            # position split (user-prompted, Aug 2026): the aggregate
+            # cells hid a sharp per-position profile
+            if pos_of.get(pid) in ("QB", "RB", "WR", "TE"):
+                pc = cells[f"{cls}|{pos_of[pid]}"]
+                pc["excess"].append(ex)
+                pc["hits"] += int(ex > 0)
             if cls == "ROOKIE":
                 mgr = (xlsx_owner.get(pk.get("pick_no"))
                        or rid_of[season].get(pk["roster_id"], "?"))
@@ -711,7 +721,52 @@ rookie&rarr;kept-next-year conversion in the sample came from R9-R14,
 the ring-fuel pattern (Puka R13 / ARSB R13 / McBride R15).
 Young-producers-who-changed-teams: n=4, no verdict — price the scheme
 half with the Coaching Tape (XIII). Three drafts of data; cells are
-directional, not laws.</p>"""
+directional, not laws.</p>
+{position_grid(yb)}"""
+
+
+POS_GRID_ROWS = [("ROOKIE", "Rookie"), ("YR2_POSTHYPE", "Yr-2 post-hype"),
+                 ("YR2_PRICED", "Yr-2 priced"), ("YR3", "Yr-3"),
+                 ("VET", "Veteran")]
+
+
+def position_grid(yb: dict) -> str:
+    cells = yb["cells"]
+
+    def fmt(cls, pos):
+        c = cells.get(f"{cls}|{pos}")
+        if not c or c["n"] < 2:
+            return '<td class="ml-num">&mdash;</td>'
+        return (f'<td class="ml-num">{c["excess_per_pick"]:+.0f} &middot; '
+                f'{c["hit_pct"]}% <span class="ml-fineprint">'
+                f'({c["n"]})</span></td>')
+    rows = "".join(
+        f"<tr><td>{label}</td>"
+        + "".join(fmt(cls, p) for p in ("QB", "RB", "WR", "TE"))
+        + "</tr>"
+        for cls, label in POS_GRID_ROWS)
+    return f"""
+<div class="ml-h-label">The position grid — same cells, split by
+position (excess/pick &middot; hit rate)</div>
+<table class="ml-table ml-table--compact">
+<thead><tr><th>Scenario</th><th class="ml-num">QB</th>
+<th class="ml-num">RB</th><th class="ml-num">WR</th>
+<th class="ml-num">TE</th></tr></thead>
+<tbody>{rows}</tbody></table>
+<p><strong>The profile is position-specific and the aggregate hid
+it.</strong> QB is the one aisle where youth pays: rookie QBs beat
+their slots even at this room's jump prices, and the post-hype yr-2
+QB is the best cell on the grid (Howell +154 at R11, Ridder +64; the
+one bust was Richardson at R2 — the price, not the profile). RB pays
+sticker only for PROVEN sophomores (+29/pick at an 86% hit rate — the
+grid's most reliable cell); post-hype RBs work only as double-digit
+darts. Every young-WR cell loses — rookie, post-hype, priced, yr-3
+alike — the trap being the priced sophomore (the post-breakout
+sticker, a 67% miss). Young-WR value exists only as a keeper
+discount. TE has no sample. Caveats: n runs small, 2023-25 was a
+historic rookie-QB run, and the excess baseline is the mixed-position
+round cohort — trust directions, not magnitudes; the 2026 season is
+the QB column's out-of-sample test.</p>"""
 
 
 # ---------------------------------------------------------------- main

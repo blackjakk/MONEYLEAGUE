@@ -188,7 +188,23 @@ goal docs: GOAL_RESEARCH.md, GOAL_OPTIONS.md). Caches: `data/scouting/`
   waiver (Daniels W9'24 traded to Brian — his textbook elite-buy).
   2026 draftable yr-2 pool (grade at MARKET now, not premium): Dart
   R2, Jeanty R2, Hampton R3, McMillan R4, Egbuka R5, Ward/Judkins/
-  Warren/Henderson R6, RJ Harvey R9.
+  Warren/Henderson R6, RJ Harvey R9. POSITION GRID (Aug 12,
+  user-prompted, in VI): the aggregate cells hid a per-position
+  profile — QB is the ONE aisle where youth pays (rookie QB +32/pick
+  67% even at the room's jump prices — measured jump: room pays
+  rookie QBs 1-5 rds OVER superflex ADP, growing, Ward +3/Dart +5 in
+  2025; post-hype yr-2 QB +45 best cell, n=3); RB pays sticker ONLY
+  for proven sophomores (+29, 86% hit, the most reliable cell),
+  post-hype RB = double-digit-round darts only; EVERY young-WR cell
+  loses (rookie/posthype/priced/yr3 all negative; worst trap =
+  priced sophomore −25, 67% miss) → young-WR value ONLY as keeper
+  discount; TE no sample. Caveats on record: small n, 2023-25 was a
+  historic QB-class run, mixed-position cohort baseline — directions
+  not magnitudes; 2026 = the QB column's out-of-sample test. Draft
+  doctrine addendum: post-hype QB (Ward R6 / Penix R13 / McCarthy
+  free) ≥ proven-soph RB ≥ modest rookie-QB jump; never young WR at
+  sticker (Evans veto also on record: WR scheme-flip discount 0.801
+  — table-side read only, the LOSO global adjust FAILED).
 - Market screen: MODEL vs THE ROOM'S PAPER is the edge (truth #7); edges
   carry reach% (survival to Brian's seat) — Bowers top reachable edge.
   + SHARP MINORITY block (Jul 22, user-prompted): trimmed consensus of

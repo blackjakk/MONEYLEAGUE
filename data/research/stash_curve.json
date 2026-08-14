@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-08-12",
+    "generated": "2026-08-14",
     "seasons_used": [
       2023,
       2024
@@ -592,10 +592,35 @@
         "excess_per_pick": 4.6,
         "hit_pct": 50
       },
+      "VET|RB": {
+        "n": 68,
+        "excess_per_pick": -2.1,
+        "hit_pct": 47
+      },
+      "VET|WR": {
+        "n": 98,
+        "excess_per_pick": -16.5,
+        "hit_pct": 38
+      },
+      "VET|QB": {
+        "n": 51,
+        "excess_per_pick": 60.8,
+        "hit_pct": 75
+      },
+      "VET|TE": {
+        "n": 28,
+        "excess_per_pick": -15.7,
+        "hit_pct": 36
+      },
       "ROOKIE": {
         "n": 87,
         "excess_per_pick": -13.8,
         "hit_pct": 38
+      },
+      "ROOKIE|RB": {
+        "n": 33,
+        "excess_per_pick": -26.3,
+        "hit_pct": 33
       },
       "ROOKIE_R1-4": {
         "n": 12,
@@ -607,10 +632,45 @@
         "excess_per_pick": -7.1,
         "hit_pct": 47
       },
+      "YR3|WR": {
+        "n": 15,
+        "excess_per_pick": -18.0,
+        "hit_pct": 27
+      },
+      "YR3|RB": {
+        "n": 24,
+        "excess_per_pick": -7.2,
+        "hit_pct": 50
+      },
+      "ROOKIE|QB": {
+        "n": 15,
+        "excess_per_pick": 32.4,
+        "hit_pct": 67
+      },
       "YR2_PRICED": {
         "n": 29,
         "excess_per_pick": -4.3,
         "hit_pct": 52
+      },
+      "YR2_PRICED|RB": {
+        "n": 7,
+        "excess_per_pick": 28.8,
+        "hit_pct": 86
+      },
+      "YR2_PRICED|WR": {
+        "n": 15,
+        "excess_per_pick": -24.9,
+        "hit_pct": 33
+      },
+      "YR3|TE": {
+        "n": 4,
+        "excess_per_pick": -12.2,
+        "hit_pct": 50
+      },
+      "ROOKIE|WR": {
+        "n": 33,
+        "excess_per_pick": -22.9,
+        "hit_pct": 33
       },
       "ROOKIE_R5-8": {
         "n": 23,
@@ -622,15 +682,55 @@
         "excess_per_pick": -11.2,
         "hit_pct": 40
       },
+      "YR2_POSTHYPE|RB": {
+        "n": 15,
+        "excess_per_pick": -18.9,
+        "hit_pct": 40
+      },
+      "ROOKIE|TE": {
+        "n": 6,
+        "excess_per_pick": -11.0,
+        "hit_pct": 17
+      },
       "ROOKIE_R9-12": {
         "n": 25,
         "excess_per_pick": -5.2,
         "hit_pct": 44
       },
+      "YR2_POSTHYPE|WR": {
+        "n": 10,
+        "excess_per_pick": -19.4,
+        "hit_pct": 30
+      },
+      "YR3|QB": {
+        "n": 3,
+        "excess_per_pick": -0.3,
+        "hit_pct": 67
+      },
+      "YR2_POSTHYPE|QB": {
+        "n": 3,
+        "excess_per_pick": 45.4,
+        "hit_pct": 67
+      },
+      "YR2_POSTHYPE|TE": {
+        "n": 2,
+        "excess_per_pick": 3.0,
+        "hit_pct": 50
+      },
       "ROOKIE_R13-17": {
         "n": 27,
         "excess_per_pick": -25.4,
         "hit_pct": 26
+      },
+      "YR2_PRICED|TE": {
+        "n": 1,
+        "excess_per_pick": -108.1,
+        "hit_pct": 0
+      },
+      "YR2_PRICED|QB": {
+        "n": 4,
+        "excess_per_pick": 19.3,
+        "hit_pct": 50
       }
     },
     "rookie_owners": {
