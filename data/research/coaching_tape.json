@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12",
+  "generated": "2026-08-14",
   "backtest": {
     "classes": {
       "CONTINUITY": {
@@ -150,12 +150,12 @@
         {
           "name": "Breece Hall",
           "pos": "RB",
-          "adp_round": 4.7
+          "adp_round": 4.6
         },
         {
           "name": "Garrett Wilson",
           "pos": "WR",
-          "adp_round": 4.8
+          "adp_round": 4.7
         },
         {
           "name": "Geno Smith",
@@ -183,12 +183,12 @@
         {
           "name": "Jadarian Price",
           "pos": "RB",
-          "adp_round": 7.3
+          "adp_round": 7.2
         },
         {
           "name": "Zach Charbonnet",
           "pos": "RB",
-          "adp_round": 12.4
+          "adp_round": 12.2
         }
       ]
     },
@@ -211,7 +211,7 @@
         {
           "name": "Zay Flowers",
           "pos": "WR",
-          "adp_round": 4.1
+          "adp_round": 4.0
         },
         {
           "name": "Mark Andrews",
@@ -239,7 +239,7 @@
         {
           "name": "KC Concepcion",
           "pos": "WR",
-          "adp_round": 12.0
+          "adp_round": 11.9
         }
       ]
     },
@@ -257,7 +257,7 @@
         {
           "name": "Jaylen Waddle",
           "pos": "WR",
-          "adp_round": 4.9
+          "adp_round": 5.0
         },
         {
           "name": "Courtland Sutton",
@@ -318,7 +318,7 @@
         {
           "name": "Ladd McConkey",
           "pos": "WR",
-          "adp_round": 4.8
+          "adp_round": 4.7
         },
         {
           "name": "Oronde Gadsden",
@@ -336,7 +336,7 @@
         {
           "name": "Ashton Jeanty",
           "pos": "RB",
-          "adp_round": 2.3
+          "adp_round": 2.2
         },
         {
           "name": "Brock Bowers",
@@ -346,7 +346,7 @@
         {
           "name": "Fernando Mendoza",
           "pos": "QB",
-          "adp_round": 10.2
+          "adp_round": 10.3
         }
       ]
     },
@@ -359,12 +359,12 @@
         {
           "name": "Jaxson Dart",
           "pos": "QB",
-          "adp_round": 1.8
+          "adp_round": 2.0
         },
         {
           "name": "Malik Nabers",
           "pos": "WR",
-          "adp_round": 4.1
+          "adp_round": 4.0
         },
         {
           "name": "Cam Skattebo",
@@ -374,7 +374,7 @@
         {
           "name": "Isaiah Likely",
           "pos": "TE",
-          "adp_round": 10.8
+          "adp_round": 10.7
         }
       ]
     },
@@ -397,12 +397,12 @@
         {
           "name": "Saquon Barkley",
           "pos": "RB",
-          "adp_round": 2.8
+          "adp_round": 2.7
         },
         {
           "name": "DeVonta Smith",
           "pos": "WR",
-          "adp_round": 3.9
+          "adp_round": 3.8
         }
       ]
     },
@@ -415,7 +415,7 @@
         {
           "name": "Jaylen Warren",
           "pos": "RB",
-          "adp_round": 7.8
+          "adp_round": 7.7
         },
         {
           "name": "DK Metcalf",
@@ -425,7 +425,7 @@
         {
           "name": "Aaron Rodgers",
           "pos": "QB",
-          "adp_round": 8.5
+          "adp_round": 8.3
         },
         {
           "name": "Rico Dowdle",
@@ -443,22 +443,22 @@
         {
           "name": "Cam Ward",
           "pos": "QB",
-          "adp_round": 5.9
+          "adp_round": 6.0
         },
         {
           "name": "Carnell Tate",
           "pos": "WR",
-          "adp_round": 7.6
+          "adp_round": 7.5
         },
         {
           "name": "Tony Pollard",
           "pos": "RB",
-          "adp_round": 8.0
+          "adp_round": 7.9
         },
         {
           "name": "Wan'Dale Robinson",
           "pos": "WR",
-          "adp_round": 9.8
+          "adp_round": 9.9
         }
       ]
     },
@@ -481,7 +481,7 @@
         {
           "name": "Rachaad White",
           "pos": "RB",
-          "adp_round": 10.0
+          "adp_round": 10.1
         },
         {
           "name": "Jacory Croskey-Merritt",
