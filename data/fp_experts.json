@@ -2,10 +2,46 @@
  "fetched": true,
  "experts": [
   {
-   "id": 7590,
-   "name": "Brian Hartman",
-   "site": "QB List",
+   "id": 6274,
+   "name": "Andrew Scott",
+   "site": "Fantasy In Frames",
+   "draft_rank": "71"
+  },
+  {
+   "id": 562,
+   "name": "Des Bieler",
+   "site": "The Washington Post",
+   "draft_rank": "177"
+  },
+  {
+   "id": 908,
+   "name": "Mike Maher",
+   "site": "BettingPros",
+   "draft_rank": "67"
+  },
+  {
+   "id": 2373,
+   "name": "Kyle Yates",
+   "site": "Yates Fantasy Football",
+   "draft_rank": "206"
+  },
+  {
+   "id": 22,
+   "name": "Pat Fitzmaurice",
+   "site": "FantasyPros",
+   "draft_rank": "47"
+  },
+  {
+   "id": 7688,
+   "name": "Thiago Montanha Spinelli",
+   "site": "Zona de Fantasy",
    "draft_rank": ""
+  },
+  {
+   "id": 7357,
+   "name": "Justin Bauerle",
+   "site": "FantasyNow+",
+   "draft_rank": "142"
   },
   {
    "id": 7,
@@ -14,15 +50,93 @@
    "draft_rank": "170"
   },
   {
+   "id": 7662,
+   "name": "Doug Burrell",
+   "site": "Draft With Doug",
+   "draft_rank": ""
+  },
+  {
+   "id": 9,
+   "name": "Scott Pianowski",
+   "site": "Yahoo! Sports",
+   "draft_rank": "108"
+  },
+  {
+   "id": 96,
+   "name": "Ken Zalis",
+   "site": "Pressbox",
+   "draft_rank": ""
+  },
+  {
+   "id": 7616,
+   "name": "Mike Bland",
+   "site": "Points Over Expected",
+   "draft_rank": ""
+  },
+  {
    "id": 4616,
    "name": "Luke Renton",
    "site": "The Franchise Tag UK",
    "draft_rank": "146"
   },
   {
-   "id": 7616,
-   "name": "Mike Bland",
-   "site": "Points Over Expected",
+   "id": 1402,
+   "name": "Jorge B. Edwards",
+   "site": "Fantasy In Frames",
+   "draft_rank": "145"
+  },
+  {
+   "id": 647,
+   "name": "Dr. Roto",
+   "site": "FullTime Fantasy",
+   "draft_rank": "132"
+  },
+  {
+   "id": 1204,
+   "name": "Derek Brown",
+   "site": "FantasyPros",
+   "draft_rank": "164"
+  },
+  {
+   "id": 285,
+   "name": "Dalton Del Don",
+   "site": "The Deep Shot",
+   "draft_rank": "53"
+  },
+  {
+   "id": 3688,
+   "name": "Nate Marcum",
+   "site": "Fantasy In Frames",
+   "draft_rank": "130"
+  },
+  {
+   "id": 4355,
+   "name": "C.H. Herms",
+   "site": "FTN",
+   "draft_rank": "84"
+  },
+  {
+   "id": 4176,
+   "name": "Alfredo Brown",
+   "site": "The Pretend GM",
+   "draft_rank": "55"
+  },
+  {
+   "id": 4419,
+   "name": "Luke Sawhook",
+   "site": "Dynasty Nerds",
+   "draft_rank": "152"
+  },
+  {
+   "id": 317,
+   "name": "Justin Boone",
+   "site": "Yahoo! Sports",
+   "draft_rank": "114"
+  },
+  {
+   "id": 1046,
+   "name": "Jonathan Stone",
+   "site": "Stone Cold Fantasy",
    "draft_rank": ""
   },
   {
@@ -32,10 +146,28 @@
    "draft_rank": ""
   },
   {
-   "id": 5610,
-   "name": "Justin Jaksa",
-   "site": "ProFootballIntel",
-   "draft_rank": "137"
+   "id": 5874,
+   "name": "Justin Fuhr",
+   "site": "Pro Football Mania",
+   "draft_rank": "61"
+  },
+  {
+   "id": 284,
+   "name": "Site Rankings",
+   "site": "Gridiron Experts",
+   "draft_rank": "85"
+  },
+  {
+   "id": 7373,
+   "name": "Joshua Kimmel",
+   "site": "FantasyNow+",
+   "draft_rank": "128"
+  },
+  {
+   "id": 65,
+   "name": "Kevin Roberts",
+   "site": "The DFS Build",
+   "draft_rank": "68"
   },
   {
    "id": 2598,
@@ -44,10 +176,16 @@
    "draft_rank": "16"
   },
   {
-   "id": 763,
-   "name": "Geoff Lambert",
-   "site": "Going For 2",
-   "draft_rank": "209"
+   "id": 4940,
+   "name": "Ed Birdsall ",
+   "site": "Talking Points Sports",
+   "draft_rank": "150"
+  },
+  {
+   "id": 381,
+   "name": "Jason Willan",
+   "site": "Gridiron Experts",
+   "draft_rank": "4"
   },
   {
    "id": 692,
@@ -56,16 +194,256 @@
    "draft_rank": "39"
   },
   {
-   "id": 96,
-   "name": "Ken Zalis",
-   "site": "Pressbox",
+   "id": 5737,
+   "name": "Andrew Leduc",
+   "site": "That Sports Podcast Network",
+   "draft_rank": "211"
+  },
+  {
+   "id": 678,
+   "name": "Donald Gibson",
+   "site": "FantasyPros",
+   "draft_rank": "99"
+  },
+  {
+   "id": 1152,
+   "name": "Pierre Camus",
+   "site": "Fantasy Endgame",
+   "draft_rank": "208"
+  },
+  {
+   "id": 2639,
+   "name": "Steven Pintado",
+   "site": "QB List",
+   "draft_rank": "119"
+  },
+  {
+   "id": 747,
+   "name": "Matt Harmon",
+   "site": "Yahoo! Sports",
+   "draft_rank": "176"
+  },
+  {
+   "id": 690,
+   "name": "Kevin Steele",
+   "site": "The Fantasy Authority",
+   "draft_rank": "8"
+  },
+  {
+   "id": 1139,
+   "name": "Andrew Erickson",
+   "site": "FantasyPros",
+   "draft_rank": "187"
+  },
+  {
+   "id": 670,
+   "name": "Mauricio Gutierrez",
+   "site": "Estadio Fantasy",
+   "draft_rank": "179"
+  },
+  {
+   "id": 1169,
+   "name": "Elisha Twerski",
+   "site": "USA Today",
+   "draft_rank": "36"
+  },
+  {
+   "id": 1408,
+   "name": "Josh Norris",
+   "site": "Yahoo! Sports",
    "draft_rank": ""
+  },
+  {
+   "id": 3585,
+   "name": "Ryan Weisse",
+   "site": "Club Fantasy FFL",
+   "draft_rank": "7"
+  },
+  {
+   "id": 4408,
+   "name": "Jeremy Shulman",
+   "site": "Fantasy Football Universe",
+   "draft_rank": "144"
+  },
+  {
+   "id": 6658,
+   "name": "Brad Beatson",
+   "site": "Bandit Fantasy Football",
+   "draft_rank": "182"
+  },
+  {
+   "id": 7592,
+   "name": "Michael Stevi",
+   "site": "Dime Projections",
+   "draft_rank": ""
+  },
+  {
+   "id": 7649,
+   "name": "The Tecmo Weave",
+   "site": "Lab 52",
+   "draft_rank": ""
+  },
+  {
+   "id": 552,
+   "name": "Matthew Hill",
+   "site": "DataForce Fantasy Football",
+   "draft_rank": "156"
+  },
+  {
+   "id": 7639,
+   "name": "Wolf Trelles-Heard",
+   "site": "FantasyPros",
+   "draft_rank": ""
+  },
+  {
+   "id": 5598,
+   "name": "Aaron St Denis",
+   "site": "Fantasy Sports Advice Network",
+   "draft_rank": "158"
   },
   {
    "id": 3747,
    "name": "Dylan Licciardo",
    "site": "FF Gamers",
    "draft_rank": "171"
+  },
+  {
+   "id": 2751,
+   "name": "Justin Dodds",
+   "site": "SleeperWire",
+   "draft_rank": "80"
+  },
+  {
+   "id": 960,
+   "name": "Wolf of Roto Street",
+   "site": "Roto Street Journal",
+   "draft_rank": "126"
+  },
+  {
+   "id": 6445,
+   "name": "Chew Russell",
+   "site": "Going For 2",
+   "draft_rank": ""
+  },
+  {
+   "id": 7565,
+   "name": "Seth Woolcock",
+   "site": "FantasyPros",
+   "draft_rank": "140"
+  },
+  {
+   "id": 5662,
+   "name": "Adam Dove",
+   "site": "The Fantasy Couriers",
+   "draft_rank": "198"
+  },
+  {
+   "id": 763,
+   "name": "Geoff Lambert",
+   "site": "Going For 2",
+   "draft_rank": "209"
+  },
+  {
+   "id": 5591,
+   "name": "Justin Herrera",
+   "site": "TSS Fantasy",
+   "draft_rank": "199"
+  },
+  {
+   "id": 3556,
+   "name": "Chris Dell",
+   "site": "The Fantasy Edge",
+   "draft_rank": "169"
+  },
+  {
+   "id": 7555,
+   "name": "Brady Auer",
+   "site": "BA Sports Podcast",
+   "draft_rank": ""
+  },
+  {
+   "id": 873,
+   "name": "Rich Piazza",
+   "site": "Fantasy Shed",
+   "draft_rank": "201"
+  },
+  {
+   "id": 6586,
+   "name": "Kyle Soppe",
+   "site": "Pro Football Network",
+   "draft_rank": "154"
+  },
+  {
+   "id": 3468,
+   "name": "Daniel Mader",
+   "site": "Fantasy Football Advice",
+   "draft_rank": "173"
+  },
+  {
+   "id": 3112,
+   "name": "Francisco (Chato) Romero",
+   "site": "Estadio Fantasy",
+   "draft_rank": "38"
+  },
+  {
+   "id": 101,
+   "name": "Matt De Lima",
+   "site": "Dr. Roto",
+   "draft_rank": "32"
+  },
+  {
+   "id": 453,
+   "name": "Huseyin Aksu",
+   "site": "Fantasy Couch",
+   "draft_rank": "204"
+  },
+  {
+   "id": 2747,
+   "name": "Drew DeLuca",
+   "site": "Going For 2",
+   "draft_rank": "172"
+  },
+  {
+   "id": 7544,
+   "name": "Justin Henry",
+   "site": "JHen Fantasy",
+   "draft_rank": "195"
+  },
+  {
+   "id": 1138,
+   "name": "Zach Brunner",
+   "site": "FlurrySports",
+   "draft_rank": "113"
+  },
+  {
+   "id": 7604,
+   "name": "Joel Smyth",
+   "site": "Yahoo! Sports",
+   "draft_rank": ""
+  },
+  {
+   "id": 3612,
+   "name": "Mike MacGregor",
+   "site": "Draft Buddy",
+   "draft_rank": ""
+  },
+  {
+   "id": 7671,
+   "name": "Alex Cupps",
+   "site": "Cupps Analytics",
+   "draft_rank": ""
+  },
+  {
+   "id": 7590,
+   "name": "Brian Hartman",
+   "site": "QB List",
+   "draft_rank": ""
+  },
+  {
+   "id": 5610,
+   "name": "Justin Jaksa",
+   "site": "ProFootballIntel",
+   "draft_rank": "137"
   },
   {
    "id": 2780,
@@ -80,34 +458,10 @@
    "draft_rank": "28"
   },
   {
-   "id": 453,
-   "name": "Huseyin Aksu",
-   "site": "Fantasy Couch",
-   "draft_rank": "204"
-  },
-  {
-   "id": 7604,
-   "name": "Joel Smyth",
-   "site": "Yahoo! Sports",
-   "draft_rank": ""
-  },
-  {
    "id": 1576,
    "name": "Jacob Gibbs",
    "site": "SportsLine",
    "draft_rank": "191"
-  },
-  {
-   "id": 670,
-   "name": "Mauricio Gutierrez",
-   "site": "Estadio Fantasy",
-   "draft_rank": "179"
-  },
-  {
-   "id": 960,
-   "name": "Wolf of Roto Street",
-   "site": "Roto Street Journal",
-   "draft_rank": "126"
   },
   {
    "id": 7542,
@@ -122,52 +476,10 @@
    "draft_rank": "45"
   },
   {
-   "id": 747,
-   "name": "Matt Harmon",
-   "site": "Yahoo! Sports",
-   "draft_rank": "176"
-  },
-  {
-   "id": 1408,
-   "name": "Josh Norris",
-   "site": "Yahoo! Sports",
-   "draft_rank": ""
-  },
-  {
-   "id": 9,
-   "name": "Scott Pianowski",
-   "site": "Yahoo! Sports",
-   "draft_rank": "108"
-  },
-  {
-   "id": 1204,
-   "name": "Derek Brown",
-   "site": "FantasyPros",
-   "draft_rank": "164"
-  },
-  {
-   "id": 1139,
-   "name": "Andrew Erickson",
-   "site": "FantasyPros",
-   "draft_rank": "187"
-  },
-  {
    "id": 2839,
    "name": "Chris Kennedy",
    "site": "Dr. Roto",
    "draft_rank": "49"
-  },
-  {
-   "id": 285,
-   "name": "Dalton Del Don",
-   "site": "The Deep Shot",
-   "draft_rank": "53"
-  },
-  {
-   "id": 5874,
-   "name": "Justin Fuhr",
-   "site": "Pro Football Mania",
-   "draft_rank": "61"
   },
   {
    "id": 2743,
@@ -176,52 +488,16 @@
    "draft_rank": "1"
   },
   {
-   "id": 4419,
-   "name": "Luke Sawhook",
-   "site": "Dynasty Nerds",
-   "draft_rank": "152"
-  },
-  {
-   "id": 381,
-   "name": "Jason Willan",
-   "site": "Gridiron Experts",
-   "draft_rank": "4"
-  },
-  {
-   "id": 22,
-   "name": "Pat Fitzmaurice",
-   "site": "FantasyPros",
-   "draft_rank": "47"
-  },
-  {
    "id": 2672,
    "name": "Elliot Berkovits ",
    "site": "Packer Report",
    "draft_rank": "148"
   },
   {
-   "id": 6445,
-   "name": "Chew Russell",
-   "site": "Going For 2",
-   "draft_rank": ""
-  },
-  {
    "id": 4375,
    "name": "Mike Fanelli",
    "site": "FantasyPros",
    "draft_rank": "157"
-  },
-  {
-   "id": 1402,
-   "name": "Jorge B. Edwards",
-   "site": "Fantasy In Frames",
-   "draft_rank": "145"
-  },
-  {
-   "id": 4940,
-   "name": "Ed Birdsall ",
-   "site": "Talking Points Sports",
-   "draft_rank": "150"
   },
   {
    "id": 4160,
@@ -236,40 +512,16 @@
    "draft_rank": "76"
   },
   {
-   "id": 6586,
-   "name": "Kyle Soppe",
-   "site": "Pro Football Network",
-   "draft_rank": "154"
-  },
-  {
    "id": 4439,
    "name": "Austin Amandolia",
    "site": "Club Fantasy FFL",
    "draft_rank": "203"
   },
   {
-   "id": 1046,
-   "name": "Jonathan Stone",
-   "site": "Stone Cold Fantasy",
-   "draft_rank": ""
-  },
-  {
    "id": 4317,
    "name": "Scott Bogman",
    "site": "FantasyPros",
    "draft_rank": "168"
-  },
-  {
-   "id": 7639,
-   "name": "Wolf Trelles-Heard",
-   "site": "FantasyPros",
-   "draft_rank": ""
-  },
-  {
-   "id": 317,
-   "name": "Justin Boone",
-   "site": "Yahoo! Sports",
-   "draft_rank": "114"
   },
   {
    "id": 2709,
@@ -284,52 +536,10 @@
    "draft_rank": "129"
   },
   {
-   "id": 2747,
-   "name": "Drew DeLuca",
-   "site": "Going For 2",
-   "draft_rank": "172"
-  },
-  {
    "id": 23,
    "name": "Scott Engel",
    "site": "RotoBaller",
    "draft_rank": "180"
-  },
-  {
-   "id": 4176,
-   "name": "Alfredo Brown",
-   "site": "The Pretend GM",
-   "draft_rank": "55"
-  },
-  {
-   "id": 562,
-   "name": "Des Bieler",
-   "site": "The Washington Post",
-   "draft_rank": "177"
-  },
-  {
-   "id": 7555,
-   "name": "Brady Auer",
-   "site": "BA Sports Podcast",
-   "draft_rank": ""
-  },
-  {
-   "id": 7662,
-   "name": "Doug Burrell",
-   "site": "Draft With Doug",
-   "draft_rank": ""
-  },
-  {
-   "id": 4408,
-   "name": "Jeremy Shulman",
-   "site": "Fantasy Football Universe",
-   "draft_rank": "144"
-  },
-  {
-   "id": 5737,
-   "name": "Andrew Leduc",
-   "site": "That Sports Podcast Network",
-   "draft_rank": "211"
   },
   {
    "id": 7254,
@@ -350,52 +560,16 @@
    "draft_rank": "123"
   },
   {
-   "id": 690,
-   "name": "Kevin Steele",
-   "site": "The Fantasy Authority",
-   "draft_rank": "8"
-  },
-  {
-   "id": 2373,
-   "name": "Kyle Yates",
-   "site": "Yates Fantasy Football",
-   "draft_rank": "206"
-  },
-  {
-   "id": 2639,
-   "name": "Steven Pintado",
-   "site": "QB List",
-   "draft_rank": "119"
-  },
-  {
    "id": 394,
    "name": "Rudy Gamble",
    "site": "Razzball",
    "draft_rank": "92"
   },
   {
-   "id": 6274,
-   "name": "Andrew Scott",
-   "site": "Fantasy In Frames",
-   "draft_rank": "71"
-  },
-  {
    "id": 6,
    "name": "Brandon Funston",
    "site": "The Athletic",
    "draft_rank": "178"
-  },
-  {
-   "id": 1152,
-   "name": "Pierre Camus",
-   "site": "Fantasy Endgame",
-   "draft_rank": "208"
-  },
-  {
-   "id": 3688,
-   "name": "Nate Marcum",
-   "site": "Fantasy In Frames",
-   "draft_rank": "130"
   },
   {
    "id": 714,
@@ -408,12 +582,6 @@
    "name": "Lawrence Iacona",
    "site": "FantasyPros",
    "draft_rank": ""
-  },
-  {
-   "id": 65,
-   "name": "Kevin Roberts",
-   "site": "The DFS Build",
-   "draft_rank": "68"
   },
   {
    "id": 5477,
@@ -434,12 +602,6 @@
    "draft_rank": ""
   },
   {
-   "id": 5662,
-   "name": "Adam Dove",
-   "site": "The Fantasy Couriers",
-   "draft_rank": "198"
-  },
-  {
    "id": 1091,
    "name": "Michael Hauff",
    "site": "FF Faceoff",
@@ -450,12 +612,6 @@
    "name": "Stacy Perez",
    "site": "Fan Girl Football",
    "draft_rank": ""
-  },
-  {
-   "id": 873,
-   "name": "Rich Piazza",
-   "site": "Fantasy Shed",
-   "draft_rank": "201"
   },
   {
    "id": 5001,
@@ -470,40 +626,10 @@
    "draft_rank": "81"
   },
   {
-   "id": 3585,
-   "name": "Ryan Weisse",
-   "site": "Club Fantasy FFL",
-   "draft_rank": "7"
-  },
-  {
-   "id": 1138,
-   "name": "Zach Brunner",
-   "site": "FlurrySports",
-   "draft_rank": "113"
-  },
-  {
-   "id": 3112,
-   "name": "Francisco (Chato) Romero",
-   "site": "Estadio Fantasy",
-   "draft_rank": "38"
-  },
-  {
-   "id": 647,
-   "name": "Dr. Roto",
-   "site": "FullTime Fantasy",
-   "draft_rank": "132"
-  },
-  {
    "id": 4164,
    "name": "Bradley Stalder",
    "site": "Player Profiler",
    "draft_rank": "91"
-  },
-  {
-   "id": 101,
-   "name": "Matt De Lima",
-   "site": "Dr. Roto",
-   "draft_rank": "32"
   },
   {
    "id": 1667,
@@ -512,58 +638,16 @@
    "draft_rank": "69"
   },
   {
-   "id": 284,
-   "name": "Site Rankings",
-   "site": "Gridiron Experts",
-   "draft_rank": "85"
-  },
-  {
    "id": 2932,
    "name": "Adrian Alpanseque",
    "site": "Estadio Fantasy",
    "draft_rank": "159"
   },
   {
-   "id": 908,
-   "name": "Mike Maher",
-   "site": "BettingPros",
-   "draft_rank": "67"
-  },
-  {
-   "id": 2751,
-   "name": "Justin Dodds",
-   "site": "SleeperWire",
-   "draft_rank": "80"
-  },
-  {
-   "id": 6658,
-   "name": "Brad Beatson",
-   "site": "Bandit Fantasy Football",
-   "draft_rank": "182"
-  },
-  {
-   "id": 7671,
-   "name": "Alex Cupps",
-   "site": "Cupps Analytics",
-   "draft_rank": ""
-  },
-  {
-   "id": 552,
-   "name": "Matthew Hill",
-   "site": "DataForce Fantasy Football",
-   "draft_rank": "156"
-  },
-  {
    "id": 2340,
    "name": "James Emrick-Wilson",
    "site": "The Armchair Sports Corner",
    "draft_rank": "115"
-  },
-  {
-   "id": 3556,
-   "name": "Chris Dell",
-   "site": "The Fantasy Edge",
-   "draft_rank": "169"
   },
   {
    "id": 1661,
@@ -596,12 +680,6 @@
    "draft_rank": ""
   },
   {
-   "id": 5598,
-   "name": "Aaron St Denis",
-   "site": "Fantasy Sports Advice Network",
-   "draft_rank": "158"
-  },
-  {
    "id": 858,
    "name": "Blake Fincher",
    "site": "Fantasy Football Cafe",
@@ -632,18 +710,6 @@
    "draft_rank": "19"
   },
   {
-   "id": 3612,
-   "name": "Mike MacGregor",
-   "site": "Draft Buddy",
-   "draft_rank": ""
-  },
-  {
-   "id": 7565,
-   "name": "Seth Woolcock",
-   "site": "FantasyPros",
-   "draft_rank": "140"
-  },
-  {
    "id": 5546,
    "name": "Joe Serpico",
    "site": "Pressbox",
@@ -660,24 +726,6 @@
    "name": "Wyatt Bertolone",
    "site": "Player Profiler",
    "draft_rank": "54"
-  },
-  {
-   "id": 3468,
-   "name": "Daniel Mader",
-   "site": "Fantasy Football Advice",
-   "draft_rank": "173"
-  },
-  {
-   "id": 7373,
-   "name": "Joshua Kimmel",
-   "site": "FantasyNow+",
-   "draft_rank": "128"
-  },
-  {
-   "id": 7357,
-   "name": "Justin Bauerle",
-   "site": "FantasyNow+",
-   "draft_rank": "142"
   },
   {
    "id": 3287,
@@ -782,12 +830,6 @@
    "draft_rank": "166"
   },
   {
-   "id": 7649,
-   "name": "The Tecmo Weave",
-   "site": "Lab 52",
-   "draft_rank": ""
-  },
-  {
    "id": 4307,
    "name": "Lee Wehry",
    "site": "FantasyPros",
@@ -822,12 +864,6 @@
    "name": "Jacob Hubman",
    "site": "The Fantasy Headliners",
    "draft_rank": "185"
-  },
-  {
-   "id": 1169,
-   "name": "Elisha Twerski",
-   "site": "USA Today",
-   "draft_rank": "36"
   },
   {
    "id": 8,
