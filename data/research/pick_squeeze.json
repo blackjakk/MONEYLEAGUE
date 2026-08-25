@@ -177,16 +177,23 @@
         "their_live": 178,
         "offer_round": 14,
         "offer_pick": 163
+      },
+      {
+        "need_round": 15,
+        "seller": "trevor_bergerboy",
+        "their_live": 171,
+        "offer_round": 14,
+        "offer_pick": 163
       }
     ],
     "package_partner": "coop",
     "partner_legs": 4
   },
   "meta": {
-    "generated": "2026-08-18",
+    "generated": "2026-08-25",
     "basis": "predicted keepers (keepers_2026.json) + schedule with trades applied (helper data.json)",
     "hard_squeezes": 0,
-    "blocked_alternates": 14
+    "blocked_alternates": 12
   },
   "hard": [],
   "blocked": [
@@ -213,33 +220,11 @@
       "brian_can_sell": false
     },
     {
-      "manager": "trevor_bergerboy",
-      "player": "Dalton Schultz",
-      "position": "TE",
-      "round": 15,
-      "net_vbd": 48.6,
-      "bump_to": 14,
-      "bump_tax": 2.6,
-      "is_me": false,
-      "brian_can_sell": false
-    },
-    {
       "manager": "coop",
       "player": "Quentin Johnston",
       "position": "WR",
       "round": 15,
       "net_vbd": 43.3,
-      "bump_to": 14,
-      "bump_tax": 2.6,
-      "is_me": false,
-      "brian_can_sell": false
-    },
-    {
-      "manager": "trevor_bergerboy",
-      "player": "Terrance Ferguson",
-      "position": "TE",
-      "round": 15,
-      "net_vbd": 9.0,
       "bump_to": 14,
       "bump_tax": 2.6,
       "is_me": false,
@@ -352,7 +337,7 @@
       "for_player": "George Pickens",
       "hard": false,
       "natural": "donnie",
-      "my_rank": 5,
+      "my_rank": 6,
       "sellers": [
         {
           "seller": "donnie",
@@ -368,10 +353,9 @@
           "seller": "kyle_figgy",
           "spare": false,
           "barter_rounds": [
-            13,
-            14
+            13
           ],
-          "fit": 2,
+          "fit": 1,
           "is_me": false
         },
         {
@@ -384,10 +368,12 @@
           "is_me": false
         },
         {
-          "seller": "ankur_patel",
+          "seller": "trevor_bergerboy",
           "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
+          "barter_rounds": [
+            14
+          ],
+          "fit": 1,
           "is_me": false
         }
       ]
@@ -414,10 +400,9 @@
           "seller": "kyle_figgy",
           "spare": false,
           "barter_rounds": [
-            13,
-            14
+            13
           ],
-          "fit": 2,
+          "fit": 1,
           "is_me": false
         },
         {
@@ -509,35 +494,9 @@
           "barter_rounds": [],
           "fit": 0,
           "is_me": false
-        }
-      ]
-    },
-    {
-      "buyer": "trevor_bergerboy",
-      "round": 15,
-      "for_player": "Dalton Schultz",
-      "hard": false,
-      "natural": "donnie",
-      "my_rank": null,
-      "sellers": [
-        {
-          "seller": "donnie",
-          "spare": false,
-          "barter_rounds": [
-            13
-          ],
-          "fit": 1,
-          "is_me": false
         },
         {
-          "seller": "ankur_patel",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        },
-        {
-          "seller": "eric_m",
+          "seller": "trevor_bergerboy",
           "spare": false,
           "barter_rounds": [],
           "fit": 0,
@@ -555,6 +514,15 @@
       "sellers": [
         {
           "seller": "ankur_patel",
+          "spare": false,
+          "barter_rounds": [
+            2
+          ],
+          "fit": 1,
+          "is_me": false
+        },
+        {
+          "seller": "trevor_bergerboy",
           "spare": false,
           "barter_rounds": [
             2
@@ -597,6 +565,16 @@
           "is_me": false
         },
         {
+          "seller": "trevor_bergerboy",
+          "spare": false,
+          "barter_rounds": [
+            1,
+            2
+          ],
+          "fit": 2,
+          "is_me": false
+        },
+        {
           "seller": "donnie",
           "spare": false,
           "barter_rounds": [],
@@ -628,6 +606,15 @@
             4
           ],
           "fit": 2,
+          "is_me": false
+        },
+        {
+          "seller": "trevor_bergerboy",
+          "spare": false,
+          "barter_rounds": [
+            2
+          ],
+          "fit": 1,
           "is_me": false
         },
         {
@@ -674,6 +661,13 @@
           "barter_rounds": [],
           "fit": 0,
           "is_me": false
+        },
+        {
+          "seller": "trevor_bergerboy",
+          "spare": false,
+          "barter_rounds": [],
+          "fit": 0,
+          "is_me": false
         }
       ]
     },
@@ -701,6 +695,13 @@
         },
         {
           "seller": "eric_m",
+          "spare": false,
+          "barter_rounds": [],
+          "fit": 0,
+          "is_me": false
+        },
+        {
+          "seller": "trevor_bergerboy",
           "spare": false,
           "barter_rounds": [],
           "fit": 0,
@@ -757,11 +758,12 @@
     },
     {
       "round": 15,
-      "buyers": 11,
+      "buyers": 9,
       "sellers": [
         "ankur_patel",
         "donnie",
-        "eric_m"
+        "eric_m",
+        "trevor_bergerboy"
       ]
     }
   ]

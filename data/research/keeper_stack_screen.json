@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-08-18",
+    "generated": "2026-08-25",
     "season": 2026,
     "basis": "model-predicted keepers (actuals auto-load at lock)",
     "criteria": "rank-1 surplus >= 120 blind-curve pts with >= 50% of keepers proven (kept-again or positive realized VBD the season before)",
@@ -38,7 +38,7 @@
         {
           "player": "Wan'Dale Robinson",
           "pos": "WR",
-          "cost_round": 15,
+          "cost_round": 14,
           "adp_round": 10.4,
           "surplus": 0.0,
           "proven": true

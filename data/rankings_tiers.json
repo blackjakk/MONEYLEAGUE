@@ -1,7 +1,7 @@
 {
  "meta": {
   "source": "fantasyfootballtiers.com (clustered expert consensus, half-PPR; QB list is 1QB-ordered)",
-  "fetched": "2026-08-18"
+  "fetched": "2026-08-25"
  },
  "tiers": {
   "QB": [
@@ -12,17 +12,17 @@
      "Lamar Jackson",
      "Drake Maye",
      "Joe Burrow",
-     "Jayden Daniels",
-     "Jalen Hurts"
+     "Jayden Daniels"
     ]
    },
    {
     "tier": 2,
     "players": [
+     "Jalen Hurts",
      "Caleb Williams",
      "Justin Herbert",
-     "Trevor Lawrence",
-     "Dak Prescott"
+     "Dak Prescott",
+     "Trevor Lawrence"
     ]
    },
    {
@@ -63,74 +63,74 @@
     "players": [
      "Jahmyr Gibbs",
      "Bijan Robinson",
-     "Christian McCaffrey",
      "Jonathan Taylor",
+     "Christian McCaffrey",
      "James Cook III"
     ]
    },
    {
     "tier": 2,
     "players": [
-     "Ashton Jeanty",
      "Chase Brown",
      "Saquon Barkley",
      "De'Von Achane",
      "Omarion Hampton",
      "Kenneth Walker III",
-     "Derrick Henry"
+     "Derrick Henry",
+     "Ashton Jeanty"
     ]
    },
    {
     "tier": 3,
     "players": [
      "Kyren Williams",
-     "Breece Hall",
-     "Jeremiyah Love",
      "Javonte Williams",
-     "Josh Jacobs"
+     "Breece Hall",
+     "Josh Jacobs",
+     "Jeremiyah Love",
+     "Travis Etienne Jr."
     ]
    },
    {
     "tier": 4,
     "players": [
-     "Travis Etienne Jr.",
-     "Cam Skattebo",
      "D'Andre Swift",
-     "Bucky Irving",
+     "Cam Skattebo",
      "Quinshon Judkins",
-     "David Montgomery",
-     "Bhayshul Tuten",
-     "TreVeyon Henderson"
+     "Bucky Irving",
+     "David Montgomery"
     ]
    },
    {
     "tier": 5,
     "players": [
-     "Jadarian Price",
-     "Jaylen Warren",
-     "Rhamondre Stevenson",
-     "Tony Pollard"
+     "Bhayshul Tuten",
+     "TreVeyon Henderson",
+     "Jadarian Price"
     ]
    },
    {
     "tier": 6,
     "players": [
+     "Rhamondre Stevenson",
+     "Jaylen Warren",
+     "Tony Pollard",
      "Rico Dowdle",
-     "Chuba Hubbard",
-     "J.K. Dobbins",
-     "Jonathon Brooks"
+     "Jonathon Brooks",
+     "J.K. Dobbins"
     ]
    },
    {
     "tier": 7,
     "players": [
+     "Chuba Hubbard",
      "Blake Corum",
-     "RJ Harvey",
-     "Kyle Monangai",
-     "Kenny Gainwell",
-     "Rachaad White",
      "Jacory Croskey-Merritt",
-     "Jordan Mason"
+     "RJ Harvey",
+     "Jordan Mason",
+     "Kenny Gainwell",
+     "Kyle Monangai",
+     "Rachaad White"
     ]
    }
   ],
@@ -143,96 +143,96 @@
      "Jaxon Smith-Njigba",
      "Amon-Ra St. Brown",
      "CeeDee Lamb",
-     "Justin Jefferson",
-     "Drake London",
-     "A.J. Brown",
-     "Nico Collins",
-     "George Pickens"
+     "Justin Jefferson"
     ]
    },
    {
     "tier": 2,
     "players": [
+     "Drake London",
+     "A.J. Brown",
+     "Nico Collins",
+     "George Pickens",
      "Chris Olave",
-     "Rashee Rice",
-     "DeVonta Smith",
      "Malik Nabers",
-     "Zay Flowers",
-     "Tee Higgins",
-     "Tetairoa McMillan",
-     "Emeka Egbuka",
-     "Ladd McConkey",
-     "Garrett Wilson",
-     "Jaylen Waddle"
+     "Rashee Rice",
+     "DeVonta Smith"
     ]
    },
    {
     "tier": 3,
     "players": [
-     "Terry McLaurin",
-     "Luther Burden III",
-     "Davante Adams",
-     "Jameson Williams",
-     "Mike Evans",
-     "Christian Watson",
-     "DJ Moore",
-     "Rome Odunze"
+     "Zay Flowers",
+     "Tee Higgins",
+     "Tetairoa McMillan",
+     "Garrett Wilson",
+     "Ladd McConkey",
+     "Jaylen Waddle",
+     "Emeka Egbuka"
     ]
    },
    {
     "tier": 4,
     "players": [
-     "Parker Washington",
-     "Carnell Tate",
-     "Marvin Harrison Jr.",
-     "Brian Thomas Jr.",
-     "DK Metcalf"
+     "Terry McLaurin",
+     "Davante Adams",
+     "Luther Burden III",
+     "Jameson Williams",
+     "DJ Moore",
+     "Mike Evans",
+     "Christian Watson",
+     "Rome Odunze"
     ]
    },
    {
     "tier": 5,
     "players": [
-     "Jordyn Tyson",
-     "Courtland Sutton",
+     "Parker Washington",
+     "Marvin Harrison Jr.",
+     "Carnell Tate",
+     "Brian Thomas Jr.",
+     "DK Metcalf",
      "Chris Godwin Jr.",
-     "Alec Pierce",
-     "Michael Pittman Jr.",
-     "Michael Wilson",
-     "Josh Downs",
-     "Quentin Johnston"
+     "Courtland Sutton"
     ]
    },
    {
     "tier": 6,
     "players": [
+     "Michael Pittman Jr.",
+     "Michael Wilson",
+     "Quentin Johnston",
+     "Alec Pierce",
+     "Josh Downs",
+     "Stefon Diggs",
      "Wan'Dale Robinson",
-     "Makai Lemon",
      "Jordan Addison",
      "Jayden Reed",
      "Jakobi Meyers",
-     "Stefon Diggs"
+     "Makai Lemon"
     ]
    },
    {
     "tier": 7,
     "players": [
      "Xavier Worthy",
-     "Jayden Higgins",
-     "Matthew Golden",
      "KC Concepcion",
-     "Romeo Doubs",
+     "Matthew Golden",
      "Jalen Coker",
      "Khalil Shakir",
-     "Deebo Samuel Sr."
+     "Jordyn Tyson",
+     "Romeo Doubs",
+     "Deebo Samuel Sr.",
+     "De'Zhaun Stribling"
     ]
    },
    {
     "tier": 8,
     "players": [
+     "Denzel Boston",
      "Rashid Shaheed",
-     "De'Zhaun Stribling",
-     "Jerry Jeudy",
-     "Denzel Boston"
+     "Tre Tucker",
+     "Adonai Mitchell"
     ]
    }
   ],
@@ -250,41 +250,41 @@
     "tier": 2,
     "players": [
      "Tucker Kraft",
-     "Sam LaPorta",
      "Harold Fannin Jr.",
-     "Kyle Pitts Sr."
+     "Sam LaPorta",
+     "Kyle Pitts Sr.",
+     "George Kittle",
+     "Travis Kelce"
     ]
    },
    {
     "tier": 3,
     "players": [
-     "George Kittle",
-     "Travis Kelce",
      "Dalton Kincaid",
-     "Isaiah Likely",
      "Dallas Goedert",
+     "Isaiah Likely",
      "Jake Ferguson",
-     "Mark Andrews"
+     "Mark Andrews",
+     "Juwan Johnson"
     ]
    },
    {
     "tier": 4,
     "players": [
-     "Juwan Johnson",
+     "Hunter Henry",
      "Brenton Strange",
      "Chig Okonkwo",
-     "Hunter Henry"
+     "Dalton Schultz"
     ]
    },
    {
     "tier": 5,
     "players": [
-     "Oronde Gadsden II",
-     "Dalton Schultz",
-     "AJ Barner",
      "T.J. Hockenson",
-     "Kenyon Sadiq",
-     "Terrance Ferguson"
+     "AJ Barner",
+     "Terrance Ferguson",
+     "Oronde Gadsden II",
+     "Gunnar Helm"
     ]
    }
   ]

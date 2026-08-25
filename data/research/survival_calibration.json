@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-18",
+ "generated": "2026-08-25",
  "method": {
   "world": "real 2025 draft, period-honest: ADP-only board (synthesized projections), keeper seats pre-filled (explicit flag + implicit ADP-gap rule), xlsx pick attribution for Brian",
   "machinery": "build_mock_draft_sim bot, 100 sims, temperature 0.25, top-15 softmax, tendency model OFF (it is fit on 2023-25 \u2014 using it here would leak the answer)",
@@ -60,5 +60,5 @@
   }
  ],
  "verdict": "Directionally right but miscalibrated: Brier 0.081 beats the base rate (0.233), but the 60-80% bucket realizes 52% vs 70% predicted \u2014 pad that band before betting a pick on it.",
- "runtime_sec": 14.2
+ "runtime_sec": 10.4
 }
