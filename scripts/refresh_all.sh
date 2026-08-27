@@ -129,6 +129,8 @@ do_reports() {
   python3 scripts/build_draft_sheet.py
   log "Render the Almanac (league record — extends itself each season)"
   python3 scripts/build_almanac.py
+  log "Build the League Desk bot knowledge pack (Almanac facts only)"
+  python3 scripts/build_bot_knowledge.py
 }
 
 # ---------- Draft helper ----------

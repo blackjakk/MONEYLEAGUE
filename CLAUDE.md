@@ -582,7 +582,21 @@ goal docs: GOAL_RESEARCH.md, GOAL_OPTIONS.md). Caches: `data/scouting/`
   winner-takes-all pot + reg-season refund from 2016; cover carries
   THE PURSE all-time money table + THE MONEY RULES; season pages get
   a THE PURSE story row (champ collects / who plays free / tax
-  extremes). 2026 folds in when its bracket decides. Keeper lock
+  extremes). 2026 folds in when its bracket decides. LEAGUE DESK BOT
+  (Aug 14, user-requested "bot in my sleeper chat"):
+  scripts/league_bot.py — runs on Brian's OWN computer, polls the
+  live league chat every 5s via Sleeper's PRIVATE graphql (bot = a
+  dedicated co-owner account's token; endpoint shapes are best-guess
+  candidates in OPS, verified by `--probe`; expect one fix-up pass
+  when Brian brings probe output — the private API was NOT
+  verifiable from this session). Answers messages containing "desk"
+  via Anthropic API (haiku default) from data/bot_knowledge.json
+  (build_bot_knowledge.py, reports stage + verify, COMMITTED so a
+  local bot self-updates from GitHub raw every 6h). Knowledge
+  boundary = Almanac-published facts ONLY (standings, purse/tax,
+  tanks, trades, rules, 232 h2h pairs — Brian 13-17 v Trevor, 0-2
+  playoffs); NEVER desk intel/edges/keeper predictions. Secrets in
+  scripts/.env (gitignored). Runbook: docs/LEAGUE_BOT.md. Keeper lock
   = 5-min runbook: docs/KEEPER_LOCK.md + lock_keepers.py validator
   (template data/keepers_2026_actual.TEMPLATE.json; enforces cap/floor/
   bump/ownership; then refresh derive sim reports verify).

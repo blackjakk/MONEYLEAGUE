@@ -151,6 +151,15 @@ def main() -> None:
         check(f"research fragment {frag}",
               p.exists() and p.stat().st_size > 500,
               "missing or empty — its builder didn't run")
+    bk = ROOT / "data" / "bot_knowledge.json"
+    bk_ok = False
+    if bk.exists():
+        kd = json.loads(bk.read_text())
+        bk_ok = (len(kd.get("seasons", {})) >= 15
+                 and kd.get("titles") and kd.get("purse_all_time"))
+    check("bot knowledge pack (seasons/titles/purse present)", bk_ok,
+          "missing or thin — build_bot_knowledge.py didn't run")
+
     bench = ROOT / "data" / "research" / "benchmark_validation.json"
     check("benchmark validation json (corpus is committed, so this must "
           "build)", bench.exists() and bench.stat().st_size > 200,

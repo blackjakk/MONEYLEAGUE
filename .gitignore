@@ -46,6 +46,7 @@ __pycache__/
 # Secrets — never commit
 .yahoo_cookies
 *.oauth.json
+scripts/.env
 
 # Sleeper fetch artifacts: refetchable on demand, no need to commit.
 data/sleeper/players_nfl.json
