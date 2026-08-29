@@ -1,29 +1,14 @@
 {
   "meta": {
-    "generated": "2026-08-25",
+    "generated": "2026-08-29",
     "sleeper_source": "adp_2qb (superflex), data/sleeper_projections_2026.json",
     "fp_source": "FantasyPros OP half-PPR consensus, 104 experts, updated 8/25",
-    "players_screened": 137,
+    "players_screened": 135,
     "max_adp": 180,
     "teams": 12,
     "convention": "gap = sleeper_adp - fp_consensus_pick; >0 room late (value), <0 room early (avoid)"
   },
   "room_late": [
-    {
-      "name": "Jacoby Brissett",
-      "position": "QB",
-      "team": "ARI",
-      "sleeper_adp": 159.6,
-      "sleeper_round": 14,
-      "sleeper_slot": "R14.03",
-      "fp_pick": 85.5,
-      "fp_rank": 96,
-      "fp_round": 8,
-      "fp_slot": "R8.01",
-      "gap": 74.1,
-      "gap_rounds": 6.2,
-      "read": "experts see R8 \u00b7 the room pays R14"
-    },
     {
       "name": "Jadarian Price",
       "position": "RB",
@@ -38,21 +23,6 @@
       "gap": 57.5,
       "gap_rounds": 4.8,
       "read": "experts see R8 \u00b7 the room pays R12"
-    },
-    {
-      "name": "Matthew Stafford",
-      "position": "QB",
-      "team": "LAR",
-      "sleeper_adp": 88.4,
-      "sleeper_round": 8,
-      "sleeper_slot": "R8.04",
-      "fp_pick": 31.2,
-      "fp_rank": 29,
-      "fp_round": 3,
-      "fp_slot": "R3.07",
-      "gap": 57.2,
-      "gap_rounds": 4.8,
-      "read": "experts see R3 \u00b7 the room pays R8"
     },
     {
       "name": "Kyler Murray",
@@ -115,21 +85,6 @@
       "read": "experts see R5 \u00b7 the room pays R8"
     },
     {
-      "name": "Jordan Mason",
-      "position": "RB",
-      "team": "MIN",
-      "sleeper_adp": 155.4,
-      "sleeper_round": 13,
-      "sleeper_slot": "R13.11",
-      "fp_pick": 121.2,
-      "fp_rank": 119,
-      "fp_round": 11,
-      "fp_slot": "R11.01",
-      "gap": 34.2,
-      "gap_rounds": 2.9,
-      "read": "experts see R11 \u00b7 the room pays R13"
-    },
-    {
       "name": "Jared Goff",
       "position": "QB",
       "team": "DET",
@@ -160,21 +115,6 @@
       "read": "experts see R2 \u00b7 the room pays R4"
     },
     {
-      "name": "Tyler Shough",
-      "position": "QB",
-      "team": "NO",
-      "sleeper_adp": 78.9,
-      "sleeper_round": 7,
-      "sleeper_slot": "R7.06",
-      "fp_pick": 50.6,
-      "fp_rank": 49,
-      "fp_round": 5,
-      "fp_slot": "R5.02",
-      "gap": 28.3,
-      "gap_rounds": 2.4,
-      "read": "experts see R5 \u00b7 the room pays R7"
-    },
-    {
       "name": "Daniel Jones",
       "position": "QB",
       "team": "IND",
@@ -188,6 +128,66 @@
       "gap": 26.7,
       "gap_rounds": 2.2,
       "read": "experts see R6 \u00b7 the room pays R8"
+    },
+    {
+      "name": "Deebo Samuel",
+      "position": "WR",
+      "team": "",
+      "sleeper_adp": 173.4,
+      "sleeper_round": 15,
+      "sleeper_slot": "R15.05",
+      "fp_pick": 146.9,
+      "fp_rank": 144,
+      "fp_round": 13,
+      "fp_slot": "R13.02",
+      "gap": 26.5,
+      "gap_rounds": 2.2,
+      "read": "experts see R13 \u00b7 the room pays R15"
+    },
+    {
+      "name": "Parker Washington",
+      "position": "WR",
+      "team": "JAX",
+      "sleeper_adp": 112.0,
+      "sleeper_round": 10,
+      "sleeper_slot": "R10.04",
+      "fp_pick": 89.3,
+      "fp_rank": 85,
+      "fp_round": 8,
+      "fp_slot": "R8.05",
+      "gap": 22.7,
+      "gap_rounds": 1.9,
+      "read": "experts see R8 \u00b7 the room pays R10"
+    },
+    {
+      "name": "Jacory Croskey-Merritt",
+      "position": "RB",
+      "team": "WAS",
+      "sleeper_adp": 138.5,
+      "sleeper_round": 12,
+      "sleeper_slot": "R12.06",
+      "fp_pick": 117.0,
+      "fp_rank": 113,
+      "fp_round": 10,
+      "fp_slot": "R10.09",
+      "gap": 21.5,
+      "gap_rounds": 1.8,
+      "read": "experts see R10 \u00b7 the room pays R12"
+    },
+    {
+      "name": "Michael Pittman",
+      "position": "WR",
+      "team": "PIT",
+      "sleeper_adp": 127.0,
+      "sleeper_round": 11,
+      "sleeper_slot": "R11.07",
+      "fp_pick": 108.1,
+      "fp_rank": 104,
+      "fp_round": 9,
+      "fp_slot": "R9.12",
+      "gap": 18.9,
+      "gap_rounds": 1.6,
+      "read": "experts see R9 \u00b7 the room pays R11"
     }
   ],
   "room_early": [
@@ -265,6 +265,21 @@
       "gap": -79.6,
       "gap_rounds": -6.6,
       "read": "the room pays R14 \u00b7 experts see R21"
+    },
+    {
+      "name": "Oronde Gadsden",
+      "position": "TE",
+      "team": "LAC",
+      "sleeper_adp": 106.3,
+      "sleeper_round": 9,
+      "sleeper_slot": "R9.10",
+      "fp_pick": 185.2,
+      "fp_rank": 175,
+      "fp_round": 16,
+      "fp_slot": "R16.05",
+      "gap": -78.9,
+      "gap_rounds": -6.6,
+      "read": "the room pays R9 \u00b7 experts see R16"
     },
     {
       "name": "Theo Johnson",
@@ -355,33 +370,34 @@
       "gap": -56.7,
       "gap_rounds": -4.7,
       "read": "the room pays R12 \u00b7 experts see R17"
-    },
-    {
-      "name": "Jordyn Tyson",
-      "position": "WR",
-      "team": "NO",
-      "sleeper_adp": 86.9,
-      "sleeper_round": 8,
-      "sleeper_slot": "R8.02",
-      "fp_pick": 142.5,
-      "fp_rank": 137,
-      "fp_round": 12,
-      "fp_slot": "R12.10",
-      "gap": -55.6,
-      "gap_rounds": -4.6,
-      "read": "the room pays R8 \u00b7 experts see R12"
     }
   ],
   "model_vs_paper": {
     "meta": {
-      "generated": "2026-08-25",
+      "generated": "2026-08-29",
       "model_source": "helper data.json superflex VBD board (K/DEF excluded)",
       "paper_source": "FP OP consensus (104 experts) \u2014 the room brings superflex paper",
-      "players_compared": 108,
+      "players_compared": 104,
       "reach_source": "MC survival (svq quantiles, helper data.json) at Brian's nearest own live pick at/after the player's paper round; keeper rounds 8/9/14/15 consumed",
       "sheets_sleep_sort": "gap \u00d7 reach (edge_score), desc"
     },
     "sheets_sleep": [
+      {
+        "name": "Hunter Henry",
+        "position": "TE",
+        "team": "NE",
+        "model_rank": 130,
+        "model_round": 11,
+        "fp_rank": 148,
+        "fp_round": 13,
+        "gap": 18,
+        "read": "our board R11 \u00b7 their paper R13",
+        "reach": 0.586,
+        "reach_pct": 59,
+        "reach_pick": 150,
+        "reach_round": 13,
+        "edge_score": 10.5
+      },
       {
         "name": "Dalton Kincaid",
         "position": "TE",
@@ -392,27 +408,11 @@
         "fp_round": 11,
         "gap": 23,
         "read": "our board R9 \u00b7 their paper R11",
-        "reach": 0.64,
-        "reach_pct": 64,
+        "reach": 0.4,
+        "reach_pct": 40,
         "reach_pick": 126,
         "reach_round": 11,
-        "edge_score": 14.7
-      },
-      {
-        "name": "Brock Bowers",
-        "position": "TE",
-        "team": "LV",
-        "model_rank": 22,
-        "model_round": 2,
-        "fp_rank": 34,
-        "fp_round": 3,
-        "gap": 12,
-        "read": "our board R2 \u00b7 their paper R3",
-        "reach": 0.96,
-        "reach_pct": 96,
-        "reach_pick": 30,
-        "reach_round": 3,
-        "edge_score": 11.5
+        "edge_score": 9.2
       },
       {
         "name": "Mark Andrews",
@@ -424,11 +424,11 @@
         "fp_round": 11,
         "gap": 14,
         "read": "our board R10 \u00b7 their paper R11",
-        "reach": 0.7,
-        "reach_pct": 70,
+        "reach": 0.57,
+        "reach_pct": 57,
         "reach_pick": 126,
         "reach_round": 11,
-        "edge_score": 9.8
+        "edge_score": 8.0
       },
       {
         "name": "Derrick Henry",
@@ -437,22 +437,6 @@
         "model_rank": 16,
         "model_round": 2,
         "fp_rank": 36,
-        "fp_round": 3,
-        "gap": 20,
-        "read": "our board R2 \u00b7 their paper R3",
-        "reach": 0.4,
-        "reach_pct": 40,
-        "reach_pick": 30,
-        "reach_round": 3,
-        "edge_score": 8.0
-      },
-      {
-        "name": "Omarion Hampton",
-        "position": "RB",
-        "team": "LAC",
-        "model_rank": 15,
-        "model_round": 2,
-        "fp_rank": 35,
         "fp_round": 3,
         "gap": 20,
         "read": "our board R2 \u00b7 their paper R3",
@@ -472,43 +456,27 @@
         "fp_round": 1,
         "gap": 8,
         "read": "our board R1 \u00b7 their paper R1",
-        "reach": 0.4,
-        "reach_pct": 40,
+        "reach": 0.6,
+        "reach_pct": 60,
         "reach_pick": 6,
         "reach_round": 1,
-        "edge_score": 3.2
+        "edge_score": 4.8
       },
       {
-        "name": "KC Concepcion",
-        "position": "WR",
-        "team": "CLE",
-        "model_rank": 100,
-        "model_round": 9,
-        "fp_rank": 130,
-        "fp_round": 11,
-        "gap": 30,
-        "read": "our board R9 \u00b7 their paper R11",
-        "reach": 0.099,
-        "reach_pct": 10,
-        "reach_pick": 126,
-        "reach_round": 11,
-        "edge_score": 3.0
-      },
-      {
-        "name": "Quinshon Judkins",
+        "name": "Omarion Hampton",
         "position": "RB",
-        "team": "CLE",
-        "model_rank": 55,
-        "model_round": 5,
-        "fp_rank": 72,
-        "fp_round": 6,
-        "gap": 17,
-        "read": "our board R5 \u00b7 their paper R6",
-        "reach": 0.178,
-        "reach_pct": 18,
-        "reach_pick": 67,
-        "reach_round": 6,
-        "edge_score": 3.0
+        "team": "LAC",
+        "model_rank": 15,
+        "model_round": 2,
+        "fp_rank": 35,
+        "fp_round": 3,
+        "gap": 20,
+        "read": "our board R2 \u00b7 their paper R3",
+        "reach": 0.2,
+        "reach_pct": 20,
+        "reach_pick": 30,
+        "reach_round": 3,
+        "edge_score": 4.0
       },
       {
         "name": "James Cook III",
@@ -520,11 +488,11 @@
         "fp_round": 2,
         "gap": 12,
         "read": "our board R1 \u00b7 their paper R2",
-        "reach": 0.25,
-        "reach_pct": 25,
+        "reach": 0.333,
+        "reach_pct": 33,
         "reach_pick": 19,
         "reach_round": 2,
-        "edge_score": 3.0
+        "edge_score": 4.0
       },
       {
         "name": "Jonathon Brooks",
@@ -536,11 +504,43 @@
         "fp_round": 9,
         "gap": 12,
         "read": "our board R8 \u00b7 their paper R9",
-        "reach": 0.236,
-        "reach_pct": 24,
+        "reach": 0.331,
+        "reach_pct": 33,
         "reach_pick": 115,
         "reach_round": 10,
-        "edge_score": 2.8
+        "edge_score": 4.0
+      },
+      {
+        "name": "KC Concepcion",
+        "position": "WR",
+        "team": "CLE",
+        "model_rank": 100,
+        "model_round": 9,
+        "fp_rank": 130,
+        "fp_round": 11,
+        "gap": 30,
+        "read": "our board R9 \u00b7 their paper R11",
+        "reach": 0.118,
+        "reach_pct": 12,
+        "reach_pick": 126,
+        "reach_round": 11,
+        "edge_score": 3.5
+      },
+      {
+        "name": "Jordan Addison",
+        "position": "WR",
+        "team": "MIN",
+        "model_rank": 99,
+        "model_round": 9,
+        "fp_rank": 118,
+        "fp_round": 10,
+        "gap": 19,
+        "read": "our board R9 \u00b7 their paper R10",
+        "reach": 0.144,
+        "reach_pct": 14,
+        "reach_pick": 115,
+        "reach_round": 10,
+        "edge_score": 2.7
       }
     ],
     "sheets_love": [
@@ -553,17 +553,6 @@
         "fp_rank": 88,
         "fp_round": 8,
         "gap": -72,
-        "read": "our board R14 \u00b7 their paper R8"
-      },
-      {
-        "name": "Jacoby Brissett",
-        "position": "QB",
-        "team": "ARI",
-        "model_rank": 166,
-        "model_round": 14,
-        "fp_rank": 96,
-        "fp_round": 8,
-        "gap": -70,
         "read": "our board R14 \u00b7 their paper R8"
       },
       {
@@ -600,17 +589,6 @@
         "read": "our board R14 \u00b7 their paper R9"
       },
       {
-        "name": "Matthew Stafford",
-        "position": "QB",
-        "team": "LAR",
-        "model_rank": 86,
-        "model_round": 8,
-        "fp_rank": 29,
-        "fp_round": 3,
-        "gap": -57,
-        "read": "our board R8 \u00b7 their paper R3"
-      },
-      {
         "name": "Jadarian Price",
         "position": "RB",
         "team": "SEA",
@@ -633,17 +611,6 @@
         "read": "our board R15 \u00b7 their paper R11"
       },
       {
-        "name": "Tyler Shough",
-        "position": "QB",
-        "team": "NO",
-        "model_rank": 92,
-        "model_round": 8,
-        "fp_rank": 49,
-        "fp_round": 5,
-        "gap": -43,
-        "read": "our board R8 \u00b7 their paper R5"
-      },
-      {
         "name": "Woody Marks",
         "position": "RB",
         "team": "HOU",
@@ -653,6 +620,39 @@
         "fp_round": 12,
         "gap": -43,
         "read": "our board R16 \u00b7 their paper R12"
+      },
+      {
+        "name": "Kyle Monangai",
+        "position": "RB",
+        "team": "CHI",
+        "model_rank": 164,
+        "model_round": 14,
+        "fp_rank": 122,
+        "fp_round": 11,
+        "gap": -42,
+        "read": "our board R14 \u00b7 their paper R11"
+      },
+      {
+        "name": "Patrick Mahomes II",
+        "position": "QB",
+        "team": "KC",
+        "model_rank": 66,
+        "model_round": 6,
+        "fp_rank": 25,
+        "fp_round": 3,
+        "gap": -41,
+        "read": "our board R6 \u00b7 their paper R3"
+      },
+      {
+        "name": "Malik Willis",
+        "position": "QB",
+        "team": "MIA",
+        "model_rank": 93,
+        "model_round": 8,
+        "fp_rank": 54,
+        "fp_round": 5,
+        "gap": -39,
+        "read": "our board R8 \u00b7 their paper R5"
       }
     ]
   }

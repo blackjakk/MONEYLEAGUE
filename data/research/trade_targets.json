@@ -1,35 +1,24 @@
 {
   "meta": {
-    "generated": "2026-08-25",
+    "generated": "2026-08-29",
     "axis": "at-trade stronger side wins mixed trades +44 PAR/deal (n=342 sides 2011-25); equal-strength trades wash to 0",
     "score": "fish(min(-careerPAR/deal,60)) + bleed(15 if live form <= -20) - shark(45 if live form >= +25) + starConcession%*40 + min(deals/yr,3)*8 + 22*expiringKeepers + warChestPoverty*4 + seatLanes + pairHistory(+-25)"
   },
   "targets": [
     {
       "manager": "tim_breswick",
-      "score": 96.4,
+      "score": 90.4,
       "career_deals": 13,
       "career_par_per_deal": -28.4,
       "recent_n": 13,
       "recent_par_per_deal": -28.4,
       "star_concession_rate": 0.38,
       "deals_per_year": 1.44,
-      "war_chest_rank": 10,
-      "war_chest": 314.3,
+      "war_chest_rank": 11,
+      "war_chest": 297.4,
       "expiring_keepers": 0,
       "expiring_assets": [],
-      "seat_lanes": [
-        {
-          "round": 3,
-          "player": "George Pickens",
-          "my_rank": 6
-        },
-        {
-          "round": 11,
-          "player": "Kyle Monangai",
-          "my_rank": 4
-        }
-      ],
+      "seat_lanes": [],
       "pair_deals_vs_me": 0,
       "pair_net_to_me": 0.0,
       "verdict": "SLOW FARM \u2014 loses when he deals but rarely deals; bring ONE strong offer (his seat needs)"
@@ -44,7 +33,7 @@
       "star_concession_rate": 0.36,
       "deals_per_year": 3.0,
       "war_chest_rank": 3,
-      "war_chest": 513.5,
+      "war_chest": 553.3,
       "expiring_keepers": 0,
       "expiring_assets": [],
       "seat_lanes": [],
@@ -62,7 +51,7 @@
       "star_concession_rate": 0.19,
       "deals_per_year": 3.47,
       "war_chest_rank": 8,
-      "war_chest": 355.4,
+      "war_chest": 361.2,
       "expiring_keepers": 3,
       "expiring_assets": [
         "Nico Collins",
@@ -75,8 +64,30 @@
       "verdict": "FORCED SELLER \u2014 rental window W9-11, pay in picks only \u00b7 STANDING RULE: advisor first, no exceptions"
     },
     {
+      "manager": "coop",
+      "score": 58.5,
+      "career_deals": 41,
+      "career_par_per_deal": 14.3,
+      "recent_n": 24,
+      "recent_par_per_deal": 22.6,
+      "star_concession_rate": 0.39,
+      "deals_per_year": 2.73,
+      "war_chest_rank": 5,
+      "war_chest": 483.5,
+      "expiring_keepers": 3,
+      "expiring_assets": [
+        "Jameson Williams",
+        "Trey McBride",
+        "Brock Bowers"
+      ],
+      "seat_lanes": [],
+      "pair_deals_vs_me": 4,
+      "pair_net_to_me": -58.8,
+      "verdict": "FORCED SELLER \u2014 rental window W9-11, pay in picks only \u00b7 CAUTION: live shark \u2014 sell or rent, never buy"
+    },
+    {
       "manager": "lem",
-      "score": 57.7,
+      "score": 52.7,
       "career_deals": 21,
       "career_par_per_deal": -5.5,
       "recent_n": 17,
@@ -87,37 +98,10 @@
       "war_chest": 558.7,
       "expiring_keepers": 0,
       "expiring_assets": [],
-      "seat_lanes": [
-        {
-          "round": 12,
-          "player": "Dylan Sampson",
-          "my_rank": 4
-        }
-      ],
+      "seat_lanes": [],
       "pair_deals_vs_me": 0,
       "pair_net_to_me": 0.0,
       "verdict": "CONTENDER SHOP \u2014 sell production W6-10, take picks"
-    },
-    {
-      "manager": "coop",
-      "score": 36.5,
-      "career_deals": 41,
-      "career_par_per_deal": 14.3,
-      "recent_n": 24,
-      "recent_par_per_deal": 22.6,
-      "star_concession_rate": 0.39,
-      "deals_per_year": 2.73,
-      "war_chest_rank": 4,
-      "war_chest": 488.5,
-      "expiring_keepers": 2,
-      "expiring_assets": [
-        "Trey McBride",
-        "Jameson Williams"
-      ],
-      "seat_lanes": [],
-      "pair_deals_vs_me": 4,
-      "pair_net_to_me": -58.8,
-      "verdict": "FORCED SELLER \u2014 rental window W9-11, pay in picks only \u00b7 CAUTION: live shark \u2014 sell or rent, never buy"
     },
     {
       "manager": "brower_barry",
@@ -128,8 +112,8 @@
       "recent_par_per_deal": 14.9,
       "star_concession_rate": 0.39,
       "deals_per_year": 2.57,
-      "war_chest_rank": 5,
-      "war_chest": 477.9,
+      "war_chest_rank": 4,
+      "war_chest": 531.3,
       "expiring_keepers": 0,
       "expiring_assets": [],
       "seat_lanes": [],
@@ -174,24 +158,6 @@
       "verdict": "SELL ONLY \u2014 live shark, never buy from him"
     },
     {
-      "manager": "josh_wildboy",
-      "score": -9.0,
-      "career_deals": 2,
-      "career_par_per_deal": 94.1,
-      "recent_n": 2,
-      "recent_par_per_deal": 94.1,
-      "star_concession_rate": 0.0,
-      "deals_per_year": 2.0,
-      "war_chest_rank": 11,
-      "war_chest": 301.7,
-      "expiring_keepers": 0,
-      "expiring_assets": [],
-      "seat_lanes": [],
-      "pair_deals_vs_me": 0,
-      "pair_net_to_me": 0.0,
-      "verdict": "SELL ONLY \u2014 live shark, never buy from him"
-    },
-    {
       "manager": "eric_m",
       "score": -11.9,
       "career_deals": 12,
@@ -201,13 +167,31 @@
       "star_concession_rate": 0.17,
       "deals_per_year": 0.8,
       "war_chest_rank": 6,
-      "war_chest": 443.0,
+      "war_chest": 441.7,
       "expiring_keepers": 0,
       "expiring_assets": [],
       "seat_lanes": [],
       "pair_deals_vs_me": 8,
       "pair_net_to_me": -286.8,
       "verdict": "ONE CALL A YEAR \u2014 bring the seat deal, make it count"
+    },
+    {
+      "manager": "josh_wildboy",
+      "score": -13.0,
+      "career_deals": 2,
+      "career_par_per_deal": 94.1,
+      "recent_n": 2,
+      "recent_par_per_deal": 94.1,
+      "star_concession_rate": 0.0,
+      "deals_per_year": 2.0,
+      "war_chest_rank": 10,
+      "war_chest": 301.7,
+      "expiring_keepers": 0,
+      "expiring_assets": [],
+      "seat_lanes": [],
+      "pair_deals_vs_me": 0,
+      "pair_net_to_me": 0.0,
+      "verdict": "SELL ONLY \u2014 live shark, never buy from him"
     },
     {
       "manager": "kyle_figgy",
@@ -219,7 +203,7 @@
       "star_concession_rate": 0.27,
       "deals_per_year": 1.73,
       "war_chest_rank": 1,
-      "war_chest": 628.7,
+      "war_chest": 656.2,
       "expiring_keepers": 0,
       "expiring_assets": [],
       "seat_lanes": [],

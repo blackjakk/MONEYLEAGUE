@@ -19,11 +19,6 @@
             "manager": "troy_mullings",
             "their_pick": 93,
             "spots": 2
-          },
-          {
-            "manager": "donnie",
-            "their_pick": 92,
-            "spots": 1
           }
         ]
       },
@@ -84,6 +79,11 @@
             "spots": 4
           },
           {
+            "manager": "tim_breswick",
+            "their_pick": 176,
+            "spots": 2
+          },
+          {
             "manager": "eric_m",
             "their_pick": 175,
             "spots": 1
@@ -100,11 +100,11 @@
         "spots": 6
       },
       {
-        "round": 12,
-        "seller": "trevor_bergerboy",
-        "their_pick": 133,
-        "my_pick": 139,
-        "spots": 6
+        "round": 2,
+        "seller": "coop",
+        "their_pick": 14,
+        "my_pick": 19,
+        "spots": 5
       },
       {
         "round": 5,
@@ -128,10 +128,10 @@
         "spots": 5
       },
       {
-        "round": 7,
+        "round": 5,
         "seller": "coop",
-        "their_pick": 74,
-        "my_pick": 78,
+        "their_pick": 50,
+        "my_pick": 54,
         "spots": 4
       },
       {
@@ -142,11 +142,32 @@
         "spots": 4
       },
       {
+        "round": 7,
+        "seller": "kyle_figgy",
+        "their_pick": 75,
+        "my_pick": 78,
+        "spots": 3
+      },
+      {
         "round": 13,
         "seller": "ankur_patel",
         "their_pick": 147,
         "my_pick": 150,
         "spots": 3
+      },
+      {
+        "round": 5,
+        "seller": "donnie",
+        "their_pick": 53,
+        "my_pick": 54,
+        "spots": 1
+      },
+      {
+        "round": 6,
+        "seller": "eric_m",
+        "their_pick": 66,
+        "my_pick": 67,
+        "spots": 1
       },
       {
         "round": 10,
@@ -156,615 +177,18 @@
         "spots": 1
       }
     ],
-    "cross": [
-      {
-        "need_round": 15,
-        "seller": "donnie",
-        "their_live": 173,
-        "offer_round": 14,
-        "offer_pick": 163
-      },
-      {
-        "need_round": 15,
-        "seller": "eric_m",
-        "their_live": 175,
-        "offer_round": 14,
-        "offer_pick": 163
-      },
-      {
-        "need_round": 15,
-        "seller": "ankur_patel",
-        "their_live": 178,
-        "offer_round": 14,
-        "offer_pick": 163
-      },
-      {
-        "need_round": 15,
-        "seller": "trevor_bergerboy",
-        "their_live": 171,
-        "offer_round": 14,
-        "offer_pick": 163
-      }
-    ],
+    "cross": [],
     "package_partner": "coop",
-    "partner_legs": 4
+    "partner_legs": 5
   },
   "meta": {
-    "generated": "2026-08-25",
+    "generated": "2026-08-29",
     "basis": "predicted keepers (keepers_2026.json) + schedule with trades applied (helper data.json)",
     "hard_squeezes": 0,
-    "blocked_alternates": 12
+    "blocked_alternates": 0
   },
   "hard": [],
-  "blocked": [
-    {
-      "manager": "tim_breswick",
-      "player": "George Pickens",
-      "position": "WR",
-      "round": 3,
-      "net_vbd": 6.8,
-      "bump_to": 2,
-      "bump_tax": 8.5,
-      "is_me": false,
-      "brian_can_sell": true
-    },
-    {
-      "manager": "josh_wildboy",
-      "player": "Daniel Jones",
-      "position": "QB",
-      "round": 15,
-      "net_vbd": 49.1,
-      "bump_to": 14,
-      "bump_tax": 2.6,
-      "is_me": false,
-      "brian_can_sell": false
-    },
-    {
-      "manager": "coop",
-      "player": "Quentin Johnston",
-      "position": "WR",
-      "round": 15,
-      "net_vbd": 43.3,
-      "bump_to": 14,
-      "bump_tax": 2.6,
-      "is_me": false,
-      "brian_can_sell": false
-    },
-    {
-      "manager": "josh_wildboy",
-      "player": "Kayshon Boutte",
-      "position": "WR",
-      "round": 15,
-      "net_vbd": 4.0,
-      "bump_to": 14,
-      "bump_tax": 2.6,
-      "is_me": false,
-      "brian_can_sell": false
-    },
-    {
-      "manager": "kyle_figgy",
-      "player": "Cade Otton",
-      "position": "TE",
-      "round": 15,
-      "net_vbd": 42.6,
-      "bump_to": 11,
-      "bump_tax": -0.1,
-      "is_me": false,
-      "brian_can_sell": false
-    },
-    {
-      "manager": "tim_breswick",
-      "player": "Kyle Monangai",
-      "position": "RB",
-      "round": 11,
-      "net_vbd": 30.2,
-      "bump_to": 10,
-      "bump_tax": -3.4,
-      "is_me": false,
-      "brian_can_sell": true
-    },
-    {
-      "manager": "lem",
-      "player": "Keaton Mitchell",
-      "position": "RB",
-      "round": 15,
-      "net_vbd": 20.1,
-      "bump_to": 10,
-      "bump_tax": -3.5,
-      "is_me": false,
-      "brian_can_sell": false
-    },
-    {
-      "manager": "lem",
-      "player": "Darren Waller",
-      "position": "TE",
-      "round": 15,
-      "net_vbd": 12.2,
-      "bump_to": 10,
-      "bump_tax": -3.5,
-      "is_me": false,
-      "brian_can_sell": false
-    },
-    {
-      "manager": "brower_barry",
-      "player": "Romeo Doubs",
-      "position": "WR",
-      "round": 15,
-      "net_vbd": 47.1,
-      "bump_to": 13,
-      "bump_tax": -3.7,
-      "is_me": false,
-      "brian_can_sell": false
-    },
-    {
-      "manager": "brian_bigguap",
-      "player": "Woody Marks",
-      "position": "RB",
-      "round": 15,
-      "net_vbd": 6.5,
-      "bump_to": 13,
-      "bump_tax": -3.7,
-      "is_me": true,
-      "brian_can_sell": false
-    },
-    {
-      "manager": "brian_bigguap",
-      "player": "Theo Johnson",
-      "position": "TE",
-      "round": 15,
-      "net_vbd": 4.1,
-      "bump_to": 13,
-      "bump_tax": -3.7,
-      "is_me": true,
-      "brian_can_sell": false
-    },
-    {
-      "manager": "lem",
-      "player": "Dylan Sampson",
-      "position": "RB",
-      "round": 12,
-      "net_vbd": 4.8,
-      "bump_to": 10,
-      "bump_tax": -6.5,
-      "is_me": false,
-      "brian_can_sell": true
-    }
-  ],
-  "seat_market": [
-    {
-      "buyer": "tim_breswick",
-      "round": 3,
-      "for_player": "George Pickens",
-      "hard": false,
-      "natural": "donnie",
-      "my_rank": 6,
-      "sellers": [
-        {
-          "seller": "donnie",
-          "spare": true,
-          "barter_rounds": [
-            13,
-            14
-          ],
-          "fit": 4,
-          "is_me": false
-        },
-        {
-          "seller": "kyle_figgy",
-          "spare": false,
-          "barter_rounds": [
-            13
-          ],
-          "fit": 1,
-          "is_me": false
-        },
-        {
-          "seller": "lem",
-          "spare": false,
-          "barter_rounds": [
-            13
-          ],
-          "fit": 1,
-          "is_me": false
-        },
-        {
-          "seller": "trevor_bergerboy",
-          "spare": false,
-          "barter_rounds": [
-            14
-          ],
-          "fit": 1,
-          "is_me": false
-        }
-      ]
-    },
-    {
-      "buyer": "tim_breswick",
-      "round": 11,
-      "for_player": "Kyle Monangai",
-      "hard": false,
-      "natural": "donnie",
-      "my_rank": 4,
-      "sellers": [
-        {
-          "seller": "donnie",
-          "spare": false,
-          "barter_rounds": [
-            13,
-            14
-          ],
-          "fit": 2,
-          "is_me": false
-        },
-        {
-          "seller": "kyle_figgy",
-          "spare": false,
-          "barter_rounds": [
-            13
-          ],
-          "fit": 1,
-          "is_me": false
-        },
-        {
-          "seller": "ankur_patel",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        },
-        {
-          "seller": "brian_bigguap",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": true
-        }
-      ]
-    },
-    {
-      "buyer": "lem",
-      "round": 12,
-      "for_player": "Dylan Sampson",
-      "hard": false,
-      "natural": "ankur_patel",
-      "my_rank": 4,
-      "sellers": [
-        {
-          "seller": "ankur_patel",
-          "spare": false,
-          "barter_rounds": [
-            2,
-            4
-          ],
-          "fit": 2,
-          "is_me": false
-        },
-        {
-          "seller": "josh_wildboy",
-          "spare": false,
-          "barter_rounds": [
-            2
-          ],
-          "fit": 1,
-          "is_me": false
-        },
-        {
-          "seller": "trevor_bergerboy",
-          "spare": false,
-          "barter_rounds": [
-            2
-          ],
-          "fit": 1,
-          "is_me": false
-        },
-        {
-          "seller": "brian_bigguap",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": true
-        }
-      ]
-    },
-    {
-      "buyer": "josh_wildboy",
-      "round": 15,
-      "for_player": "Daniel Jones",
-      "hard": false,
-      "natural": "ankur_patel",
-      "my_rank": null,
-      "sellers": [
-        {
-          "seller": "ankur_patel",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        },
-        {
-          "seller": "donnie",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        },
-        {
-          "seller": "eric_m",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        },
-        {
-          "seller": "trevor_bergerboy",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        }
-      ]
-    },
-    {
-      "buyer": "coop",
-      "round": 15,
-      "for_player": "Quentin Johnston",
-      "hard": false,
-      "natural": "ankur_patel",
-      "my_rank": null,
-      "sellers": [
-        {
-          "seller": "ankur_patel",
-          "spare": false,
-          "barter_rounds": [
-            2
-          ],
-          "fit": 1,
-          "is_me": false
-        },
-        {
-          "seller": "trevor_bergerboy",
-          "spare": false,
-          "barter_rounds": [
-            2
-          ],
-          "fit": 1,
-          "is_me": false
-        },
-        {
-          "seller": "donnie",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        },
-        {
-          "seller": "eric_m",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        }
-      ]
-    },
-    {
-      "buyer": "kyle_figgy",
-      "round": 15,
-      "for_player": "Cade Otton",
-      "hard": false,
-      "natural": "ankur_patel",
-      "my_rank": null,
-      "sellers": [
-        {
-          "seller": "ankur_patel",
-          "spare": false,
-          "barter_rounds": [
-            1,
-            2
-          ],
-          "fit": 2,
-          "is_me": false
-        },
-        {
-          "seller": "trevor_bergerboy",
-          "spare": false,
-          "barter_rounds": [
-            1,
-            2
-          ],
-          "fit": 2,
-          "is_me": false
-        },
-        {
-          "seller": "donnie",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        },
-        {
-          "seller": "eric_m",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        }
-      ]
-    },
-    {
-      "buyer": "lem",
-      "round": 15,
-      "for_player": "Keaton Mitchell",
-      "hard": false,
-      "natural": "ankur_patel",
-      "my_rank": null,
-      "sellers": [
-        {
-          "seller": "ankur_patel",
-          "spare": false,
-          "barter_rounds": [
-            2,
-            4
-          ],
-          "fit": 2,
-          "is_me": false
-        },
-        {
-          "seller": "trevor_bergerboy",
-          "spare": false,
-          "barter_rounds": [
-            2
-          ],
-          "fit": 1,
-          "is_me": false
-        },
-        {
-          "seller": "donnie",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        },
-        {
-          "seller": "eric_m",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        }
-      ]
-    },
-    {
-      "buyer": "brower_barry",
-      "round": 15,
-      "for_player": "Romeo Doubs",
-      "hard": false,
-      "natural": "ankur_patel",
-      "my_rank": null,
-      "sellers": [
-        {
-          "seller": "ankur_patel",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        },
-        {
-          "seller": "donnie",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        },
-        {
-          "seller": "eric_m",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        },
-        {
-          "seller": "trevor_bergerboy",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        }
-      ]
-    },
-    {
-      "buyer": "brian_bigguap",
-      "round": 15,
-      "for_player": "Woody Marks",
-      "hard": false,
-      "natural": "ankur_patel",
-      "my_rank": null,
-      "sellers": [
-        {
-          "seller": "ankur_patel",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        },
-        {
-          "seller": "donnie",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        },
-        {
-          "seller": "eric_m",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        },
-        {
-          "seller": "trevor_bergerboy",
-          "spare": false,
-          "barter_rounds": [],
-          "fit": 0,
-          "is_me": false
-        }
-      ]
-    }
-  ],
-  "round_market": [
-    {
-      "round": 3,
-      "buyers": 1,
-      "sellers": [
-        "ankur_patel",
-        "brian_bigguap",
-        "brower_barry",
-        "coop",
-        "donnie",
-        "eric_m",
-        "josh_wildboy",
-        "kyle_figgy",
-        "lem",
-        "trevor_bergerboy",
-        "troy_mullings"
-      ]
-    },
-    {
-      "round": 11,
-      "buyers": 1,
-      "sellers": [
-        "ankur_patel",
-        "brian_bigguap",
-        "donnie",
-        "josh_wildboy",
-        "kyle_figgy",
-        "troy_mullings"
-      ]
-    },
-    {
-      "round": 12,
-      "buyers": 1,
-      "sellers": [
-        "ankur_patel",
-        "brian_bigguap",
-        "brower_barry",
-        "coop",
-        "donnie",
-        "eric_m",
-        "josh_wildboy",
-        "tim_breswick",
-        "trevor_bergerboy",
-        "troy_mullings"
-      ]
-    },
-    {
-      "round": 15,
-      "buyers": 9,
-      "sellers": [
-        "ankur_patel",
-        "donnie",
-        "eric_m",
-        "trevor_bergerboy"
-      ]
-    }
-  ]
+  "blocked": [],
+  "seat_market": [],
+  "round_market": []
 }

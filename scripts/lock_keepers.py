@@ -189,6 +189,17 @@ def main() -> int:
     by_name, suggest_pool = load_catalog()
     predicted = load_predicted()
     owned, manager_id = load_league()
+    # live vbd/adp for keepers the predictor never modeled (their
+    # analytics fields would otherwise be null and crash consumers)
+    helper = json.loads(HELPER_DATA_PATH.read_text(encoding="utf-8"))
+    live_stats = {norm_name(p["name"]): (p.get("vbd"), p.get("adp"))
+                  for p in helper.get("players", [])}
+    pv_path = ROOT / "data" / "pick_value.json"
+    round_baseline = {}
+    if pv_path.exists():
+        round_baseline = {int(r): v.get("median_vbd") or v.get("mean_vbd")
+                          for r, v in json.loads(
+                              pv_path.read_text())["by_round"].items()}
 
     errors: list[str] = []
     warnings: list[str] = []
@@ -283,6 +294,19 @@ def main() -> int:
         else:
             is_waiver = bool(pred["is_waiver"]) if pred else False
 
+        raw_vbd = (pred or {}).get("raw_vbd")
+        adp = (pred or {}).get("adp")
+        baseline = (pred or {}).get("pick_value_baseline")
+        net_vbd = (pred or {}).get("net_vbd")
+        if raw_vbd is None or adp is None:
+            lv, la = live_stats.get(norm_name(canonical), (None, None))
+            raw_vbd = raw_vbd if raw_vbd is not None else (lv or 0.0)
+            adp = adp if adp is not None else la
+        if baseline is None:
+            baseline = round_baseline.get(forfeit_round, 0.0) or 0.0
+        if net_vbd is None:
+            net_vbd = round((raw_vbd or 0.0) - baseline, 1)
+
         normalized.append({
             "team_idx": rid - 1,  # keeper-file convention (roster_id - 1)
             "roster_id": rid,
@@ -293,10 +317,10 @@ def main() -> int:
             "effective_forfeit_round": forfeit_round,  # seating may bump
             "years_kept": years_kept,
             "status": "carryover",
-            "net_vbd": (pred or {}).get("net_vbd"),
-            "raw_vbd": (pred or {}).get("raw_vbd"),
-            "pick_value_baseline": (pred or {}).get("pick_value_baseline"),
-            "adp": (pred or {}).get("adp"),
+            "net_vbd": net_vbd,
+            "raw_vbd": raw_vbd,
+            "pick_value_baseline": baseline,
+            "adp": adp,
             "is_waiver": is_waiver,
         })
 

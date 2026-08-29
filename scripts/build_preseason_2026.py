@@ -212,7 +212,7 @@ def compute_keeper_value(top_n=4, min_keeper_round=3):
                 "proj_2026": round(proj, 1),
                 "multi_year_mult": multiplier,
                 "weighted_value": round(weighted, 1),
-                "net_vbd_2026": round(k.get("net_vbd", 0), 1),
+                "net_vbd_2026": round(k.get("net_vbd") or 0, 1),
             })
         out[mid] = {
             "value": sum(p for _, p in scored),
