@@ -14,13 +14,17 @@ League rules enforced (all user-confirmed -- do not soften):
   * cost escalates 2 rounds/yr: forfeit_round = prior_round - 2
   * MAX 3 consecutive years kept; years_kept counts years BEFORE 2026,
     so years_kept >= 3 means INELIGIBLE (e.g. Jordan Love)
-  * R1/R2 forfeits ineligible: forfeit_round must be >= 3
+  * R1/R2 DRAFTEES ineligible: prior_round must be >= 3. The ESCALATED
+    forfeit may legally climb into R2/R1 (commish ruling, Aug 2026:
+    Bowers kept at R4 last year keeps again at R2 -- "ok to keep if
+    he drafted in 4th"); the old reading banned R1/R2 forfeits
+    outright, which was too strict
   * the keeper seat must be a round the team OWNS in the 2026 schedule
     (trades applied, from docs/draft_helper/data.json); if the exact
     round is consumed by another of the team's keepers or not owned,
     the BUMP-UP house rule seats it at the next EARLIER owned free
-    round (never earlier than R3 -- R1/R2 seats stay ineligible); a
-    keeper is only impossible if no such round is free
+    round, down to R1; a keeper is only impossible if no such round
+    is free
   * max 4 keepers per team
 
 On OK (and not --dry-run) writes the normalized, schema-complete file
@@ -49,7 +53,8 @@ DEFAULT_OUT = ROOT / "data" / "keepers_2026_actual.json"
 ROUND_PENALTY = 2      # cost escalates 2 rounds/yr
 MAX_YEARS = 3          # 3-year cap; years_kept >= 3 -> ineligible in 2026
 MAX_KEEPERS = 4        # per team
-MIN_FORFEIT_ROUND = 3  # R1/R2 forfeits ineligible
+MIN_PRIOR_ROUND = 3    # R1/R2 draftees ineligible to be kept
+MIN_FORFEIT_ROUND = 1  # escalated forfeits may reach R2/R1 (Bowers ruling)
 N_ROUNDS = 17
 ELIGIBLE_POS = {"QB", "RB", "WR", "TE"}  # K/DEF are not keeper-eligible
 
@@ -250,7 +255,7 @@ def main() -> int:
                           f"{MAX_YEARS}-year cap (counts years before 2026)")
             continue
 
-        # ---- forfeit round + R1/R2 floor -------------------------------
+        # ---- forfeit round + R1/R2-draftee floor -----------------------
         forfeit_round = prior_round - ROUND_PENALTY
         if e.get("forfeit_round") is not None and \
                 int(e["forfeit_round"]) != forfeit_round:
@@ -258,11 +263,15 @@ def main() -> int:
                           f"contradicts prior_round {prior_round} - "
                           f"{ROUND_PENALTY} = {forfeit_round}")
             continue
+        if prior_round < MIN_PRIOR_ROUND:
+            errors.append(f"{canonical} (roster {rid}, {manager_id[rid]}): "
+                          f"INELIGIBLE -- drafted/kept at R{prior_round}; "
+                          f"R1/R2 draftees cannot be kept")
+            continue
         if forfeit_round < MIN_FORFEIT_ROUND:
             errors.append(f"{canonical} (roster {rid}, {manager_id[rid]}): "
-                          f"INELIGIBLE -- forfeit round R{forfeit_round} "
-                          f"(prior R{prior_round} - {ROUND_PENALTY}); R1/R2 "
-                          f"forfeits are not allowed")
+                          f"IMPOSSIBLE -- forfeit round R{forfeit_round} "
+                          f"below R{MIN_FORFEIT_ROUND}")
             continue
         if pred and int(pred.get("prior_round", prior_round)) != prior_round:
             warnings.append(f"{canonical}: prior_round {prior_round} differs "

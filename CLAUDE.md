@@ -68,9 +68,14 @@ fetch|derive|sim|reports|helper|verify). **Read docs/PIPELINE.md first.**
    team-at-draft retest is now possible. Live test pending: 2026 PSU
    rookie class (Allar/Singleton) + Tyler Warren (Figgy paid +1.8 in
    2025).
-9. Keeper contract rules (user-confirmed, Jul 2026): cost escalates 2
-   rounds/yr, MAX 3 consecutive years kept, R1/R2 forfeits ineligible —
-   and the 3-year clock FOLLOWS THE PLAYER; it does NOT reset on trade.
+9. Keeper contract rules (user-confirmed, Jul 2026; REFINED by commish
+   ruling Aug 29): cost escalates 2 rounds/yr, MAX 3 consecutive years
+   kept, and R1/R2 DRAFTEES cannot be kept (prior_round ≥ 3) — but an
+   ESCALATED forfeit may legally climb into R2/R1 ("Bowers is ok to
+   keep if he drafted in 4th": coop kept Bowers at R4 in 2025, keeps
+   again at R2 in 2026). The old "R1/R2 forfeits ineligible" reading
+   was too strict; lock_keepers.py encodes the corrected rule. The
+   3-year clock FOLLOWS THE PLAYER; it does NOT reset on trade.
    An expiring keeper is therefore a pure rental to any acquirer. 2027
    expiry board (from 2026 predicted keeps): Trevor loses Collins+
    Achane+Puka simultaneously, coop loses McBride+Jamo — half the

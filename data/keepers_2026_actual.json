@@ -606,5 +606,21 @@
     "pick_value_baseline": -13.7,
     "adp": 22.3,
     "is_waiver": false
+  },
+  {
+    "team_idx": 11,
+    "roster_id": 12,
+    "player_name": "Brock Bowers",
+    "position": "TE",
+    "prior_round": 4,
+    "forfeit_round": 2,
+    "effective_forfeit_round": 2,
+    "years_kept": 1,
+    "status": "carryover",
+    "net_vbd": null,
+    "raw_vbd": null,
+    "pick_value_baseline": null,
+    "adp": null,
+    "is_waiver": false
   }
 ]
