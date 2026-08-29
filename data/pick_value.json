@@ -1,16 +1,18 @@
 {
-  "generated_at": "2026-08-29T17:45:28+00:00",
+  "generated_at": "2026-08-29T17:53:18+00:00",
   "seasons_covered": [
     2023,
     2024,
-    2025
+    2025,
+    2026
   ],
   "season_weights": {
     "2023": 1.0,
     "2024": 2.0,
-    "2025": 3.0
+    "2025": 3.0,
+    "2026": 4.0
   },
-  "n_picks": 562,
+  "n_picks": 571,
   "replacement_ranks_used": {
     "QB": 22,
     "RB": 31,
@@ -21,10 +23,10 @@
   },
   "by_round": {
     "1": {
-      "mean_vbd": 120.3,
-      "median_vbd": 109.0,
-      "mean_points": 223.8,
-      "n_samples": 36
+      "mean_vbd": 86.6,
+      "median_vbd": 97.0,
+      "mean_points": 161.2,
+      "n_samples": 43
     },
     "2": {
       "mean_vbd": 122.1,
@@ -45,10 +47,10 @@
       "n_samples": 34
     },
     "5": {
-      "mean_vbd": 76.8,
-      "median_vbd": 57.5,
-      "mean_points": 169.2,
-      "n_samples": 33
+      "mean_vbd": 72.2,
+      "median_vbd": 57.3,
+      "mean_points": 159.1,
+      "n_samples": 34
     },
     "6": {
       "mean_vbd": 42.2,
@@ -63,10 +65,10 @@
       "n_samples": 32
     },
     "8": {
-      "mean_vbd": 41.5,
+      "mean_vbd": 38.9,
       "median_vbd": 44.5,
-      "mean_points": 133.3,
-      "n_samples": 32
+      "mean_points": 125.1,
+      "n_samples": 33
     },
     "9": {
       "mean_vbd": 5.4,
@@ -126,19 +128,19 @@
   "by_round_position": {
     "1": {
       "QB": {
-        "mean_vbd": 144.0,
-        "mean_points": 266.3,
-        "n_samples": 11
+        "mean_vbd": 108.0,
+        "mean_points": 199.7,
+        "n_samples": 13
       },
       "RB": {
-        "mean_vbd": 119.7,
-        "mean_points": 227.4,
-        "n_samples": 11
+        "mean_vbd": 66.5,
+        "mean_points": 126.3,
+        "n_samples": 15
       },
       "WR": {
-        "mean_vbd": 101.0,
-        "mean_points": 185.3,
-        "n_samples": 13
+        "mean_vbd": 87.9,
+        "mean_points": 161.4,
+        "n_samples": 14
       },
       "TE": {
         "mean_vbd": 87.9,
@@ -219,9 +221,9 @@
         "n_samples": 8
       },
       "WR": {
-        "mean_vbd": 60.3,
-        "mean_points": 145.7,
-        "n_samples": 14
+        "mean_vbd": 52.7,
+        "mean_points": 127.5,
+        "n_samples": 15
       },
       "TE": {
         "mean_vbd": 85.6,
@@ -275,9 +277,9 @@
     },
     "8": {
       "QB": {
-        "mean_vbd": 83.9,
-        "mean_points": 244.5,
-        "n_samples": 5
+        "mean_vbd": 53.4,
+        "mean_points": 155.6,
+        "n_samples": 6
       },
       "RB": {
         "mean_vbd": 29.0,

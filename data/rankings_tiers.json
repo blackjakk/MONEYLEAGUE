@@ -1,7 +1,7 @@
 {
  "meta": {
   "source": "fantasyfootballtiers.com (clustered expert consensus, half-PPR; QB list is 1QB-ordered)",
-  "fetched": "2026-08-25"
+  "fetched": "2026-08-29"
  },
  "tiers": {
   "QB": [
@@ -11,13 +11,13 @@
      "Josh Allen",
      "Lamar Jackson",
      "Drake Maye",
-     "Joe Burrow",
-     "Jayden Daniels"
+     "Joe Burrow"
     ]
    },
    {
     "tier": 2,
     "players": [
+     "Jayden Daniels",
      "Jalen Hurts",
      "Caleb Williams",
      "Justin Herbert",
@@ -29,8 +29,8 @@
     "tier": 3,
     "players": [
      "Brock Purdy",
-     "Jaxson Dart",
      "Bo Nix",
+     "Jaxson Dart",
      "Patrick Mahomes II",
      "Matthew Stafford",
      "Jared Goff"
@@ -63,8 +63,8 @@
     "players": [
      "Jahmyr Gibbs",
      "Bijan Robinson",
-     "Jonathan Taylor",
      "Christian McCaffrey",
+     "Jonathan Taylor",
      "James Cook III"
     ]
    },
@@ -86,8 +86,8 @@
      "Kyren Williams",
      "Javonte Williams",
      "Breece Hall",
-     "Josh Jacobs",
      "Jeremiyah Love",
+     "Josh Jacobs",
      "Travis Etienne Jr."
     ]
    },
@@ -96,27 +96,27 @@
     "players": [
      "D'Andre Swift",
      "Cam Skattebo",
-     "Quinshon Judkins",
      "Bucky Irving",
-     "David Montgomery"
+     "Quinshon Judkins",
+     "David Montgomery",
+     "Bhayshul Tuten"
     ]
    },
    {
     "tier": 5,
     "players": [
-     "Bhayshul Tuten",
+     "Jadarian Price",
      "TreVeyon Henderson",
-     "Jadarian Price"
+     "Rhamondre Stevenson",
+     "Jaylen Warren"
     ]
    },
    {
     "tier": 6,
     "players": [
-     "Rhamondre Stevenson",
-     "Jaylen Warren",
      "Tony Pollard",
-     "Rico Dowdle",
      "Jonathon Brooks",
+     "Rico Dowdle",
      "J.K. Dobbins"
     ]
    },
@@ -155,13 +155,13 @@
      "George Pickens",
      "Chris Olave",
      "Malik Nabers",
-     "Rashee Rice",
      "DeVonta Smith"
     ]
    },
    {
     "tier": 3,
     "players": [
+     "Rashee Rice",
      "Zay Flowers",
      "Tee Higgins",
      "Tetairoa McMillan",
@@ -179,9 +179,9 @@
      "Luther Burden III",
      "Jameson Williams",
      "DJ Moore",
-     "Mike Evans",
      "Christian Watson",
-     "Rome Odunze"
+     "Rome Odunze",
+     "Mike Evans"
     ]
    },
    {
@@ -190,8 +190,8 @@
      "Parker Washington",
      "Marvin Harrison Jr.",
      "Carnell Tate",
-     "Brian Thomas Jr.",
      "DK Metcalf",
+     "Brian Thomas Jr.",
      "Chris Godwin Jr.",
      "Courtland Sutton"
     ]
@@ -200,28 +200,28 @@
     "tier": 6,
     "players": [
      "Michael Pittman Jr.",
-     "Michael Wilson",
      "Quentin Johnston",
+     "Michael Wilson",
      "Alec Pierce",
      "Josh Downs",
-     "Stefon Diggs",
      "Wan'Dale Robinson",
+     "Stefon Diggs",
      "Jordan Addison",
      "Jayden Reed",
-     "Jakobi Meyers",
-     "Makai Lemon"
+     "Makai Lemon",
+     "Jakobi Meyers"
     ]
    },
    {
     "tier": 7,
     "players": [
-     "Xavier Worthy",
      "KC Concepcion",
+     "Xavier Worthy",
+     "Romeo Doubs",
      "Matthew Golden",
      "Jalen Coker",
      "Khalil Shakir",
      "Jordyn Tyson",
-     "Romeo Doubs",
      "Deebo Samuel Sr.",
      "De'Zhaun Stribling"
     ]
@@ -229,10 +229,10 @@
    {
     "tier": 8,
     "players": [
-     "Denzel Boston",
      "Rashid Shaheed",
-     "Tre Tucker",
-     "Adonai Mitchell"
+     "Denzel Boston",
+     "Adonai Mitchell",
+     "Tre Tucker"
     ]
    }
   ],
@@ -251,15 +251,15 @@
     "players": [
      "Tucker Kraft",
      "Harold Fannin Jr.",
-     "Sam LaPorta",
      "Kyle Pitts Sr.",
-     "George Kittle",
-     "Travis Kelce"
+     "Sam LaPorta",
+     "George Kittle"
     ]
    },
    {
     "tier": 3,
     "players": [
+     "Travis Kelce",
      "Dalton Kincaid",
      "Dallas Goedert",
      "Isaiah Likely",
@@ -271,8 +271,8 @@
    {
     "tier": 4,
     "players": [
-     "Hunter Henry",
      "Brenton Strange",
+     "Hunter Henry",
      "Chig Okonkwo",
      "Dalton Schultz"
     ]
@@ -284,7 +284,7 @@
      "AJ Barner",
      "Terrance Ferguson",
      "Oronde Gadsden II",
-     "Gunnar Helm"
+     "Pat Freiermuth"
     ]
    }
   ]
