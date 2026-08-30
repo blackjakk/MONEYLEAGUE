@@ -115,8 +115,20 @@ fetch|derive|sim|reports|helper|verify). **Read docs/PIPELINE.md first.**
   via trade-intel scouting; 0 transactions as of Jul 2026)
 - `configs/season_2026.json` — slot→rid map (predicted order; update when
   Sleeper posts the real one), my_roster_id, league dir
-- Keepers lock → write `data/keepers_2026_actual.json` (same schema);
-  derive prefers it over the model prediction
+- KEEPERS 2026: FINAL (locked Aug 29, drafted same night).
+  `data/keepers_2026_actual.json` = the authoritative record (41 keeps,
+  12 teams, validated by lock_keepers.py; derive prefers it over the
+  prediction). PROVENANCE NOTE (user, Aug 30): donnie never submitted
+  keepers in the Sleeper app — his Stafford (R8) + Waddle (R5) were
+  entered by Brian (commish) and appear in the Sleeper 2026 draft feed
+  as ORDINARY UNFLAGGED picks at their cost rounds. Waddle went at his
+  market round, so even the implicit ADP-gap rule won't catch him —
+  any future grading of the 2026 draft MUST exclude keepers via
+  keepers_2026_actual.json, not the draft feed's flags (39 flagged +
+  donnie's 2 unflagged = 41). Also on record: 2026 draft order matched
+  the consolation rule exactly (lem #1 toilet-bowl, Brian slot 6,
+  Trevor 12); coop's Bowers keep at R2 is LEGAL per the Aug 29 commish
+  ruling (truth #9).
 - Brian's keepers: predictor says Loveland R8, Burden R9, Pierce R14,
   Watson R15 — Watson USER-CONFIRMED (Jul 2026). BUT the tax-aware
   optimizer (regression tax from the keep-side book, Jul 2026) drops
