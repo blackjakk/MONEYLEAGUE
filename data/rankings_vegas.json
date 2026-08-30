@@ -1,7 +1,7 @@
 {
  "meta": {
   "source": "firstdown.studio Vegas-props season rankings",
-  "fetched": "2026-08-29",
+  "fetched": "2026-08-30",
   "note": "site scoring format \u2014 consume POSITION RANKS only, never raw points"
  },
  "players": [
@@ -1021,17 +1021,17 @@
    "vegas_pos_rank": 62
   },
   {
-   "name": "Jerry Jeudy",
+   "name": "Denzel Boston",
    "team": "CLE",
    "position": "WR",
    "vegas_pts": 97.0,
    "vegas_pos_rank": 63
   },
   {
-   "name": "Denzel Boston",
+   "name": "Jerry Jeudy",
    "team": "CLE",
    "position": "WR",
-   "vegas_pts": 97.0,
+   "vegas_pts": 96.0,
    "vegas_pos_rank": 64
   },
   {
@@ -1199,7 +1199,7 @@
    "name": "Brock Bowers",
    "team": "LV",
    "position": "TE",
-   "vegas_pts": 179.0,
+   "vegas_pts": 180.0,
    "vegas_pos_rank": 2
   },
   {
@@ -1273,29 +1273,29 @@
    "vegas_pos_rank": 12
   },
   {
+   "name": "Brenton Strange",
+   "team": "JAX",
+   "position": "TE",
+   "vegas_pts": 114.0,
+   "vegas_pos_rank": 13
+  },
+  {
    "name": "Oronde Gadsden",
    "team": "LAC",
    "position": "TE",
    "vegas_pts": 114.0,
-   "vegas_pos_rank": 13
+   "vegas_pos_rank": 14
   },
   {
    "name": "Dalton Kincaid",
    "team": "BUF",
    "position": "TE",
    "vegas_pts": 113.0,
-   "vegas_pos_rank": 14
+   "vegas_pos_rank": 15
   },
   {
    "name": "AJ Barner",
    "team": "SEA",
-   "position": "TE",
-   "vegas_pts": 113.0,
-   "vegas_pos_rank": 15
-  },
-  {
-   "name": "Brenton Strange",
-   "team": "JAX",
    "position": "TE",
    "vegas_pts": 113.0,
    "vegas_pos_rank": 16
@@ -1325,7 +1325,7 @@
    "name": "Hunter Henry",
    "team": "NE",
    "position": "TE",
-   "vegas_pts": 107.0,
+   "vegas_pts": 109.0,
    "vegas_pos_rank": 20
   },
   {

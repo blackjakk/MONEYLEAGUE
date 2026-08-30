@@ -677,7 +677,7 @@
       }
     },
     "tim_breswick": {
-      "age_at_draft": 24.8,
+      "age_at_draft": 24.9,
       "rookie_share": 0.2,
       "yr2_share": 0.13,
       "reach": {
@@ -916,7 +916,7 @@
       "qb2_iqr": 6,
       "qb2_stable": false,
       "rook_share_mean": 0.19,
-      "age_mean": 24.2,
+      "age_mean": 24.3,
       "by_year": {
         "2015": {
           "qb1": 6,
@@ -976,7 +976,7 @@
           "qb1": 10,
           "qb2": 13,
           "rook_share": 0.12,
-          "age": 25.9
+          "age": 26.0
         },
         "2025": {
           "qb1": 11,
@@ -1058,7 +1058,7 @@
           "qb1": 4,
           "qb2": 10,
           "rook_share": 0.2,
-          "age": 26.2
+          "age": 26.3
         }
       }
     },
@@ -1588,7 +1588,7 @@
           "qb1": 2,
           "qb2": 5,
           "rook_share": 0.21,
-          "age": 24.6
+          "age": 24.7
         },
         "2024": {
           "qb1": 1,
@@ -1600,7 +1600,7 @@
           "qb1": 1,
           "qb2": 9,
           "rook_share": 0.13,
-          "age": 24.7
+          "age": 24.8
         }
       }
     },

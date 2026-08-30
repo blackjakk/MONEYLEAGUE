@@ -1,7 +1,7 @@
 {
  "meta": {
   "source": "fantasyfootballtiers.com (clustered expert consensus, half-PPR; QB list is 1QB-ordered)",
-  "fetched": "2026-08-29"
+  "fetched": "2026-08-30"
  },
  "tiers": {
   "QB": [
@@ -40,8 +40,8 @@
     "tier": 4,
     "players": [
      "Kyler Murray",
-     "Baker Mayfield",
      "Jordan Love",
+     "Baker Mayfield",
      "Tyler Shough",
      "Malik Willis"
     ]
@@ -50,8 +50,8 @@
     "tier": 5,
     "players": [
      "Sam Darnold",
-     "C.J. Stroud",
      "Daniel Jones",
+     "C.J. Stroud",
      "Cam Ward",
      "Bryce Young"
     ]
@@ -74,8 +74,8 @@
      "Chase Brown",
      "Saquon Barkley",
      "De'Von Achane",
-     "Omarion Hampton",
      "Kenneth Walker III",
+     "Omarion Hampton",
      "Derrick Henry",
      "Ashton Jeanty"
     ]
@@ -87,8 +87,8 @@
      "Javonte Williams",
      "Breece Hall",
      "Jeremiyah Love",
-     "Josh Jacobs",
-     "Travis Etienne Jr."
+     "Travis Etienne Jr.",
+     "Josh Jacobs"
     ]
    },
    {
@@ -98,33 +98,33 @@
      "Cam Skattebo",
      "Bucky Irving",
      "Quinshon Judkins",
-     "David Montgomery",
-     "Bhayshul Tuten"
+     "David Montgomery"
     ]
    },
    {
     "tier": 5,
     "players": [
+     "Bhayshul Tuten",
      "Jadarian Price",
-     "TreVeyon Henderson",
-     "Rhamondre Stevenson",
-     "Jaylen Warren"
+     "TreVeyon Henderson"
     ]
    },
    {
     "tier": 6,
     "players": [
+     "Rhamondre Stevenson",
+     "Jaylen Warren",
      "Tony Pollard",
      "Jonathon Brooks",
-     "Rico Dowdle",
-     "J.K. Dobbins"
+     "Rico Dowdle"
     ]
    },
    {
     "tier": 7,
     "players": [
-     "Chuba Hubbard",
+     "J.K. Dobbins",
      "Blake Corum",
+     "Chuba Hubbard",
      "Jacory Croskey-Merritt",
      "RJ Harvey",
      "Jordan Mason",
@@ -149,45 +149,45 @@
    {
     "tier": 2,
     "players": [
-     "Drake London",
      "A.J. Brown",
+     "Drake London",
      "Nico Collins",
      "George Pickens",
      "Chris Olave",
-     "Malik Nabers",
-     "DeVonta Smith"
+     "Malik Nabers"
     ]
    },
    {
     "tier": 3,
     "players": [
+     "DeVonta Smith",
      "Rashee Rice",
      "Zay Flowers",
      "Tee Higgins",
-     "Tetairoa McMillan",
-     "Garrett Wilson",
      "Ladd McConkey",
      "Jaylen Waddle",
+     "Garrett Wilson",
+     "Tetairoa McMillan",
      "Emeka Egbuka"
     ]
    },
    {
     "tier": 4,
     "players": [
-     "Terry McLaurin",
      "Davante Adams",
+     "Terry McLaurin",
      "Luther Burden III",
      "Jameson Williams",
      "DJ Moore",
      "Christian Watson",
      "Rome Odunze",
-     "Mike Evans"
+     "Mike Evans",
+     "Parker Washington"
     ]
    },
    {
     "tier": 5,
     "players": [
-     "Parker Washington",
      "Marvin Harrison Jr.",
      "Carnell Tate",
      "DK Metcalf",
@@ -199,13 +199,13 @@
    {
     "tier": 6,
     "players": [
-     "Michael Pittman Jr.",
      "Quentin Johnston",
+     "Michael Pittman Jr.",
      "Michael Wilson",
      "Alec Pierce",
      "Josh Downs",
-     "Wan'Dale Robinson",
      "Stefon Diggs",
+     "Wan'Dale Robinson",
      "Jordan Addison",
      "Jayden Reed",
      "Makai Lemon",
@@ -216,8 +216,8 @@
     "tier": 7,
     "players": [
      "KC Concepcion",
-     "Xavier Worthy",
      "Romeo Doubs",
+     "Xavier Worthy",
      "Matthew Golden",
      "Jalen Coker",
      "Khalil Shakir",
@@ -231,8 +231,8 @@
     "players": [
      "Rashid Shaheed",
      "Denzel Boston",
-     "Adonai Mitchell",
-     "Tre Tucker"
+     "Tre Tucker",
+     "Adonai Mitchell"
     ]
    }
   ],
@@ -251,8 +251,8 @@
     "players": [
      "Tucker Kraft",
      "Harold Fannin Jr.",
-     "Kyle Pitts Sr.",
      "Sam LaPorta",
+     "Kyle Pitts Sr.",
      "George Kittle"
     ]
    },
@@ -271,8 +271,8 @@
    {
     "tier": 4,
     "players": [
-     "Brenton Strange",
      "Hunter Henry",
+     "Brenton Strange",
      "Chig Okonkwo",
      "Dalton Schultz"
     ]
@@ -280,9 +280,9 @@
    {
     "tier": 5,
     "players": [
+     "Terrance Ferguson",
      "T.J. Hockenson",
      "AJ Barner",
-     "Terrance Ferguson",
      "Oronde Gadsden II",
      "Pat Freiermuth"
     ]

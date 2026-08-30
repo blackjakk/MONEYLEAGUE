@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29",
+  "generated": "2026-08-30",
   "backtest": {
     "classes": {
       "CONTINUITY": {
@@ -76,17 +76,17 @@
         {
           "name": "Trey McBride",
           "pos": "TE",
-          "adp_round": 3.4
+          "adp_round": 3.5
         },
         {
           "name": "Jeremiyah Love",
           "pos": "RB",
-          "adp_round": 5.0
+          "adp_round": 4.9
         },
         {
           "name": "Jacoby Brissett",
           "pos": "QB",
-          "adp_round": 7.1
+          "adp_round": 7.2
         },
         {
           "name": "Marvin Harrison",
@@ -160,7 +160,7 @@
         {
           "name": "Geno Smith",
           "pos": "QB",
-          "adp_round": 8.2
+          "adp_round": 8.3
         }
       ]
     },
@@ -183,7 +183,7 @@
         {
           "name": "Jadarian Price",
           "pos": "RB",
-          "adp_round": 7.0
+          "adp_round": 6.9
         }
       ]
     },
@@ -206,12 +206,12 @@
         {
           "name": "Zay Flowers",
           "pos": "WR",
-          "adp_round": 4.2
+          "adp_round": 4.1
         },
         {
           "name": "Mark Andrews",
           "pos": "TE",
-          "adp_round": 11.6
+          "adp_round": 11.7
         }
       ]
     },
@@ -247,12 +247,12 @@
         {
           "name": "Bo Nix",
           "pos": "QB",
-          "adp_round": 2.1
+          "adp_round": 2.0
         },
         {
           "name": "Jaylen Waddle",
           "pos": "WR",
-          "adp_round": 4.7
+          "adp_round": 4.6
         },
         {
           "name": "Courtland Sutton",
@@ -262,7 +262,7 @@
         {
           "name": "J.K. Dobbins",
           "pos": "RB",
-          "adp_round": 9.0
+          "adp_round": 9.1
         }
       ]
     },
@@ -313,7 +313,7 @@
         {
           "name": "Ladd McConkey",
           "pos": "WR",
-          "adp_round": 4.7
+          "adp_round": 4.6
         },
         {
           "name": "Oronde Gadsden",
@@ -336,12 +336,12 @@
         {
           "name": "Ashton Jeanty",
           "pos": "RB",
-          "adp_round": 3.1
+          "adp_round": 3.2
         },
         {
           "name": "Fernando Mendoza",
           "pos": "QB",
-          "adp_round": 10.5
+          "adp_round": 10.3
         }
       ]
     },
@@ -387,7 +387,7 @@
         {
           "name": "A.J. Brown",
           "pos": "WR",
-          "adp_round": 2.5
+          "adp_round": 2.4
         },
         {
           "name": "Saquon Barkley",
@@ -453,7 +453,7 @@
         {
           "name": "Wan'Dale Robinson",
           "pos": "WR",
-          "adp_round": 9.7
+          "adp_round": 9.8
         }
       ]
     },

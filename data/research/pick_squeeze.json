@@ -182,7 +182,7 @@
     "partner_legs": 5
   },
   "meta": {
-    "generated": "2026-08-29",
+    "generated": "2026-08-30",
     "basis": "predicted keepers (keepers_2026.json) + schedule with trades applied (helper data.json)",
     "hard_squeezes": 0,
     "blocked_alternates": 0
