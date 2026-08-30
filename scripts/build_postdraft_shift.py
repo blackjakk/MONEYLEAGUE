@@ -44,32 +44,35 @@ def esc(s) -> str:
     return _html.escape(str(s), quote=False)
 
 
-def optimal_lineup(players: list[tuple[str, str, float]]) -> float:
-    """1QB 2RB 3WR 1TE FLEX SF, greedy on projections."""
-    by: dict[str, list[float]] = defaultdict(list)
-    for _, pos, pr in players:
-        by[pos].append(pr)
+def optimal_lineup(players: list[tuple[str, str, float, bool]]):
+    """1QB 2RB 3WR 1TE FLEX SF, greedy on projections.
+    players: (name, pos, proj, is_keeper). Returns (total, keeper_pts,
+    drafted_pts) — starter points attributed to their origin."""
+    by: dict[str, list[tuple[float, bool]]] = defaultdict(list)
+    for _, pos, pr, keep in players:
+        by[pos].append((pr, keep))
     for k in by:
         by[k].sort(reverse=True)
-    total = 0.0
+    picked: list[tuple[float, bool]] = []
 
     def take(pos, cnt):
-        nonlocal total
         for _ in range(cnt):
             if by[pos]:
-                total += by[pos].pop(0)
+                picked.append(by[pos].pop(0))
     take("QB", 1), take("RB", 2), take("WR", 3), take("TE", 1)
     flex = sorted(by["RB"] + by["WR"] + by["TE"], reverse=True)
     if flex:
-        total += flex[0]
+        picked.append(flex[0])
         for k in ("RB", "WR", "TE"):
             if flex[0] in by[k]:
                 by[k].remove(flex[0])
                 break
     sf = sorted(by["QB"] + by["RB"] + by["WR"] + by["TE"], reverse=True)
     if sf:
-        total += sf[0]
-    return total
+        picked.append(sf[0])
+    total = sum(p for p, _ in picked)
+    kpts = sum(p for p, k in picked if k)
+    return total, kpts, total - kpts
 
 
 def main() -> None:
@@ -82,6 +85,14 @@ def main() -> None:
         p = cat.get(str(pid), {})
         return f"{p.get('first_name', '')} {p.get('last_name', '')}".strip()
 
+    # keeper origin: the authoritative locked record (catches donnie's
+    # commish-entered keeps the draft feed leaves unflagged)
+    kept_by_rid = defaultdict(set)
+    for k in json.loads(
+            (ROOT / "data/keepers_2026_actual.json").read_text()):
+        if isinstance(k, dict) and k.get("status") == "carryover":
+            kept_by_rid[k["roster_id"]].add(k["player_name"])
+
     # actual draft: newest completed draft in the live league dir
     cfg = json.loads((ROOT / "configs/season_2026.json").read_text())
     lg_dir = ROOT / cfg["league_dir"]
@@ -90,7 +101,8 @@ def main() -> None:
     for p in json.loads(Path(picks_f).read_text()):
         n = nm(p["player_id"])
         pr, pos = proj.get(n, (0.0, "?"))
-        actual[p["roster_id"]].append((n, pos, pr))
+        actual[p["roster_id"]].append(
+            (n, pos, pr, n in kept_by_rid[p["roster_id"]]))
 
     # expectation: the frozen pre-draft mock (slot team_idx -> rid)
     slot_rid = {int(k): v for k, v in cfg["slot_to_roster_id"].items()}
@@ -98,13 +110,16 @@ def main() -> None:
     for m in json.loads(EXPECT.read_text()):
         rid = slot_rid[m["team_idx"] + 1]
         pr, pos = proj.get(m["player_name"], (0.0, m.get("position", "?")))
-        expect[rid].append((m["player_name"], pos, pr))
+        expect[rid].append((m["player_name"], pos, pr,
+                            m["player_name"] in kept_by_rid[rid]))
 
     rows = []
     for rid in SHORT:
-        a = optimal_lineup(actual.get(rid, []))
-        e = optimal_lineup(expect.get(rid, []))
+        a, akeep, adraft = optimal_lineup(actual.get(rid, []))
+        e, ekeep, edraft = optimal_lineup(expect.get(rid, []))
         rows.append({"rid": rid, "actual": a, "expected": e,
+                     "keep": akeep, "draft": adraft,
+                     "ekeep": ekeep, "edraft": edraft,
                      "delta": a - e})
     pre_rank = {r["rid"]: i for i, r in enumerate(
         sorted(rows, key=lambda r: -r["expected"]), 1)}
@@ -114,9 +129,15 @@ def main() -> None:
     bars = []
     for i, r in enumerate(rows, 1):
         rid = r["rid"]
-        base = min(r["actual"], r["expected"]) / maxv * 100
-        seg = abs(r["delta"]) / maxv * 100
+        keep_w = r["keep"] / maxv * 100
         gained = r["delta"] >= 0
+        # drafted segment stops at expectation when the team fell short;
+        # the shortfall renders as a drained (red) segment up to the tick
+        draft_end = (min(r["actual"], r["expected"])
+                     if not gained else r["expected"])
+        draft_w = max(0.0, draft_end - r["keep"]) / maxv * 100
+        seg = abs(r["delta"]) / maxv * 100
+        tick = r["expected"] / maxv * 100
         move = pre_rank[rid] - i
         arrow = (f'<span class="up">▲{move}</span>' if move > 0 else
                  f'<span class="dn">▼{-move}</span>' if move < 0 else
@@ -128,9 +149,12 @@ def main() -> None:
 <div class="row{me}">
   <div class="who">{lvl} <b>{esc(SHORT[rid])}</b></div>
   <div class="track">
-    <div class="fill" style="width:{base:.1f}%"></div>
-    <div class="seg {'gain' if gained else 'loss'}"
-         style="left:{base:.1f}%;width:{seg:.1f}%"></div>
+    <div class="fill keepc" style="left:0;width:{keep_w:.1f}%"></div>
+    <div class="fill draftc"
+         style="left:{keep_w:.1f}%;width:{draft_w:.1f}%"></div>
+    <div class="fill {'gain' if gained else 'loss'}"
+         style="left:{keep_w + draft_w:.1f}%;width:{seg:.1f}%"></div>
+    <div class="tick" style="left:{tick:.1f}%"></div>
   </div>
   <div class="num">{r["actual"]:,.0f}</div>
   <div class="dxp {'up' if r["delta"] >= 0 else 'dn'}">
@@ -146,7 +170,8 @@ def main() -> None:
               color: var(--ml-muted); }
     .legend .chip { display: inline-block; width: 22px; height: 8px;
                     vertical-align: middle; margin: 0 4px 0 10px; }
-    .chip.base { background: var(--ml-border-strong); }
+    .chip.keep { background: var(--ml-border-strong); }
+    .chip.draft { background: var(--ml-muted); }
     .chip.gain { background: var(--ml-success); }
     .chip.loss { background: var(--ml-danger); }
     .row { display: grid;
@@ -165,11 +190,13 @@ def main() -> None:
     .track { position: relative; height: 13px;
              border: 1px solid var(--ml-border-strong);
              background: var(--ml-bg); }
-    .fill { position: absolute; top: 0; bottom: 0; left: 0;
-            background: var(--ml-border-strong); }
-    .seg { position: absolute; top: 0; bottom: 0; }
-    .seg.gain { background: var(--ml-success); }
-    .seg.loss { background: var(--ml-danger); }
+    .fill { position: absolute; top: 0; bottom: 0; }
+    .fill.keepc { background: var(--ml-border-strong); }
+    .fill.draftc { background: var(--ml-muted); }
+    .fill.gain { background: var(--ml-success); }
+    .fill.loss { background: var(--ml-danger); }
+    .tick { position: absolute; top: -3px; bottom: -3px; width: 0;
+            border-left: 2px solid var(--ml-ink); }
     .num { text-align: right; font-family: var(--ml-font-mono);
            font-size: 9.5pt; }
     .dxp { text-align: right; font-family: var(--ml-font-mono);
@@ -183,15 +210,18 @@ def main() -> None:
     </style></head><body>"""]
     h.append(bpr.banknote_masthead(
         "POST-DRAFT SHIFT",
-        "the table as an experience bar · projected starting lineup vs "
-        f"what the sim expected · compiled {date.today():%b %d, %Y}"))
+        "projected starting lineup vs what the sim expected · "
+        f"compiled {date.today():%b %d, %Y}"))
     h.append('<div class="legend">READING THE BARS — '
-             '<span class="chip base"></span> expected at the table '
-             '<span class="chip gain"></span> XP gained '
-             '<span class="chip loss"></span> XP lost · '
-             'rank arrows vs the expected order · number = projected '
-             'points from the optimal starting lineup (keepers '
-             'included)</div>')
+             '<span class="chip keep"></span> KEEPER CORE (assets locked '
+             'before the draft) '
+             '<span class="chip draft"></span> DRAFTED (what the picks '
+             'became) '
+             '<span class="chip gain"></span> gained vs expectation '
+             '<span class="chip loss"></span> lost vs expectation · '
+             'the black tick = where the pre-draft sim expected the bar '
+             'to end · number = projected points, optimal starters · '
+             'rank arrows vs the expected order</div>')
     h.extend(bars)
     best = max(rows, key=lambda r: r["delta"])
     worst = min(rows, key=lambda r: r["delta"])
