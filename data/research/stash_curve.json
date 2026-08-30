@@ -297,7 +297,7 @@
           "name": "Denzel Boston",
           "pos": "WR",
           "stash": 1.0,
-          "survival": 0.75,
+          "survival": 0.7,
           "adp": 163.5,
           "keeper_cost": "R9"
         },
@@ -306,7 +306,7 @@
           "pos": "RB",
           "stash": 1.0,
           "survival": 1.0,
-          "adp": 167.9,
+          "adp": 168.0,
           "keeper_cost": "R9"
         }
       ]
@@ -336,7 +336,7 @@
           "name": "Tre' Harris",
           "pos": "WR",
           "stash": 1.0,
-          "survival": 0.82,
+          "survival": 0.8,
           "adp": 183.5,
           "keeper_cost": "R10"
         }
@@ -351,7 +351,7 @@
           "name": "Terrance Ferguson",
           "pos": "TE",
           "stash": 1.0,
-          "survival": 0.85,
+          "survival": 0.84,
           "adp": 185.4,
           "keeper_cost": "R11"
         },
@@ -359,7 +359,7 @@
           "name": "Travis Hunter",
           "pos": "WR",
           "stash": 1.0,
-          "survival": 0.84,
+          "survival": 0.83,
           "adp": 187.8,
           "keeper_cost": "R11"
         },
@@ -367,7 +367,7 @@
           "name": "Pat Bryant",
           "pos": "WR",
           "stash": 1.0,
-          "survival": 0.74,
+          "survival": 0.81,
           "adp": 190.5,
           "keeper_cost": "R11"
         }
@@ -390,7 +390,7 @@
           "name": "Jaylin Noel",
           "pos": "WR",
           "stash": 1.0,
-          "survival": 0.84,
+          "survival": 0.83,
           "adp": 196.8,
           "keeper_cost": "R12"
         },
@@ -399,7 +399,7 @@
           "pos": "RB",
           "stash": 1.0,
           "survival": 1.0,
-          "adp": 198.6,
+          "adp": 198.1,
           "keeper_cost": "R12"
         }
       ]
@@ -461,7 +461,7 @@
           "pos": "RB",
           "stash": 1.0,
           "survival": 1.0,
-          "adp": 205.3,
+          "adp": 206.1,
           "keeper_cost": "R14"
         }
       ]
@@ -476,7 +476,7 @@
           "pos": "RB",
           "stash": 1.0,
           "survival": 1.0,
-          "adp": 206.4,
+          "adp": 206.3,
           "keeper_cost": "R15"
         },
         {
