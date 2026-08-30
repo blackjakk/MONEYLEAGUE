@@ -2,6 +2,48 @@
  "fetched": true,
  "experts": [
   {
+   "id": 692,
+   "name": "Chris Welsh",
+   "site": "FantasyPros",
+   "draft_rank": "39"
+  },
+  {
+   "id": 562,
+   "name": "Des Bieler",
+   "site": "The Washington Post",
+   "draft_rank": "177"
+  },
+  {
+   "id": 9,
+   "name": "Scott Pianowski",
+   "site": "Yahoo! Sports",
+   "draft_rank": "108"
+  },
+  {
+   "id": 285,
+   "name": "Dalton Del Don",
+   "site": "The Deep Shot",
+   "draft_rank": "53"
+  },
+  {
+   "id": 835,
+   "name": "Kev Wheeler",
+   "site": "Wheel Route FF",
+   "draft_rank": "26"
+  },
+  {
+   "id": 7666,
+   "name": "Hayden Winks",
+   "site": "Yahoo! Sports",
+   "draft_rank": ""
+  },
+  {
+   "id": 3747,
+   "name": "Dylan Licciardo",
+   "site": "FF Gamers",
+   "draft_rank": "171"
+  },
+  {
    "id": 22,
    "name": "Pat Fitzmaurice",
    "site": "FantasyPros",
@@ -26,22 +68,10 @@
    "draft_rank": ""
   },
   {
-   "id": 3747,
-   "name": "Dylan Licciardo",
-   "site": "FF Gamers",
-   "draft_rank": "171"
-  },
-  {
    "id": 1046,
    "name": "Jonathan Stone",
    "site": "Stone Cold Fantasy",
    "draft_rank": ""
-  },
-  {
-   "id": 285,
-   "name": "Dalton Del Don",
-   "site": "The Deep Shot",
-   "draft_rank": "53"
   },
   {
    "id": 96,
@@ -86,18 +116,6 @@
    "draft_rank": "19"
   },
   {
-   "id": 692,
-   "name": "Chris Welsh",
-   "site": "FantasyPros",
-   "draft_rank": "39"
-  },
-  {
-   "id": 835,
-   "name": "Kev Wheeler",
-   "site": "Wheel Route FF",
-   "draft_rank": "26"
-  },
-  {
    "id": 58,
    "name": "Chet Gresham",
    "site": "SB Nation",
@@ -114,12 +132,6 @@
    "name": "Luke Sawhook",
    "site": "Dynasty Nerds",
    "draft_rank": "152"
-  },
-  {
-   "id": 9,
-   "name": "Scott Pianowski",
-   "site": "Yahoo! Sports",
-   "draft_rank": "108"
   },
   {
    "id": 7616,
@@ -216,12 +228,6 @@
    "name": "Jeremy Shulman",
    "site": "Fantasy Football Universe",
    "draft_rank": "144"
-  },
-  {
-   "id": 562,
-   "name": "Des Bieler",
-   "site": "The Washington Post",
-   "draft_rank": "177"
   },
   {
    "id": 4160,
@@ -400,12 +406,6 @@
   {
    "id": 1408,
    "name": "Josh Norris",
-   "site": "Yahoo! Sports",
-   "draft_rank": ""
-  },
-  {
-   "id": 7666,
-   "name": "Hayden Winks",
    "site": "Yahoo! Sports",
    "draft_rank": ""
   },

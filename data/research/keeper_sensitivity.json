@@ -2,8 +2,8 @@
   "generated": "2026-08-30",
   "n_seeds": 96,
   "max_flips": 10,
-  "baseline_mean": 2027.5,
+  "baseline_mean": 2022.2,
   "identity_check_max_diff": 0.0,
-  "runtime_seconds": 39.4,
+  "runtime_seconds": 40.4,
   "flips": []
 }
