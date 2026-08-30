@@ -76,9 +76,14 @@ def optimal_lineup(players: list[tuple[str, str, float, bool]]):
 
 
 def main() -> None:
-    helper = json.loads((ROOT / "docs/draft_helper/data.json").read_text())
-    proj = {p["name"]: (p.get("proj") or 0.0, p["pos"])
-            for p in helper["players"]}
+    # FROZEN draft-night market state — projections and ADP as they
+    # stood at the draft. The page is a snapshot document: season news
+    # never rewrites anyone's table grade.
+    base = json.loads((ROOT / "data/draft_baseline_2026.json").read_text())
+    proj = {n: (base["projections"].get(n, 0.0),
+                base["positions"].get(n, "?"))
+            for n in base["projections"]}
+    adp = base["adp"]
     cat = json.loads((ROOT / "data/sleeper/players_nfl.json").read_text())
 
     def nm(pid):
@@ -113,14 +118,53 @@ def main() -> None:
         expect[rid].append((m["player_name"], pos, pr,
                             m["player_name"] in kept_by_rid[rid]))
 
+    # MARKET-ROBOT counterfactual: replay the draft's exact pick
+    # sequence; keepers keep their players, every other pick takes the
+    # best remaining player by frozen ADP. A team's robot haul = what
+    # its seats were worth to a consensus drafter — beating it is
+    # skill against the market, not against our model.
+    raw_picks = sorted(json.loads(Path(picks_f).read_text()),
+                       key=lambda p: p["pick_no"])
+    board = sorted(adp, key=lambda n: adp[n])
+    taken: set[str] = set()
+    robot = defaultdict(list)
+    for p in raw_picks:
+        rid = p["roster_id"]
+        n = nm(p["player_id"])
+        if n in kept_by_rid[rid]:
+            taken.add(n)
+            pr, pos = proj.get(n, (0.0, "?"))
+            robot[rid].append((n, pos, pr, True))
+            continue
+        pick = next((c for c in board if c not in taken), None)
+        if pick is None:
+            continue
+        taken.add(pick)
+        pr, pos = proj.get(pick, (0.0, "?"))
+        robot[rid].append((pick, pos, pr, False))
+
+    # 2027 OPTION BOOK: empirical option value of each drafted round
+    # (stash curve) — the future-capital component starters can't see.
+    curve = {c["round"]: c["option_value"] for c in json.loads(
+        (ROOT / "data/research/stash_curve.json").read_text())["curve"]}
+    opt = defaultdict(float)
+    for p in raw_picks:
+        n = nm(p["player_id"])
+        if n not in kept_by_rid[p["roster_id"]]:
+            pr, pos = proj.get(n, (0.0, "?"))
+            if pos in ("QB", "RB", "WR", "TE"):
+                opt[p["roster_id"]] += max(0.0, curve.get(p["round"], 0.0))
+
     rows = []
     for rid in SHORT:
         a, akeep, adraft = optimal_lineup(actual.get(rid, []))
         e, ekeep, edraft = optimal_lineup(expect.get(rid, []))
+        rb, _, _ = optimal_lineup(robot.get(rid, []))
         rows.append({"rid": rid, "actual": a, "expected": e,
                      "keep": akeep, "draft": adraft,
                      "ekeep": ekeep, "edraft": edraft,
-                     "delta": a - e})
+                     "delta": a - e, "vs_mkt": a - rb,
+                     "opt": opt[rid]})
     pre_rank = {r["rid"]: i for i, r in enumerate(
         sorted(rows, key=lambda r: -r["expected"]), 1)}
     rows.sort(key=lambda r: -r["actual"])
@@ -158,7 +202,10 @@ def main() -> None:
   </div>
   <div class="num">{r["actual"]:,.0f}</div>
   <div class="dxp {'up' if r["delta"] >= 0 else 'dn'}">
-    {r["delta"]:+,.0f} XP</div>
+    {r["delta"]:+,.0f}</div>
+  <div class="dxp {'up' if r["vs_mkt"] >= 0 else 'dn'}">
+    {r["vs_mkt"]:+,.0f}</div>
+  <div class="optc">+{r["opt"]:.0f}</div>
   <div class="mv">{arrow}</div>
 </div>""")
 
@@ -175,9 +222,16 @@ def main() -> None:
     .chip.gain { background: var(--ml-success); }
     .chip.loss { background: var(--ml-danger); }
     .row { display: grid;
-           grid-template-columns: 92px 1fr 52px 64px 34px;
-           gap: 8px; align-items: center; padding: 10px 4px;
+           grid-template-columns: 88px 1fr 50px 52px 52px 44px 30px;
+           gap: 7px; align-items: center; padding: 9px 4px;
            border-bottom: 1px solid var(--ml-border); }
+    .hdr { font-size: 6.8pt; letter-spacing: .5px;
+           color: var(--ml-muted); border-bottom: 1px solid
+           var(--ml-border-strong); padding: 2px 4px; }
+    .hdr div { text-align: right; }
+    .hdr .l { text-align: left; }
+    .optc { text-align: right; font-family: var(--ml-font-mono);
+            font-size: 9pt; color: var(--ml-muted); }
     .row.me { border-left: 3px solid var(--ml-gold-chip);
               padding-left: 6px; }
     .who { font-family: var(--ml-font-mono); font-size: 9.5pt; }
@@ -220,26 +274,41 @@ def main() -> None:
              '<span class="chip gain"></span> gained vs expectation '
              '<span class="chip loss"></span> lost vs expectation · '
              'the black tick = where the pre-draft sim expected the bar '
-             'to end · number = projected points, optimal starters · '
-             'rank arrows vs the expected order</div>')
+             'to end. All numbers use the FROZEN draft-night market '
+             '(projections + ADP) — season news never rewrites a table '
+             'grade. VS MKT = starters vs a consensus robot drafting '
+             'best-available-by-ADP from the same seats (skill against '
+             'the market, not against our model). 2027 OPT = empirical '
+             'option value of the rounds spent (the stash curve) — the '
+             'future capital a starters-only number can\'t see.</div>')
+    h.append('<div class="row hdr"><div class="l">LVL · TEAM</div>'
+             '<div class="l">STARTERS BAR</div><div>PTS</div>'
+             '<div>VS SIM</div><div>VS MKT</div><div>2027</div>'
+             '<div></div></div>')
     h.extend(bars)
-    best = max(rows, key=lambda r: r["delta"])
-    worst = min(rows, key=lambda r: r["delta"])
+    best = max(rows, key=lambda r: r["vs_mkt"])
+    worst = min(rows, key=lambda r: r["vs_mkt"])
+    hoard = max(rows, key=lambda r: r["opt"])
     me = next(r for r in rows if r["rid"] == MY_RID)
     h.append(
         '<div class="ml-h-label" style="margin-top:14px">TABLE AWARDS'
         '</div><table class="story awards"><tbody>'
-        f'<tr><td class="sl">LEVELED UP</td><td><b>{SHORT[best["rid"]]}'
-        f'</b> +{best["delta"]:.0f} XP over expectation — out-drafted '
-        'the room model by the widest margin</td></tr>'
-        f'<tr><td class="sl">DRAINED</td><td><b>{SHORT[worst["rid"]]}'
-        f'</b> {worst["delta"]:.0f} XP — left the most projected points '
-        'on the table vs the sim\'s read of his seat</td></tr>'
+        f'<tr><td class="sl">BEAT THE MARKET</td><td>'
+        f'<b>{SHORT[best["rid"]]}</b> {best["vs_mkt"]:+.0f} vs the '
+        'ADP robot — the widest true-skill margin at the table</td></tr>'
+        f'<tr><td class="sl">FED THE MARKET</td><td>'
+        f'<b>{SHORT[worst["rid"]]}</b> {worst["vs_mkt"]:+.0f} — a '
+        'consensus robot drafting his seats builds a better lineup'
+        '</td></tr>'
+        f'<tr><td class="sl">OPTION HOARD</td><td>'
+        f'<b>{SHORT[hoard["rid"]]}</b> +{hoard["opt"]:.0f} in 2027 '
+        'option value — the deepest futures book bought at the table'
+        '</td></tr>'
         f'<tr><td class="sl">THE DESK\'S SEAT</td><td><b>BRIAN</b> '
-        f'{me["delta"]:+.0f} XP, rank {pre_rank[MY_RID]} expected → '
-        f'{[r["rid"] for r in rows].index(MY_RID) + 1} actual — drafted '
-        'to plan: QB liquidity + RB depth banked, the WR gap priced for '
-        'the W6-10 trade window, not the table</td></tr>'
+        f'{me["delta"]:+.0f} vs sim, {me["vs_mkt"]:+.0f} vs market, '
+        f'+{me["opt"]:.0f} in 2027 options — drafted to plan: QB '
+        'liquidity + RB depth banked, the WR gap priced for the W6-10 '
+        'trade window, not the table</td></tr>'
         '</tbody></table>')
     h.append("""<style>
     .story { border-collapse: collapse; width: 100%; max-width: 62em; }
@@ -248,14 +317,16 @@ def main() -> None:
                    font-size: 7.5pt; letter-spacing: .4px;
                    white-space: nowrap; padding-right: 10px; }
     </style>""")
-    h.append('<div class="note">Expectation = the final pre-draft '
-             'simulation, frozen at keeper lock '
-             '(draft_expectation_2026.json) — the sim already knew every '
-             'keeper, so the delta is pure table performance: picks made '
-             'vs the picks the model believed were coming. Projections '
-             'are the current weekly feed; both sides of every bar move '
-             'together as projections update, so the DELTA stays a clean '
-             'read on draft skill.</div>')
+    h.append('<div class="note">Two baselines, one snapshot. VS SIM '
+             'grades the table against the final pre-draft simulation '
+             '(frozen at keeper lock — it knew every keeper), which '
+             'mixes drafting skill with model surprise; VS MKT grades '
+             'it against a consensus robot taking best-available-by-ADP '
+             'from the identical pick sequence, which is skill alone. '
+             f'Everything prices off the {esc(base["frozen"])} '
+             'draft-night market snapshot (draft_baseline_2026.json), '
+             'so this page is a permanent record — the season cannot '
+             'retroactively change what happened at the table.</div>')
     h.append(bpr.banknote_fineprint(
         "Metric: optimal starters (QB · 2RB · 3WR · TE · FLEX · SF) from "
         "half-PPR projections. One page, one story: who leveled up at "
