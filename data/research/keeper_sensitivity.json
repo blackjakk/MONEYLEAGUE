@@ -1,9 +1,9 @@
 {
-  "generated": "2026-08-30",
+  "generated": "2026-09-01",
   "n_seeds": 96,
   "max_flips": 10,
-  "baseline_mean": 2027.9,
+  "baseline_mean": 2022.0,
   "identity_check_max_diff": 0.0,
-  "runtime_seconds": 39.5,
+  "runtime_seconds": 40.1,
   "flips": []
 }

@@ -1,7 +1,7 @@
 {
  "meta": {
   "source": "fantasyfootballtiers.com (clustered expert consensus, half-PPR; QB list is 1QB-ordered)",
-  "fetched": "2026-08-30"
+  "fetched": "2026-09-01"
  },
  "tiers": {
   "QB": [
@@ -63,8 +63,8 @@
     "players": [
      "Jahmyr Gibbs",
      "Bijan Robinson",
-     "Christian McCaffrey",
      "Jonathan Taylor",
+     "Christian McCaffrey",
      "James Cook III"
     ]
    },
@@ -87,8 +87,7 @@
      "Javonte Williams",
      "Breece Hall",
      "Jeremiyah Love",
-     "Travis Etienne Jr.",
-     "Josh Jacobs"
+     "Travis Etienne Jr."
     ]
    },
    {
@@ -97,37 +96,38 @@
      "D'Andre Swift",
      "Cam Skattebo",
      "Bucky Irving",
+     "David Montgomery",
      "Quinshon Judkins",
-     "David Montgomery"
+     "Bhayshul Tuten"
     ]
    },
    {
     "tier": 5,
     "players": [
-     "Bhayshul Tuten",
      "Jadarian Price",
-     "TreVeyon Henderson"
+     "TreVeyon Henderson",
+     "Rhamondre Stevenson",
+     "Jaylen Warren"
     ]
    },
    {
     "tier": 6,
     "players": [
-     "Rhamondre Stevenson",
-     "Jaylen Warren",
      "Tony Pollard",
      "Jonathon Brooks",
-     "Rico Dowdle"
+     "Rico Dowdle",
+     "MarShawn Lloyd",
+     "J.K. Dobbins"
     ]
    },
    {
     "tier": 7,
     "players": [
-     "J.K. Dobbins",
      "Blake Corum",
      "Chuba Hubbard",
      "Jacory Croskey-Merritt",
-     "RJ Harvey",
      "Jordan Mason",
+     "RJ Harvey",
      "Kenny Gainwell",
      "Kyle Monangai",
      "Rachaad White"
@@ -154,13 +154,13 @@
      "Nico Collins",
      "George Pickens",
      "Chris Olave",
-     "Malik Nabers"
+     "Malik Nabers",
+     "DeVonta Smith"
     ]
    },
    {
     "tier": 3,
     "players": [
-     "DeVonta Smith",
      "Rashee Rice",
      "Zay Flowers",
      "Tee Higgins",
@@ -174,8 +174,8 @@
    {
     "tier": 4,
     "players": [
-     "Davante Adams",
      "Terry McLaurin",
+     "Davante Adams",
      "Luther Burden III",
      "Jameson Williams",
      "DJ Moore",
@@ -190,17 +190,17 @@
     "players": [
      "Marvin Harrison Jr.",
      "Carnell Tate",
-     "DK Metcalf",
      "Brian Thomas Jr.",
+     "DK Metcalf",
      "Chris Godwin Jr.",
-     "Courtland Sutton"
+     "Courtland Sutton",
+     "Quentin Johnston",
+     "Michael Pittman Jr."
     ]
    },
    {
     "tier": 6,
     "players": [
-     "Quentin Johnston",
-     "Michael Pittman Jr.",
      "Michael Wilson",
      "Alec Pierce",
      "Josh Downs",
@@ -217,13 +217,13 @@
     "players": [
      "KC Concepcion",
      "Romeo Doubs",
-     "Xavier Worthy",
      "Matthew Golden",
+     "Xavier Worthy",
      "Jalen Coker",
      "Khalil Shakir",
+     "De'Zhaun Stribling",
      "Jordyn Tyson",
-     "Deebo Samuel Sr.",
-     "De'Zhaun Stribling"
+     "Deebo Samuel Sr."
     ]
    },
    {
@@ -281,8 +281,8 @@
     "tier": 5,
     "players": [
      "Terrance Ferguson",
-     "T.J. Hockenson",
      "AJ Barner",
+     "T.J. Hockenson",
      "Oronde Gadsden II",
      "Pat Freiermuth"
     ]

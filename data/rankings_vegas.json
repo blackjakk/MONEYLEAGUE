@@ -1,7 +1,7 @@
 {
  "meta": {
   "source": "firstdown.studio Vegas-props season rankings",
-  "fetched": "2026-08-30",
+  "fetched": "2026-09-01",
   "note": "site scoring format \u2014 consume POSITION RANKS only, never raw points"
  },
  "players": [
@@ -121,14 +121,14 @@
    "name": "Jordan Love",
    "team": "GB",
    "position": "QB",
-   "vegas_pts": 245.0,
+   "vegas_pts": 248.0,
    "vegas_pos_rank": 17
   },
   {
    "name": "Patrick Mahomes",
    "team": "KC",
    "position": "QB",
-   "vegas_pts": 243.0,
+   "vegas_pts": 244.0,
    "vegas_pos_rank": 18
   },
   {
@@ -142,7 +142,7 @@
    "name": "Sam Darnold",
    "team": "SEA",
    "position": "QB",
-   "vegas_pts": 237.0,
+   "vegas_pts": 238.0,
    "vegas_pos_rank": 20
   },
   {
@@ -163,7 +163,7 @@
    "name": "Kyler Murray",
    "team": "MIN",
    "position": "QB",
-   "vegas_pts": 225.0,
+   "vegas_pts": 224.0,
    "vegas_pos_rank": 23
   },
   {
@@ -181,38 +181,38 @@
    "vegas_pos_rank": 25
   },
   {
-   "name": "Geno Smith",
-   "team": "NYJ",
-   "position": "QB",
-   "vegas_pts": 208.0,
-   "vegas_pos_rank": 26
-  },
-  {
    "name": "Cam Ward",
    "team": "TEN",
    "position": "QB",
    "vegas_pts": 204.0,
-   "vegas_pos_rank": 27
+   "vegas_pos_rank": 26
   },
   {
    "name": "Aaron Rodgers",
    "team": "PIT",
    "position": "QB",
    "vegas_pts": 194.0,
+   "vegas_pos_rank": 27
+  },
+  {
+   "name": "Geno Smith",
+   "team": "NYJ",
+   "position": "QB",
+   "vegas_pts": 170.0,
    "vegas_pos_rank": 28
   },
   {
    "name": "Jacoby Brissett",
    "team": "ARI",
    "position": "QB",
-   "vegas_pts": 146.0,
+   "vegas_pts": 147.0,
    "vegas_pos_rank": 29
   },
   {
    "name": "Fernando Mendoza",
    "team": "LV",
    "position": "QB",
-   "vegas_pts": 136.0,
+   "vegas_pts": 135.0,
    "vegas_pos_rank": 30
   },
   {
@@ -226,7 +226,7 @@
    "name": "Deshaun Watson",
    "team": "CLE",
    "position": "QB",
-   "vegas_pts": 129.0,
+   "vegas_pts": 128.0,
    "vegas_pos_rank": 32
   },
   {
@@ -307,31 +307,31 @@
    "vegas_pos_rank": 9
   },
   {
+   "name": "Chase Brown",
+   "team": "CIN",
+   "position": "RB",
+   "vegas_pts": 205.0,
+   "vegas_pos_rank": 10
+  },
+  {
    "name": "De'Von Achane",
    "team": "MIA",
    "position": "RB",
    "vegas_pts": 204.0,
-   "vegas_pos_rank": 10
+   "vegas_pos_rank": 11
   },
   {
-   "name": "Chase Brown",
-   "team": "CIN",
+   "name": "Javonte Williams",
+   "team": "DAL",
    "position": "RB",
-   "vegas_pts": 204.0,
-   "vegas_pos_rank": 11
+   "vegas_pts": 200.0,
+   "vegas_pos_rank": 12
   },
   {
    "name": "Kyren Williams",
    "team": "LAR",
    "position": "RB",
    "vegas_pts": 199.0,
-   "vegas_pos_rank": 12
-  },
-  {
-   "name": "Javonte Williams",
-   "team": "DAL",
-   "position": "RB",
-   "vegas_pts": 198.0,
    "vegas_pos_rank": 13
   },
   {
@@ -342,24 +342,24 @@
    "vegas_pos_rank": 14
   },
   {
-   "name": "Josh Jacobs",
-   "team": "GB",
-   "position": "RB",
-   "vegas_pts": 184.0,
-   "vegas_pos_rank": 15
-  },
-  {
    "name": "Jeremiyah Love",
    "team": "ARI",
    "position": "RB",
    "vegas_pts": 180.0,
-   "vegas_pos_rank": 16
+   "vegas_pos_rank": 15
   },
   {
    "name": "Breece Hall",
    "team": "NYJ",
    "position": "RB",
    "vegas_pts": 180.0,
+   "vegas_pos_rank": 16
+  },
+  {
+   "name": "D'Andre Swift",
+   "team": "CHI",
+   "position": "RB",
+   "vegas_pts": 173.0,
    "vegas_pos_rank": 17
   },
   {
@@ -370,99 +370,99 @@
    "vegas_pos_rank": 18
   },
   {
-   "name": "D'Andre Swift",
-   "team": "CHI",
-   "position": "RB",
-   "vegas_pts": 172.0,
-   "vegas_pos_rank": 19
-  },
-  {
    "name": "David Montgomery",
    "team": "HOU",
    "position": "RB",
    "vegas_pts": 171.0,
-   "vegas_pos_rank": 20
+   "vegas_pos_rank": 19
   },
   {
    "name": "Quinshon Judkins",
    "team": "CLE",
    "position": "RB",
    "vegas_pts": 170.0,
-   "vegas_pos_rank": 21
+   "vegas_pos_rank": 20
   },
   {
    "name": "Cam Skattebo",
    "team": "NYG",
    "position": "RB",
    "vegas_pts": 167.0,
-   "vegas_pos_rank": 22
+   "vegas_pos_rank": 21
   },
   {
    "name": "Bucky Irving",
    "team": "TB",
    "position": "RB",
    "vegas_pts": 164.0,
-   "vegas_pos_rank": 23
+   "vegas_pos_rank": 22
   },
   {
    "name": "Rico Dowdle",
    "team": "PIT",
    "position": "RB",
    "vegas_pts": 152.0,
-   "vegas_pos_rank": 24
+   "vegas_pos_rank": 23
   },
   {
    "name": "TreVeyon Henderson",
    "team": "NE",
    "position": "RB",
    "vegas_pts": 151.0,
-   "vegas_pos_rank": 25
+   "vegas_pos_rank": 24
   },
   {
    "name": "Bhayshul Tuten",
    "team": "JAX",
    "position": "RB",
    "vegas_pts": 150.0,
-   "vegas_pos_rank": 26
+   "vegas_pos_rank": 25
   },
   {
    "name": "Tony Pollard",
    "team": "TEN",
    "position": "RB",
    "vegas_pts": 147.0,
-   "vegas_pos_rank": 27
+   "vegas_pos_rank": 26
   },
   {
    "name": "Kyle Monangai",
    "team": "CHI",
    "position": "RB",
    "vegas_pts": 143.0,
-   "vegas_pos_rank": 28
+   "vegas_pos_rank": 27
   },
   {
    "name": "Jadarian Price",
    "team": "SEA",
    "position": "RB",
    "vegas_pts": 141.0,
-   "vegas_pos_rank": 29
+   "vegas_pos_rank": 28
   },
   {
    "name": "Jaylen Warren",
    "team": "PIT",
    "position": "RB",
    "vegas_pts": 138.0,
-   "vegas_pos_rank": 30
+   "vegas_pos_rank": 29
   },
   {
    "name": "Rhamondre Stevenson",
    "team": "NE",
    "position": "RB",
    "vegas_pts": 138.0,
-   "vegas_pos_rank": 31
+   "vegas_pos_rank": 30
   },
   {
    "name": "J.K. Dobbins",
    "team": "DEN",
+   "position": "RB",
+   "vegas_pts": 137.0,
+   "vegas_pos_rank": 31
+  },
+  {
+   "name": "MarShawn Lloyd",
+   "team": "GB",
    "position": "RB",
    "vegas_pts": 137.0,
    "vegas_pos_rank": 32
@@ -510,17 +510,17 @@
    "vegas_pos_rank": 38
   },
   {
-   "name": "Blake Corum",
-   "team": "LAR",
+   "name": "Jacory Croskey-Merritt",
+   "team": "WAS",
    "position": "RB",
    "vegas_pts": 117.0,
    "vegas_pos_rank": 39
   },
   {
-   "name": "Jacory Croskey-Merritt",
-   "team": "WAS",
+   "name": "Blake Corum",
+   "team": "LAR",
    "position": "RB",
-   "vegas_pts": 116.0,
+   "vegas_pts": 117.0,
    "vegas_pos_rank": 40
   },
   {
@@ -566,25 +566,32 @@
    "vegas_pos_rank": 46
   },
   {
+   "name": "Josh Jacobs",
+   "team": "GB",
+   "position": "RB",
+   "vegas_pts": 78.0,
+   "vegas_pos_rank": 47
+  },
+  {
    "name": "Dylan Sampson",
    "team": "CLE",
    "position": "RB",
    "vegas_pts": 77.0,
-   "vegas_pos_rank": 47
+   "vegas_pos_rank": 48
   },
   {
    "name": "Woody Marks",
    "team": "HOU",
    "position": "RB",
    "vegas_pts": 74.0,
-   "vegas_pos_rank": 48
+   "vegas_pos_rank": 49
   },
   {
    "name": "Tyler Allgeier",
    "team": "ARI",
    "position": "RB",
    "vegas_pts": 73.0,
-   "vegas_pos_rank": 49
+   "vegas_pos_rank": 50
   },
   {
    "name": "Ja'Marr Chase",
@@ -702,7 +709,7 @@
    "name": "Garrett Wilson",
    "team": "NYJ",
    "position": "WR",
-   "vegas_pts": 172.0,
+   "vegas_pts": 170.0,
    "vegas_pos_rank": 17
   },
   {
@@ -814,7 +821,7 @@
    "name": "Jayden Reed",
    "team": "GB",
    "position": "WR",
-   "vegas_pts": 144.0,
+   "vegas_pts": 145.0,
    "vegas_pos_rank": 33
   },
   {
@@ -828,7 +835,7 @@
    "name": "Christian Watson",
    "team": "GB",
    "position": "WR",
-   "vegas_pts": 140.0,
+   "vegas_pts": 141.0,
    "vegas_pos_rank": 35
   },
   {
@@ -958,15 +965,15 @@
    "vegas_pos_rank": 53
   },
   {
-   "name": "Makai Lemon",
-   "team": "PHI",
+   "name": "De'Zhaun Stribling",
+   "team": "SF",
    "position": "WR",
-   "vegas_pts": 110.0,
+   "vegas_pts": 113.0,
    "vegas_pos_rank": 54
   },
   {
-   "name": "De'Zhaun Stribling",
-   "team": "SF",
+   "name": "Makai Lemon",
+   "team": "PHI",
    "position": "WR",
    "vegas_pts": 110.0,
    "vegas_pos_rank": 55
@@ -1231,22 +1238,22 @@
    "vegas_pos_rank": 6
   },
   {
-   "name": "Harold Fannin",
-   "team": "CLE",
+   "name": "Tucker Kraft",
+   "team": "GB",
    "position": "TE",
    "vegas_pts": 137.0,
    "vegas_pos_rank": 7
   },
   {
-   "name": "George Kittle",
-   "team": "SF",
+   "name": "Harold Fannin",
+   "team": "CLE",
    "position": "TE",
-   "vegas_pts": 136.0,
+   "vegas_pts": 137.0,
    "vegas_pos_rank": 8
   },
   {
-   "name": "Tucker Kraft",
-   "team": "GB",
+   "name": "George Kittle",
+   "team": "SF",
    "position": "TE",
    "vegas_pts": 136.0,
    "vegas_pos_rank": 9
@@ -1259,17 +1266,17 @@
    "vegas_pos_rank": 10
   },
   {
-   "name": "Mark Andrews",
-   "team": "BAL",
+   "name": "Isaiah Likely",
+   "team": "NYG",
    "position": "TE",
    "vegas_pts": 115.0,
    "vegas_pos_rank": 11
   },
   {
-   "name": "Isaiah Likely",
-   "team": "NYG",
+   "name": "Mark Andrews",
+   "team": "BAL",
    "position": "TE",
-   "vegas_pts": 114.0,
+   "vegas_pts": 115.0,
    "vegas_pos_rank": 12
   },
   {
@@ -1346,7 +1353,7 @@
    "name": "Chig Okonkwo",
    "team": "WAS",
    "position": "TE",
-   "vegas_pts": 102.0,
+   "vegas_pts": 103.0,
    "vegas_pos_rank": 23
   },
   {
