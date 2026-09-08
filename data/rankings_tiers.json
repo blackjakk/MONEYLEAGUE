@@ -1,7 +1,7 @@
 {
  "meta": {
   "source": "fantasyfootballtiers.com (clustered expert consensus, half-PPR; QB list is 1QB-ordered)",
-  "fetched": "2026-09-01"
+  "fetched": "2026-09-08"
  },
  "tiers": {
   "QB": [
@@ -17,12 +17,12 @@
    {
     "tier": 2,
     "players": [
-     "Jayden Daniels",
      "Jalen Hurts",
+     "Jayden Daniels",
      "Caleb Williams",
      "Justin Herbert",
-     "Dak Prescott",
-     "Trevor Lawrence"
+     "Trevor Lawrence",
+     "Dak Prescott"
     ]
    },
    {
@@ -32,8 +32,8 @@
      "Bo Nix",
      "Jaxson Dart",
      "Patrick Mahomes II",
-     "Matthew Stafford",
-     "Jared Goff"
+     "Jared Goff",
+     "Matthew Stafford"
     ]
    },
    {
@@ -50,8 +50,8 @@
     "tier": 5,
     "players": [
      "Sam Darnold",
-     "Daniel Jones",
      "C.J. Stroud",
+     "Daniel Jones",
      "Cam Ward",
      "Bryce Young"
     ]
@@ -63,8 +63,8 @@
     "players": [
      "Jahmyr Gibbs",
      "Bijan Robinson",
-     "Jonathan Taylor",
      "Christian McCaffrey",
+     "Jonathan Taylor",
      "James Cook III"
     ]
    },
@@ -94,43 +94,43 @@
     "tier": 4,
     "players": [
      "D'Andre Swift",
-     "Cam Skattebo",
      "Bucky Irving",
+     "Cam Skattebo",
      "David Montgomery",
      "Quinshon Judkins",
+     "Jadarian Price",
      "Bhayshul Tuten"
     ]
    },
    {
     "tier": 5,
     "players": [
-     "Jadarian Price",
      "TreVeyon Henderson",
      "Rhamondre Stevenson",
-     "Jaylen Warren"
+     "Jaylen Warren",
+     "Tony Pollard",
+     "Rico Dowdle"
     ]
    },
    {
     "tier": 6,
     "players": [
-     "Tony Pollard",
      "Jonathon Brooks",
-     "Rico Dowdle",
      "MarShawn Lloyd",
-     "J.K. Dobbins"
+     "J.K. Dobbins",
+     "Blake Corum",
+     "Chuba Hubbard"
     ]
    },
    {
     "tier": 7,
     "players": [
-     "Blake Corum",
-     "Chuba Hubbard",
-     "Jacory Croskey-Merritt",
      "Jordan Mason",
      "RJ Harvey",
+     "Jacory Croskey-Merritt",
      "Kenny Gainwell",
-     "Kyle Monangai",
-     "Rachaad White"
+     "Rachaad White",
+     "Kyle Monangai"
     ]
    }
   ],
@@ -154,19 +154,19 @@
      "Nico Collins",
      "George Pickens",
      "Chris Olave",
-     "Malik Nabers",
-     "DeVonta Smith"
+     "DeVonta Smith",
+     "Malik Nabers"
     ]
    },
    {
     "tier": 3,
     "players": [
-     "Rashee Rice",
      "Zay Flowers",
+     "Rashee Rice",
      "Tee Higgins",
-     "Ladd McConkey",
      "Jaylen Waddle",
      "Garrett Wilson",
+     "Ladd McConkey",
      "Tetairoa McMillan",
      "Emeka Egbuka"
     ]
@@ -174,9 +174,9 @@
    {
     "tier": 4,
     "players": [
-     "Terry McLaurin",
-     "Davante Adams",
      "Luther Burden III",
+     "Davante Adams",
+     "Terry McLaurin",
      "Jameson Williams",
      "DJ Moore",
      "Christian Watson",
@@ -190,39 +190,38 @@
     "players": [
      "Marvin Harrison Jr.",
      "Carnell Tate",
-     "Brian Thomas Jr.",
      "DK Metcalf",
+     "Brian Thomas Jr.",
      "Chris Godwin Jr.",
-     "Courtland Sutton",
-     "Quentin Johnston",
-     "Michael Pittman Jr."
+     "Courtland Sutton"
     ]
    },
    {
     "tier": 6,
     "players": [
+     "Quentin Johnston",
+     "Michael Pittman Jr.",
      "Michael Wilson",
      "Alec Pierce",
-     "Josh Downs",
      "Stefon Diggs",
+     "Josh Downs",
      "Wan'Dale Robinson",
-     "Jordan Addison",
      "Jayden Reed",
-     "Makai Lemon",
-     "Jakobi Meyers"
+     "Jordan Addison"
     ]
    },
    {
     "tier": 7,
     "players": [
+     "Makai Lemon",
      "KC Concepcion",
-     "Romeo Doubs",
+     "Jakobi Meyers",
+     "De'Zhaun Stribling",
      "Matthew Golden",
+     "Romeo Doubs",
      "Xavier Worthy",
      "Jalen Coker",
      "Khalil Shakir",
-     "De'Zhaun Stribling",
-     "Jordyn Tyson",
      "Deebo Samuel Sr."
     ]
    },
@@ -230,9 +229,10 @@
     "tier": 8,
     "players": [
      "Rashid Shaheed",
+     "Jordyn Tyson",
      "Denzel Boston",
      "Tre Tucker",
-     "Adonai Mitchell"
+     "Kayshon Boutte"
     ]
    }
   ],
@@ -251,8 +251,8 @@
     "players": [
      "Tucker Kraft",
      "Harold Fannin Jr.",
-     "Sam LaPorta",
      "Kyle Pitts Sr.",
+     "Sam LaPorta",
      "George Kittle"
     ]
    },
@@ -263,16 +263,16 @@
      "Dalton Kincaid",
      "Dallas Goedert",
      "Isaiah Likely",
-     "Jake Ferguson",
      "Mark Andrews",
+     "Jake Ferguson",
      "Juwan Johnson"
     ]
    },
    {
     "tier": 4,
     "players": [
-     "Hunter Henry",
      "Brenton Strange",
+     "Hunter Henry",
      "Chig Okonkwo",
      "Dalton Schultz"
     ]
@@ -280,11 +280,11 @@
    {
     "tier": 5,
     "players": [
-     "Terrance Ferguson",
-     "AJ Barner",
      "T.J. Hockenson",
-     "Oronde Gadsden II",
-     "Pat Freiermuth"
+     "AJ Barner",
+     "Kenyon Sadiq",
+     "Terrance Ferguson",
+     "Cade Otton"
     ]
    }
   ]
