@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08",
+ "generated": "2026-09-15",
  "method": {
   "world": "real 2025 draft, period-honest: ADP-only board (synthesized projections), keeper seats pre-filled (explicit flag + implicit ADP-gap rule), xlsx pick attribution for Brian",
   "machinery": "build_mock_draft_sim bot, 100 sims, temperature 0.25, top-15 softmax, tendency model OFF (it is fit on 2023-25 \u2014 using it here would leak the answer)",
@@ -60,5 +60,5 @@
   }
  ],
  "verdict": "Trustworthy: Brier 0.085 beats the base rate (0.234), worst bucket off by 11 pts (40-60%) \u2014 read the helper's survival % at face value.",
- "runtime_sec": 13.7
+ "runtime_sec": 13.4
 }

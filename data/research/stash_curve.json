@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-09-08",
+    "generated": "2026-09-15",
     "seasons_used": [
       2023,
       2024
@@ -255,27 +255,27 @@
       "option_value": 5.3,
       "candidates": [
         {
-          "name": "Fernando Mendoza",
+          "name": "Ty Simpson",
           "pos": "QB",
-          "stash": 1.0,
+          "stash": 0.4,
           "survival": 1.0,
-          "adp": 128.5,
+          "adp": 120.2,
           "keeper_cost": "R8"
         },
         {
-          "name": "Jordyn Tyson",
+          "name": "Kenyon Sadiq",
+          "pos": "TE",
+          "stash": 0.4,
+          "survival": 0.79,
+          "adp": 128.2,
+          "keeper_cost": "R8"
+        },
+        {
+          "name": "Xavier Worthy",
           "pos": "WR",
-          "stash": 1.0,
-          "survival": 0.7,
-          "adp": 148.1,
-          "keeper_cost": "R8"
-        },
-        {
-          "name": "Braelon Allen",
-          "pos": "RB",
-          "stash": 1.0,
-          "survival": 1.0,
-          "adp": 170.7,
+          "stash": 0.4,
+          "survival": 0.53,
+          "adp": 141.0,
           "keeper_cost": "R8"
         }
       ]
@@ -286,27 +286,27 @@
       "option_value": 8.7,
       "candidates": [
         {
-          "name": "Shedeur Sanders",
+          "name": "AJ Barner",
+          "pos": "TE",
+          "stash": 0.4,
+          "survival": 0.85,
+          "adp": 143.0,
+          "keeper_cost": "R9"
+        },
+        {
+          "name": "J.J. McCarthy",
           "pos": "QB",
-          "stash": 1.0,
+          "stash": 0.4,
           "survival": 1.0,
-          "adp": 175.0,
+          "adp": 151.5,
           "keeper_cost": "R9"
         },
         {
           "name": "Emmett Johnson",
           "pos": "RB",
-          "stash": 1.0,
+          "stash": 0.4,
           "survival": 1.0,
-          "adp": 178.8,
-          "keeper_cost": "R9"
-        },
-        {
-          "name": "Tre' Harris",
-          "pos": "WR",
-          "stash": 1.0,
-          "survival": 0.93,
-          "adp": 184.0,
+          "adp": 157.6,
           "keeper_cost": "R9"
         }
       ]
@@ -317,27 +317,27 @@
       "option_value": 11.8,
       "candidates": [
         {
-          "name": "Terrance Ferguson",
+          "name": "Trey Benson",
+          "pos": "RB",
+          "stash": 0.4,
+          "survival": 1.0,
+          "adp": 161.0,
+          "keeper_cost": "R10"
+        },
+        {
+          "name": "Shedeur Sanders",
+          "pos": "QB",
+          "stash": 0.4,
+          "survival": 1.0,
+          "adp": 162.0,
+          "keeper_cost": "R10"
+        },
+        {
+          "name": "Mason Taylor",
           "pos": "TE",
-          "stash": 1.0,
-          "survival": 0.9,
-          "adp": 185.7,
-          "keeper_cost": "R10"
-        },
-        {
-          "name": "Travis Hunter",
-          "pos": "WR",
-          "stash": 1.0,
+          "stash": 0.4,
           "survival": 1.0,
-          "adp": 191.1,
-          "keeper_cost": "R10"
-        },
-        {
-          "name": "Caleb Douglas",
-          "pos": "WR",
-          "stash": 1.0,
-          "survival": 1.0,
-          "adp": 194.7,
+          "adp": 163.4,
           "keeper_cost": "R10"
         }
       ]
@@ -348,27 +348,27 @@
       "option_value": 5.1,
       "candidates": [
         {
-          "name": "Carson Beck",
-          "pos": "QB",
-          "stash": 1.0,
-          "survival": 1.0,
-          "adp": 197.2,
-          "keeper_cost": "R11"
-        },
-        {
-          "name": "Nicholas Singleton",
+          "name": "Jonah Coleman",
           "pos": "RB",
-          "stash": 1.0,
+          "stash": 0.4,
           "survival": 1.0,
-          "adp": 198.2,
+          "adp": 164.1,
           "keeper_cost": "R11"
         },
         {
-          "name": "Ja'Kobi Lane",
-          "pos": "WR",
-          "stash": 1.0,
+          "name": "Eli Stowers",
+          "pos": "TE",
+          "stash": 0.4,
+          "survival": 0.9,
+          "adp": 165.2,
+          "keeper_cost": "R11"
+        },
+        {
+          "name": "Terrance Ferguson",
+          "pos": "TE",
+          "stash": 0.4,
           "survival": 1.0,
-          "adp": 199.0,
+          "adp": 167.0,
           "keeper_cost": "R11"
         }
       ]
@@ -379,27 +379,27 @@
       "option_value": 11.4,
       "candidates": [
         {
-          "name": "Kenyon Sadiq",
-          "pos": "TE",
-          "stash": 1.0,
-          "survival": 0.9,
-          "adp": 201.6,
-          "keeper_cost": "R12"
-        },
-        {
-          "name": "Cyrus Allen",
-          "pos": "WR",
-          "stash": 1.0,
-          "survival": 1.0,
-          "adp": 201.9,
-          "keeper_cost": "R12"
-        },
-        {
-          "name": "Kaelon Black",
+          "name": "Dylan Sampson",
           "pos": "RB",
-          "stash": 1.0,
+          "stash": 0.4,
           "survival": 1.0,
-          "adp": 202.5,
+          "adp": 175.8,
+          "keeper_cost": "R12"
+        },
+        {
+          "name": "Gunnar Helm",
+          "pos": "TE",
+          "stash": 0.4,
+          "survival": 0.9,
+          "adp": 176.4,
+          "keeper_cost": "R12"
+        },
+        {
+          "name": "Antonio Williams",
+          "pos": "WR",
+          "stash": 0.4,
+          "survival": 0.61,
+          "adp": 179.8,
           "keeper_cost": "R12"
         }
       ]
@@ -410,27 +410,27 @@
       "option_value": 8.8,
       "candidates": [
         {
-          "name": "Kaytron Allen",
+          "name": "Braelon Allen",
           "pos": "RB",
-          "stash": 1.0,
+          "stash": 0.4,
           "survival": 1.0,
-          "adp": 205.8,
+          "adp": 185.4,
           "keeper_cost": "R13"
         },
         {
-          "name": "Troy Franklin",
+          "name": "Adonai Mitchell",
           "pos": "WR",
-          "stash": 1.0,
+          "stash": 0.4,
           "survival": 1.0,
-          "adp": 207.2,
+          "adp": 188.2,
           "keeper_cost": "R13"
         },
         {
-          "name": "Jaylen Wright",
+          "name": "Mike Washington",
           "pos": "RB",
-          "stash": 1.0,
+          "stash": 0.4,
           "survival": 1.0,
-          "adp": 212.3,
+          "adp": 190.6,
           "keeper_cost": "R13"
         }
       ]
@@ -441,27 +441,27 @@
       "option_value": 6.1,
       "candidates": [
         {
-          "name": "Malachi Fields",
+          "name": "Jalen McMillan",
           "pos": "WR",
-          "stash": 1.0,
-          "survival": 1.0,
-          "adp": 214.9,
-          "keeper_cost": "R14"
-        },
-        {
-          "name": "Zachariah Branch",
-          "pos": "WR",
-          "stash": 1.0,
+          "stash": 0.4,
           "survival": 0.7,
-          "adp": 216.8,
+          "adp": 192.0,
           "keeper_cost": "R14"
         },
         {
-          "name": "J.J. McCarthy",
-          "pos": "QB",
-          "stash": 1.0,
+          "name": "Jonathon Brooks",
+          "pos": "RB",
+          "stash": 0.4,
           "survival": 1.0,
-          "adp": 217.0,
+          "adp": 194.1,
+          "keeper_cost": "R14"
+        },
+        {
+          "name": "Troy Franklin",
+          "pos": "WR",
+          "stash": 0.4,
+          "survival": 1.0,
+          "adp": 195.2,
           "keeper_cost": "R14"
         }
       ]
@@ -472,27 +472,27 @@
       "option_value": 13.3,
       "candidates": [
         {
-          "name": "Chris Bell",
+          "name": "Pat Bryant",
           "pos": "WR",
-          "stash": 1.0,
+          "stash": 0.4,
           "survival": 0.9,
-          "adp": 217.3,
+          "adp": 196.1,
           "keeper_cost": "R15"
         },
         {
-          "name": "Kaleb Johnson",
-          "pos": "RB",
-          "stash": 1.0,
-          "survival": 1.0,
-          "adp": 217.5,
-          "keeper_cost": "R15"
-        },
-        {
-          "name": "Antonio Williams",
+          "name": "Chimere Dike",
           "pos": "WR",
-          "stash": 1.0,
+          "stash": 0.4,
           "survival": 1.0,
-          "adp": 218.1,
+          "adp": 199.0,
+          "keeper_cost": "R15"
+        },
+        {
+          "name": "Tre' Harris",
+          "pos": "WR",
+          "stash": 0.4,
+          "survival": 0.8,
+          "adp": 204.8,
           "keeper_cost": "R15"
         }
       ]
