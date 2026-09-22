@@ -58,7 +58,7 @@
   {
    "id": 4436,
    "name": "Kev Mahserejian",
-   "site": "Razzball",
+   "site": "The Action Network",
    "draft_rank": "166"
   },
   {
@@ -364,7 +364,7 @@
   {
    "id": 7254,
    "name": "Pete Nova",
-   "site": "FF Faceoff",
+   "site": "Player Profiler",
    "draft_rank": "83"
   },
   {
@@ -726,6 +726,12 @@
    "name": "Kevin English",
    "site": "Draft Sharks",
    "draft_rank": "72"
+  },
+  {
+   "id": 7613,
+   "name": "Justin Owens",
+   "site": "Player Profiler",
+   "draft_rank": ""
   },
   {
    "id": 467,
@@ -1130,6 +1136,12 @@
    "draft_rank": "155"
   },
   {
+   "id": 7537,
+   "name": "Ryan Linkletter",
+   "site": "Blitz Sports Media",
+   "draft_rank": ""
+  },
+  {
    "id": 2639,
    "name": "Steven Pintado",
    "site": "QB List",
@@ -1224,24 +1236,6 @@
    "name": "Austin Amandolia",
    "site": "Club Fantasy FFL",
    "draft_rank": "203"
-  },
-  {
-   "id": 763,
-   "name": "Geoff Lambert",
-   "site": "Going For 2",
-   "draft_rank": "209"
-  },
-  {
-   "id": 7544,
-   "name": "Justin Henry",
-   "site": "JHen Fantasy",
-   "draft_rank": "195"
-  },
-  {
-   "id": 7373,
-   "name": "Joshua Kimmel",
-   "site": "FantasyNow+",
-   "draft_rank": "128"
   }
  ]
 }
