@@ -131,6 +131,8 @@ do_reports() {
   python3 scripts/build_almanac.py
   log "Render the Post-Draft Shift XP board"
   python3 scripts/build_postdraft_shift.py
+  log "Render the Tax Tape (weekly high/low scorer + season ledger)"
+  python3 scripts/build_tax_tape.py
   log "Build the League Desk bot knowledge pack (Almanac facts only)"
   python3 scripts/build_bot_knowledge.py
 }

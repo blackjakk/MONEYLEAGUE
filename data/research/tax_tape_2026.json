@@ -1,0 +1,99 @@
+{
+  "season": 2026,
+  "generated": "2026-09-22",
+  "playoff_week_start": 15,
+  "tape": [
+    {
+      "week": 1,
+      "low": "josh_wildboy",
+      "low_pts": 106.02,
+      "top": "lem",
+      "top_pts": 197.62,
+      "fine": 15,
+      "low_week_no": 1
+    },
+    {
+      "week": 2,
+      "low": "trevor_bergerboy",
+      "low_pts": 63.32,
+      "top": "lem",
+      "top_pts": 164.06,
+      "fine": 15,
+      "low_week_no": 1
+    }
+  ],
+  "ledger": {
+    "josh_wildboy": {
+      "lows": 1,
+      "paid": 15,
+      "tops": 0,
+      "collected": 0
+    },
+    "lem": {
+      "lows": 0,
+      "paid": 0,
+      "tops": 2,
+      "collected": 30
+    },
+    "trevor_bergerboy": {
+      "lows": 1,
+      "paid": 15,
+      "tops": 0,
+      "collected": 0
+    },
+    "brian_bigguap": {
+      "lows": 0,
+      "paid": 0,
+      "tops": 0,
+      "collected": 0
+    },
+    "kyle_figgy": {
+      "lows": 0,
+      "paid": 0,
+      "tops": 0,
+      "collected": 0
+    },
+    "brower_barry": {
+      "lows": 0,
+      "paid": 0,
+      "tops": 0,
+      "collected": 0
+    },
+    "ankur_patel": {
+      "lows": 0,
+      "paid": 0,
+      "tops": 0,
+      "collected": 0
+    },
+    "troy_mullings": {
+      "lows": 0,
+      "paid": 0,
+      "tops": 0,
+      "collected": 0
+    },
+    "eric_m": {
+      "lows": 0,
+      "paid": 0,
+      "tops": 0,
+      "collected": 0
+    },
+    "tim_breswick": {
+      "lows": 0,
+      "paid": 0,
+      "tops": 0,
+      "collected": 0
+    },
+    "donnie": {
+      "lows": 0,
+      "paid": 0,
+      "tops": 0,
+      "collected": 0
+    },
+    "coop": {
+      "lows": 0,
+      "paid": 0,
+      "tops": 0,
+      "collected": 0
+    }
+  }
+}

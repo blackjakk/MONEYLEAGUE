@@ -617,6 +617,27 @@ goal docs: GOAL_RESEARCH.md, GOAL_OPTIONS.md). Caches: `data/scouting/`
   = 5-min runbook: docs/KEEPER_LOCK.md + lock_keepers.py validator
   (template data/keepers_2026_actual.TEMPLATE.json; enforces cap/floor/
   bump/ownership; then refresh derive sim reports verify).
+  + MONEYLEAGUE_TAX_TAPE.pdf (Sep 22, build_tax_tape.py, in reports
+  stage + verify + release uploads): the weekly Tuesday card —
+  last week's high/low scorer + fine paid, and a season-long ledger
+  (all 12 managers, lows/paid/tops/collected/net) + week-by-week tape.
+  Reads LIVE 2026 matchups straight from the Sleeper league dir
+  (data/sleeper/league_<id>/matchups/week_N.json — already refetched
+  every Tuesday by fetch_sleeper.sh via configs/my_sleeper.json, which
+  already points at the live league; no new fetch step needed). Applies
+  the 2022+ tax rule (truth #10) exactly: $15 + $5 per PRIOR low week
+  that manager has had this season (2nd low = $20...), regular season
+  only (gated on league.json's playoff_week_start). A week only counts
+  once every roster has actually scored (guards a live/partial week
+  from showing a false $0.0 low). USER CORRECTION CAUGHT (Sep 22): user
+  guessed Trevor was low scorer BOTH W1 and W2 ("15, then 15+5") —
+  verified against live data JOSH was low W1 (106.02), Trevor low only
+  W2 (63.32, HIS FIRST low week) — so Trevor's W2 fine is $15, not $20.
+  Always verify against live Sleeper data before trusting a recalled
+  score. Emits data/research/tax_tape_2026.json (committed) alongside
+  the PDF. Live 2026 tax tape will eventually fold into the Almanac's
+  per-season THE PURSE story once 2026 gets added to sleeper_games()'s
+  season sources (today Almanac's 2026 page still awaits its bracket).
 - Helper features: live Sleeper sync (GO LIVE), PRACTICE (market-anchored
   bots + measured owner-fingerprint tilts), CEILING, Next✓ survival, SIM column (= recs brain incl. 2027
   option term R10+), sortable order book, movers tape + Δwk, LEAGUE
