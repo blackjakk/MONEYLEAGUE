@@ -60,5 +60,5 @@
   }
  ],
  "verdict": "Trustworthy: Brier 0.085 beats the base rate (0.234), worst bucket off by 11 pts (40-60%) \u2014 read the helper's survival % at face value.",
- "runtime_sec": 10.5
+ "runtime_sec": 13.6
 }
