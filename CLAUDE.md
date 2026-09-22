@@ -638,6 +638,26 @@ goal docs: GOAL_RESEARCH.md, GOAL_OPTIONS.md). Caches: `data/scouting/`
   the PDF. Live 2026 tax tape will eventually fold into the Almanac's
   per-season THE PURSE story once 2026 gets added to sleeper_games()'s
   season sources (today Almanac's 2026 page still awaits its bracket).
+  + MONEYLEAGUE_SKILLBAR.pdf (Sep 22, user-requested "skillbar update";
+  build_skillbar.py, in reports stage + verify + release uploads):
+  "the season, leveling up" — an MMO-style bar per manager, cumulative
+  points-for through the just-completed week scaled to the current
+  league leader (leader's bar reaches 100%). Each row's newest segment
+  colors green/red by whether that week beat the league median (the
+  Tax Tape's high/low concept generalized to a running scale) — only
+  the LATEST week is recolored; older weeks collapse into the dark
+  base segment. A LINEUP SKILL column carries season-cumulative
+  bench-leak (optimal lineup minus actual starters) via the EXACT
+  optimal_points() method ported from build_autopsy_2025.py (identical
+  MONEYLEAGUE start shape: 1QB/2RB/3WR/1TE/1FLEX/1SF/1K/1DEF) so the
+  two can never disagree — this is the one genuine skill signal on
+  the card, distinct from raw scoring. AskUserQuestion resolved the
+  ambiguity in "skillbar" up front (season power ranking, not a draft-
+  skill refresh or a trade/waiver metric) before building. Table
+  awards: BEST WEEK / CLIMBING (rank move vs a week ago) / BIGGEST
+  LINEUP LEAK / SHARPEST LINEUP / the desk's seat. Reads the same live
+  matchup files as the Tax Tape — no new fetch step. Emits
+  data/research/skillbar_2026.json (committed).
 - Helper features: live Sleeper sync (GO LIVE), PRACTICE (market-anchored
   bots + measured owner-fingerprint tilts), CEILING, Next✓ survival, SIM column (= recs brain incl. 2027
   option term R10+), sortable order book, movers tape + Δwk, LEAGUE

@@ -138,7 +138,8 @@ def main() -> None:
                  "MONEYLEAGUE_DOCTRINE.pdf", "MONEYLEAGUE_DRAFT_SHEET.pdf",
                  "MONEYLEAGUE_ALMANAC.pdf",
                  "MONEYLEAGUE_POSTDRAFT_SHIFT.pdf",
-                 "MONEYLEAGUE_TAX_TAPE.pdf"):
+                 "MONEYLEAGUE_TAX_TAPE.pdf",
+                 "MONEYLEAGUE_SKILLBAR.pdf"):
         f = ROOT / "data" / name
         check(name, f.exists() and f.stat().st_size > 100_000,
               "missing or suspiciously small")
