@@ -1,105 +1,106 @@
 {
   "season": 2026,
-  "generated": "2026-09-25",
+  "generated": "2026-09-29",
   "weeks_played": [
     1,
-    2
+    2,
+    3
   ],
   "standings": [
     {
       "rid": 9,
       "mid": "brian_bigguap",
-      "cum_pf": 280.18,
-      "cum_opt": 297.38,
+      "cum_pf": 395.48,
+      "cum_opt": 437.38,
       "wins": 1,
-      "losses": 1
+      "losses": 2
     },
     {
       "rid": 11,
       "mid": "trevor_bergerboy",
-      "cum_pf": 171.7,
-      "cum_opt": 221.76,
+      "cum_pf": 253.2,
+      "cum_opt": 320.84000000000003,
       "wins": 0,
-      "losses": 2
+      "losses": 3
     },
     {
       "rid": 5,
       "mid": "kyle_figgy",
-      "cum_pf": 293.22,
-      "cum_opt": 328.62,
-      "wins": 1,
+      "cum_pf": 444.30000000000007,
+      "cum_opt": 487.46000000000004,
+      "wins": 2,
       "losses": 1
     },
     {
       "rid": 6,
       "mid": "lem",
-      "cum_pf": 361.68,
-      "cum_opt": 383.18,
-      "wins": 2,
+      "cum_pf": 504.3,
+      "cum_opt": 542.6,
+      "wins": 3,
       "losses": 0
     },
     {
       "rid": 8,
       "mid": "brower_barry",
-      "cum_pf": 305.68,
-      "cum_opt": 334.18000000000006,
+      "cum_pf": 439.94,
+      "cum_opt": 489.06000000000006,
       "wins": 2,
-      "losses": 0
+      "losses": 1
     },
     {
       "rid": 3,
       "mid": "ankur_patel",
-      "cum_pf": 209.72,
-      "cum_opt": 240.01999999999998,
+      "cum_pf": 327.34000000000003,
+      "cum_opt": 359.64,
       "wins": 1,
-      "losses": 1
+      "losses": 2
     },
     {
       "rid": 4,
       "mid": "troy_mullings",
-      "cum_pf": 301.56,
-      "cum_opt": 327.36,
+      "cum_pf": 429.32,
+      "cum_opt": 464.62,
       "wins": 2,
-      "losses": 0
+      "losses": 1
     },
     {
       "rid": 7,
       "mid": "eric_m",
-      "cum_pf": 244.9,
-      "cum_opt": 267.1,
-      "wins": 0,
+      "cum_pf": 375.38,
+      "cum_opt": 418.68000000000006,
+      "wins": 1,
       "losses": 2
     },
     {
       "rid": 1,
       "mid": "tim_breswick",
-      "cum_pf": 235.22,
-      "cum_opt": 239.51999999999998,
+      "cum_pf": 343.06,
+      "cum_opt": 347.36,
       "wins": 0,
-      "losses": 2
+      "losses": 3
     },
     {
       "rid": 10,
       "mid": "josh_wildboy",
-      "cum_pf": 259.12,
-      "cum_opt": 312.76,
-      "wins": 0,
+      "cum_pf": 393.62,
+      "cum_opt": 469.46,
+      "wins": 1,
       "losses": 2
     },
     {
       "rid": 2,
       "mid": "donnie",
-      "cum_pf": 269.06,
-      "cum_opt": 318.26,
-      "wins": 2,
+      "cum_pf": 419.94,
+      "cum_opt": 484.64,
+      "wins": 3,
       "losses": 0
     },
     {
       "rid": 12,
       "mid": "coop",
-      "cum_pf": 270.14,
-      "cum_opt": 277.03999999999996,
-      "wins": 1,
+      "cum_pf": 402.32,
+      "cum_opt": 426.78,
+      "wins": 2,
       "losses": 1
     }
   ],
@@ -319,6 +320,114 @@
       "optimal": 139.1,
       "leak": 3.6,
       "above_median": false
+    },
+    {
+      "week": 3,
+      "roster_id": 1,
+      "manager": "tim_breswick",
+      "actual": 107.84,
+      "optimal": 107.84,
+      "leak": 0.0,
+      "above_median": false
+    },
+    {
+      "week": 3,
+      "roster_id": 2,
+      "manager": "donnie",
+      "actual": 150.88,
+      "optimal": 166.38,
+      "leak": 15.5,
+      "above_median": true
+    },
+    {
+      "week": 3,
+      "roster_id": 3,
+      "manager": "ankur_patel",
+      "actual": 117.62,
+      "optimal": 119.62,
+      "leak": 2.0,
+      "above_median": false
+    },
+    {
+      "week": 3,
+      "roster_id": 4,
+      "manager": "troy_mullings",
+      "actual": 127.76,
+      "optimal": 137.26,
+      "leak": 9.5,
+      "above_median": false
+    },
+    {
+      "week": 3,
+      "roster_id": 5,
+      "manager": "kyle_figgy",
+      "actual": 151.08,
+      "optimal": 158.84,
+      "leak": 7.76,
+      "above_median": true
+    },
+    {
+      "week": 3,
+      "roster_id": 6,
+      "manager": "lem",
+      "actual": 142.62,
+      "optimal": 159.42,
+      "leak": 16.8,
+      "above_median": true
+    },
+    {
+      "week": 3,
+      "roster_id": 7,
+      "manager": "eric_m",
+      "actual": 130.48,
+      "optimal": 151.58,
+      "leak": 21.1,
+      "above_median": false
+    },
+    {
+      "week": 3,
+      "roster_id": 8,
+      "manager": "brower_barry",
+      "actual": 134.26,
+      "optimal": 154.88,
+      "leak": 20.62,
+      "above_median": true
+    },
+    {
+      "week": 3,
+      "roster_id": 9,
+      "manager": "brian_bigguap",
+      "actual": 115.3,
+      "optimal": 140.0,
+      "leak": 24.7,
+      "above_median": false
+    },
+    {
+      "week": 3,
+      "roster_id": 10,
+      "manager": "josh_wildboy",
+      "actual": 134.5,
+      "optimal": 156.7,
+      "leak": 22.2,
+      "above_median": true
+    },
+    {
+      "week": 3,
+      "roster_id": 11,
+      "manager": "trevor_bergerboy",
+      "actual": 81.5,
+      "optimal": 99.08,
+      "leak": 17.58,
+      "above_median": false
+    },
+    {
+      "week": 3,
+      "roster_id": 12,
+      "manager": "coop",
+      "actual": 132.18,
+      "optimal": 149.74,
+      "leak": 17.56,
+      "above_median": true
     }
   ]
 }

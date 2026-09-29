@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "generated": "2026-09-25",
+  "generated": "2026-09-29",
   "playoff_week_start": 15,
   "tape": [
     {
@@ -20,6 +20,15 @@
       "top_pts": 164.06,
       "fine": 15,
       "low_week_no": 1
+    },
+    {
+      "week": 3,
+      "low": "trevor_bergerboy",
+      "low_pts": 81.5,
+      "top": "kyle_figgy",
+      "top_pts": 151.08,
+      "fine": 20,
+      "low_week_no": 2
     }
   ],
   "ledger": {
@@ -36,18 +45,18 @@
       "collected": 30
     },
     "trevor_bergerboy": {
-      "lows": 1,
-      "paid": 15,
-      "tops": 0,
-      "collected": 0
-    },
-    "brian_bigguap": {
-      "lows": 0,
-      "paid": 0,
+      "lows": 2,
+      "paid": 35,
       "tops": 0,
       "collected": 0
     },
     "kyle_figgy": {
+      "lows": 0,
+      "paid": 0,
+      "tops": 1,
+      "collected": 20
+    },
+    "brian_bigguap": {
       "lows": 0,
       "paid": 0,
       "tops": 0,
