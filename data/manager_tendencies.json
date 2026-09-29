@@ -488,7 +488,7 @@
   },
   "fingerprints": {
     "donnie": {
-      "age_at_draft": 26.5,
+      "age_at_draft": 26.6,
       "rookie_share": 0.15,
       "yr2_share": 0.04,
       "reach": {
@@ -704,7 +704,7 @@
       }
     },
     "coop": {
-      "age_at_draft": 26.0,
+      "age_at_draft": 26.1,
       "rookie_share": 0.13,
       "yr2_share": 0.09,
       "reach": {
@@ -785,7 +785,7 @@
       }
     },
     "ankur_patel": {
-      "age_at_draft": 24.9,
+      "age_at_draft": 25.0,
       "rookie_share": 0.2,
       "yr2_share": 0.24,
       "reach": {
@@ -894,7 +894,7 @@
           "qb1": 7,
           "qb2": 10,
           "rook_share": 0.29,
-          "age": 23.5
+          "age": 23.6
         },
         "2023": {
           "qb1": 8,
@@ -992,7 +992,7 @@
       "qb2_iqr": 4,
       "qb2_stable": false,
       "rook_share_mean": 0.11,
-      "age_mean": 24.7,
+      "age_mean": 24.8,
       "by_year": {
         "2015": {
           "qb1": 1,
@@ -1046,13 +1046,13 @@
           "qb1": 2,
           "qb2": 5,
           "rook_share": 0.13,
-          "age": 26.5
+          "age": 26.6
         },
         "2024": {
           "qb1": 8,
           "qb2": 9,
           "rook_share": 0.0,
-          "age": 27.4
+          "age": 27.5
         },
         "2025": {
           "qb1": 4,
@@ -1090,7 +1090,7 @@
       "qb2_iqr": 3,
       "qb2_stable": true,
       "rook_share_mean": 0.08,
-      "age_mean": 25.2,
+      "age_mean": 25.3,
       "by_year": {
         "2015": {
           "qb1": 4,
@@ -1132,7 +1132,7 @@
           "qb1": 1,
           "qb2": 2,
           "rook_share": 0.0,
-          "age": 25.6
+          "age": 25.7
         },
         "2022": {
           "qb1": 9,
@@ -1178,13 +1178,13 @@
           "qb1": 3,
           "qb2": 8,
           "rook_share": 0.29,
-          "age": 23.0
+          "age": 23.1
         },
         "2017": {
           "qb1": 5,
           "qb2": 9,
           "rook_share": 0.18,
-          "age": 23.1
+          "age": 23.2
         },
         "2018": {
           "qb1": 4,
@@ -1220,13 +1220,13 @@
           "qb1": 1,
           "qb2": 4,
           "rook_share": 0.36,
-          "age": 23.9
+          "age": 24.0
         },
         "2024": {
           "qb1": 6,
           "qb2": 9,
           "rook_share": 0.36,
-          "age": 24.9
+          "age": 25.0
         },
         "2025": {
           "qb1": 4,
@@ -1308,7 +1308,7 @@
           "qb1": 1,
           "qb2": 9,
           "rook_share": 0.29,
-          "age": 25.2
+          "age": 25.3
         }
       }
     },
@@ -1634,7 +1634,7 @@
           "qb1": 5,
           "qb2": 7,
           "rook_share": 0.14,
-          "age": 25.9
+          "age": 26.0
         },
         "2023": {
           "qb1": 3,
