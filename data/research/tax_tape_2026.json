@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "generated": "2026-09-29",
+  "generated": "2026-10-06",
   "playoff_week_start": 15,
   "tape": [
     {
@@ -29,14 +29,23 @@
       "top_pts": 151.08,
       "fine": 20,
       "low_week_no": 2
+    },
+    {
+      "week": 4,
+      "low": "ankur_patel",
+      "low_pts": 89.54,
+      "top": "josh_wildboy",
+      "top_pts": 151.22,
+      "fine": 15,
+      "low_week_no": 1
     }
   ],
   "ledger": {
     "josh_wildboy": {
       "lows": 1,
       "paid": 15,
-      "tops": 0,
-      "collected": 0
+      "tops": 1,
+      "collected": 15
     },
     "lem": {
       "lows": 0,
@@ -56,6 +65,12 @@
       "tops": 1,
       "collected": 20
     },
+    "ankur_patel": {
+      "lows": 1,
+      "paid": 15,
+      "tops": 0,
+      "collected": 0
+    },
     "brian_bigguap": {
       "lows": 0,
       "paid": 0,
@@ -63,12 +78,6 @@
       "collected": 0
     },
     "brower_barry": {
-      "lows": 0,
-      "paid": 0,
-      "tops": 0,
-      "collected": 0
-    },
-    "ankur_patel": {
       "lows": 0,
       "paid": 0,
       "tops": 0,

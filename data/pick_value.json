@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T18:42:22+00:00",
+  "generated_at": "2026-10-06T18:58:04+00:00",
   "seasons_covered": [
     2023,
     2024,
@@ -23,123 +23,123 @@
   },
   "by_round": {
     "1": {
-      "mean_vbd": 90.1,
+      "mean_vbd": 94.9,
       "median_vbd": 89.5,
-      "mean_points": 158.9,
+      "mean_points": 165.8,
       "n_samples": 48
     },
     "2": {
-      "mean_vbd": 83.0,
+      "mean_vbd": 83.8,
       "median_vbd": 83.4,
-      "mean_points": 156.8,
+      "mean_points": 159.8,
       "n_samples": 47
     },
     "3": {
-      "mean_vbd": 39.2,
-      "median_vbd": 33.1,
-      "mean_points": 104.8,
+      "mean_vbd": 43.3,
+      "median_vbd": 39.1,
+      "mean_points": 110.8,
       "n_samples": 48
     },
     "4": {
-      "mean_vbd": 61.4,
-      "median_vbd": 59.2,
-      "mean_points": 123.5,
+      "mean_vbd": 63.1,
+      "median_vbd": 64.4,
+      "mean_points": 127.1,
       "n_samples": 45
     },
     "5": {
-      "mean_vbd": 55.0,
-      "median_vbd": 45.7,
-      "mean_points": 120.7,
+      "mean_vbd": 56.2,
+      "median_vbd": 50.0,
+      "mean_points": 123.6,
       "n_samples": 41
     },
     "6": {
-      "mean_vbd": 33.4,
+      "mean_vbd": 34.5,
       "median_vbd": 23.5,
-      "mean_points": 97.8,
+      "mean_points": 100.2,
       "n_samples": 43
     },
     "7": {
-      "mean_vbd": 34.4,
+      "mean_vbd": 36.5,
       "median_vbd": 26.1,
-      "mean_points": 97.7,
+      "mean_points": 101.7,
       "n_samples": 41
     },
     "8": {
-      "mean_vbd": 31.1,
-      "median_vbd": 24.6,
-      "mean_points": 95.6,
+      "mean_vbd": 32.9,
+      "median_vbd": 30.6,
+      "mean_points": 98.9,
       "n_samples": 41
     },
     "9": {
-      "mean_vbd": 6.2,
-      "median_vbd": 2.8,
-      "mean_points": 76.6,
+      "mean_vbd": 7.5,
+      "median_vbd": 1.3,
+      "mean_points": 79.6,
       "n_samples": 43
     },
     "10": {
-      "mean_vbd": 15.8,
-      "median_vbd": 1.5,
-      "mean_points": 78.0,
+      "mean_vbd": 16.1,
+      "median_vbd": 1.4,
+      "mean_points": 80.0,
       "n_samples": 40
     },
     "11": {
-      "mean_vbd": 7.8,
+      "mean_vbd": 8.2,
       "median_vbd": 0.0,
-      "mean_points": 74.3,
+      "mean_points": 76.3,
       "n_samples": 39
     },
     "12": {
-      "mean_vbd": 1.2,
+      "mean_vbd": 3.2,
       "median_vbd": 0.0,
-      "mean_points": 55.2,
+      "mean_points": 59.2,
       "n_samples": 43
     },
     "13": {
-      "mean_vbd": -6.2,
-      "median_vbd": -11.2,
-      "mean_points": 49.4,
+      "mean_vbd": -6.4,
+      "median_vbd": -16.2,
+      "mean_points": 51.3,
       "n_samples": 38
     },
     "14": {
-      "mean_vbd": -3.4,
-      "median_vbd": -2.5,
-      "mean_points": 54.0,
+      "mean_vbd": -3.1,
+      "median_vbd": -5.4,
+      "mean_points": 55.7,
       "n_samples": 40
     },
     "15": {
-      "mean_vbd": 26.8,
-      "median_vbd": 25.0,
-      "mean_points": 86.8,
+      "mean_vbd": 26.6,
+      "median_vbd": 24.6,
+      "mean_points": 87.5,
       "n_samples": 34
     },
     "16": {
-      "mean_vbd": -4.5,
+      "mean_vbd": -3.3,
       "median_vbd": 0.0,
-      "mean_points": 40.6,
+      "mean_points": 42.7,
       "n_samples": 48
     },
     "17": {
-      "mean_vbd": 6.2,
-      "median_vbd": 3.2,
-      "mean_points": 50.3,
+      "mean_vbd": 7.8,
+      "median_vbd": 4.0,
+      "mean_points": 52.7,
       "n_samples": 48
     }
   },
   "by_round_position": {
     "1": {
       "QB": {
-        "mean_vbd": 109.0,
-        "mean_points": 200.9,
+        "mean_vbd": 114.2,
+        "mean_points": 208.1,
         "n_samples": 14
       },
       "RB": {
-        "mean_vbd": 85.1,
-        "mean_points": 145.6,
+        "mean_vbd": 91.1,
+        "mean_points": 155.1,
         "n_samples": 16
       },
       "WR": {
-        "mean_vbd": 79.1,
-        "mean_points": 135.8,
+        "mean_vbd": 82.4,
+        "mean_points": 140.3,
         "n_samples": 17
       },
       "TE": {
@@ -150,135 +150,135 @@
     },
     "2": {
       "QB": {
-        "mean_vbd": 65.1,
-        "mean_points": 156.3,
+        "mean_vbd": 65.3,
+        "mean_points": 159.5,
         "n_samples": 13
       },
       "RB": {
-        "mean_vbd": 94.3,
-        "mean_points": 165.3,
+        "mean_vbd": 95.4,
+        "mean_points": 169.1,
         "n_samples": 20
       },
       "WR": {
-        "mean_vbd": 81.8,
-        "mean_points": 141.8,
+        "mean_vbd": 82.5,
+        "mean_points": 143.4,
         "n_samples": 14
       }
     },
     "3": {
       "QB": {
-        "mean_vbd": 35.6,
-        "mean_points": 125.9,
+        "mean_vbd": 41.2,
+        "mean_points": 134.6,
         "n_samples": 10
       },
       "RB": {
-        "mean_vbd": 57.1,
-        "mean_points": 143.5,
+        "mean_vbd": 58.9,
+        "mean_points": 146.8,
         "n_samples": 16
       },
       "WR": {
-        "mean_vbd": 27.9,
-        "mean_points": 73.6,
+        "mean_vbd": 33.3,
+        "mean_points": 80.5,
         "n_samples": 19
       },
       "TE": {
-        "mean_vbd": 43.3,
-        "mean_points": 75.5,
+        "mean_vbd": 45.1,
+        "mean_points": 79.2,
         "n_samples": 3
       }
     },
     "4": {
       "QB": {
-        "mean_vbd": 83.6,
-        "mean_points": 160.1,
+        "mean_vbd": 90.0,
+        "mean_points": 169.5,
         "n_samples": 9
       },
       "RB": {
-        "mean_vbd": 52.7,
-        "mean_points": 115.9,
+        "mean_vbd": 51.2,
+        "mean_points": 117.5,
         "n_samples": 10
       },
       "WR": {
-        "mean_vbd": 62.9,
-        "mean_points": 122.0,
+        "mean_vbd": 64.1,
+        "mean_points": 124.2,
         "n_samples": 22
       },
       "TE": {
-        "mean_vbd": 21.4,
-        "mean_points": 60.6,
+        "mean_vbd": 22.6,
+        "mean_points": 63.4,
         "n_samples": 4
       }
     },
     "5": {
       "QB": {
-        "mean_vbd": 82.1,
-        "mean_points": 179.2,
+        "mean_vbd": 83.5,
+        "mean_points": 181.9,
         "n_samples": 7
       },
       "RB": {
-        "mean_vbd": 41.9,
-        "mean_points": 105.6,
+        "mean_vbd": 41.5,
+        "mean_points": 108.5,
         "n_samples": 11
       },
       "WR": {
-        "mean_vbd": 47.5,
-        "mean_points": 110.4,
+        "mean_vbd": 49.0,
+        "mean_points": 112.8,
         "n_samples": 17
       },
       "TE": {
-        "mean_vbd": 69.9,
-        "mean_points": 105.0,
+        "mean_vbd": 73.7,
+        "mean_points": 110.0,
         "n_samples": 6
       }
     },
     "6": {
       "QB": {
-        "mean_vbd": 99.7,
+        "mean_vbd": 98.0,
         "mean_points": 198.4,
         "n_samples": 5
       },
       "RB": {
-        "mean_vbd": -24.7,
-        "mean_points": 68.8,
+        "mean_vbd": -23.4,
+        "mean_points": 71.1,
         "n_samples": 13
       },
       "WR": {
-        "mean_vbd": 23.2,
-        "mean_points": 77.6,
+        "mean_vbd": 25.7,
+        "mean_points": 81.6,
         "n_samples": 18
       },
       "TE": {
-        "mean_vbd": 84.8,
-        "mean_points": 108.9,
+        "mean_vbd": 84.3,
+        "mean_points": 109.2,
         "n_samples": 7
       }
     },
     "7": {
       "QB": {
-        "mean_vbd": 52.0,
-        "mean_points": 155.2,
+        "mean_vbd": 54.8,
+        "mean_points": 160.0,
         "n_samples": 5
       },
       "RB": {
-        "mean_vbd": 8.9,
-        "mean_points": 66.6,
+        "mean_vbd": 12.5,
+        "mean_points": 73.8,
         "n_samples": 12
       },
       "WR": {
-        "mean_vbd": 45.1,
-        "mean_points": 110.4,
+        "mean_vbd": 45.8,
+        "mean_points": 111.9,
         "n_samples": 21
       },
       "TE": {
-        "mean_vbd": 41.3,
-        "mean_points": 59.8,
+        "mean_vbd": 44.3,
+        "mean_points": 64.3,
         "n_samples": 3
       }
     },
     "8": {
       "QB": {
-        "mean_vbd": 35.8,
-        "mean_points": 106.5,
+        "mean_vbd": 41.2,
+        "mean_points": 115.9,
         "n_samples": 9
       },
       "RB": {
@@ -287,35 +287,35 @@
         "n_samples": 10
       },
       "WR": {
-        "mean_vbd": 14.3,
-        "mean_points": 70.8,
+        "mean_vbd": 14.5,
+        "mean_points": 72.2,
         "n_samples": 14
       },
       "TE": {
-        "mean_vbd": 61.9,
-        "mean_points": 92.6,
+        "mean_vbd": 61.6,
+        "mean_points": 93.2,
         "n_samples": 7
       },
       "K": {
-        "mean_vbd": 26.2,
-        "mean_points": 30.2,
+        "mean_vbd": 39.1,
+        "mean_points": 43.1,
         "n_samples": 1
       }
     },
     "9": {
       "QB": {
-        "mean_vbd": 31.8,
-        "mean_points": 135.7,
+        "mean_vbd": 33.7,
+        "mean_points": 139.8,
         "n_samples": 9
       },
       "RB": {
-        "mean_vbd": -20.2,
-        "mean_points": 55.2,
+        "mean_vbd": -18.4,
+        "mean_points": 59.2,
         "n_samples": 15
       },
       "WR": {
-        "mean_vbd": 7.5,
-        "mean_points": 63.2,
+        "mean_vbd": 8.4,
+        "mean_points": 65.3,
         "n_samples": 15
       },
       "TE": {
@@ -331,13 +331,13 @@
         "n_samples": 6
       },
       "RB": {
-        "mean_vbd": -17.7,
-        "mean_points": 50.9,
+        "mean_vbd": -18.7,
+        "mean_points": 52.7,
         "n_samples": 16
       },
       "WR": {
-        "mean_vbd": 3.1,
-        "mean_points": 48.7,
+        "mean_vbd": 4.6,
+        "mean_points": 51.9,
         "n_samples": 13
       },
       "TE": {
@@ -346,8 +346,8 @@
         "n_samples": 3
       },
       "DEF": {
-        "mean_vbd": 26.0,
-        "mean_points": 43.6,
+        "mean_vbd": 29.2,
+        "mean_points": 48.4,
         "n_samples": 2
       }
     },
@@ -358,18 +358,18 @@
         "n_samples": 6
       },
       "RB": {
-        "mean_vbd": -3.4,
-        "mean_points": 58.9,
+        "mean_vbd": -2.9,
+        "mean_points": 62.6,
         "n_samples": 10
       },
       "WR": {
-        "mean_vbd": -6.2,
-        "mean_points": 60.5,
+        "mean_vbd": -6.5,
+        "mean_points": 61.2,
         "n_samples": 18
       },
       "TE": {
-        "mean_vbd": 28.7,
-        "mean_points": 55.5,
+        "mean_vbd": 32.2,
+        "mean_points": 60.2,
         "n_samples": 4
       },
       "DEF": {
@@ -380,23 +380,23 @@
     },
     "12": {
       "QB": {
-        "mean_vbd": 25.9,
-        "mean_points": 113.2,
+        "mean_vbd": 27.7,
+        "mean_points": 118.3,
         "n_samples": 6
       },
       "RB": {
-        "mean_vbd": -13.1,
-        "mean_points": 56.1,
+        "mean_vbd": -11.9,
+        "mean_points": 60.0,
         "n_samples": 12
       },
       "WR": {
-        "mean_vbd": -6.9,
-        "mean_points": 38.6,
+        "mean_vbd": -4.4,
+        "mean_points": 42.7,
         "n_samples": 15
       },
       "TE": {
-        "mean_vbd": -1.0,
-        "mean_points": 27.1,
+        "mean_vbd": 2.1,
+        "mean_points": 31.8,
         "n_samples": 7
       },
       "K": {
@@ -412,18 +412,18 @@
     },
     "13": {
       "QB": {
-        "mean_vbd": -6.2,
-        "mean_points": 61.4,
+        "mean_vbd": -2.4,
+        "mean_points": 68.8,
         "n_samples": 4
       },
       "RB": {
-        "mean_vbd": -29.2,
-        "mean_points": 35.2,
+        "mean_vbd": -31.5,
+        "mean_points": 35.9,
         "n_samples": 13
       },
       "WR": {
         "mean_vbd": -12.0,
-        "mean_points": 50.3,
+        "mean_points": 51.9,
         "n_samples": 13
       },
       "TE": {
@@ -437,8 +437,8 @@
         "n_samples": 3
       },
       "DEF": {
-        "mean_vbd": 20.6,
-        "mean_points": 48.8,
+        "mean_vbd": 21.4,
+        "mean_points": 50.4,
         "n_samples": 4
       }
     },
@@ -449,13 +449,13 @@
         "n_samples": 5
       },
       "RB": {
-        "mean_vbd": -38.0,
-        "mean_points": 40.8,
+        "mean_vbd": -39.2,
+        "mean_points": 41.7,
         "n_samples": 18
       },
       "WR": {
-        "mean_vbd": -3.5,
-        "mean_points": 38.2,
+        "mean_vbd": -2.2,
+        "mean_points": 41.1,
         "n_samples": 6
       },
       "TE": {
@@ -469,8 +469,8 @@
         "n_samples": 3
       },
       "DEF": {
-        "mean_vbd": 26.7,
-        "mean_points": 44.6,
+        "mean_vbd": 29.6,
+        "mean_points": 48.8,
         "n_samples": 6
       }
     },
@@ -481,17 +481,17 @@
         "n_samples": 5
       },
       "RB": {
-        "mean_vbd": 20.4,
+        "mean_vbd": 18.7,
         "mean_points": 103.5,
         "n_samples": 7
       },
       "WR": {
-        "mean_vbd": -2.0,
+        "mean_vbd": -2.8,
         "mean_points": 66.4,
         "n_samples": 7
       },
       "TE": {
-        "mean_vbd": 20.5,
+        "mean_vbd": 18.9,
         "mean_points": 64.4,
         "n_samples": 5
       },
@@ -501,8 +501,8 @@
         "n_samples": 5
       },
       "DEF": {
-        "mean_vbd": 30.9,
-        "mean_points": 51.4,
+        "mean_vbd": 33.7,
+        "mean_points": 55.4,
         "n_samples": 5
       }
     },
@@ -513,13 +513,13 @@
         "n_samples": 4
       },
       "RB": {
-        "mean_vbd": -41.5,
+        "mean_vbd": -43.9,
         "mean_points": 32.1,
         "n_samples": 9
       },
       "WR": {
-        "mean_vbd": -19.8,
-        "mean_points": 41.0,
+        "mean_vbd": -17.9,
+        "mean_points": 44.0,
         "n_samples": 11
       },
       "TE": {
@@ -528,12 +528,12 @@
         "n_samples": 2
       },
       "K": {
-        "mean_vbd": 32.0,
-        "mean_points": 41.7,
+        "mean_vbd": 36.9,
+        "mean_points": 46.6,
         "n_samples": 13
       },
       "DEF": {
-        "mean_vbd": 28.0,
+        "mean_vbd": 27.0,
         "mean_points": 51.2,
         "n_samples": 9
       }
@@ -545,28 +545,28 @@
         "n_samples": 1
       },
       "RB": {
-        "mean_vbd": -17.7,
-        "mean_points": 70.4,
+        "mean_vbd": -14.0,
+        "mean_points": 75.4,
         "n_samples": 9
       },
       "WR": {
-        "mean_vbd": -30.5,
-        "mean_points": 35.6,
+        "mean_vbd": -30.8,
+        "mean_points": 36.0,
         "n_samples": 15
       },
       "TE": {
-        "mean_vbd": -8.2,
-        "mean_points": 3.1,
+        "mean_vbd": -9.9,
+        "mean_points": 3.7,
         "n_samples": 4
       },
       "K": {
-        "mean_vbd": 27.9,
-        "mean_points": 38.7,
+        "mean_vbd": 32.0,
+        "mean_points": 42.8,
         "n_samples": 10
       },
       "DEF": {
-        "mean_vbd": 44.8,
-        "mean_points": 67.9,
+        "mean_vbd": 46.1,
+        "mean_points": 70.2,
         "n_samples": 9
       }
     }
