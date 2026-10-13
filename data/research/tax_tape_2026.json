@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "generated": "2026-10-06",
+  "generated": "2026-10-13",
   "playoff_week_start": 15,
   "tape": [
     {
@@ -38,6 +38,15 @@
       "top_pts": 151.22,
       "fine": 15,
       "low_week_no": 1
+    },
+    {
+      "week": 5,
+      "low": "troy_mullings",
+      "low_pts": 109.28,
+      "top": "donnie",
+      "top_pts": 183.3,
+      "fine": 15,
+      "low_week_no": 1
     }
   ],
   "ledger": {
@@ -71,6 +80,18 @@
       "tops": 0,
       "collected": 0
     },
+    "troy_mullings": {
+      "lows": 1,
+      "paid": 15,
+      "tops": 0,
+      "collected": 0
+    },
+    "donnie": {
+      "lows": 0,
+      "paid": 0,
+      "tops": 1,
+      "collected": 15
+    },
     "brian_bigguap": {
       "lows": 0,
       "paid": 0,
@@ -83,12 +104,6 @@
       "tops": 0,
       "collected": 0
     },
-    "troy_mullings": {
-      "lows": 0,
-      "paid": 0,
-      "tops": 0,
-      "collected": 0
-    },
     "eric_m": {
       "lows": 0,
       "paid": 0,
@@ -96,12 +111,6 @@
       "collected": 0
     },
     "tim_breswick": {
-      "lows": 0,
-      "paid": 0,
-      "tops": 0,
-      "collected": 0
-    },
-    "donnie": {
       "lows": 0,
       "paid": 0,
       "tops": 0,
