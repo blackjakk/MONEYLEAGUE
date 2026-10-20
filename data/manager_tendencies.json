@@ -542,7 +542,7 @@
       }
     },
     "brower_barry": {
-      "age_at_draft": 24.8,
+      "age_at_draft": 24.9,
       "rookie_share": 0.22,
       "yr2_share": 0.22,
       "reach": {
@@ -569,7 +569,7 @@
       }
     },
     "troy_mullings": {
-      "age_at_draft": 28.1,
+      "age_at_draft": 28.2,
       "rookie_share": 0.02,
       "yr2_share": 0.06,
       "reach": {
@@ -970,7 +970,7 @@
           "qb1": 11,
           "qb2": 12,
           "rook_share": 0.14,
-          "age": 25.1
+          "age": 25.2
         },
         "2024": {
           "qb1": 10,
@@ -1028,7 +1028,7 @@
           "qb1": 5,
           "qb2": 8,
           "rook_share": 0.14,
-          "age": 24.4
+          "age": 24.5
         },
         "2021": {
           "qb1": 4,
@@ -1058,7 +1058,7 @@
           "qb1": 4,
           "qb2": 10,
           "rook_share": 0.2,
-          "age": 26.3
+          "age": 26.4
         }
       }
     },
@@ -1144,13 +1144,13 @@
           "qb1": 4,
           "qb2": 4,
           "rook_share": 0.06,
-          "age": 27.8
+          "age": 27.9
         },
         "2024": {
           "qb1": 6,
           "qb2": 9,
           "rook_share": 0.0,
-          "age": 28.0
+          "age": 28.1
         },
         "2025": {
           "qb1": 10,
@@ -1330,7 +1330,7 @@
           "qb1": 4,
           "qb2": 13,
           "rook_share": 0.21,
-          "age": 22.4
+          "age": 22.5
         },
         "2017": {
           "qb1": 3,
@@ -1454,7 +1454,7 @@
           "qb1": 3,
           "qb2": 13,
           "rook_share": 0.07,
-          "age": 25.2
+          "age": 25.3
         },
         "2025": {
           "qb1": 6,
@@ -1662,13 +1662,13 @@
       "qb2_iqr": null,
       "qb2_stable": false,
       "rook_share_mean": 0.25,
-      "age_mean": 23.2,
+      "age_mean": 23.3,
       "by_year": {
         "2019": {
           "qb1": 3,
           "qb2": 4,
           "rook_share": 0.25,
-          "age": 23.2
+          "age": 23.3
         }
       }
     },

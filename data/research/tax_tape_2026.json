@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "generated": "2026-10-13",
+  "generated": "2026-10-20",
   "playoff_week_start": 15,
   "tape": [
     {
@@ -47,12 +47,21 @@
       "top_pts": 183.3,
       "fine": 15,
       "low_week_no": 1
+    },
+    {
+      "week": 6,
+      "low": "josh_wildboy",
+      "low_pts": 90.9,
+      "top": "donnie",
+      "top_pts": 172.42,
+      "fine": 20,
+      "low_week_no": 2
     }
   ],
   "ledger": {
     "josh_wildboy": {
-      "lows": 1,
-      "paid": 15,
+      "lows": 2,
+      "paid": 35,
       "tops": 1,
       "collected": 15
     },
@@ -89,8 +98,8 @@
     "donnie": {
       "lows": 0,
       "paid": 0,
-      "tops": 1,
-      "collected": 15
+      "tops": 2,
+      "collected": 35
     },
     "brian_bigguap": {
       "lows": 0,
