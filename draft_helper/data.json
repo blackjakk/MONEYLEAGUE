@@ -247,7 +247,7 @@
       "fp_std": null,
       "age": 24,
       "years_exp": 3,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.15,
       "adp_delta": 0.0,
       "svq": [
@@ -363,7 +363,7 @@
       "fp_std": null,
       "age": 27,
       "years_exp": 6,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -508,7 +508,7 @@
       "fp_std": null,
       "age": 21,
       "years_exp": 0,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -564,7 +564,7 @@
       "fp_rank": null,
       "fp_pos_rank": null,
       "fp_std": null,
-      "age": 25,
+      "age": 26,
       "years_exp": 4,
       "injury": "",
       "stash": 0.0,
@@ -856,7 +856,7 @@
       "fp_std": null,
       "age": 28,
       "years_exp": 6,
-      "injury": "",
+      "injury": "IR",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -885,7 +885,7 @@
       "fp_std": null,
       "age": 29,
       "years_exp": 7,
-      "injury": "IR",
+      "injury": "Questionable",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -1233,7 +1233,7 @@
       "fp_std": null,
       "age": 24,
       "years_exp": 2,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -1494,7 +1494,7 @@
       "fp_std": null,
       "age": 33,
       "years_exp": 12,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -1579,7 +1579,7 @@
       "fp_rank": null,
       "fp_pos_rank": null,
       "fp_std": null,
-      "age": 31,
+      "age": 32,
       "years_exp": 10,
       "injury": "",
       "stash": 0.0,
@@ -1697,7 +1697,7 @@
       "fp_std": null,
       "age": 24,
       "years_exp": 2,
-      "injury": "Questionable",
+      "injury": "Out",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -1726,7 +1726,7 @@
       "fp_std": null,
       "age": 27,
       "years_exp": 5,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -1784,7 +1784,7 @@
       "fp_std": null,
       "age": 31,
       "years_exp": 7,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -1813,7 +1813,7 @@
       "fp_std": null,
       "age": 24,
       "years_exp": 1,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -1869,7 +1869,7 @@
       "fp_rank": null,
       "fp_pos_rank": null,
       "fp_std": null,
-      "age": 23,
+      "age": 24,
       "years_exp": 1,
       "injury": "",
       "stash": 0.4,
@@ -1900,7 +1900,7 @@
       "fp_std": null,
       "age": 26,
       "years_exp": 3,
-      "injury": "Questionable",
+      "injury": "Out",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -2016,7 +2016,7 @@
       "fp_std": null,
       "age": 22,
       "years_exp": 1,
-      "injury": "Questionable",
+      "injury": "Out",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -2132,7 +2132,7 @@
       "fp_std": null,
       "age": 33,
       "years_exp": 12,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -2275,7 +2275,7 @@
       "fp_std": null,
       "age": 27,
       "years_exp": 5,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -2361,7 +2361,7 @@
       "fp_std": null,
       "age": 23,
       "years_exp": 1,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -2877,7 +2877,7 @@
       "fp_std": null,
       "age": 24,
       "years_exp": 2,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -3530,9 +3530,9 @@
       "fp_rank": null,
       "fp_pos_rank": null,
       "fp_std": null,
-      "age": 26,
+      "age": 27,
       "years_exp": 3,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -3561,7 +3561,7 @@
       "fp_std": null,
       "age": 26,
       "years_exp": 4,
-      "injury": "",
+      "injury": "IR",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -3619,7 +3619,7 @@
       "fp_std": null,
       "age": 22,
       "years_exp": 0,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -4274,7 +4274,7 @@
       "fp_std": null,
       "age": 25,
       "years_exp": 3,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -4303,7 +4303,7 @@
       "fp_std": null,
       "age": 32,
       "years_exp": 11,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -4502,7 +4502,7 @@
       "fp_std": null,
       "age": 24,
       "years_exp": 2,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -4589,7 +4589,7 @@
       "fp_std": null,
       "age": 27,
       "years_exp": 3,
-      "injury": "",
+      "injury": "IR",
       "stash": 0.0,
       "svq": [
         170,
@@ -5015,7 +5015,7 @@
       "fp_std": null,
       "age": 28,
       "years_exp": 6,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -5044,7 +5044,7 @@
       "fp_std": null,
       "age": 31,
       "years_exp": 9,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.0,
       "svq": [
         182,
@@ -5300,7 +5300,7 @@
       "fp_std": null,
       "age": 22,
       "years_exp": 0,
-      "injury": "IR",
+      "injury": "",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -5327,7 +5327,7 @@
       "fp_rank": null,
       "fp_pos_rank": null,
       "fp_std": null,
-      "age": 26,
+      "age": 27,
       "years_exp": 3,
       "injury": "",
       "stash": 0.0
@@ -5373,7 +5373,7 @@
       "fp_std": null,
       "age": 21,
       "years_exp": 0,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -5402,7 +5402,7 @@
       "fp_std": null,
       "age": 22,
       "years_exp": 0,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -5752,7 +5752,7 @@
       "fp_std": null,
       "age": 27,
       "years_exp": 4,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -5912,7 +5912,7 @@
       "fp_std": null,
       "age": 25,
       "years_exp": 1,
-      "injury": "",
+      "injury": "IR",
       "stash": 0.25,
       "adp_delta": 0.0,
       "svq": [
@@ -6478,7 +6478,7 @@
       "fp_std": null,
       "age": 24,
       "years_exp": 1,
-      "injury": "Questionable",
+      "injury": "Out",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -6925,7 +6925,7 @@
       "fp_std": null,
       "age": 23,
       "years_exp": 0,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -7099,7 +7099,7 @@
       "fp_std": null,
       "age": 29,
       "years_exp": 7,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.0,
       "svq": [
         143,
@@ -7267,7 +7267,7 @@
       "fp_rank": null,
       "fp_pos_rank": null,
       "fp_std": null,
-      "age": 26,
+      "age": 27,
       "years_exp": 3,
       "injury": "IR",
       "stash": 0.0,
@@ -7297,7 +7297,7 @@
       "fp_std": null,
       "age": 25,
       "years_exp": 2,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.25,
       "adp_delta": 0.0,
       "svq": [
@@ -7387,7 +7387,7 @@
       "fp_std": null,
       "age": 22,
       "years_exp": 0,
-      "injury": "IR",
+      "injury": "",
       "stash": 0.4,
       "adp_delta": 0.0
     },
@@ -7466,7 +7466,7 @@
       "fp_std": null,
       "age": 25,
       "years_exp": 3,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.0
     },
     {
@@ -7481,7 +7481,7 @@
       "fp_std": null,
       "age": 23,
       "years_exp": 1,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.4
     },
     {
@@ -7575,7 +7575,7 @@
       "fp_std": null,
       "age": 26,
       "years_exp": 5,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.0,
       "adp_delta": 0.0
     },
@@ -7845,7 +7845,7 @@
       "fp_std": null,
       "age": 30,
       "years_exp": 4,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.0
     },
     {
@@ -7965,7 +7965,7 @@
       "fp_std": null,
       "age": 28,
       "years_exp": 6,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.0,
       "adp_delta": 0.0
     },
@@ -8690,7 +8690,7 @@
       "fp_std": null,
       "age": 24,
       "years_exp": 3,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.15,
       "adp_delta": 0.0
     },
@@ -8903,7 +8903,7 @@
       "fp_std": null,
       "age": 24,
       "years_exp": 0,
-      "injury": "Questionable",
+      "injury": "Out",
       "stash": 0.4
     },
     {
@@ -9221,7 +9221,7 @@
       "fp_std": null,
       "age": 31,
       "years_exp": 9,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -9280,7 +9280,7 @@
       "fp_std": null,
       "age": 23,
       "years_exp": 0,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.4
     },
     {
@@ -9324,10 +9324,10 @@
       "fp_rank": null,
       "fp_pos_rank": null,
       "fp_std": null,
-      "age": 24,
+      "age": 25,
       "years_exp": 0,
       "injury": "",
-      "stash": 0.4
+      "stash": 0.25
     },
     {
       "name": "Calvin Austin",
@@ -9444,10 +9444,10 @@
       "fp_rank": null,
       "fp_pos_rank": null,
       "fp_std": null,
-      "age": 24,
+      "age": 25,
       "years_exp": 1,
-      "injury": "IR",
-      "stash": 0.4
+      "injury": "",
+      "stash": 0.25
     },
     {
       "name": "Treylon Burks",
@@ -9491,7 +9491,7 @@
       "fp_std": null,
       "age": 27,
       "years_exp": 5,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.0
     },
     {
@@ -9536,7 +9536,7 @@
       "fp_std": null,
       "age": 27,
       "years_exp": 5,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.0
     },
     {
@@ -9971,7 +9971,7 @@
       "fp_std": null,
       "age": 25,
       "years_exp": 2,
-      "injury": "Out",
+      "injury": "IR",
       "stash": 0.25
     },
     {
@@ -10077,7 +10077,7 @@
       "fp_std": null,
       "age": 24,
       "years_exp": 2,
-      "injury": "Out",
+      "injury": "IR",
       "stash": 0.4
     },
     {
@@ -10107,7 +10107,7 @@
       "fp_std": null,
       "age": 22,
       "years_exp": 1,
-      "injury": "IR",
+      "injury": "",
       "stash": 0.4
     },
     {
@@ -10122,7 +10122,7 @@
       "fp_std": null,
       "age": 27,
       "years_exp": 3,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.0
     },
     {
@@ -10318,7 +10318,7 @@
       "fp_std": null,
       "age": 30,
       "years_exp": 9,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.0,
       "adp_delta": 0.0
     },
@@ -10591,7 +10591,7 @@
       "fp_rank": null,
       "fp_pos_rank": null,
       "fp_std": null,
-      "age": 23,
+      "age": 24,
       "years_exp": 0,
       "injury": "Out",
       "stash": 0.4
@@ -10963,7 +10963,7 @@
       "fp_std": null,
       "age": 26,
       "years_exp": 2,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.25,
       "adp_delta": 0.0
     }
@@ -13687,7 +13687,7 @@
         }
       },
       "brower_barry": {
-        "age_at_draft": 24.8,
+        "age_at_draft": 24.9,
         "rookie_share": 0.22,
         "yr2_share": 0.22,
         "reach": {
@@ -13714,7 +13714,7 @@
         }
       },
       "troy_mullings": {
-        "age_at_draft": 28.1,
+        "age_at_draft": 28.2,
         "rookie_share": 0.02,
         "yr2_share": 0.06,
         "reach": {
@@ -14115,7 +14115,7 @@
             "qb1": 11,
             "qb2": 12,
             "rook_share": 0.14,
-            "age": 25.1
+            "age": 25.2
           },
           "2024": {
             "qb1": 10,
@@ -14173,7 +14173,7 @@
             "qb1": 5,
             "qb2": 8,
             "rook_share": 0.14,
-            "age": 24.4
+            "age": 24.5
           },
           "2021": {
             "qb1": 4,
@@ -14203,7 +14203,7 @@
             "qb1": 4,
             "qb2": 10,
             "rook_share": 0.2,
-            "age": 26.3
+            "age": 26.4
           }
         }
       },
@@ -14289,13 +14289,13 @@
             "qb1": 4,
             "qb2": 4,
             "rook_share": 0.06,
-            "age": 27.8
+            "age": 27.9
           },
           "2024": {
             "qb1": 6,
             "qb2": 9,
             "rook_share": 0.0,
-            "age": 28.0
+            "age": 28.1
           },
           "2025": {
             "qb1": 10,
@@ -14475,7 +14475,7 @@
             "qb1": 4,
             "qb2": 13,
             "rook_share": 0.21,
-            "age": 22.4
+            "age": 22.5
           },
           "2017": {
             "qb1": 3,
@@ -14599,7 +14599,7 @@
             "qb1": 3,
             "qb2": 13,
             "rook_share": 0.07,
-            "age": 25.2
+            "age": 25.3
           },
           "2025": {
             "qb1": 6,
@@ -14807,13 +14807,13 @@
         "qb2_iqr": null,
         "qb2_stable": false,
         "rook_share_mean": 0.25,
-        "age_mean": 23.2,
+        "age_mean": 23.3,
         "by_year": {
           "2019": {
             "qb1": 3,
             "qb2": 4,
             "rook_share": 0.25,
-            "age": 23.2
+            "age": 23.3
           }
         }
       },
@@ -14974,7 +14974,7 @@
       }
     },
     "3": {
-      "age_at_draft": 28.1,
+      "age_at_draft": 28.2,
       "rookie_share": 0.02,
       "yr2_share": 0.06,
       "reach": {
@@ -15109,7 +15109,7 @@
       }
     },
     "8": {
-      "age_at_draft": 24.8,
+      "age_at_draft": 24.9,
       "rookie_share": 0.22,
       "yr2_share": 0.22,
       "reach": {
