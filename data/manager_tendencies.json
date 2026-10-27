@@ -893,8 +893,8 @@
         "2022": {
           "qb1": 7,
           "qb2": 10,
-          "rook_share": 0.29,
-          "age": 23.7
+          "rook_share": 0.23,
+          "age": 23.8
         },
         "2023": {
           "qb1": 8,
@@ -905,8 +905,8 @@
         "2024": {
           "qb1": 1,
           "qb2": 3,
-          "rook_share": 0.13,
-          "age": 24.7
+          "rook_share": 0.2,
+          "age": 24.3
         }
       }
     },
@@ -915,8 +915,8 @@
       "qb2_median": 9,
       "qb2_iqr": 6,
       "qb2_stable": false,
-      "rook_share_mean": 0.19,
-      "age_mean": 24.4,
+      "rook_share_mean": 0.21,
+      "age_mean": 24.3,
       "by_year": {
         "2015": {
           "qb1": 6,
@@ -939,20 +939,20 @@
         "2018": {
           "qb1": 2,
           "qb2": 4,
-          "rook_share": 0.29,
-          "age": 23.6
+          "rook_share": 0.31,
+          "age": 23.7
         },
         "2019": {
           "qb1": 5,
           "qb2": 8,
-          "rook_share": 0.13,
-          "age": 24.3
+          "rook_share": 0.17,
+          "age": 24.2
         },
         "2020": {
           "qb1": 4,
           "qb2": 14,
-          "rook_share": 0.2,
-          "age": 24.3
+          "rook_share": 0.25,
+          "age": 24.4
         },
         "2021": {
           "qb1": 2,
@@ -963,26 +963,26 @@
         "2022": {
           "qb1": 3,
           "qb2": 3,
-          "rook_share": 0.13,
-          "age": 24.8
+          "rook_share": 0.14,
+          "age": 24.6
         },
         "2023": {
           "qb1": 11,
           "qb2": 12,
-          "rook_share": 0.14,
-          "age": 25.2
+          "rook_share": 0.17,
+          "age": 24.9
         },
         "2024": {
           "qb1": 10,
           "qb2": 13,
-          "rook_share": 0.12,
-          "age": 26.3
+          "rook_share": 0.14,
+          "age": 26.1
         },
         "2025": {
           "qb1": 11,
           "qb2": 14,
-          "rook_share": 0.14,
-          "age": 27.3
+          "rook_share": 0.13,
+          "age": 27.5
         }
       }
     },
@@ -991,13 +991,13 @@
       "qb2_median": 9,
       "qb2_iqr": 4,
       "qb2_stable": false,
-      "rook_share_mean": 0.11,
-      "age_mean": 24.8,
+      "rook_share_mean": 0.12,
+      "age_mean": 24.9,
       "by_year": {
         "2015": {
           "qb1": 1,
           "qb2": 6,
-          "rook_share": 0.07,
+          "rook_share": 0.06,
           "age": 22.3
         },
         "2016": {
@@ -1021,13 +1021,13 @@
         "2019": {
           "qb1": 4,
           "qb2": 10,
-          "rook_share": 0.27,
-          "age": 24.9
+          "rook_share": 0.21,
+          "age": 25.0
         },
         "2020": {
           "qb1": 5,
           "qb2": 8,
-          "rook_share": 0.14,
+          "rook_share": 0.15,
           "age": 24.5
         },
         "2021": {
@@ -1040,25 +1040,25 @@
           "qb1": 4,
           "qb2": 6,
           "rook_share": 0.0,
-          "age": 26.5
+          "age": 26.9
         },
         "2023": {
           "qb1": 2,
           "qb2": 5,
-          "rook_share": 0.13,
-          "age": 26.7
+          "rook_share": 0.15,
+          "age": 27.2
         },
         "2024": {
           "qb1": 8,
           "qb2": 9,
-          "rook_share": 0.0,
-          "age": 27.6
+          "rook_share": 0.07,
+          "age": 27.5
         },
         "2025": {
           "qb1": 4,
           "qb2": 10,
-          "rook_share": 0.2,
-          "age": 26.4
+          "rook_share": 0.27,
+          "age": 26.1
         }
       }
     },
@@ -1089,7 +1089,7 @@
       "qb2_median": 10,
       "qb2_iqr": 3,
       "qb2_stable": true,
-      "rook_share_mean": 0.08,
+      "rook_share_mean": 0.07,
       "age_mean": 25.3,
       "by_year": {
         "2015": {
@@ -1137,14 +1137,14 @@
         "2022": {
           "qb1": 9,
           "qb2": 10,
-          "rook_share": 0.19,
-          "age": 25.6
+          "rook_share": 0.2,
+          "age": 25.3
         },
         "2023": {
           "qb1": 4,
-          "qb2": 4,
-          "rook_share": 0.06,
-          "age": 27.9
+          "qb2": 8,
+          "rook_share": 0.0,
+          "age": 28.3
         },
         "2024": {
           "qb1": 6,
@@ -1189,8 +1189,8 @@
         "2018": {
           "qb1": 4,
           "qb2": 6,
-          "rook_share": 0.18,
-          "age": 22.8
+          "rook_share": 0.19,
+          "age": 22.9
         },
         "2019": {
           "qb1": 5,
@@ -1207,26 +1207,26 @@
         "2021": {
           "qb1": 5,
           "qb2": 6,
-          "rook_share": 0.33,
-          "age": 25.7
+          "rook_share": 0.29,
+          "age": 25.9
         },
         "2022": {
           "qb1": 1,
           "qb2": 1,
-          "rook_share": 0.14,
-          "age": 25.3
+          "rook_share": 0.13,
+          "age": 25.1
         },
         "2023": {
           "qb1": 1,
           "qb2": 4,
-          "rook_share": 0.36,
+          "rook_share": 0.33,
           "age": 24.1
         },
         "2024": {
           "qb1": 6,
           "qb2": 9,
           "rook_share": 0.36,
-          "age": 25.1
+          "age": 25.2
         },
         "2025": {
           "qb1": 4,
@@ -1241,7 +1241,7 @@
       "qb2_median": 8,
       "qb2_iqr": 4,
       "qb2_stable": false,
-      "rook_share_mean": 0.13,
+      "rook_share_mean": 0.14,
       "age_mean": 24.2,
       "by_year": {
         "2015": {
@@ -1295,19 +1295,19 @@
         "2023": {
           "qb1": 3,
           "qb2": 8,
-          "rook_share": 0.07,
-          "age": 26.9
+          "rook_share": 0.12,
+          "age": 26.3
         },
         "2024": {
           "qb1": 2,
-          "qb2": 2,
-          "rook_share": 0.06,
-          "age": 25.6
+          "qb2": 8,
+          "rook_share": 0.07,
+          "age": 25.8
         },
         "2025": {
           "qb1": 1,
           "qb2": 9,
-          "rook_share": 0.29,
+          "rook_share": 0.27,
           "age": 25.3
         }
       }
@@ -1335,8 +1335,8 @@
         "2017": {
           "qb1": 3,
           "qb2": 5,
-          "rook_share": 0.19,
-          "age": 22.7
+          "rook_share": 0.18,
+          "age": 22.8
         },
         "2018": {
           "qb1": 3,
@@ -1359,14 +1359,14 @@
         "2021": {
           "qb1": 7,
           "qb2": null,
-          "rook_share": 0.12,
-          "age": 24.2
+          "rook_share": 0.13,
+          "age": 24.1
         },
         "2022": {
           "qb1": 5,
           "qb2": 13,
-          "rook_share": 0.29,
-          "age": 22.9
+          "rook_share": 0.25,
+          "age": 23.1
         },
         "2023": {
           "qb1": 3,
@@ -1377,14 +1377,14 @@
         "2024": {
           "qb1": 3,
           "qb2": 4,
-          "rook_share": 0.18,
+          "rook_share": 0.12,
           "age": 24.1
         },
         "2025": {
           "qb1": 1,
           "qb2": 5,
-          "rook_share": 0.0,
-          "age": 26.6
+          "rook_share": 0.06,
+          "age": 26.1
         }
       }
     },
@@ -1399,13 +1399,13 @@
         "2015": {
           "qb1": 2,
           "qb2": 6,
-          "rook_share": 0.11,
+          "rook_share": 0.06,
           "age": 21.2
         },
         "2016": {
           "qb1": 5,
           "qb2": 11,
-          "rook_share": 0.11,
+          "rook_share": 0.12,
           "age": 23.1
         },
         "2017": {
@@ -1448,7 +1448,7 @@
           "qb1": 1,
           "qb2": 2,
           "rook_share": 0.07,
-          "age": 25.5
+          "age": 25.4
         },
         "2024": {
           "qb1": 3,
@@ -1459,8 +1459,8 @@
         "2025": {
           "qb1": 6,
           "qb2": 11,
-          "rook_share": 0.21,
-          "age": 25.2
+          "rook_share": 0.29,
+          "age": 24.7
         }
       }
     },
@@ -1470,7 +1470,7 @@
       "qb2_iqr": 3,
       "qb2_stable": true,
       "rook_share_mean": 0.04,
-      "age_mean": 25.4,
+      "age_mean": 25.5,
       "by_year": {
         "2015": {
           "qb1": 2,
@@ -1505,26 +1505,26 @@
         "2020": {
           "qb1": 3,
           "qb2": 4,
-          "rook_share": 0.13,
-          "age": 24.8
+          "rook_share": 0.14,
+          "age": 24.9
         },
         "2021": {
           "qb1": 2,
           "qb2": 4,
           "rook_share": 0.0,
-          "age": 25.3
+          "age": 25.4
         },
         "2022": {
           "qb1": 2,
           "qb2": 3,
           "rook_share": 0.0,
-          "age": 27.7
+          "age": 27.8
         },
         "2023": {
           "qb1": 3,
           "qb2": 9,
-          "rook_share": 0.14,
-          "age": 27.0
+          "rook_share": 0.13,
+          "age": 27.2
         },
         "2024": {
           "qb1": 5,
@@ -1536,7 +1536,7 @@
           "qb1": 5,
           "qb2": 11,
           "rook_share": 0.0,
-          "age": 27.2
+          "age": 27.0
         }
       }
     },
@@ -1545,7 +1545,7 @@
       "qb2_median": 6,
       "qb2_iqr": 3,
       "qb2_stable": true,
-      "rook_share_mean": 0.19,
+      "rook_share_mean": 0.18,
       "age_mean": 24.3,
       "by_year": {
         "2017": {
@@ -1575,14 +1575,14 @@
         "2021": {
           "qb1": 4,
           "qb2": 6,
-          "rook_share": 0.27,
-          "age": 23.9
+          "rook_share": 0.29,
+          "age": 23.6
         },
         "2022": {
           "qb1": 2,
           "qb2": 6,
-          "rook_share": 0.27,
-          "age": 23.7
+          "rook_share": 0.21,
+          "age": 23.8
         },
         "2023": {
           "qb1": 2,
@@ -1593,8 +1593,8 @@
         "2024": {
           "qb1": 1,
           "qb2": 2,
-          "rook_share": 0.29,
-          "age": 25.6
+          "rook_share": 0.27,
+          "age": 25.5
         },
         "2025": {
           "qb1": 1,
@@ -1610,7 +1610,7 @@
       "qb2_iqr": 0,
       "qb2_stable": true,
       "rook_share_mean": 0.18,
-      "age_mean": 24.9,
+      "age_mean": 24.8,
       "by_year": {
         "2019": {
           "qb1": 4,
@@ -1622,19 +1622,19 @@
           "qb1": 3,
           "qb2": 9,
           "rook_share": 0.07,
-          "age": 25.5
+          "age": 25.4
         },
         "2021": {
           "qb1": 6,
           "qb2": 7,
           "rook_share": 0.21,
-          "age": 24.5
+          "age": 24.4
         },
         "2022": {
           "qb1": 5,
           "qb2": 7,
           "rook_share": 0.14,
-          "age": 26.0
+          "age": 25.9
         },
         "2023": {
           "qb1": 3,
@@ -1645,8 +1645,8 @@
         "2024": {
           "qb1": 2,
           "qb2": 7,
-          "rook_share": 0.29,
-          "age": 25.4
+          "rook_share": 0.31,
+          "age": 25.2
         },
         "2025": {
           "qb1": 1,
@@ -1677,14 +1677,14 @@
       "qb2_median": 13,
       "qb2_iqr": null,
       "qb2_stable": false,
-      "rook_share_mean": 0.0,
-      "age_mean": 25.9,
+      "rook_share_mean": 0.07,
+      "age_mean": 25.7,
       "by_year": {
         "2020": {
           "qb1": 5,
           "qb2": 13,
-          "rook_share": 0.0,
-          "age": 25.9
+          "rook_share": 0.07,
+          "age": 25.7
         }
       }
     },
@@ -1693,14 +1693,14 @@
       "qb2_median": 9,
       "qb2_iqr": 2,
       "qb2_stable": true,
-      "rook_share_mean": 0.2,
+      "rook_share_mean": 0.19,
       "age_mean": 25.4,
       "by_year": {
         "2021": {
           "qb1": 3,
           "qb2": 6,
-          "rook_share": 0.27,
-          "age": 25.3
+          "rook_share": 0.23,
+          "age": 25.8
         },
         "2022": {
           "qb1": 4,
@@ -1712,19 +1712,19 @@
           "qb1": 7,
           "qb2": 12,
           "rook_share": 0.21,
-          "age": 24.1
+          "age": 23.9
         },
         "2024": {
           "qb1": 2,
           "qb2": 9,
-          "rook_share": 0.23,
-          "age": 25.8
+          "rook_share": 0.27,
+          "age": 25.5
         },
         "2025": {
           "qb1": 2,
           "qb2": 7,
-          "rook_share": 0.14,
-          "age": 25.6
+          "rook_share": 0.13,
+          "age": 25.5
         }
       }
     },
@@ -1733,14 +1733,14 @@
       "qb2_median": 6,
       "qb2_iqr": null,
       "qb2_stable": false,
-      "rook_share_mean": 0.07,
-      "age_mean": 27.0,
+      "rook_share_mean": 0.08,
+      "age_mean": 27.3,
       "by_year": {
         "2025": {
           "qb1": 5,
           "qb2": 6,
-          "rook_share": 0.07,
-          "age": 27.0
+          "rook_share": 0.08,
+          "age": 27.3
         }
       }
     }

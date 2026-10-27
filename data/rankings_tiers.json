@@ -1,59 +1,59 @@
 {
  "meta": {
   "source": "fantasyfootballtiers.com (clustered expert consensus, half-PPR; QB list is 1QB-ordered)",
-  "fetched": "2026-10-20"
+  "fetched": "2026-10-27"
  },
  "tiers": {
   "QB": [
    {
     "tier": 1,
     "players": [
-     "Josh Allen",
-     "Brock Purdy",
-     "Matthew Stafford",
      "Drake Maye",
-     "Jordan Love"
+     "Jordan Love",
+     "Brock Purdy",
+     "Jared Goff",
+     "Caleb Williams",
+     "Joe Burrow"
     ]
    },
    {
     "tier": 2,
     "players": [
+     "C.J. Stroud",
      "Dak Prescott",
-     "Caleb Williams",
-     "Jayden Daniels",
-     "Patrick Mahomes II"
+     "Matthew Stafford",
+     "Bryce Young",
+     "Kyler Murray"
     ]
    },
    {
     "tier": 3,
     "players": [
+     "Aaron Rodgers",
      "Tyler Shough",
-     "Trevor Lawrence",
-     "Kirk Cousins",
-     "Bryce Young",
-     "C.J. Stroud"
+     "Bo Nix",
+     "Patrick Mahomes II"
     ]
    },
    {
     "tier": 4,
     "players": [
-     "Jacoby Brissett",
-     "Jameis Winston",
      "Deshaun Watson",
-     "Daniel Jones",
-     "Michael Penix Jr.",
-     "Aaron Rodgers"
+     "Kirk Cousins",
+     "Baker Mayfield",
+     "Geno Smith",
+     "Michael Penix Jr."
     ]
    },
    {
     "tier": 5,
     "players": [
-     "Jalon Daniels",
-     "Tyler Huntley",
+     "Jacoby Brissett",
      "Sam Darnold",
-     "Bo Nix",
-     "Justin Herbert",
-     "Cam Ward"
+     "Tanner McKee",
+     "Tyler Huntley",
+     "J.J. McCarthy",
+     "Malik Willis"
     ]
    }
   ],
@@ -61,76 +61,76 @@
    {
     "tier": 1,
     "players": [
+     "Jahmyr Gibbs",
      "Bijan Robinson",
-     "Kenneth Walker III",
-     "Jonathan Taylor",
      "Christian McCaffrey",
-     "Kyren Williams",
-     "Derrick Henry",
-     "James Cook III"
+     "Kenneth Walker III",
+     "Kyren Williams"
     ]
    },
    {
     "tier": 2,
     "players": [
+     "Derrick Henry",
      "Javonte Williams",
      "D'Andre Swift",
+     "Jonathan Taylor",
      "Chuba Hubbard",
-     "Jaylen Warren",
-     "Ashton Jeanty"
+     "Jaylen Warren"
     ]
    },
    {
     "tier": 3,
     "players": [
-     "Rhamondre Stevenson",
      "Bucky Irving",
-     "Braelon Allen",
-     "Bhayshul Tuten",
-     "Emanuel Wilson"
+     "Woody Marks",
+     "Ashton Jeanty",
+     "Saquon Barkley",
+     "Chase Brown",
+     "Braelon Allen"
     ]
    },
    {
     "tier": 4,
     "players": [
-     "MarShawn Lloyd",
-     "Woody Marks",
+     "Josh Jacobs",
+     "Ollie Gordon II",
+     "Rhamondre Stevenson",
      "Tony Pollard",
-     "Dameon Pierce",
-     "Tyler Allgeier",
-     "Rachaad White",
-     "Cam Skattebo"
+     "Aaron Jones Sr.",
+     "J.K. Dobbins"
     ]
    },
    {
     "tier": 5,
     "players": [
-     "J.K. Dobbins",
-     "Blake Corum",
-     "Alvin Kamara",
-     "Omarion Hampton",
+     "Emanuel Wilson",
+     "Quinshon Judkins",
      "RJ Harvey",
-     "Kendre Miller"
+     "Jordan Mason",
+     "Blake Corum",
+     "Kendre Miller",
+     "Tyler Allgeier"
     ]
    },
    {
     "tier": 6,
     "players": [
-     "Keaton Mitchell",
-     "Brian Robinson Jr.",
-     "Tyjae Spears",
-     "Najee Harris",
-     "Jaleel McLaughlin"
+     "Alvin Kamara",
+     "Roschon Johnson",
+     "Rico Dowdle",
+     "Cam Skattebo",
+     "Bam Knight"
     ]
    },
    {
     "tier": 7,
     "players": [
-     "Kenny Gainwell",
-     "George Holani",
-     "Kimani Vidal",
-     "Roschon Johnson",
-     "Rico Dowdle"
+     "Samaje Perine",
+     "TreVeyon Henderson",
+     "Tyrone Tracy Jr.",
+     "Mike Washington Jr.",
+     "Kenny Gainwell"
     ]
    }
   ],
@@ -138,101 +138,101 @@
    {
     "tier": 1,
     "players": [
-     "Puka Nacua",
      "Jaxon Smith-Njigba",
-     "CeeDee Lamb",
-     "Drake London",
-     "Christian Watson",
-     "Chris Olave",
-     "Nico Collins",
-     "Malik Nabers"
+     "Amon-Ra St. Brown",
+     "Puka Nacua",
+     "Ja'Marr Chase",
+     "CeeDee Lamb"
     ]
    },
    {
     "tier": 2,
     "players": [
-     "Mike Evans",
-     "Davante Adams",
-     "George Pickens",
+     "Drake London",
+     "Christian Watson",
+     "Justin Jefferson",
      "Matthew Golden",
-     "Garrett Wilson",
-     "Parker Washington",
-     "Zay Flowers",
-     "Tetairoa McMillan"
+     "Chris Olave",
+     "Nico Collins",
+     "Zay Flowers"
     ]
    },
    {
     "tier": 3,
     "players": [
-     "Michael Wilson",
+     "Malik Nabers",
+     "Tetairoa McMillan",
+     "A.J. Brown",
+     "Tee Higgins",
+     "Garrett Wilson",
      "Jalen Coker",
-     "Luther Burden III"
+     "George Pickens"
     ]
    },
    {
     "tier": 4,
     "players": [
      "DK Metcalf",
-     "Josh Downs",
-     "Denzel Boston",
-     "A.J. Brown",
-     "Terry McLaurin",
-     "DeVonta Smith",
+     "Germie Bernard",
+     "Luther Burden III",
+     "Michael Wilson",
+     "Jameson Williams",
      "Carnell Tate",
      "Jaylen Waddle",
-     "Xavier Worthy",
-     "Rome Odunze"
+     "Denzel Boston",
+     "Xavier Worthy"
     ]
    },
    {
     "tier": 5,
     "players": [
-     "Devaughn Vele",
      "Tre Tucker",
-     "Germie Bernard",
-     "Emeka Egbuka",
      "Keenan Allen",
-     "Ladd McConkey",
-     "Wan'Dale Robinson",
-     "Khalil Shakir",
-     "Romeo Doubs",
-     "Jakobi Meyers"
+     "Chris Godwin Jr.",
+     "Rome Odunze",
+     "Devaughn Vele",
+     "Malik Washington",
+     "KC Concepcion Jr.",
+     "Jordan Addison",
+     "Josh Downs",
+     "Omar Cooper Jr.",
+     "DeMario Douglas"
     ]
    },
    {
     "tier": 6,
     "players": [
+     "Wan'Dale Robinson",
      "Courtland Sutton",
-     "Keon Coleman",
-     "Dontayvion Wicks",
+     "Makai Lemon",
      "Ryan Flournoy",
-     "KC Concepcion Jr.",
+     "Jaylin Noel",
      "Kendrick Bourne",
-     "Chris Godwin Jr.",
-     "Kalif Raymond",
-     "DJ Moore",
-     "Stefon Diggs"
+     "Marvin Harrison Jr."
     ]
    },
    {
     "tier": 7,
     "players": [
-     "Makai Lemon",
      "Brandin Cooks",
-     "DeMario Douglas",
+     "Ja'Kobi Lane",
+     "Ted Hurst III",
      "Rashid Shaheed",
-     "Antonio Williams",
-     "Brian Thomas Jr."
+     "Konata Mumpfield",
+     "Jahan Dotson",
+     "Kalif Raymond",
+     "Cooper Kupp",
+     "Christian Kirk"
     ]
    },
    {
     "tier": 8,
     "players": [
-     "Jaylin Noel",
-     "Rashod Bateman",
-     "Cooper Kupp",
+     "Darius Cooper",
+     "Jordan Watkins",
      "Malachi Fields",
-     "Marvin Harrison Jr."
+     "Rashod Bateman",
+     "Jerry Jeudy"
     ]
    }
   ],
@@ -241,49 +241,49 @@
     "tier": 1,
     "players": [
      "Brock Bowers",
-     "Trey McBride",
      "George Kittle",
-     "Isaiah Likely",
-     "Tucker Kraft",
-     "Travis Kelce"
+     "Trey McBride",
+     "Sam LaPorta",
+     "Isaiah Likely"
     ]
    },
    {
     "tier": 2,
     "players": [
-     "Dalton Kincaid",
+     "Tucker Kraft",
+     "Colston Loveland",
      "Dallas Goedert",
-     "Juwan Johnson",
-     "Harold Fannin Jr."
+     "Travis Kelce",
+     "Tyler Higbee"
     ]
    },
    {
     "tier": 3,
     "players": [
-     "Colston Loveland",
-     "Brenton Strange",
+     "Kyle Pitts Sr.",
+     "T.J. Hockenson",
+     "Harold Fannin Jr.",
+     "Juwan Johnson",
+     "Mark Andrews",
      "Pat Freiermuth",
-     "Tyler Higbee",
-     "Mark Andrews"
+     "Hunter Henry"
     ]
    },
    {
     "tier": 4,
     "players": [
-     "Hunter Henry",
-     "Kyle Pitts Sr.",
-     "Darren Waller",
      "Dalton Schultz",
-     "Jake Ferguson"
+     "Michael Mayer",
+     "Cade Otton",
+     "AJ Barner",
+     "Colby Parkinson"
     ]
    },
    {
     "tier": 5,
     "players": [
-     "AJ Barner",
-     "Chig Okonkwo",
-     "Cade Otton",
-     "Michael Mayer",
+     "Darren Waller",
+     "Mike Gesicki",
      "Darnell Washington"
     ]
    }

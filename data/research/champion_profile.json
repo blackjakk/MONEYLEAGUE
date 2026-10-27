@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-10-20",
+    "generated": "2026-10-27",
     "seasons": [
       2023,
       2024,
@@ -151,7 +151,7 @@
       "season": 2025,
       "status": "RUNNER",
       "mgr": "Wi1dboy",
-      "player": "Kyle Pitts",
+      "player": "Kyle Pitts Sr.",
       "pos": "TE",
       "how": "waiver",
       "week": 13,
@@ -195,7 +195,7 @@
     {
       "season": 2023,
       "mgr": "emattessich",
-      "player": "Travis Etienne",
+      "player": "Travis Etienne Jr.",
       "pos": "RB",
       "cost_round": 10,
       "adp_round": 3.7,
@@ -266,7 +266,7 @@
   ],
   "benchmark": {
     "meta": {
-      "generated": "2026-10-20",
+      "generated": "2026-10-27",
       "leagues_graded": 9,
       "league_seasons": [
         {
@@ -467,8 +467,8 @@
       "year": 2024,
       "champ": "coop",
       "qb1": 2,
-      "qb2": 2,
-      "early": true,
+      "qb2": 8,
+      "early": false,
       "pf_rank": null,
       "n_teams": null
     },

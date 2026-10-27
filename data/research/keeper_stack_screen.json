@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-10-20",
+    "generated": "2026-10-27",
     "season": 2026,
     "basis": "ACTUAL declarations",
     "criteria": "rank-1 surplus >= 120 blind-curve pts with >= 50% of keepers proven (kept-again or positive realized VBD the season before)",
@@ -141,8 +141,8 @@
       "is_me": false,
       "n_keepers": 4,
       "surplus": 180.5,
-      "proven": 4,
-      "proven_share": 1.0,
+      "proven": 3,
+      "proven_share": 0.75,
       "keeper_value": 222.1,
       "pick_value": 309.2,
       "war_chest": 531.3,
@@ -177,7 +177,7 @@
           "cost_round": 15,
           "adp_round": 6.6,
           "surplus": 7.2,
-          "proven": true
+          "proven": false
         }
       ],
       "rank": 1,
@@ -413,8 +413,8 @@
       "is_me": false,
       "n_keepers": 3,
       "surplus": 21.2,
-      "proven": 3,
-      "proven_share": 1.0,
+      "proven": 2,
+      "proven_share": 0.67,
       "keeper_value": 52.9,
       "pick_value": 248.8,
       "war_chest": 301.7,
@@ -433,7 +433,7 @@
           "cost_round": 6,
           "adp_round": 4.5,
           "surplus": 7.0,
-          "proven": true
+          "proven": false
         },
         {
           "player": "Dallas Goedert",
@@ -533,7 +533,7 @@
     "top": "brower_barry",
     "top_surplus": 180.5,
     "second_surplus": 172.5,
-    "top_proven_share": 1.0,
+    "top_proven_share": 0.75,
     "top_war_rank": 4,
     "war_leader": "kyle_figgy",
     "war_leader_chest": 656.2

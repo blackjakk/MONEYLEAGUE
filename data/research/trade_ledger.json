@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20",
+ "generated": "2026-10-27",
  "seasons": [
   2023,
   2024,
@@ -224,7 +224,7 @@
        },
        {
         "id": "9229",
-        "name": "Anthony Richardson",
+        "name": "Anthony Richardson Sr.",
         "pos": "QB",
         "ros_pts": 34.0,
         "ros_par": -3.3
@@ -275,7 +275,7 @@
        },
        {
         "id": "9229",
-        "name": "Anthony Richardson",
+        "name": "Anthony Richardson Sr.",
         "pos": "QB",
         "ros_pts": 34.0,
         "ros_par": -3.3
@@ -3920,7 +3920,7 @@
       "players": [
        {
         "id": "8151",
-        "name": "Kenneth Walker",
+        "name": "Kenneth Walker III",
         "pos": "RB",
         "ros_pts": 39.7,
         "ros_par": 6.9
@@ -3983,7 +3983,7 @@
       "players": [
        {
         "id": "8151",
-        "name": "Kenneth Walker",
+        "name": "Kenneth Walker III",
         "pos": "RB",
         "ros_pts": 39.7,
         "ros_par": 6.9
@@ -4837,7 +4837,7 @@
       "players": [
        {
         "id": "8154",
-        "name": "Brian Robinson",
+        "name": "Brian Robinson Jr.",
         "pos": "RB",
         "ros_pts": 28.3,
         "ros_par": -28.4
@@ -4856,7 +4856,7 @@
       "players": [
        {
         "id": "8154",
-        "name": "Brian Robinson",
+        "name": "Brian Robinson Jr.",
         "pos": "RB",
         "ros_pts": 28.3,
         "ros_par": -28.4
@@ -4905,7 +4905,7 @@
        },
        {
         "id": "8138",
-        "name": "James Cook",
+        "name": "James Cook III",
         "pos": "RB",
         "ros_pts": 130.8,
         "ros_par": 74.1
@@ -5004,7 +5004,7 @@
        },
        {
         "id": "8138",
-        "name": "James Cook",
+        "name": "James Cook III",
         "pos": "RB",
         "ros_pts": 130.8,
         "ros_par": 74.1
@@ -5072,7 +5072,7 @@
     "counterparty": "dibach215",
     "received": [
      "George Pickens",
-     "James Cook",
+     "James Cook III",
      "R13 '26 pick",
      "R14 '26 pick"
     ]

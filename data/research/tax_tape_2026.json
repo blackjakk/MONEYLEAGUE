@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "generated": "2026-10-20",
+  "generated": "2026-10-27",
   "playoff_week_start": 15,
   "tape": [
     {
@@ -56,6 +56,15 @@
       "top_pts": 172.42,
       "fine": 20,
       "low_week_no": 2
+    },
+    {
+      "week": 7,
+      "low": "troy_mullings",
+      "low_pts": 97.74,
+      "top": "brower_barry",
+      "top_pts": 148.1,
+      "fine": 20,
+      "low_week_no": 2
     }
   ],
   "ledger": {
@@ -90,8 +99,8 @@
       "collected": 0
     },
     "troy_mullings": {
-      "lows": 1,
-      "paid": 15,
+      "lows": 2,
+      "paid": 35,
       "tops": 0,
       "collected": 0
     },
@@ -101,13 +110,13 @@
       "tops": 2,
       "collected": 35
     },
-    "brian_bigguap": {
+    "brower_barry": {
       "lows": 0,
       "paid": 0,
-      "tops": 0,
-      "collected": 0
+      "tops": 1,
+      "collected": 20
     },
-    "brower_barry": {
+    "brian_bigguap": {
       "lows": 0,
       "paid": 0,
       "tops": 0,
