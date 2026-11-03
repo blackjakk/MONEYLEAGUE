@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-10-27",
+    "generated": "2026-11-03",
     "seasons_used": [
       2023,
       2024
@@ -274,7 +274,7 @@
           "name": "Xavier Worthy",
           "pos": "WR",
           "stash": 0.4,
-          "survival": 0.53,
+          "survival": 0.6,
           "adp": 141.0,
           "keeper_cost": "R8"
         }
@@ -398,7 +398,7 @@
           "name": "Antonio Williams",
           "pos": "WR",
           "stash": 0.4,
-          "survival": 0.61,
+          "survival": 0.58,
           "adp": 179.8,
           "keeper_cost": "R12"
         }
@@ -426,11 +426,11 @@
           "keeper_cost": "R13"
         },
         {
-          "name": "Mike Washington",
-          "pos": "RB",
+          "name": "Jalen McMillan",
+          "pos": "WR",
           "stash": 0.4,
-          "survival": 1.0,
-          "adp": 190.6,
+          "survival": 0.7,
+          "adp": 192.0,
           "keeper_cost": "R13"
         }
       ]
@@ -440,14 +440,6 @@
       "overall": 187,
       "option_value": 6.1,
       "candidates": [
-        {
-          "name": "Jalen McMillan",
-          "pos": "WR",
-          "stash": 0.4,
-          "survival": 0.7,
-          "adp": 192.0,
-          "keeper_cost": "R14"
-        },
         {
           "name": "Jonathon Brooks",
           "pos": "RB",
@@ -463,6 +455,14 @@
           "survival": 1.0,
           "adp": 195.2,
           "keeper_cost": "R14"
+        },
+        {
+          "name": "Pat Bryant",
+          "pos": "WR",
+          "stash": 0.4,
+          "survival": 0.9,
+          "adp": 196.1,
+          "keeper_cost": "R14"
         }
       ]
     },
@@ -471,14 +471,6 @@
       "overall": 198,
       "option_value": 13.3,
       "candidates": [
-        {
-          "name": "Pat Bryant",
-          "pos": "WR",
-          "stash": 0.4,
-          "survival": 0.9,
-          "adp": 196.1,
-          "keeper_cost": "R15"
-        },
         {
           "name": "Chimere Dike",
           "pos": "WR",
@@ -493,6 +485,14 @@
           "stash": 0.4,
           "survival": 0.8,
           "adp": 204.8,
+          "keeper_cost": "R15"
+        },
+        {
+          "name": "Kaytron Allen",
+          "pos": "RB",
+          "stash": 0.4,
+          "survival": 1.0,
+          "adp": 206.7,
           "keeper_cost": "R15"
         }
       ]
