@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "generated": "2026-10-27",
+  "generated": "2026-11-03",
   "playoff_week_start": 15,
   "tape": [
     {
@@ -65,6 +65,15 @@
       "top_pts": 148.1,
       "fine": 20,
       "low_week_no": 2
+    },
+    {
+      "week": 8,
+      "low": "tim_breswick",
+      "low_pts": 66.66,
+      "top": "coop",
+      "top_pts": 173.6,
+      "fine": 15,
+      "low_week_no": 1
     }
   ],
   "ledger": {
@@ -116,6 +125,18 @@
       "tops": 1,
       "collected": 20
     },
+    "tim_breswick": {
+      "lows": 1,
+      "paid": 15,
+      "tops": 0,
+      "collected": 0
+    },
+    "coop": {
+      "lows": 0,
+      "paid": 0,
+      "tops": 1,
+      "collected": 15
+    },
     "brian_bigguap": {
       "lows": 0,
       "paid": 0,
@@ -123,18 +144,6 @@
       "collected": 0
     },
     "eric_m": {
-      "lows": 0,
-      "paid": 0,
-      "tops": 0,
-      "collected": 0
-    },
-    "tim_breswick": {
-      "lows": 0,
-      "paid": 0,
-      "tops": 0,
-      "collected": 0
-    },
-    "coop": {
       "lows": 0,
       "paid": 0,
       "tops": 0,

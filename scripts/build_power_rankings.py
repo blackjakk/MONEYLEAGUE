@@ -2211,7 +2211,7 @@ def _find_chromium() -> str | None:
     env = os.environ.get("CHROMIUM_EXEC")
     if env and Path(env).exists():
         return env
-    hits = sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux/chrome"))
+    hits = sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux*/chrome"))
     if hits:
         os.environ.setdefault("PLAYWRIGHT_BROWSERS_PATH", "/opt/pw-browsers")
         return hits[-1]
