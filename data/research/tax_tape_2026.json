@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "generated": "2026-11-03",
+  "generated": "2026-11-10",
   "playoff_week_start": 15,
   "tape": [
     {
@@ -74,6 +74,15 @@
       "top_pts": 173.6,
       "fine": 15,
       "low_week_no": 1
+    },
+    {
+      "week": 9,
+      "low": "eric_m",
+      "low_pts": 88.44,
+      "top": "brian_bigguap",
+      "top_pts": 162.2,
+      "fine": 15,
+      "low_week_no": 1
     }
   ],
   "ledger": {
@@ -137,17 +146,17 @@
       "tops": 1,
       "collected": 15
     },
-    "brian_bigguap": {
-      "lows": 0,
-      "paid": 0,
+    "eric_m": {
+      "lows": 1,
+      "paid": 15,
       "tops": 0,
       "collected": 0
     },
-    "eric_m": {
+    "brian_bigguap": {
       "lows": 0,
       "paid": 0,
-      "tops": 0,
-      "collected": 0
+      "tops": 1,
+      "collected": 15
     }
   }
 }
