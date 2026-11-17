@@ -73,7 +73,7 @@
       "fp_std": null,
       "age": 25,
       "years_exp": 3,
-      "injury": "Questionable",
+      "injury": "IR",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -653,7 +653,7 @@
       "fp_std": null,
       "age": 23,
       "years_exp": 2,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -769,7 +769,7 @@
       "fp_std": null,
       "age": 25,
       "years_exp": 4,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -798,7 +798,7 @@
       "fp_std": null,
       "age": 25,
       "years_exp": 4,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -827,7 +827,7 @@
       "fp_std": null,
       "age": 24,
       "years_exp": 2,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -1059,7 +1059,7 @@
       "fp_std": null,
       "age": 28,
       "years_exp": 6,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -1117,7 +1117,7 @@
       "fp_std": null,
       "age": 26,
       "years_exp": 4,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -1695,10 +1695,10 @@
       "fp_rank": null,
       "fp_pos_rank": null,
       "fp_std": null,
-      "age": 24,
+      "age": 25,
       "years_exp": 2,
-      "injury": "Questionable",
-      "stash": 0.4,
+      "injury": "Out",
+      "stash": 0.25,
       "adp_delta": 0.0,
       "svq": [
         3,
@@ -1724,7 +1724,7 @@
       "fp_rank": null,
       "fp_pos_rank": null,
       "fp_std": null,
-      "age": 27,
+      "age": 28,
       "years_exp": 5,
       "injury": "Out",
       "stash": 0.0,
@@ -1842,7 +1842,7 @@
       "fp_std": null,
       "age": 31,
       "years_exp": 9,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -1958,7 +1958,7 @@
       "fp_std": null,
       "age": 24,
       "years_exp": 1,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -1987,7 +1987,7 @@
       "fp_std": null,
       "age": 31,
       "years_exp": 8,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -2361,7 +2361,7 @@
       "fp_std": null,
       "age": 24,
       "years_exp": 1,
-      "injury": "Out",
+      "injury": "IR",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -2592,7 +2592,7 @@
       "fp_std": null,
       "age": 28,
       "years_exp": 5,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -2992,7 +2992,7 @@
       "fp_std": null,
       "age": 37,
       "years_exp": 13,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -3275,7 +3275,7 @@
       "fp_std": null,
       "age": 26,
       "years_exp": 3,
-      "injury": "Out",
+      "injury": "IR",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -3590,7 +3590,7 @@
       "fp_std": null,
       "age": 27,
       "years_exp": 4,
-      "injury": "Questionable",
+      "injury": "IR",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -4102,7 +4102,7 @@
       "fp_std": null,
       "age": 23,
       "years_exp": 1,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -4386,7 +4386,7 @@
       "fp_rank": null,
       "fp_pos_rank": null,
       "fp_std": null,
-      "age": 34,
+      "age": 35,
       "years_exp": 12,
       "injury": "",
       "stash": 0.0,
@@ -4444,7 +4444,7 @@
       "fp_std": null,
       "age": 24,
       "years_exp": 3,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.15,
       "adp_delta": 0.0,
       "svq": [
@@ -4473,7 +4473,7 @@
       "fp_std": null,
       "age": 23,
       "years_exp": 2,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -5157,7 +5157,7 @@
       "fp_std": null,
       "age": 25,
       "years_exp": 4,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -5184,7 +5184,7 @@
       "fp_rank": null,
       "fp_pos_rank": null,
       "fp_std": null,
-      "age": 30,
+      "age": 31,
       "years_exp": 8,
       "injury": "",
       "stash": 0.0,
@@ -5695,7 +5695,7 @@
       "fp_std": null,
       "age": 29,
       "years_exp": 7,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -5854,7 +5854,7 @@
       "fp_std": null,
       "age": 28,
       "years_exp": 4,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -6043,7 +6043,7 @@
       "fp_std": null,
       "age": 36,
       "years_exp": 13,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -6319,7 +6319,7 @@
       "fp_std": null,
       "age": 31,
       "years_exp": 10,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -6594,7 +6594,7 @@
       "fp_std": null,
       "age": 25,
       "years_exp": 3,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -7127,7 +7127,7 @@
       "fp_std": null,
       "age": 30,
       "years_exp": 9,
-      "injury": "IR",
+      "injury": "",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -7156,7 +7156,7 @@
       "fp_std": null,
       "age": 24,
       "years_exp": 0,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.4,
       "svq": [
         144,
@@ -7182,7 +7182,7 @@
       "fp_rank": null,
       "fp_pos_rank": null,
       "fp_std": null,
-      "age": 29,
+      "age": 30,
       "years_exp": 7,
       "injury": "",
       "stash": 0.0,
@@ -7326,7 +7326,7 @@
       "fp_std": null,
       "age": 22,
       "years_exp": 0,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.4,
       "adp_delta": 0.0
     },
@@ -7697,7 +7697,7 @@
       "fp_std": null,
       "age": 25,
       "years_exp": 1,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.25,
       "adp_delta": 0.0,
       "svq": [
@@ -7772,7 +7772,7 @@
       "fp_std": null,
       "age": 23,
       "years_exp": 0,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.4
     },
     {
@@ -7845,7 +7845,7 @@
       "fp_std": null,
       "age": 30,
       "years_exp": 4,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.0
     },
     {
@@ -7860,7 +7860,7 @@
       "fp_std": null,
       "age": 29,
       "years_exp": 7,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.0
     },
     {
@@ -7965,7 +7965,7 @@
       "fp_std": null,
       "age": 29,
       "years_exp": 6,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.0,
       "adp_delta": 0.0
     },
@@ -8296,7 +8296,7 @@
       "fp_std": null,
       "age": 22,
       "years_exp": 0,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -8459,7 +8459,7 @@
       "fp_rank": null,
       "fp_pos_rank": null,
       "fp_std": null,
-      "age": 26,
+      "age": 27,
       "years_exp": 2,
       "injury": "",
       "stash": 0.25,
@@ -8597,7 +8597,7 @@
       "fp_std": null,
       "age": 27,
       "years_exp": 3,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.0,
       "adp_delta": 0.0
     },
@@ -8613,7 +8613,7 @@
       "fp_std": null,
       "age": 23,
       "years_exp": 2,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.4
     },
     {
@@ -8768,7 +8768,7 @@
       "fp_std": null,
       "age": 26,
       "years_exp": 2,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.25
     },
     {
@@ -9008,7 +9008,7 @@
       "fp_std": null,
       "age": 28,
       "years_exp": 3,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.0
     },
     {
@@ -9036,7 +9036,7 @@
       "fp_rank": null,
       "fp_pos_rank": null,
       "fp_std": null,
-      "age": 28,
+      "age": 29,
       "years_exp": 7,
       "injury": "",
       "stash": 0.0
@@ -9205,7 +9205,7 @@
       "fp_std": null,
       "age": 23,
       "years_exp": 2,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.4,
       "adp_delta": 0.0
     },
@@ -9265,7 +9265,7 @@
       "fp_std": null,
       "age": 25,
       "years_exp": 2,
-      "injury": "IR",
+      "injury": "",
       "stash": 0.25
     },
     {
@@ -9356,7 +9356,7 @@
       "fp_std": null,
       "age": 26,
       "years_exp": 3,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.0
     },
     {
@@ -9461,7 +9461,7 @@
       "fp_std": null,
       "age": 26,
       "years_exp": 4,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.0
     },
     {
@@ -9506,7 +9506,7 @@
       "fp_std": null,
       "age": 27,
       "years_exp": 4,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.0
     },
     {
@@ -9701,7 +9701,7 @@
       "fp_std": null,
       "age": 26,
       "years_exp": 3,
-      "injury": "IR",
+      "injury": "",
       "stash": 0.0
     },
     {
@@ -9837,7 +9837,7 @@
       "fp_std": null,
       "age": 33,
       "years_exp": 12,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.0
     },
     {
@@ -10410,7 +10410,7 @@
       "fp_std": null,
       "age": 26,
       "years_exp": 2,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.25
     },
     {
@@ -10637,7 +10637,7 @@
       "fp_std": null,
       "age": 31,
       "years_exp": 9,
-      "injury": "Out",
+      "injury": "",
       "stash": 0.0,
       "adp_delta": 0.0
     },
@@ -10825,7 +10825,7 @@
       "fp_std": null,
       "age": 23,
       "years_exp": 2,
-      "injury": "Questionable",
+      "injury": "",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
@@ -14377,7 +14377,7 @@
             "qb1": 4,
             "qb2": 7,
             "rook_share": 0.25,
-            "age": 24.7
+            "age": 24.8
           }
         }
       },
@@ -14538,19 +14538,19 @@
         "qb2_median": 6,
         "qb2_iqr": 6,
         "qb2_stable": false,
-        "rook_share_mean": 0.11,
+        "rook_share_mean": 0.12,
         "age_mean": 24.2,
         "by_year": {
           "2015": {
             "qb1": 2,
             "qb2": 6,
-            "rook_share": 0.06,
-            "age": 21.2
+            "rook_share": 0.11,
+            "age": 21.3
           },
           "2016": {
             "qb1": 5,
             "qb2": 11,
-            "rook_share": 0.12,
+            "rook_share": 0.11,
             "age": 23.1
           },
           "2017": {
@@ -14727,7 +14727,7 @@
             "qb1": 2,
             "qb2": 6,
             "rook_share": 0.21,
-            "age": 23.8
+            "age": 23.9
           },
           "2023": {
             "qb1": 2,
@@ -14761,7 +14761,7 @@
             "qb1": 4,
             "qb2": 7,
             "rook_share": 0.21,
-            "age": 23.4
+            "age": 23.5
           },
           "2020": {
             "qb1": 3,
@@ -14791,7 +14791,7 @@
             "qb1": 2,
             "qb2": 7,
             "rook_share": 0.31,
-            "age": 25.3
+            "age": 25.4
           },
           "2025": {
             "qb1": 1,
