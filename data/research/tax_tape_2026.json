@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "generated": "2026-11-10",
+  "generated": "2026-11-17",
   "playoff_week_start": 15,
   "tape": [
     {
@@ -83,6 +83,15 @@
       "top_pts": 162.2,
       "fine": 15,
       "low_week_no": 1
+    },
+    {
+      "week": 10,
+      "low": "trevor_bergerboy",
+      "low_pts": 97.52,
+      "top": "donnie",
+      "top_pts": 200.66,
+      "fine": 25,
+      "low_week_no": 3
     }
   ],
   "ledger": {
@@ -99,8 +108,8 @@
       "collected": 30
     },
     "trevor_bergerboy": {
-      "lows": 2,
-      "paid": 35,
+      "lows": 3,
+      "paid": 60,
       "tops": 0,
       "collected": 0
     },
@@ -125,8 +134,8 @@
     "donnie": {
       "lows": 0,
       "paid": 0,
-      "tops": 2,
-      "collected": 35
+      "tops": 3,
+      "collected": 60
     },
     "brower_barry": {
       "lows": 0,
