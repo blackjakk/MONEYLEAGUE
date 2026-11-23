@@ -76,7 +76,13 @@ fetch|derive|sim|reports|helper|verify). **Read docs/PIPELINE.md first.**
    again at R2 in 2026). The old "R1/R2 forfeits ineligible" reading
    was too strict; lock_keepers.py encodes the corrected rule. The
    3-year clock FOLLOWS THE PLAYER; it does NOT reset on trade.
-   An expiring keeper is therefore a pure rental to any acquirer. 2027
+   An expiring keeper is therefore a pure rental to any acquirer.
+   DROP/RE-ADD RULING (user, Nov 23 2026): keeper cost is based on the
+   player's DRAFT round, whoever drafted him — a drafted player who is
+   dropped and claimed on waivers keeps that round (Shough precedent
+   confirmed); only never-drafted players cost R15. No laundering a
+   keeper cost through waivers. build_2026_keepers.py already prices
+   this way (pick_by_pid covers every drafter). 2027
    expiry board (from 2026 predicted keeps): Trevor loses Collins+
    Achane+Puka simultaneously, coop loses McBride+Jamo — half the
    league holds ≥1 expiring asset; Brian holds ZERO (all fresh) and a
