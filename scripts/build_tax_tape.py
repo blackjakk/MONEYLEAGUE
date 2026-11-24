@@ -51,12 +51,38 @@ def label(mid: str | None) -> str:
     return SHORT.get(mid, (mid or "?")[:4].upper())
 
 
+SCHEDULE_URL = "https://api.sleeper.app/schedule/nfl/regular/{season}"
+
+
+def finished_nfl_weeks(season: int = SEASON) -> set[int] | None:
+    """NFL weeks whose EVERY game Sleeper marks 'complete', or None if the
+    schedule can't be fetched. Guards the Monday-night trap: once every
+    roster has some points the week LOOKS done, but MNF can still flip
+    the low/high scorer (it did in Week 11, 2026: Trevor showed low on
+    Sunday night, Donnie was low after Monday)."""
+    import urllib.request
+    try:
+        with urllib.request.urlopen(SCHEDULE_URL.format(season=season),
+                                    timeout=30) as r:
+            games = json.loads(r.read().decode())
+    except Exception as e:                               # noqa: BLE001
+        print(f"[warn] NFL schedule unavailable ({e}); falling back to the "
+              "all-rosters-scored guard only")
+        return None
+    by_week: dict[int, list[str]] = defaultdict(list)
+    for g in games:
+        by_week[int(g.get("week") or 0)].append(g.get("status") or "")
+    return {w for w, sts in by_week.items()
+            if sts and all(s == "complete" for s in sts)}
+
+
 def load_weeks() -> dict[int, dict[int, float]]:
-    """week -> {roster_id: points}, only for weeks every roster has
-    actually scored (guards a live/partially-played week)."""
+    """week -> {roster_id: points}, only for weeks that are OVER: every NFL
+    game final (finished_nfl_weeks) and every roster has scored."""
     cfg = json.loads((ROOT / "configs/season_2026.json").read_text())
     mdir = ROOT / cfg["league_dir"] / "matchups"
     n_teams = 12
+    done = finished_nfl_weeks()
     out: dict[int, dict[int, float]] = {}
     for f in sorted(glob.glob(str(mdir / "week_*.json")),
                     key=lambda p: int(Path(p).stem.split("_")[1])):
@@ -65,6 +91,8 @@ def load_weeks() -> dict[int, dict[int, float]]:
         pts = {r["roster_id"]: float(r.get("points") or 0.0) for r in rows}
         if len(pts) < n_teams or any(v == 0.0 for v in pts.values()):
             continue        # not yet played (or only partially played)
+        if done is not None and wk not in done:
+            continue        # a game (usually MNF) is still to be played
         out[wk] = pts
     return out
 
@@ -425,7 +453,8 @@ def main() -> None:
              f"low week that manager has had this season. {left} regular-"
              f"season week{'s' if left != 1 else ''} left (through Week "
              f"{last_reg}); playoffs (Week {playoff_start}+) sail toll-free. A "
-             "week is assessed only once every roster has scored. Full rule "
+             "week is assessed only after its last NFL game (Monday night "
+             "included) is final. Full rule "
              "history and the all-time purse: the Almanac.</p>")
     h.append('<div class="foot"><span>The MONEYLEAGUE Strait Authority is a '
              "league joke, not a port, government or shipping body. Chart "

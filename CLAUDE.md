@@ -645,8 +645,11 @@ goal docs: GOAL_RESEARCH.md, GOAL_OPTIONS.md). Caches: `data/scouting/`
   the 2022+ tax rule (truth #10) exactly: $15 + $5 per PRIOR low week
   that manager has had this season (2nd low = $20...), regular season
   only (gated on league.json's playoff_week_start). A week only counts
-  once every roster has actually scored (guards a live/partial week
-  from showing a false $0.0 low). USER CORRECTION CAUGHT (Sep 22): user
+  once EVERY NFL GAME is final (finished_nfl_weeks() reads Sleeper's
+  public schedule api.sleeper.app/schedule/nfl/regular/<season>; Skillbar
+  uses it too) AND every roster has scored. MNF TRAP CAUGHT (Nov 24):
+  the old all-rosters-scored guard published W11 before Monday night —
+  Trevor 88.9 showed low; final was DONNIE 94.18 low (Trevor 94.48). USER CORRECTION CAUGHT (Sep 22): user
   guessed Trevor was low scorer BOTH W1 and W2 ("15, then 15+5") —
   verified against live data JOSH was low W1 (106.02), Trevor low only
   W2 (63.32, HIS FIRST low week) — so Trevor's W2 fine is $15, not $20.

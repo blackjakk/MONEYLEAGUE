@@ -90,9 +90,12 @@ def optimal_points(players_points: dict, pos: dict[str, str]) -> float:
 
 
 def load_played_weeks() -> list[tuple[int, list[dict]]]:
-    """[(week, matchup_rows)] for weeks every roster has actually scored."""
+    """[(week, matchup_rows)] for finished weeks: every NFL game final and
+    every roster scored."""
     cfg = json.loads((ROOT / "configs/season_2026.json").read_text())
     mdir = ROOT / cfg["league_dir"] / "matchups"
+    from scripts.build_tax_tape import finished_nfl_weeks
+    done = finished_nfl_weeks()
     out = []
     for f in sorted(glob.glob(str(mdir / "week_*.json")),
                     key=lambda p: int(Path(p).stem.split("_")[1])):
@@ -101,6 +104,8 @@ def load_played_weeks() -> list[tuple[int, list[dict]]]:
         if len(rows) < 12 or any((r.get("points") or 0.0) == 0.0
                                  for r in rows):
             continue
+        if done is not None and wk not in done:
+            continue        # a game (usually MNF) is still to be played
         out.append((wk, rows))
     return out
 

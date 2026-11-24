@@ -26,24 +26,24 @@
     {
       "rid": 11,
       "mid": "trevor_bergerboy",
-      "cum_pf": 1141.08,
-      "cum_opt": 1343.02,
+      "cum_pf": 1146.68,
+      "cum_opt": 1348.6200000000001,
       "wins": 4,
       "losses": 7
     },
     {
       "rid": 5,
       "mid": "kyle_figgy",
-      "cum_pf": 1534.5600000000002,
-      "cum_opt": 1672.6,
+      "cum_pf": 1537.8600000000001,
+      "cum_opt": 1675.8999999999999,
       "wins": 8,
       "losses": 3
     },
     {
       "rid": 6,
       "mid": "lem",
-      "cum_pf": 1601.7400000000002,
-      "cum_opt": 1694.68,
+      "cum_pf": 1610.0400000000002,
+      "cum_opt": 1702.98,
       "wins": 7,
       "losses": 4
     },
@@ -59,15 +59,15 @@
       "rid": 3,
       "mid": "ankur_patel",
       "cum_pf": 1233.1200000000001,
-      "cum_opt": 1375.14,
+      "cum_opt": 1376.74,
       "wins": 6,
       "losses": 5
     },
     {
       "rid": 4,
       "mid": "troy_mullings",
-      "cum_pf": 1341.0599999999997,
-      "cum_opt": 1520.7599999999998,
+      "cum_pf": 1342.8599999999997,
+      "cum_opt": 1522.5599999999997,
       "wins": 3,
       "losses": 8
     },
@@ -90,8 +90,8 @@
     {
       "rid": 10,
       "mid": "josh_wildboy",
-      "cum_pf": 1354.84,
-      "cum_opt": 1563.5800000000002,
+      "cum_pf": 1360.74,
+      "cum_opt": 1567.48,
       "wins": 5,
       "losses": 6
     },
@@ -99,7 +99,7 @@
       "rid": 2,
       "mid": "donnie",
       "cum_pf": 1536.2200000000003,
-      "cum_opt": 1687.84,
+      "cum_opt": 1695.84,
       "wins": 8,
       "losses": 3
     },
@@ -1207,8 +1207,8 @@
       "roster_id": 2,
       "manager": "donnie",
       "actual": 94.18,
-      "optimal": 112.48,
-      "leak": 18.3,
+      "optimal": 120.48,
+      "leak": 26.3,
       "above_median": false
     },
     {
@@ -1216,16 +1216,16 @@
       "roster_id": 3,
       "manager": "ankur_patel",
       "actual": 104.76,
-      "optimal": 119.66,
-      "leak": 14.9,
+      "optimal": 121.26,
+      "leak": 16.5,
       "above_median": false
     },
     {
       "week": 11,
       "roster_id": 4,
       "manager": "troy_mullings",
-      "actual": 115.46,
-      "optimal": 116.54,
+      "actual": 117.26,
+      "optimal": 118.34,
       "leak": 1.08,
       "above_median": false
     },
@@ -1233,8 +1233,8 @@
       "week": 11,
       "roster_id": 5,
       "manager": "kyle_figgy",
-      "actual": 155.46,
-      "optimal": 160.74,
+      "actual": 158.76,
+      "optimal": 164.04,
       "leak": 5.28,
       "above_median": true
     },
@@ -1242,8 +1242,8 @@
       "week": 11,
       "roster_id": 6,
       "manager": "lem",
-      "actual": 121.8,
-      "optimal": 138.0,
+      "actual": 130.1,
+      "optimal": 146.3,
       "leak": 16.2,
       "above_median": true
     },
@@ -1278,17 +1278,17 @@
       "week": 11,
       "roster_id": 10,
       "manager": "josh_wildboy",
-      "actual": 97.82,
-      "optimal": 116.92,
-      "leak": 19.1,
+      "actual": 103.72,
+      "optimal": 120.82,
+      "leak": 17.1,
       "above_median": false
     },
     {
       "week": 11,
       "roster_id": 11,
       "manager": "trevor_bergerboy",
-      "actual": 88.88,
-      "optimal": 89.08,
+      "actual": 94.48,
+      "optimal": 94.68,
       "leak": 0.2,
       "above_median": false
     },

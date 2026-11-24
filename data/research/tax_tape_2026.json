@@ -95,12 +95,12 @@
     },
     {
       "week": 11,
-      "low": "trevor_bergerboy",
-      "low_pts": 88.88,
+      "low": "donnie",
+      "low_pts": 94.18,
       "top": "brian_bigguap",
       "top_pts": 176.6,
-      "fine": 30,
-      "low_week_no": 4
+      "fine": 15,
+      "low_week_no": 1
     }
   ],
   "ledger": {
@@ -117,8 +117,8 @@
       "collected": 30
     },
     "trevor_bergerboy": {
-      "lows": 4,
-      "paid": 90,
+      "lows": 3,
+      "paid": 60,
       "tops": 0,
       "collected": 0
     },
@@ -141,8 +141,8 @@
       "collected": 0
     },
     "donnie": {
-      "lows": 0,
-      "paid": 0,
+      "lows": 1,
+      "paid": 15,
       "tops": 3,
       "collected": 60
     },
@@ -174,7 +174,7 @@
       "lows": 0,
       "paid": 0,
       "tops": 2,
-      "collected": 45
+      "collected": 30
     }
   }
 }
