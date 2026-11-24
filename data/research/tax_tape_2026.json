@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "generated": "2026-11-17",
+  "generated": "2026-11-24",
   "playoff_week_start": 15,
   "tape": [
     {
@@ -92,6 +92,15 @@
       "top_pts": 200.66,
       "fine": 25,
       "low_week_no": 3
+    },
+    {
+      "week": 11,
+      "low": "trevor_bergerboy",
+      "low_pts": 88.88,
+      "top": "brian_bigguap",
+      "top_pts": 176.6,
+      "fine": 30,
+      "low_week_no": 4
     }
   ],
   "ledger": {
@@ -108,8 +117,8 @@
       "collected": 30
     },
     "trevor_bergerboy": {
-      "lows": 3,
-      "paid": 60,
+      "lows": 4,
+      "paid": 90,
       "tops": 0,
       "collected": 0
     },
@@ -164,8 +173,8 @@
     "brian_bigguap": {
       "lows": 0,
       "paid": 0,
-      "tops": 1,
-      "collected": 15
+      "tops": 2,
+      "collected": 45
     }
   }
 }
