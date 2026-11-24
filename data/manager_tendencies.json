@@ -677,7 +677,7 @@
       }
     },
     "tim_breswick": {
-      "age_at_draft": 25.0,
+      "age_at_draft": 25.1,
       "rookie_share": 0.2,
       "yr2_share": 0.13,
       "reach": {
@@ -704,7 +704,7 @@
       }
     },
     "coop": {
-      "age_at_draft": 26.1,
+      "age_at_draft": 26.2,
       "rookie_share": 0.13,
       "yr2_share": 0.09,
       "reach": {
@@ -785,7 +785,7 @@
       }
     },
     "ankur_patel": {
-      "age_at_draft": 25.0,
+      "age_at_draft": 25.1,
       "rookie_share": 0.2,
       "yr2_share": 0.24,
       "reach": {
@@ -946,7 +946,7 @@
           "qb1": 5,
           "qb2": 8,
           "rook_share": 0.17,
-          "age": 24.3
+          "age": 24.4
         },
         "2020": {
           "qb1": 4,
@@ -1090,7 +1090,7 @@
       "qb2_iqr": 3,
       "qb2_stable": true,
       "rook_share_mean": 0.07,
-      "age_mean": 25.3,
+      "age_mean": 25.4,
       "by_year": {
         "2015": {
           "qb1": 4,
@@ -1156,7 +1156,7 @@
           "qb1": 10,
           "qb2": 11,
           "rook_share": 0.0,
-          "age": 28.6
+          "age": 28.7
         }
       }
     },
@@ -1278,7 +1278,7 @@
           "qb1": 4,
           "qb2": 6,
           "rook_share": 0.2,
-          "age": 23.8
+          "age": 23.9
         },
         "2021": {
           "qb1": 8,
@@ -1302,13 +1302,13 @@
           "qb1": 2,
           "qb2": 8,
           "rook_share": 0.07,
-          "age": 25.8
+          "age": 25.9
         },
         "2025": {
           "qb1": 1,
           "qb2": 9,
           "rook_share": 0.27,
-          "age": 25.3
+          "age": 25.4
         }
       }
     },
@@ -1512,7 +1512,7 @@
           "qb1": 2,
           "qb2": 4,
           "rook_share": 0.0,
-          "age": 25.4
+          "age": 25.5
         },
         "2022": {
           "qb1": 2,
@@ -1588,13 +1588,13 @@
           "qb1": 2,
           "qb2": 5,
           "rook_share": 0.21,
-          "age": 24.7
+          "age": 24.8
         },
         "2024": {
           "qb1": 1,
           "qb2": 2,
           "rook_share": 0.27,
-          "age": 25.5
+          "age": 25.6
         },
         "2025": {
           "qb1": 1,
@@ -1652,7 +1652,7 @@
           "qb1": 1,
           "qb2": 5,
           "rook_share": 0.35,
-          "age": 23.9
+          "age": 24.0
         }
       }
     },

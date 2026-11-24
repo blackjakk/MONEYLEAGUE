@@ -43,7 +43,7 @@
       "rid": 6,
       "mid": "lem",
       "cum_pf": 1599.5600000000004,
-      "cum_opt": 1694.5,
+      "cum_opt": 1692.5,
       "wins": 7,
       "losses": 4
     },
@@ -1135,8 +1135,8 @@
       "roster_id": 6,
       "manager": "lem",
       "actual": 130.96,
-      "optimal": 132.96,
-      "leak": 2.0,
+      "optimal": 130.96,
+      "leak": 0.0,
       "above_median": true
     },
     {
