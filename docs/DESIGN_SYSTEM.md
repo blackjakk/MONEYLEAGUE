@@ -197,6 +197,21 @@ builder alone in a temp dir — stays byte-identical. Refresh them from
 `data/fonts/*.woff2` with `python3 design/build_design.py --sync-fonts`.
 Matching TTFs live in `data/fonts/` for matplotlib (`mpl_style()`).
 
+### Strait sub-theme (toll ticket only, Nov 2026)
+
+`color.surface.strait` (bg/panel/panel2/border/border_strong/row/text/
+muted) + `color.strait.route`, emitted as the `[data-theme="strait"]`
+block in `ml.css` (semantics reuse the light values) and as
+`SURFACE_STRAIT` / `STRAIT` in `tokens.py`. Sole consumer:
+`scripts/build_tax_tape.py` (the Bab al-Mandab toll ticket). Measured
+ratios at introduction: text 11.8:1 on bg / 10.0 on panel2; muted 6.1 /
+5.2; danger 4.9, success 5.0, info 5.0, warn 4.9 on bg (danger/success
+are NOT used on panel2, where they fall to ~4.2); border_strong 4.1 on bg
+/ 3.5 on panel2; route line 5.2 on bg. All gated in
+`scripts/check_a11y.py`. Engraving: `design.guilloche.wave_svg` and
+`compass_svg` (same deterministic, inline-SVG contract as the lattice and
+rosette). Intent and scope rules: DESIGN.md "Sub-theme: The Strait".
+
 ## Guilloché (`design/guilloche.py`)
 
 Deterministic banknote line texture — no randomness, no files, no external

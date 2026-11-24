@@ -97,6 +97,21 @@ SURFACE_DARK = {
     "muted": "#8fae97"
 }
 
+# STRAIT sub-theme (toll ticket only): surfaces + the sea-lane route ink.
+SURFACE_STRAIT = {
+    "bg": "#f2ecdc",
+    "panel": "#f2ecdc",
+    "panel2": "#e3dbc3",
+    "border": "#cdc3a5",
+    "border_strong": "#5f7480",
+    "row": "#ebe4cf",
+    "text": "#0f2f45",
+    "muted": "#455a66"
+}
+STRAIT = {
+    "route": "#1d6a85"
+}
+
 HIGHLIGHT = {
     "target": {
         "dark": "rgba(74,222,128,.16)",

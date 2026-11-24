@@ -629,7 +629,10 @@ goal docs: GOAL_RESEARCH.md, GOAL_OPTIONS.md). Caches: `data/scouting/`
   high scorer = harbor master; perforated ticket + stub, tariff
   schedule, port ledger w/ next-toll column, transit log; fictional
   'MONEYLEAGUE Strait Authority' disclaimed in fine print; filename and
-  JSON unchanged): the weekly Tuesday card —
+  JSON unchanged; OWN LOOK per user — data-theme="strait" sub-theme in
+  tokens (sand/navy, compass_svg + wave_svg engraving, route strip,
+  ledger status aground/paid/clear), scope = this card ONLY, rules in
+  DESIGN.md "Sub-theme: The Strait"): the weekly Tuesday card —
   last week's high/low scorer + fine paid, and a season-long ledger
   (all 12 managers, lows/paid/tops/collected/net) + week-by-week tape.
   Reads LIVE 2026 matchups straight from the Sleeper league dir

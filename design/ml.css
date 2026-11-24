@@ -70,6 +70,33 @@
   --ml-banner-error-bg: #f7e3dc;
   --ml-banner-error-border: #c98d7e;
 }
+/* STRAIT sub-theme — the Bab al-Mandab toll ticket ONLY (DESIGN.md
+   "Sub-theme: The Strait"). Sand chart paper + navy ink; semantics reuse
+   the light values (gated in scripts/check_a11y.py). */
+[data-theme="strait"] {
+  --ml-bg: #f2ecdc;
+  --ml-panel: #f2ecdc;
+  --ml-panel2: #e3dbc3;
+  --ml-border: #cdc3a5;
+  --ml-border-strong: #5f7480;
+  --ml-row: #ebe4cf;
+  --ml-text: #0f2f45;
+  --ml-muted: #455a66;
+  --ml-success: #147339;
+  --ml-warn: #a54c06;
+  --ml-danger: #c81e1e;
+  --ml-info: #0369a1;
+  --ml-keeper: #0369a1;
+  --ml-focus: #0369a1;
+  --ml-gold: #7d6010;
+  --ml-target-tint: rgba(20,115,57,.10);
+  --ml-mine-tint: rgba(20,115,57,.12);
+  --ml-banner-warn-bg: #f9efda;
+  --ml-banner-warn-border: #dfc38f;
+  --ml-banner-error-bg: #f7e3dc;
+  --ml-banner-error-border: #c98d7e;
+  --ml-strait-route: #1d6a85;
+}
 
 /* ---------- a11y utilities ---------- */
 :focus-visible { outline: 2px solid var(--ml-focus); outline-offset: 1px; }

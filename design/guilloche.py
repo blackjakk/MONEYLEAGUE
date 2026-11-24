@@ -91,6 +91,64 @@ def rosette_svg(size: int, stroke: str, opacity: float) -> str:
     )
 
 
+# ---- STRAIT sub-theme engravings (toll ticket only, Nov 2026) ----
+
+def wave_svg(width: int, height: int, stroke: str, opacity: float) -> str:
+    """Sea-chart swell lines: 14 edge-tapered sine bands, inline <svg>."""
+    w, h = float(width), float(height)
+    n = 14
+    paths = []
+    for k in range(n):
+        pts = []
+        x = 0.0
+        while x <= w:
+            env = math.sin(x / w * math.pi)
+            y = (h * (k + 0.5) / n
+                 + math.sin(x / 38.0 + k * 0.7) * 4.0 * env
+                 + math.sin(x / 9.0 + k) * 0.8 * env)
+            pts.append((x, y))
+            x += _LATTICE_STEP * 2
+        paths.append(f'<path d="{_path(pts)}"/>')
+    return (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" '
+        f'height="{height}" viewBox="0 0 {width} {height}" '
+        f'aria-hidden="true" role="presentation">'
+        f'<g fill="none" stroke="{stroke}" stroke-opacity="{opacity:g}" '
+        f'stroke-width="{_STROKE_WIDTH}">'
+        + "".join(paths)
+        + "</g></svg>"
+    )
+
+
+def compass_svg(size: int, stroke: str, opacity: float) -> str:
+    """Engraved compass rose: two rings, 32 rhumb lines, 8-point star."""
+    c = size / 2.0
+    r_out = c - _STROKE_WIDTH
+    r_in = r_out * 0.82
+    parts = [
+        f'<circle cx="{_fmt(c)}" cy="{_fmt(c)}" r="{_fmt(r_out)}"/>',
+        f'<circle cx="{_fmt(c)}" cy="{_fmt(c)}" r="{_fmt(r_in)}"/>',
+    ]
+    for i in range(32):
+        a = i * math.pi / 16
+        parts.append('<path d="' + _path([
+            (c, c), (c + r_in * math.cos(a), c + r_in * math.sin(a))]) + '"/>')
+    star = []
+    for i in range(16):
+        a = i * math.pi / 8 - math.pi / 2
+        rr = r_in if i % 4 == 0 else (r_in * 0.55 if i % 2 == 0 else r_in * 0.18)
+        star.append((c + rr * math.cos(a), c + rr * math.sin(a)))
+    star.append(star[0])
+    parts.append(f'<path d="{_path(star)}" stroke-width="{_STROKE_WIDTH * 2:g}"/>')
+    return (
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{size}" '
+        f'height="{size}" viewBox="0 0 {size} {size}" '
+        f'aria-hidden="true" role="presentation">'
+        f'<g fill="none" stroke="{stroke}" stroke-opacity="{opacity:g}" '
+        f'stroke-width="{_STROKE_WIDTH}">' + "".join(parts) + "</g></svg>"
+    )
+
+
 if __name__ == "__main__":
     import tempfile
     from pathlib import Path

@@ -51,6 +51,9 @@ SEM = T["color"]["semantic"]
 GOLD = SEM["gold"]
 DARK = T["color"]["surface"]["dark"]
 LIGHT = T["color"]["surface"]["light"]
+STRAIT = T["color"]["surface"]["strait"]   # toll-ticket sub-theme only
+STRAIT_ACC = {k: v for k, v in T["color"]["strait"].items()
+              if not k.startswith("_")}
 HL = T["color"]["highlight"]
 BAN = T["color"]["banner"]
 CHART = T["color"]["chart"]
@@ -150,6 +153,19 @@ def build_css() -> str:
   --ml-banner-warn-border: {BAN['warn_border']};
   --ml-banner-error-bg: {BAN['error_bg']};
   --ml-banner-error-border: {BAN['error_border']};
+}}
+/* STRAIT sub-theme — the Bab al-Mandab toll ticket ONLY (DESIGN.md
+   "Sub-theme: The Strait"). Sand chart paper + navy ink; semantics reuse
+   the light values (gated in scripts/check_a11y.py). */
+[data-theme="strait"] {{
+{surf(STRAIT)}
+{sem_light}
+{hl('light')}
+  --ml-banner-warn-bg: {BAN['warn_bg']};
+  --ml-banner-warn-border: {BAN['warn_border']};
+  --ml-banner-error-bg: {BAN['error_bg']};
+  --ml-banner-error-border: {BAN['error_border']};
+  --ml-strait-route: {STRAIT_ACC['route']};
 }}
 
 /* ---------- a11y utilities ---------- */
@@ -334,6 +350,10 @@ GOLD_CHIP = {json.dumps({"bg": GOLD["chip_bg"], "text": GOLD["chip_text"]}, inde
 
 SURFACE_LIGHT = {json.dumps(LIGHT, indent=4)}
 SURFACE_DARK = {json.dumps(DARK, indent=4)}
+
+# STRAIT sub-theme (toll ticket only): surfaces + the sea-lane route ink.
+SURFACE_STRAIT = {json.dumps(STRAIT, indent=4)}
+STRAIT = {json.dumps(STRAIT_ACC, indent=4)}
 
 HIGHLIGHT = {json.dumps(HL, indent=4)}
 

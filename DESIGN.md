@@ -214,6 +214,30 @@ reserved for disclosures.
 - Coarse pointers get 40px targets; reduced-motion kills the pulse — both
   baked into ml.css; don't reimplement per page.
 
+## Sub-theme: The Strait (toll ticket only)
+
+One sanctioned exception to "one look everywhere", added Nov 2026 at the
+user's request: the weekly low-score tax card renders as the **Bab
+al-Mandab toll ticket** (`scripts/build_tax_tape.py`) in its own look,
+`data-theme="strait"` — sand chart paper with navy ink instead of the
+green banknote, a sea-lane route strip, and maritime engraving
+(`wave_svg` swell lines + `compass_svg` compass roses) in place of the
+guilloché lattice and rosettes. Rules:
+
+- **Scope is one card.** No other surface may set `data-theme="strait"`
+  or use `--ml-strait-route`. A second themed card needs its own entry
+  here, not a quiet reuse.
+- **Same doctrine inside it.** Flat, static, no gold, numbers right in
+  `.ml-num`; traffic-light semantics keep their meaning (toll due and
+  losses in danger, net gains in success). The route line is graphics,
+  not a signal.
+- **Fictional authority.** The "MONEYLEAGUE Strait Authority" is a league
+  joke; the fine print says so. Never imitate a real port, government or
+  shipping body's marks.
+- **Tokens and gates as usual.** Colors live in `color.surface.strait` /
+  `color.strait`; every text pair is contrast-gated in
+  `scripts/check_a11y.py`.
+
 ## Off-brand (reject on sight)
 
 Drop shadows · gradients anywhere but the masthead and the baked-in seal
