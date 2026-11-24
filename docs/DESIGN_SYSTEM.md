@@ -199,18 +199,20 @@ Matching TTFs live in `data/fonts/` for matplotlib (`mpl_style()`).
 
 ### Strait sub-theme (toll ticket only, Nov 2026)
 
-`color.surface.strait` (bg/panel/panel2/border/border_strong/row/text/
-muted) + `color.strait.route`, emitted as the `[data-theme="strait"]`
-block in `ml.css` (semantics reuse the light values) and as
+`color.surface.strait` (bg = chart sea, panel = ticket paper, panel2 =
+alt row, border, border_strong, row, text = navy ink, muted) +
+`color.strait` (signal, band, band_text, route, land, land_edge,
+contour), emitted as the `[data-theme="strait"]` block in `ml.css`
+(`--ml-strait-*` vars; semantics reuse the light values) and as
 `SURFACE_STRAIT` / `STRAIT` in `tokens.py`. Sole consumer:
-`scripts/build_tax_tape.py` (the Bab al-Mandab toll ticket). Measured
-ratios at introduction: text 11.8:1 on bg / 10.0 on panel2; muted 6.1 /
-5.2; danger 4.9, success 5.0, info 5.0, warn 4.9 on bg (danger/success
-are NOT used on panel2, where they fall to ~4.2); border_strong 4.1 on bg
-/ 3.5 on panel2; route line 5.2 on bg. All gated in
-`scripts/check_a11y.py`. Engraving: `design.guilloche.wave_svg` and
-`compass_svg` (same deterministic, inline-SVG contract as the lattice and
-rosette). Intent and scope rules: DESIGN.md "Sub-theme: The Strait".
+`scripts/build_tax_tape.py`. Measured at introduction: navy text 12.6:1
+on sea / 15.3 on paper / 14.1 on panel2; muted 5.7 / 6.8 / 6.3; navy on
+signal orange 5.3; band_text on navy band 15.3; navy on land 11.9, muted
+on land 5.3; danger 5.4 / success 5.6 / info 5.6 / warn 5.4 on paper
+(semantic text is never placed on the sea, where danger falls to 4.5);
+border_strong 4.8 on sea; route line 4.5 on sea. All gated in
+`scripts/check_a11y.py`. Ornament: `design.guilloche.compass_svg`. Intent
+and scope rules: DESIGN.md "Sub-theme: The Strait".
 
 ## Guilloché (`design/guilloche.py`)
 

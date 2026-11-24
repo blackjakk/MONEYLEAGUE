@@ -71,17 +71,18 @@
   --ml-banner-error-border: #c98d7e;
 }
 /* STRAIT sub-theme — the Bab al-Mandab toll ticket ONLY (DESIGN.md
-   "Sub-theme: The Strait"). Sand chart paper + navy ink; semantics reuse
-   the light values (gated in scripts/check_a11y.py). */
+   "Sub-theme: The Strait"). Chart sea + ticket paper + navy ink, signal
+   orange band; semantics reuse the light values (gated in
+   scripts/check_a11y.py). */
 [data-theme="strait"] {
-  --ml-bg: #f2ecdc;
-  --ml-panel: #f2ecdc;
-  --ml-panel2: #e3dbc3;
-  --ml-border: #cdc3a5;
-  --ml-border-strong: #5f7480;
-  --ml-row: #ebe4cf;
-  --ml-text: #0f2f45;
-  --ml-muted: #455a66;
+  --ml-bg: #d6e6eb;
+  --ml-panel: #fbf8ef;
+  --ml-panel2: #eef0ea;
+  --ml-border: #b9ccd3;
+  --ml-border-strong: #4b6574;
+  --ml-row: #eef0ea;
+  --ml-text: #0b2236;
+  --ml-muted: #46596a;
   --ml-success: #147339;
   --ml-warn: #a54c06;
   --ml-danger: #c81e1e;
@@ -95,7 +96,13 @@
   --ml-banner-warn-border: #dfc38f;
   --ml-banner-error-bg: #f7e3dc;
   --ml-banner-error-border: #c98d7e;
-  --ml-strait-route: #1d6a85;
+  --ml-strait-signal: #f26a21;
+  --ml-strait-band: #0b2236;
+  --ml-strait-band-text: #fbf8ef;
+  --ml-strait-route: #b3400e;
+  --ml-strait-land: #e8dcc0;
+  --ml-strait-land-edge: #a8956a;
+  --ml-strait-contour: #9fbfca;
 }
 
 /* ---------- a11y utilities ---------- */

@@ -523,14 +523,14 @@ def _token_pairs() -> list[tuple[str, str, str, float]]:
          "surface.light.text", "banner.error_bg", 4.5),
     ]
     # STRAIT sub-theme (toll ticket only, Nov 2026): its own surfaces with
-    # the light semantics. Danger/success are spent as text on bg/panel
-    # only (never on panel2), so that's what is gated.
+    # the light semantics. Semantic (danger/success...) text only ever sits on
+    # ticket paper (panel/panel2), never directly on the chart sea (bg).
     st = "surface.strait"
     for bgk in ("bg", "panel", "panel2", "row"):
         pairs.append((f"strait muted on {bgk}", f"{st}.muted", f"{st}.{bgk}", 4.5))
         pairs.append((f"strait text on {bgk}", f"{st}.text", f"{st}.{bgk}", 4.5))
     for sem in ("success", "danger", "info", "warn"):
-        for bgk in ("bg", "panel"):
+        for bgk in ("panel", "panel2"):
             pairs.append((f"strait {sem} text on {bgk}",
                           f"semantic.{sem}.light", f"{st}.{bgk}", 4.5))
     pairs += [
@@ -538,6 +538,10 @@ def _token_pairs() -> list[tuple[str, str, str, float]]:
         ("strait border_strong vs panel2",
          f"{st}.border_strong", f"{st}.panel2", 3.0),
         ("strait route line vs bg", "strait.route", f"{st}.bg", 3.0),
+        ("strait text on signal band", f"{st}.text", "strait.signal", 4.5),
+        ("strait band_text on band", "strait.band_text", "strait.band", 4.5),
+        ("strait text on land", f"{st}.text", "strait.land", 4.5),
+        ("strait muted on land", f"{st}.muted", "strait.land", 4.5),
     ]
     return pairs
 

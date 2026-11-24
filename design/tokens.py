@@ -99,17 +99,23 @@ SURFACE_DARK = {
 
 # STRAIT sub-theme (toll ticket only): surfaces + the sea-lane route ink.
 SURFACE_STRAIT = {
-    "bg": "#f2ecdc",
-    "panel": "#f2ecdc",
-    "panel2": "#e3dbc3",
-    "border": "#cdc3a5",
-    "border_strong": "#5f7480",
-    "row": "#ebe4cf",
-    "text": "#0f2f45",
-    "muted": "#455a66"
+    "bg": "#d6e6eb",
+    "panel": "#fbf8ef",
+    "panel2": "#eef0ea",
+    "border": "#b9ccd3",
+    "border_strong": "#4b6574",
+    "row": "#eef0ea",
+    "text": "#0b2236",
+    "muted": "#46596a"
 }
 STRAIT = {
-    "route": "#1d6a85"
+    "signal": "#f26a21",
+    "band": "#0b2236",
+    "band_text": "#fbf8ef",
+    "route": "#b3400e",
+    "land": "#e8dcc0",
+    "land_edge": "#a8956a",
+    "contour": "#9fbfca"
 }
 
 HIGHLIGHT = {

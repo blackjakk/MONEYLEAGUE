@@ -217,26 +217,36 @@ reserved for disclosures.
 ## Sub-theme: The Strait (toll ticket only)
 
 One sanctioned exception to "one look everywhere", added Nov 2026 at the
-user's request: the weekly low-score tax card renders as the **Bab
-al-Mandab toll ticket** (`scripts/build_tax_tape.py`) in its own look,
-`data-theme="strait"` — sand chart paper with navy ink instead of the
-green banknote, a sea-lane route strip, and maritime engraving
-(`wave_svg` swell lines + `compass_svg` compass roses) in place of the
-guilloché lattice and rosettes. Rules:
+user's request ("I want it to be separate"): the weekly low-score tax card
+renders as the **Bab al-Mandab toll ticket** (`scripts/build_tax_tape.py`)
+in a look that deliberately does NOT read as The Exchange —
+`data-theme="strait"`:
 
-- **Scope is one card.** No other surface may set `data-theme="strait"`
-  or use `--ml-strait-route`. A second themed card needs its own entry
-  here, not a quiet reuse.
-- **Same doctrine inside it.** Flat, static, no gold, numbers right in
-  `.ml-num`; traffic-light semantics keep their meaning (toll due and
-  losses in danger, net gains in success). The route line is graphics,
-  not a signal.
-- **Fictional authority.** The "MONEYLEAGUE Strait Authority" is a league
-  joke; the fine print says so. Never imitate a real port, government or
-  shipping body's marks.
-- **Tokens and gates as usual.** Colors live in `color.surface.strait` /
-  `color.strait`; every text pair is contrast-gated in
-  `scripts/check_a11y.py`.
+- **Object:** a ferry/port toll ticket on a sea chart, not a banknote.
+  A drawn chart of the strait heads the page (decorative geography, the
+  vessel's route through the Gate), with a navy title cartouche; below,
+  the ticket itself — signal-orange band, dotted-leader fields, boxed
+  TOLL DUE, ASSESSED stamp, barcode, punched notches at the perforation,
+  tear-off stub — then manifest-style tables with navy header bands.
+- **Palette:** chart-sea page, ticket-paper panels, navy ink, and an
+  international-orange **signal** used only for the ticket band, section
+  ticks and the "next toll" cell. No banknote cream, no vault green, no
+  gold, no guilloché lattice or rosettes (the compass rose is its
+  ornament).
+- **Type:** monospace-first (the data face) with heavy Archivo titles;
+  no Cinzel anywhere on this card.
+- **Allowed here only:** the round notches and the compass rose (circles
+  outside `.ml-seal`), and a full-bleed page (zero PDF margin).
+
+Rules that still hold inside it: flat (no shadows or gradients), static,
+numbers right-aligned in `.ml-num`, traffic-light semantics keep their
+meaning (toll due and losses in danger, net gains in success; semantic
+text only on ticket paper, never on the sea). Scope is this one card —
+no other surface may set `data-theme="strait"` or use `--ml-strait-*`.
+The "MONEYLEAGUE Strait Authority" is a league joke and the fine print
+says so; never imitate a real port, government or shipping body's marks.
+Colors live in `color.surface.strait` / `color.strait`; every text pair is
+gated in `scripts/check_a11y.py`.
 
 ## Off-brand (reject on sight)
 

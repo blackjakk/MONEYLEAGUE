@@ -629,9 +629,12 @@ goal docs: GOAL_RESEARCH.md, GOAL_OPTIONS.md). Caches: `data/scouting/`
   high scorer = harbor master; perforated ticket + stub, tariff
   schedule, port ledger w/ next-toll column, transit log; fictional
   'MONEYLEAGUE Strait Authority' disclaimed in fine print; filename and
-  JSON unchanged; OWN LOOK per user — data-theme="strait" sub-theme in
-  tokens (sand/navy, compass_svg + wave_svg engraving, route strip,
-  ledger status aground/paid/clear), scope = this card ONLY, rules in
+  JSON unchanged; OWN LOOK per user — first pass (sand banknote) was
+  rejected as "the same theme", so it is a different OBJECT: sea-chart
+  header w/ drawn strait + vessel route, navy cartouche, ferry ticket
+  (signal-orange band, dotted leaders, barcode, punched notches, stub),
+  manifest tables, mono-first type, no Cinzel/cream/green/gold;
+  data-theme="strait" tokens, scope = this card ONLY, rules in
   DESIGN.md "Sub-theme: The Strait"): the weekly Tuesday card —
   last week's high/low scorer + fine paid, and a season-long ledger
   (all 12 managers, lows/paid/tops/collected/net) + week-by-week tape.

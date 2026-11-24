@@ -93,33 +93,6 @@ def rosette_svg(size: int, stroke: str, opacity: float) -> str:
 
 # ---- STRAIT sub-theme engravings (toll ticket only, Nov 2026) ----
 
-def wave_svg(width: int, height: int, stroke: str, opacity: float) -> str:
-    """Sea-chart swell lines: 14 edge-tapered sine bands, inline <svg>."""
-    w, h = float(width), float(height)
-    n = 14
-    paths = []
-    for k in range(n):
-        pts = []
-        x = 0.0
-        while x <= w:
-            env = math.sin(x / w * math.pi)
-            y = (h * (k + 0.5) / n
-                 + math.sin(x / 38.0 + k * 0.7) * 4.0 * env
-                 + math.sin(x / 9.0 + k) * 0.8 * env)
-            pts.append((x, y))
-            x += _LATTICE_STEP * 2
-        paths.append(f'<path d="{_path(pts)}"/>')
-    return (
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" '
-        f'height="{height}" viewBox="0 0 {width} {height}" '
-        f'aria-hidden="true" role="presentation">'
-        f'<g fill="none" stroke="{stroke}" stroke-opacity="{opacity:g}" '
-        f'stroke-width="{_STROKE_WIDTH}">'
-        + "".join(paths)
-        + "</g></svg>"
-    )
-
-
 def compass_svg(size: int, stroke: str, opacity: float) -> str:
     """Engraved compass rose: two rings, 32 rhumb lines, 8-point star."""
     c = size / 2.0

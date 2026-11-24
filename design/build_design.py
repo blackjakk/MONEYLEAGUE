@@ -115,6 +115,8 @@ def build_css() -> str:
         f' border-color: var(--ml-pos-{k.lower()}); color: {_pos_fg(k)}; }}'
         for k in POS)
 
+    strait_vars = "\n".join(
+        f"  --ml-strait-{k.replace('_', '-')}: {v};" for k, v in STRAIT_ACC.items())
     seal_tint_hi = _rgba(GOLD["chip_bg"], 0.35)
     seal_tint_lo = _rgba(GOLD["chip_bg"], 0.08)
 
@@ -155,8 +157,9 @@ def build_css() -> str:
   --ml-banner-error-border: {BAN['error_border']};
 }}
 /* STRAIT sub-theme — the Bab al-Mandab toll ticket ONLY (DESIGN.md
-   "Sub-theme: The Strait"). Sand chart paper + navy ink; semantics reuse
-   the light values (gated in scripts/check_a11y.py). */
+   "Sub-theme: The Strait"). Chart sea + ticket paper + navy ink, signal
+   orange band; semantics reuse the light values (gated in
+   scripts/check_a11y.py). */
 [data-theme="strait"] {{
 {surf(STRAIT)}
 {sem_light}
@@ -165,7 +168,7 @@ def build_css() -> str:
   --ml-banner-warn-border: {BAN['warn_border']};
   --ml-banner-error-bg: {BAN['error_bg']};
   --ml-banner-error-border: {BAN['error_border']};
-  --ml-strait-route: {STRAIT_ACC['route']};
+{strait_vars}
 }}
 
 /* ---------- a11y utilities ---------- */
