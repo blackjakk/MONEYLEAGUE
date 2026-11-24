@@ -1,4 +1,5 @@
-"""THE TAX TAPE — the weekly low-score tax, collected.
+"""THE TAX TAPE — the weekly low-score tax, collected (rendered as the
+Bab al-Mandab toll ticket since Nov 2026; filename unchanged).
 
 A one-page Tuesday card: last week's high scorer and low scorer, the
 fine that changed hands, and the season-to-date ledger. Reads live
@@ -113,54 +114,98 @@ def main() -> None:
          "playoff_week_start": playoff_start, "tape": tape,
          "ledger": dict(ledger)}, indent=2))
 
-    # ---------------- render ----------------
+    # ---------------- render: the Bab al-Mandab toll ticket ----------------
+    # Theme (user, Nov 2026): the low scorer is a vessel forced through
+    # the Gate of Tears and pays passage; the high scorer is that week's
+    # harbor master and collects it. The "Strait Authority" is a league
+    # joke, not a real port or government body (said so in fine print).
     latest = tape[-1] if tape else None
     ord_word = {1: "1st", 2: "2nd", 3: "3rd"}
 
     def ord_(n):
         return ord_word.get(n, f"{n}th")
 
-    banner = ""
-    if latest:
-        streak_note = (f" — his {ord_(latest['low_week_no'])} low week "
-                       "this season" if latest["low_week_no"] > 1
-                       else " — his first low week this season")
-        banner = (
-            '<div class="ml-banner">'
-            f'<div class="ml-h-label">WEEK {latest["week"]} — TAX '
-            'COLLECTED</div>'
-            f'<p class="big"><b>{esc(label(latest["top"]))}</b> '
-            f'{latest["top_pts"]:.2f} (high score) collects '
-            f'<b>${latest["fine"]}</b> from '
-            f'<b>{esc(label(latest["low"]))}</b> '
-            f'{latest["low_pts"]:.2f} (low score){esc(streak_note)}.</p>'
-            "</div>")
-    else:
-        banner = ('<div class="ml-banner"><p class="big">No regular-season '
-                  "week has finished yet — the tape starts once Week 1 is "
-                  "fully scored.</p></div>")
+    last_reg = playoff_start - 1
+    done = max(reg_weeks) if reg_weeks else 0
+    left = max(0, last_reg - done)
 
-    rows = "".join(
+    def toll(n_prior: int) -> int:
+        return BASE_FINE + ESCALATOR * n_prior
+
+    if latest:
+        no = f"BM-{SEASON}-W{latest['week']:02d}-{latest['low_week_no']:02d}"
+        nxt = toll(latest["low_week_no"])
+        ticket = (
+            '<section class="tk" aria-label="Toll ticket">'
+            '<div class="tk-main">'
+            '<div class="tk-head"><span class="ml-h-label">TRANSIT TOLL '
+            f'— WEEK {latest["week"]}</span>'
+            f'<span class="ml-serial">No. {no}</span></div>'
+            '<dl class="tk-grid">'
+            f'<dt>Vessel</dt><dd class="tk-big">{esc(label(latest["low"]))}</dd>'
+            '<dt>Cargo declared</dt><dd><span class="ml-num">'
+            f'{latest["low_pts"]:.2f}</span> pts · lowest in the fleet</dd>'
+            '<dt>Passage class</dt><dd>'
+            f'{ord_(latest["low_week_no"])} transit this season</dd>'
+            '<dt>Payable to</dt><dd><b>'
+            f'{esc(label(latest["top"]))}</b>, harbor master · '
+            f'<span class="ml-num">{latest["top_pts"]:.2f}</span> pts, '
+            'high score</dd>'
+            '<dt>Toll due</dt><dd class="tk-big tk-due">'
+            f'${latest["fine"]}</dd>'
+            '</dl>'
+            '<div class="tk-stamp" aria-hidden="true">ASSESSED</div>'
+            '</div>'
+            '<div class="tk-stub">'
+            '<div class="ml-h-label">STUB · RETAIN</div>'
+            f'<div class="ml-serial">{no}</div>'
+            f'<p class="tk-route">{esc(label(latest["low"]))} → '
+            f'{esc(label(latest["top"]))}</p>'
+            f'<p class="tk-big tk-due">${latest["fine"]}</p>'
+            f'<p class="tk-small">Next transit for '
+            f'{esc(label(latest["low"]))}: <b>${nxt}</b></p>'
+            '</div></section>')
+    else:
+        ticket = ('<section class="tk"><div class="tk-main"><p>The strait '
+                  "opens once Week 1 is fully scored — no tolls assessed "
+                  "yet.</p></div></section>")
+
+    # tariff: one cell per passage number, through the most anyone could
+    # still reach this season
+    max_n = max([v["lows"] for v in ledger.values()] + [0]) + left
+    max_n = max(4, min(max_n, 8))
+    tariff = "".join(
+        f'<td class="ml-num">${toll(n - 1)}</td>' for n in range(1, max_n + 1))
+    tariff_head = "".join(
+        f'<th class="ml-num">{ord_(n)}</th>' for n in range(1, max_n + 1))
+
+    def net_cell(v: int) -> str:
+        cls = "tk-gain" if v > 0 else ("tk-loss" if v < 0 else "")
+        return f'<td class="ml-num {cls}"><b>{v:+d}</b></td>'
+
+    ledger_rows = "".join(
         f'<tr><td class="ml-num">{i}</td><td>{esc(label(m))}</td>'
         f'<td class="ml-num">{v["lows"]}</td>'
         f'<td class="ml-num">${v["paid"]}</td>'
         f'<td class="ml-num">{v["tops"]}</td>'
         f'<td class="ml-num">${v["collected"]}</td>'
-        f'<td class="ml-num"><b>{v["collected"] - v["paid"]:+d}</b></td>'
-        '</tr>'
+        + net_cell(v["collected"] - v["paid"])
+        + (f'<td class="ml-num">${toll(v["lows"])}</td>' if left else
+           '<td class="ml-num">—</td>')
+        + '</tr>'
         for i, (m, v) in enumerate(
             sorted(ledger.items(),
                   key=lambda kv: (-(kv[1]["collected"] - kv[1]["paid"]),
                                  label(kv[0]))), 1))
 
-    tape_rows = "".join(
+    log_rows = "".join(
         f'<tr><td class="ml-num">{t["week"]}</td>'
-        f'<td>{esc(label(t["top"]))} <span class="ml-num">'
-        f'{t["top_pts"]:.2f}</span></td>'
-        f'<td>{esc(label(t["low"]))} <span class="ml-num">'
+        f'<td>{esc(label(t["low"]))} <span class="own ml-num">'
         f'{t["low_pts"]:.2f}</span></td>'
+        f'<td>{esc(label(t["top"]))} <span class="own ml-num">'
+        f'{t["top_pts"]:.2f}</span></td>'
         f'<td class="ml-num">${t["fine"]} '
-        f'<span class="own">({ord_(t["low_week_no"])} low)</span></td>'
+        f'<span class="own">({ord_(t["low_week_no"])})</span></td>'
         '</tr>'
         for t in reversed(tape))
 
@@ -168,47 +213,80 @@ def main() -> None:
          + report_base_css() + bpr.banknote_css() + """
     * { box-sizing: border-box; margin: 0; }
     body { font-size: 10pt; padding: 20px 26px; }
-    .ml-banner { margin: 12px 0 16px; padding: 10px 14px; }
-    .ml-banner p.big { font-size: 12pt; margin-top: 4px; }
-    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 18px;
-            margin-top: 6px; }
+    .tk { display: grid; grid-template-columns: 1fr 170px; margin: 4px 0 14px;
+          border: 2px solid var(--ml-text); border-radius: var(--ml-r-md);
+          background: var(--ml-panel); }
+    .tk-main { position: relative; padding: 12px 16px; }
+    .tk-head { display: flex; justify-content: space-between;
+               align-items: baseline; margin-bottom: 8px; }
+    .tk-grid { display: grid; grid-template-columns: 130px 1fr;
+               row-gap: 5px; column-gap: 10px; align-items: baseline; }
+    .tk-grid dt { color: var(--ml-muted); font-size: 8pt;
+                  text-transform: uppercase; letter-spacing: 1px; }
+    .tk-big { font-family: var(--ml-font-engraving, var(--ml-font-display));
+              font-size: 18pt; font-weight: 700; line-height: 1.1; }
+    .tk-due { color: var(--ml-danger); }
+    .tk-stamp { position: absolute; right: 18px; bottom: 14px;
+                transform: rotate(-8deg); border: 2px solid var(--ml-danger);
+                color: var(--ml-danger); padding: 2px 10px;
+                border-radius: var(--ml-r-sm); font-weight: 700;
+                letter-spacing: 3px; font-size: 11pt; opacity: .8; }
+    .tk-stub { border-left: 2px dashed var(--ml-border-strong);
+               padding: 12px 14px; display: flex; flex-direction: column;
+               gap: 5px; }
+    .tk-route { font-weight: 700; font-size: 11pt; }
+    .tk-small { font-size: 8pt; color: var(--ml-muted); }
+    .tk-gain { color: var(--ml-success); }
+    .tk-loss { color: var(--ml-danger); }
+    .tariff { margin-bottom: 14px; }
+    .tariff td, .tariff th { padding: 3px 8px; }
+    .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
     .own { color: var(--ml-muted); font-size: 8pt; }
-    table.tape td, table.tape th { font-size: 8.6pt; padding: 3px 6px; }
+    table.log td, table.log th { font-size: 8.6pt; padding: 3px 6px;
+                                 white-space: nowrap; }
     .rule { margin-top: 14px; font-size: 8.5pt; color: var(--ml-muted);
-            max-width: 60em; }
+            max-width: 62em; }
     </style></head><body>"""]
-    ledger_body = rows or '<tr><td colspan="7">no weeks scored yet</td></tr>'
-    tape_body = tape_rows or '<tr><td colspan="4">—</td></tr>'
     h.append(bpr.banknote_masthead(
-        "THE TAX TAPE",
-        "the low-score tax, collected — every regular-season week · "
-        f"updated {date.today():%b %d, %Y}"))
-    h.append(banner)
+        "BAB AL-MANDAB TOLL TICKET",
+        "the Gate of Tears: low scorer pays passage, high scorer holds "
+        f"the harbor · {date.today():%b %d, %Y}",
+        league_line="✦ MONEYLEAGUE STRAIT AUTHORITY ✦"))
+    h.append(ticket)
+    h.append('<div class="ml-h-label">TARIFF SCHEDULE · toll by transit '
+             'number this season</div>'
+             '<table class="ml-table ml-table--compact tariff"><thead><tr>'
+             f'<th>Transit</th>{tariff_head}</tr></thead><tbody><tr>'
+             f'<td>Toll</td>{tariff}</tr></tbody></table>')
+    ledger_body = (ledger_rows
+                   or '<tr><td colspan="8">no weeks scored yet</td></tr>')
+    log_body = log_rows or '<tr><td colspan="4">—</td></tr>'
     h.append('<div class="cols"><div>'
-             '<div class="ml-h-label">SEASON LEDGER</div>'
+             '<div class="ml-h-label">PORT LEDGER · season to date</div>'
              '<table class="ml-table ml-table--compact">'
-             '<thead><tr><th></th><th>Manager</th>'
-             '<th class="ml-num">Lows</th><th class="ml-num">Paid</th>'
-             '<th class="ml-num">Tops</th><th class="ml-num">Collected'
-             '</th><th class="ml-num">Net</th></tr></thead>'
+             '<thead><tr><th></th><th>Vessel</th>'
+             '<th class="ml-num">Transits</th><th class="ml-num">Tolls paid'
+             '</th><th class="ml-num">Harbor wks</th>'
+             '<th class="ml-num">Collected</th><th class="ml-num">Net</th>'
+             '<th class="ml-num">Next toll</th></tr></thead>'
              f'<tbody>{ledger_body}</tbody></table></div>'
-             '<div><div class="ml-h-label">WEEK BY WEEK</div>'
-             '<table class="ml-table ml-table--compact tape">'
-             '<thead><tr><th class="ml-num">Wk</th><th>High</th>'
-             '<th>Low</th><th class="ml-num">Fine</th></tr></thead>'
-             f'<tbody>{tape_body}</tbody></table></div></div>')
-    h.append('<p class="rule">Rule (2022+ era): the low scorer each '
-             "regular-season week pays the high scorer $15, +$5 for every "
-             "additional low week that manager has already had this "
-             f"season (2nd low = $20, 3rd = $25...). Playoffs (week "
-             f"{playoff_start}+) don't tax. A week counts only once every "
-             "roster has actually scored, so a live/partial week never "
-             "shows a false $0.0 low. Full rule history + all-time purse: "
-             "the Almanac.</p>")
+             '<div><div class="ml-h-label">TRANSIT LOG</div>'
+             '<table class="ml-table ml-table--compact log">'
+             '<thead><tr><th class="ml-num">Wk</th><th>Paid passage</th>'
+             '<th>Harbor master</th><th class="ml-num">Toll</th></tr></thead>'
+             f'<tbody>{log_body}</tbody></table></div></div>')
+    h.append('<p class="rule">Tariff (2022+ era rule): each regular-season '
+             "week the low scorer pays the high scorer $15, +$5 for every "
+             "earlier low week that manager has had this season. "
+             f"{left} regular-season week{'s' if left != 1 else ''} left "
+             f"(through Week {last_reg}); playoffs (Week {playoff_start}+) "
+             "sail toll-free. A week is assessed only once every roster has "
+             "scored, so a live week never shows a false $0.0 low. "
+             "Full rule history and all-time purse: the Almanac.</p>")
     h.append(bpr.banknote_fineprint(
-        "Source: live Sleeper matchups, refetched every Tuesday morning "
-        "by the weekly refresh. One page, one story: who paid whom this "
-        "week."))
+        "The MONEYLEAGUE Strait Authority is a league joke, not a port, "
+        "government or shipping body. Source: live Sleeper matchups, "
+        "refetched every Tuesday."))
     h.append("</body></html>")
 
     from playwright.sync_api import sync_playwright

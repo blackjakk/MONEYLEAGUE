@@ -624,7 +624,12 @@ goal docs: GOAL_RESEARCH.md, GOAL_OPTIONS.md). Caches: `data/scouting/`
   (template data/keepers_2026_actual.TEMPLATE.json; enforces cap/floor/
   bump/ownership; then refresh derive sim reports verify).
   + MONEYLEAGUE_TAX_TAPE.pdf (Sep 22, build_tax_tape.py, in reports
-  stage + verify + release uploads): the weekly Tuesday card —
+  stage + verify + release uploads; RETHEMED Nov 24 at user request as
+  the BAB AL-MANDAB TOLL TICKET — low scorer = vessel paying passage,
+  high scorer = harbor master; perforated ticket + stub, tariff
+  schedule, port ledger w/ next-toll column, transit log; fictional
+  'MONEYLEAGUE Strait Authority' disclaimed in fine print; filename and
+  JSON unchanged): the weekly Tuesday card —
   last week's high/low scorer + fine paid, and a season-long ledger
   (all 12 managers, lows/paid/tops/collected/net) + week-by-week tape.
   Reads LIVE 2026 matchups straight from the Sleeper league dir
