@@ -3362,7 +3362,7 @@
       "fp_std": null,
       "age": 27,
       "years_exp": 6,
-      "injury": "",
+      "injury": "Out",
       "stash": 0.0,
       "adp_delta": 0.0,
       "svq": [
@@ -5563,7 +5563,7 @@
       "fp_std": null,
       "age": 22,
       "years_exp": 0,
-      "injury": "",
+      "injury": "Questionable",
       "stash": 0.4,
       "adp_delta": 0.0,
       "svq": [
