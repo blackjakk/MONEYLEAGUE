@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T03:49:49+00:00",
+  "generated_at": "2026-11-24T04:39:19+00:00",
   "seasons_covered": [
     2023,
     2024,
@@ -23,15 +23,15 @@
   },
   "by_round": {
     "1": {
-      "mean_vbd": 124.4,
+      "mean_vbd": 124.6,
       "median_vbd": 125.9,
-      "mean_points": 207.7,
+      "mean_points": 207.8,
       "n_samples": 48
     },
     "2": {
-      "mean_vbd": 93.6,
+      "mean_vbd": 93.8,
       "median_vbd": 85.9,
-      "mean_points": 182.1,
+      "mean_points": 182.2,
       "n_samples": 47
     },
     "3": {
@@ -41,7 +41,7 @@
       "n_samples": 48
     },
     "4": {
-      "mean_vbd": 79.3,
+      "mean_vbd": 79.4,
       "median_vbd": 83.8,
       "mean_points": 154.8,
       "n_samples": 45
@@ -73,13 +73,13 @@
     "9": {
       "mean_vbd": 11.3,
       "median_vbd": 3.6,
-      "mean_points": 93.0,
+      "mean_points": 93.1,
       "n_samples": 43
     },
     "10": {
-      "mean_vbd": 24.6,
+      "mean_vbd": 24.8,
       "median_vbd": 20.4,
-      "mean_points": 97.4,
+      "mean_points": 97.6,
       "n_samples": 40
     },
     "11": {
@@ -113,23 +113,23 @@
       "n_samples": 34
     },
     "16": {
-      "mean_vbd": 5.4,
+      "mean_vbd": 5.5,
       "median_vbd": 0.0,
-      "mean_points": 55.4,
+      "mean_points": 55.6,
       "n_samples": 48
     },
     "17": {
-      "mean_vbd": 14.8,
+      "mean_vbd": 15.1,
       "median_vbd": 15.2,
-      "mean_points": 62.9,
+      "mean_points": 63.1,
       "n_samples": 48
     }
   },
   "by_round_position": {
     "1": {
       "QB": {
-        "mean_vbd": 133.7,
-        "mean_points": 241.9,
+        "mean_vbd": 134.0,
+        "mean_points": 242.2,
         "n_samples": 14
       },
       "RB": {
@@ -138,7 +138,7 @@
         "n_samples": 16
       },
       "WR": {
-        "mean_vbd": 108.6,
+        "mean_vbd": 108.7,
         "mean_points": 175.9,
         "n_samples": 17
       },
@@ -150,8 +150,8 @@
     },
     "2": {
       "QB": {
-        "mean_vbd": 80.9,
-        "mean_points": 196.5,
+        "mean_vbd": 81.5,
+        "mean_points": 197.1,
         "n_samples": 13
       },
       "RB": {
@@ -199,8 +199,8 @@
         "n_samples": 10
       },
       "WR": {
-        "mean_vbd": 70.9,
-        "mean_points": 138.7,
+        "mean_vbd": 71.0,
+        "mean_points": 138.9,
         "n_samples": 22
       },
       "TE": {
@@ -309,8 +309,8 @@
         "n_samples": 9
       },
       "RB": {
-        "mean_vbd": -14.6,
-        "mean_points": 72.3,
+        "mean_vbd": -14.4,
+        "mean_points": 72.5,
         "n_samples": 15
       },
       "WR": {
@@ -336,8 +336,8 @@
         "n_samples": 16
       },
       "WR": {
-        "mean_vbd": 17.4,
-        "mean_points": 76.8,
+        "mean_vbd": 17.9,
+        "mean_points": 77.3,
         "n_samples": 13
       },
       "TE": {
@@ -528,8 +528,8 @@
         "n_samples": 2
       },
       "K": {
-        "mean_vbd": 60.4,
-        "mean_points": 70.2,
+        "mean_vbd": 61.0,
+        "mean_points": 70.8,
         "n_samples": 13
       },
       "DEF": {
@@ -550,8 +550,8 @@
         "n_samples": 9
       },
       "WR": {
-        "mean_vbd": -26.4,
-        "mean_points": 46.4,
+        "mean_vbd": -25.4,
+        "mean_points": 47.4,
         "n_samples": 15
       },
       "TE": {
