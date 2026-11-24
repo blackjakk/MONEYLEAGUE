@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T03:34:03+00:00",
+  "generated_at": "2026-11-24T03:38:14+00:00",
   "seasons_covered": [
     2023,
     2024,
@@ -119,7 +119,7 @@
       "n_samples": 48
     },
     "17": {
-      "mean_vbd": 14.6,
+      "mean_vbd": 14.7,
       "median_vbd": 15.2,
       "mean_points": 62.7,
       "n_samples": 48
@@ -150,8 +150,8 @@
     },
     "2": {
       "QB": {
-        "mean_vbd": 80.7,
-        "mean_points": 196.3,
+        "mean_vbd": 80.8,
+        "mean_points": 196.4,
         "n_samples": 13
       },
       "RB": {
@@ -550,8 +550,8 @@
         "n_samples": 9
       },
       "WR": {
-        "mean_vbd": -26.9,
-        "mean_points": 45.9,
+        "mean_vbd": -26.8,
+        "mean_points": 46.0,
         "n_samples": 15
       },
       "TE": {

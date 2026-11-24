@@ -42,8 +42,8 @@
     {
       "rid": 6,
       "mid": "lem",
-      "cum_pf": 1599.5600000000004,
-      "cum_opt": 1692.5,
+      "cum_pf": 1600.4000000000003,
+      "cum_opt": 1693.3400000000001,
       "wins": 7,
       "losses": 4
     },
@@ -66,8 +66,8 @@
     {
       "rid": 4,
       "mid": "troy_mullings",
-      "cum_pf": 1339.0599999999997,
-      "cum_opt": 1518.7599999999998,
+      "cum_pf": 1340.9599999999996,
+      "cum_opt": 1520.6599999999999,
       "wins": 3,
       "losses": 8
     },
@@ -99,7 +99,7 @@
       "rid": 2,
       "mid": "donnie",
       "cum_pf": 1536.2200000000003,
-      "cum_opt": 1682.9399999999998,
+      "cum_opt": 1684.04,
       "wins": 8,
       "losses": 3
     },
@@ -1207,8 +1207,8 @@
       "roster_id": 2,
       "manager": "donnie",
       "actual": 94.18,
-      "optimal": 107.58,
-      "leak": 13.4,
+      "optimal": 108.68,
+      "leak": 14.5,
       "above_median": false
     },
     {
@@ -1224,8 +1224,8 @@
       "week": 11,
       "roster_id": 4,
       "manager": "troy_mullings",
-      "actual": 113.46,
-      "optimal": 114.54,
+      "actual": 115.36,
+      "optimal": 116.44,
       "leak": 1.08,
       "above_median": false
     },
@@ -1242,8 +1242,8 @@
       "week": 11,
       "roster_id": 6,
       "manager": "lem",
-      "actual": 119.62,
-      "optimal": 135.82,
+      "actual": 120.46,
+      "optimal": 136.66,
       "leak": 16.2,
       "above_median": true
     },
